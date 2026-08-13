@@ -1,342 +1,1020 @@
 {
-  "https://www.paulotavaresimoveis.com.br/imovel/galpao-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/381": {
-    "titulo": "Galpão | Palmeiras - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/galpao-para-venda-em-belo-horizonte-mg-no-bairro-betania/359": {
-    "titulo": "Galpão | Betânia - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-de-04-quartos-a-venda-no-bairro-havai-belo-horizonte-mg/1221": {
-    "titulo": "Casa | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-3-quartos-1-suite-4-vagas-palmeiras-belo-horizonte-mg/1100": {
-    "titulo": "Casa | Palmeiras - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/galpao-para-venda-em-belo-horizonte-mg-no-bairro-betania/563": {
-    "titulo": "Galpão | Betânia - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-de-3-quartos-para-venda-no-bairro-palmeiras-localizado-na-cidade-de-belo-horizonte-mg/588": {
-    "titulo": "Casa | Palmeiras - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-de-3-quartos-para-venda-no-bairro-havai-localizado-na-cidade-de-belo-horizonte-mg/528": {
-    "titulo": "Casa | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-no-bairro-palmeiras-belo-horizonte-mg/855": {
-    "titulo": "Casa | Estrela do Oriente - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-salgado-filho-belo-horizonte-mg/724": {
-    "titulo": "Casa | Salgado Filho - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/cobertura-para-venda-em-belo-horizonte-mg-no-bairro-buritis/412": {
-    "titulo": "Cobertura | Buritis - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/383": {
-    "titulo": "Casa | Palmeiras - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-betania/30": {
-    "titulo": "Lote | Betânia - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-de-03-quartos-a-venda-no-bairro-betania-belo-horizonte-mg/17": {
-    "titulo": "Casa | Betânia - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-de-04-quartos-a-venda-no-bairro-betania-belo-horizonte-mg/16": {
-    "titulo": "Casa | Betânia - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-de-03-quartos-no-bairro-hhavia-belo-horizonte-mg/920": {
-    "titulo": "Casa | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-havai/612": {
-    "titulo": "Lote | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/cobertura-3-quartos-com-elevador-e-2-vagas-bairro-salgado-filho-bh/1140": {
-    "titulo": "Cobertura | Salgado Filho - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/cobertura-3-quartos-com-elevador-e-2-vagas-bairro-salgado-filho-bh/1139": {
-    "titulo": "Cobertura | Salgado Filho - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-no-bairro-havai-belo-horizonte-mg/1089": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-de-5-quartos-para-venda-no-bairro-betania-localizado-na-cidade-de-belo-horizonte-mg/308": {
-    "titulo": "Casa | Betânia - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-palmeiras-belo-horizonte-mg/101": {
-    "titulo": "Casa | Palmeiras - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-com-4-quartos-e-galpao-independente-a-venda-no-bairro-betania/1210": {
-    "titulo": "Casa | Betânia - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-no-bairro-havai-em-bh-3-quartos-e-141-m/1206": {
-    "titulo": "Cobertura | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/cobertura-a-venda-3-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/1131": {
-    "titulo": "Cobertura | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-com-area-externa-e-3-quartos-no-bairro-havai-bh/1130": {
-    "titulo": "Cobertura | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-4-quartos-a-venda-no-bairro-havai-belo-horizonte-mg/1211": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/431": {
-    "titulo": "Casa | Palmeiras - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-para-venda-em-belo-horizonte-mg-no-bairro-betania/889": {
-    "titulo": "Cobertura | Betânia - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-salgado-filho-belo-horizonte-mg/1026": {
-    "titulo": "Casa | Salgado Filho - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/408": {
-    "titulo": "Lote | Palmeiras - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-marajo-belo-horizonte-mg/837": {
-    "titulo": "Casa | Marajó - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-no-bairro-havai-em-bh-2-quartos-e-1245m/1218": {
-    "titulo": "Cobertura | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-em-belo-horizonte-mg-no-bairro-betania/47": {
-    "titulo": "Casa | Betânia - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/cobertura-para-venda-no-bairro-palmeiras-em-belo-horizonte-mg/1095": {
-    "titulo": "Cobertura | Palmeiras - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/cobertura-de-2-quartos-na-planta-a-venda-no-bairro-estrela-dalva-em-belohorizonte-mg/1114": {
-    "titulo": "Cobertura | Estrela Dalva - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/cobertura-2-quartos-na-planta-a-venda-no-bairro-havai-bh/1133": {
-    "titulo": "Cobertura | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/area-privativa-3-quartos-a-venda-no-bairro-salgado-filho-belo-horizonte-mg/1190": {
-    "titulo": "Área privativa | Salgado Filho - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-03-quartos-a-venda-no-bairro-betania-belo-horizonte-mg/1166": {
-    "titulo": "Apartamento | Estrela do Oriente - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-2-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/1132": {
-    "titulo": "Cobertura | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/area-privativa-3-quartos-com-elevador-e-2-vagas-bairro-salgado-filho-bh/1138": {
-    "titulo": "Área privativa | Salgado Filho - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-3-quartos-1-suite-2-vagas-parque-sao-jose-belo-horizonte-mg/1188": {
-    "titulo": "Casa | Parque São José - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/lote-a-venda-no-bairro-havai-em-belo-horizonte/1039": {
-    "titulo": "Lote | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/area-privativa-exclusiva-no-bairro-havai-bh-mg/1119": {
-    "titulo": "Área privativa | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/area-privativa-exclusiva-no-bairro-havai-bh-mg/1118": {
-    "titulo": "Área privativa | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-95m-no-buritis-3-quartos-c-suite-2-vagas-excelente-oportunidade/1171": {
-    "titulo": "Apartamento | Buritis - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-havai/611": {
-    "titulo": "Lote | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-na-planta-a-venda-no-bairro-havai-belo-horizonte/1197": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-havai/626": {
-    "titulo": "Lote | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/area-privativa-de-03-quartos-para-venda-no-bairro-nova-suissa-belo-horizonte-mg/499": {
-    "titulo": "Área privativa | Nova Suíssa - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-salgado-filho/242": {
-    "titulo": "Lote | Salgado Filho - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/lote-de-54063-m-a-venda-bairro-palmeiras-bh/85": {
-    "titulo": "Lote | Palmeiras - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-03-quartos-a-venda-no-bairro-palmeiras-belo-horizonte-mg/483": {
-    "titulo": "Apartamento | Palmeiras - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-no-palmeiras-belo-horizonte-excelente-oportunidade/1189": {
-    "titulo": "Apartamento | Palmeiras - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-3-quartos-2-vagas-havai-belo-horizonte-mg/1204": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-3-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/1202": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-na-planta-a-venda-no-bairro-havai-belo-horizonte/1201": {
-    "titulo": "Área privativa | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-no-bairro-havai-3-quartos-e-suite/1122": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/area-privativa-de-02-quartos-a-venda-no-bairro-havai-belo-horizonte-bh/1120": {
-    "titulo": "Área privativa | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-no-bairro-havai-3-quartos-e-suite/1124": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-havai-belo-horizonte-mg/829": {
-    "titulo": "Casa | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/area-privativa-exclusiva-no-bairro-havai-bh-mg/1121": {
-    "titulo": "Área privativa | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-com-3-quartos-1-suite-e-1-vaga-frente-bairro-havai-belo-horizonte-mg/1185": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/lote-residencial-exclusivo-a-venda-no-bairro-havai-belo-horizonte-mg/1180": {
-    "titulo": "Lote | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-2-quartos-havai-belo-horizonte-mg/1205": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-2-quartos-1-vaga-havai-belo-horizonte-mg/1203": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-em-belo-horizonte-bairro-havai-2-quartos-1-suite-e-2-vagas/1167": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-2-quartos-na-planta-a-venda-no-bairro-estrela-dalva-em-belohorizonte-mg/1107": {
-    "titulo": "Apartamento | Estrela Dalva - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-3-quartos-no-bairro-havai/1067": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-no-havai-bh-2-vagas-aceita-financiamento/1128": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-no-havai-bh-2-vagas-aceita-financiamento/1126": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quarto-na-planta-para-venda-em-belo-horizonte-mg-no-bairro-betania/983": {
-    "titulo": "Apartamento | Betânia - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-nova-cintra-belo-horizonte-mg/1061": {
-    "titulo": "Casa | Betânia - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/lote-a-venda-no-bairro-havai-belo-horizonte-mg/1056": {
-    "titulo": "Lote | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-3-quartos-para-venda-no-bairro-marajo-belo-horizonte-mg/1170": {
-    "titulo": "Apartamento | Marajó - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-c-planejados-a-venda-no-bairro-betania-belo-horizonte-mg/846": {
-    "titulo": "Apartamento | Betânia - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-no-bairro-salgado-filho-belo-horizonte-mg/861": {
-    "titulo": "Lote | Salgado Filho - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-para-venda-em-belo-horizonte-mg-no-bairro-havai/1030": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/loja-para-venda-no-bairro-betania-belo-horizonte-mg/828": {
-    "titulo": "Loja | Betânia - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-02-quartos-para-venda-no-bairro-havai-belo-horizonte-mg/1010": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-geminada-para-venda-no-bairro-havai-belo-horizonte-mg/1198": {
-    "titulo": "Casa geminada | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-02-quartos-no-bairro-havai-para-venda-belo-horizonte-mg/1068": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-em-belo-horizonte-mg-no-bairro-havai/1177": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/casa-geminada-para-venda-em-belo-horizonte-mg-no-bairro-marajo/1207": {
-    "titulo": "Casa geminada | Marajó - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-a-venda-no-bairro-havai-belo-horizonte-frente-1-vaga/538": {
-    "titulo": "Apartamento | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
-  },
-  "https://www.paulotavaresimoveis.com.br/imovel/loja-para-venda-em-belo-horizonte-mg-no-bairro-havai/134": {
-    "titulo": "Loja | Havaí - Belo Horizonte",
-    "primeira_vez": "13/08/2026 15:36"
+  "paulo_tavares": {
+    "https://www.paulotavaresimoveis.com.br/imovel/galpao-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/381": {
+      "titulo": "Galpão | Palmeiras - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/galpao-para-venda-em-belo-horizonte-mg-no-bairro-betania/359": {
+      "titulo": "Galpão | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-de-04-quartos-a-venda-no-bairro-havai-belo-horizonte-mg/1221": {
+      "titulo": "Casa | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-3-quartos-1-suite-4-vagas-palmeiras-belo-horizonte-mg/1100": {
+      "titulo": "Casa | Palmeiras - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/galpao-para-venda-em-belo-horizonte-mg-no-bairro-betania/563": {
+      "titulo": "Galpão | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-de-3-quartos-para-venda-no-bairro-palmeiras-localizado-na-cidade-de-belo-horizonte-mg/588": {
+      "titulo": "Casa | Palmeiras - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-de-3-quartos-para-venda-no-bairro-havai-localizado-na-cidade-de-belo-horizonte-mg/528": {
+      "titulo": "Casa | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-no-bairro-palmeiras-belo-horizonte-mg/855": {
+      "titulo": "Casa | Estrela do Oriente - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-salgado-filho-belo-horizonte-mg/724": {
+      "titulo": "Casa | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/cobertura-para-venda-em-belo-horizonte-mg-no-bairro-buritis/412": {
+      "titulo": "Cobertura | Buritis - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/383": {
+      "titulo": "Casa | Palmeiras - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-betania/30": {
+      "titulo": "Lote | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-de-03-quartos-a-venda-no-bairro-betania-belo-horizonte-mg/17": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-de-04-quartos-a-venda-no-bairro-betania-belo-horizonte-mg/16": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-de-03-quartos-no-bairro-hhavia-belo-horizonte-mg/920": {
+      "titulo": "Casa | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-havai/612": {
+      "titulo": "Lote | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/cobertura-3-quartos-com-elevador-e-2-vagas-bairro-salgado-filho-bh/1140": {
+      "titulo": "Cobertura | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/cobertura-3-quartos-com-elevador-e-2-vagas-bairro-salgado-filho-bh/1139": {
+      "titulo": "Cobertura | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-no-bairro-havai-belo-horizonte-mg/1089": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-de-5-quartos-para-venda-no-bairro-betania-localizado-na-cidade-de-belo-horizonte-mg/308": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-palmeiras-belo-horizonte-mg/101": {
+      "titulo": "Casa | Palmeiras - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-com-4-quartos-e-galpao-independente-a-venda-no-bairro-betania/1210": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-no-bairro-havai-em-bh-3-quartos-e-141-m/1206": {
+      "titulo": "Cobertura | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/cobertura-a-venda-3-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/1131": {
+      "titulo": "Cobertura | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-com-area-externa-e-3-quartos-no-bairro-havai-bh/1130": {
+      "titulo": "Cobertura | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-4-quartos-a-venda-no-bairro-havai-belo-horizonte-mg/1211": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/431": {
+      "titulo": "Casa | Palmeiras - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-para-venda-em-belo-horizonte-mg-no-bairro-betania/889": {
+      "titulo": "Cobertura | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-salgado-filho-belo-horizonte-mg/1026": {
+      "titulo": "Casa | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/408": {
+      "titulo": "Lote | Palmeiras - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-marajo-belo-horizonte-mg/837": {
+      "titulo": "Casa | Marajó - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-no-bairro-havai-em-bh-2-quartos-e-1245m/1218": {
+      "titulo": "Cobertura | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-em-belo-horizonte-mg-no-bairro-betania/47": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/cobertura-para-venda-no-bairro-palmeiras-em-belo-horizonte-mg/1095": {
+      "titulo": "Cobertura | Palmeiras - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/cobertura-de-2-quartos-na-planta-a-venda-no-bairro-estrela-dalva-em-belohorizonte-mg/1114": {
+      "titulo": "Cobertura | Estrela Dalva - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/cobertura-2-quartos-na-planta-a-venda-no-bairro-havai-bh/1133": {
+      "titulo": "Cobertura | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/area-privativa-3-quartos-a-venda-no-bairro-salgado-filho-belo-horizonte-mg/1190": {
+      "titulo": "Área privativa | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-03-quartos-a-venda-no-bairro-betania-belo-horizonte-mg/1166": {
+      "titulo": "Apartamento | Estrela do Oriente - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-2-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/1132": {
+      "titulo": "Cobertura | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/area-privativa-3-quartos-com-elevador-e-2-vagas-bairro-salgado-filho-bh/1138": {
+      "titulo": "Área privativa | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-3-quartos-1-suite-2-vagas-parque-sao-jose-belo-horizonte-mg/1188": {
+      "titulo": "Casa | Parque São José - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/lote-a-venda-no-bairro-havai-em-belo-horizonte/1039": {
+      "titulo": "Lote | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/area-privativa-exclusiva-no-bairro-havai-bh-mg/1119": {
+      "titulo": "Área privativa | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/area-privativa-exclusiva-no-bairro-havai-bh-mg/1118": {
+      "titulo": "Área privativa | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-95m-no-buritis-3-quartos-c-suite-2-vagas-excelente-oportunidade/1171": {
+      "titulo": "Apartamento | Buritis - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-havai/611": {
+      "titulo": "Lote | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-na-planta-a-venda-no-bairro-havai-belo-horizonte/1197": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-havai/626": {
+      "titulo": "Lote | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/area-privativa-de-03-quartos-para-venda-no-bairro-nova-suissa-belo-horizonte-mg/499": {
+      "titulo": "Área privativa | Nova Suíssa - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-salgado-filho/242": {
+      "titulo": "Lote | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/lote-de-54063-m-a-venda-bairro-palmeiras-bh/85": {
+      "titulo": "Lote | Palmeiras - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-03-quartos-a-venda-no-bairro-palmeiras-belo-horizonte-mg/483": {
+      "titulo": "Apartamento | Palmeiras - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-no-palmeiras-belo-horizonte-excelente-oportunidade/1189": {
+      "titulo": "Apartamento | Palmeiras - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-3-quartos-2-vagas-havai-belo-horizonte-mg/1204": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-3-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/1202": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-na-planta-a-venda-no-bairro-havai-belo-horizonte/1201": {
+      "titulo": "Área privativa | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-no-bairro-havai-3-quartos-e-suite/1122": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/area-privativa-de-02-quartos-a-venda-no-bairro-havai-belo-horizonte-bh/1120": {
+      "titulo": "Área privativa | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-no-bairro-havai-3-quartos-e-suite/1124": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-havai-belo-horizonte-mg/829": {
+      "titulo": "Casa | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/area-privativa-exclusiva-no-bairro-havai-bh-mg/1121": {
+      "titulo": "Área privativa | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-com-3-quartos-1-suite-e-1-vaga-frente-bairro-havai-belo-horizonte-mg/1185": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/lote-residencial-exclusivo-a-venda-no-bairro-havai-belo-horizonte-mg/1180": {
+      "titulo": "Lote | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-2-quartos-havai-belo-horizonte-mg/1205": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-2-quartos-1-vaga-havai-belo-horizonte-mg/1203": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-em-belo-horizonte-bairro-havai-2-quartos-1-suite-e-2-vagas/1167": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-2-quartos-na-planta-a-venda-no-bairro-estrela-dalva-em-belohorizonte-mg/1107": {
+      "titulo": "Apartamento | Estrela Dalva - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-3-quartos-no-bairro-havai/1067": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-no-havai-bh-2-vagas-aceita-financiamento/1128": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-no-havai-bh-2-vagas-aceita-financiamento/1126": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quarto-na-planta-para-venda-em-belo-horizonte-mg-no-bairro-betania/983": {
+      "titulo": "Apartamento | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-nova-cintra-belo-horizonte-mg/1061": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/lote-a-venda-no-bairro-havai-belo-horizonte-mg/1056": {
+      "titulo": "Lote | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-3-quartos-para-venda-no-bairro-marajo-belo-horizonte-mg/1170": {
+      "titulo": "Apartamento | Marajó - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-c-planejados-a-venda-no-bairro-betania-belo-horizonte-mg/846": {
+      "titulo": "Apartamento | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-no-bairro-salgado-filho-belo-horizonte-mg/861": {
+      "titulo": "Lote | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-para-venda-em-belo-horizonte-mg-no-bairro-havai/1030": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/loja-para-venda-no-bairro-betania-belo-horizonte-mg/828": {
+      "titulo": "Loja | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-02-quartos-para-venda-no-bairro-havai-belo-horizonte-mg/1010": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-geminada-para-venda-no-bairro-havai-belo-horizonte-mg/1198": {
+      "titulo": "Casa geminada | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-02-quartos-no-bairro-havai-para-venda-belo-horizonte-mg/1068": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-em-belo-horizonte-mg-no-bairro-havai/1177": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-geminada-para-venda-em-belo-horizonte-mg-no-bairro-marajo/1207": {
+      "titulo": "Casa geminada | Marajó - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-a-venda-no-bairro-havai-belo-horizonte-frente-1-vaga/538": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/loja-para-venda-em-belo-horizonte-mg-no-bairro-havai/134": {
+      "titulo": "Loja | Havaí - Belo Horizonte",
+      "primeira_vez": "13/08/2026 15:36"
+    }
+  },
+  "inteligencia_bh": {
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/exclusiva-cobertura-com-vista-panoramica-definitiva-no-bairro-palmeiras-proximo-ao-buritis/1395": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-3-quartos-1-suite-1-vaga-e-lazer-completo-palmeiras-bh-a-venda/1400": {
+      "titulo": "NOVO",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/cobertura-com-elevador-2-vagas-imovel-novo-cinquentenario/288": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-3-quartos-com-1-suite-frente-estrela-do-oriente-bh/1383": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/casa-3-quartos-2-suites-3-vagas-de-garagem-betania/306": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-alto-padrao-2-quartos-mobiliado-estrela-do-oriente/109": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-01-e-02-quartos-com-elevador-no-betania-belo-horizonte-financia/342": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/casa-3-quartos-e-4-banheiros-a-venda-372-m-bairro-cinquentenario-belo-horizonte-mg/39": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/casa-duplex-a-venda-salgado-filho/192": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/casa-5-quartos-a-venda-bairro-havai/252": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-de-luxo-2-quartos-com-elevador/8": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/cobertura-2-quartos-elevador-e-2-vagas-estrela-do-oriente-bh-mg/233": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-terreo-com-area-privativa/1397": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-3-quartos-com-suite-vista-definitiva-e-sol-da-manha-buritis-divisa-com-palmeiras/291": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-residencial-3-quartos-com-2-vagas-no-bairro-cinquentenario-bh/1398": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-2-quartos-no-palmeiras-belo-horizonte/1399": {
+      "titulo": "NOVO",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/area-privativa-3-quartos-no-palmeiras-r-550-mil/1380": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/galpao-lote-no-bairro-palmeiras-bhte/1391": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-3-quartos-com-varanda-e-suite-2-vagas-bh-betania/1386": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-2-quartos-com-suite-e-varanda-i-betania-venda/202": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/venda/imovel/belo-horizonte/palmeiras/0-banheiros+0-quartos+0-suites+0-vagas": {
+      "titulo": "Palmeiras",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://api.whatsapp.com/send?text=https://www.inteligenciaimobiliariabh.com.br//imovel/exclusiva-cobertura-com-vista-panoramica-definitiva-no-bairro-palmeiras-proximo-ao-buritis/1395": {
+      "titulo": "1395",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.facebook.com/sharer/sharer.php?u=https://www.inteligenciaimobiliariabh.com.br/imovel/exclusiva-cobertura-com-vista-panoramica-definitiva-no-bairro-palmeiras-proximo-ao-buritis/1395": {
+      "titulo": "1395",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.linkedin.com/shareArticle?mini=true&url=www.inteligenciaimobiliariabh.com.br/imovel/exclusiva-cobertura-com-vista-panoramica-definitiva-no-bairro-palmeiras-proximo-ao-buritis/1395&title=EXCLUSIVA COBERTURA COM VISTA PANORÂMICA DEFINITIVA NO BAIRRO PALMEIRAS – PRÓXIMO AO BURITIS&summary=&source=": {
+      "titulo": "1395&Title=Exclusiva Cobertura Com Vista Panorâmica Definitiva No Bairro Palmeiras – Próximo Ao Buritis&Summary=&Source=",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/cobertura-a-venda-18827-m-3-quartos-com-suite-3-vagas-no-cinquentenario-bh/330": {
+      "titulo": "‹",
+      "primeira_vez": "13/08/2026 16:33"
+    }
+  },
+  "bihain": {
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-70-m/AP9337-BIHA?from=sale": {
+      "titulo": "AP9337-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-80-m/AP9493-BIHA?from=sale": {
+      "titulo": "AP9493-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-50-m/AP9523-BIHA?from=sale": {
+      "titulo": "AP9523-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-48-m/AP9471-BIHA?from=sale": {
+      "titulo": "AP9471-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-60-m/AP7420-BIHA?from=sale": {
+      "titulo": "AP7420-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-garden-belo-horizonte-2-quartos-68-m/GD0903-BIHA?from=sale": {
+      "titulo": "GD0903-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-garden-belo-horizonte-2-quartos-62-m/GD0709-BIHA?from=sale": {
+      "titulo": "GD0709-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-84-m/AP9222-BIHA?from=sale": {
+      "titulo": "AP9222-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-49-m/AP9152-BIHA?from=sale": {
+      "titulo": "AP9152-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-garden-belo-horizonte-1-quarto-72-m/GD0838-BIHA?from=sale": {
+      "titulo": "GD0838-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-49-m/AP8823-BIHA?from=sale": {
+      "titulo": "AP8823-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-69-m/AP9412-BIHA?from=sale": {
+      "titulo": "AP9412-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-67-m/AP8904-BIHA?from=sale": {
+      "titulo": "AP8904-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-55-m/AP9458-BIHA?from=sale": {
+      "titulo": "AP9458-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-67-m/AP9436-BIHA?from=sale": {
+      "titulo": "AP9436-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-75-m/AP9460-BIHA?from=sale": {
+      "titulo": "AP9460-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-70-m/AP9435-BIHA?from=sale": {
+      "titulo": "AP9435-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-garden-belo-horizonte-2-quartos-80-m/GD0941-BIHA?from=sale": {
+      "titulo": "GD0941-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-55-m/AP8701-BIHA?from=sale": {
+      "titulo": "AP8701-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-70-m/AP9328-BIHA?from=sale": {
+      "titulo": "AP9328-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-67-m/AP8705-BIHA?from=sale": {
+      "titulo": "AP8705-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/cobertura-belo-horizonte-4-quartos-140-m/CO1523-BIHA?from=sale": {
+      "titulo": "CO1523-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-75-m/AP9480-BIHA?from=sale": {
+      "titulo": "AP9480-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/cobertura-belo-horizonte-3-quartos-105-m/CO1588-BIHA?from=sale": {
+      "titulo": "CO1588-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-3-quartos/CA0588-BIHA?from=sale": {
+      "titulo": "CA0588-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-6-quartos/CA0592-BIHA?from=sale": {
+      "titulo": "CA0592-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-3-quartos/CA0575-BIHA?from=sale": {
+      "titulo": "CA0575-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-3-quartos/CA0569-BIHA?from=sale": {
+      "titulo": "CA0569-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-5-quartos-306-m/CA0514-BIHA?from=sale": {
+      "titulo": "CA0514-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-5-quartos/CA0573-BIHA?from=sale": {
+      "titulo": "CA0573-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-5-quartos-463-m/CA0574-BIHA?from=sale": {
+      "titulo": "CA0574-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/terreno-belo-horizonte-1-250-m/TE0138-BIHA?from=sale": {
+      "titulo": "TE0138-BIHA",
+      "primeira_vez": "13/08/2026 16:33"
+    }
+  },
+  "palmeiras": {},
+  "gr_imoveis": {
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/37857": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/39029": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/59165": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/59185": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/59512": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/61822": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-salgado-filho-nova-suissa-belo-horizonte-mg/61976": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-cinquentenario-belo-horizonte-mg/62627": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/63581": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/63669": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/63702": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/64501": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/64629": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/64634": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/65558": {
+      "titulo": "PREÇO REDUZIDO",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/65709": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/65822": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/65914": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/cobertura-a-venda-betania-belo-horizonte-mg/65934": {
+      "titulo": "PREÇO REDUZIDO",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/66086": {
+      "titulo": "< < < <",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/venda/imovel/regiao-do-buritis/todos-os-bairros/todos-os-condominios/apenas-lancamentos/": {
+      "titulo": "Lançamentos",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.grimoveis.com.br/venda/imovel/belo-horizonte/havai": {
+      "titulo": "Havaí",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://api.whatsapp.com/send?text=Olá, encontrei este imóvel e decidi compartilhar com você: https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/37857.": {
+      "titulo": "37857.",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.facebook.com/sharer/sharer.php?u=https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/37857": {
+      "titulo": "37857",
+      "primeira_vez": "13/08/2026 16:33"
+    }
+  },
+  "sensale": {},
+  "leo_batista": {
+    "https://www.leobatistaimoveis.com.br/225/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg": {
+      "titulo": "MAIS DETALHES",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vendo -Area Privativa - Apartamento 2 quartos - Condominio Parque Gramado - https://www.leobatistaimoveis.com.br/225/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg": {
+      "titulo": "Whatsapp",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/225/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Facebook','450','450','yes');": {
+      "titulo": "Facebook",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vendo -Area Privativa - Apartamento 2 quartos - Condominio Parque Gramado \n https://www.leobatistaimoveis.com.br/225/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/225/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Twitter','450','450','yes');": {
+      "titulo": "Twitter",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/225/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Linkedin','450','450','yes');": {
+      "titulo": "LinkedIn",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.leobatistaimoveis.com.br/189/imoveis/venda-apartamento-4-quartos-palmeiras-belo-horizonte-mg": {
+      "titulo": "MAIS DETALHES",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vendo Apartamento Palmeiras 4 quartos - https://www.leobatistaimoveis.com.br/189/imoveis/venda-apartamento-4-quartos-palmeiras-belo-horizonte-mg": {
+      "titulo": "Whatsapp",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/189/imoveis/venda-apartamento-4-quartos-palmeiras-belo-horizonte-mg','Facebook','450','450','yes');": {
+      "titulo": "Facebook",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vendo Apartamento Palmeiras 4 quartos \n https://www.leobatistaimoveis.com.br/189/imoveis/venda-apartamento-4-quartos-palmeiras-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/189/imoveis/venda-apartamento-4-quartos-palmeiras-belo-horizonte-mg','Twitter','450','450','yes');": {
+      "titulo": "Twitter",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/189/imoveis/venda-apartamento-4-quartos-palmeiras-belo-horizonte-mg','Linkedin','450','450','yes');": {
+      "titulo": "LinkedIn",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.leobatistaimoveis.com.br/168/imoveis/venda-apartamento-2-quartos-marajo-belo-horizonte-mg": {
+      "titulo": "MAIS DETALHES",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vendo Apartamento Bairro Havaí - https://www.leobatistaimoveis.com.br/168/imoveis/venda-apartamento-2-quartos-marajo-belo-horizonte-mg": {
+      "titulo": "Whatsapp",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/168/imoveis/venda-apartamento-2-quartos-marajo-belo-horizonte-mg','Facebook','450','450','yes');": {
+      "titulo": "Facebook",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vendo Apartamento Bairro Havaí \n https://www.leobatistaimoveis.com.br/168/imoveis/venda-apartamento-2-quartos-marajo-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/168/imoveis/venda-apartamento-2-quartos-marajo-belo-horizonte-mg','Twitter','450','450','yes');": {
+      "titulo": "Twitter",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/168/imoveis/venda-apartamento-2-quartos-marajo-belo-horizonte-mg','Linkedin','450','450','yes');": {
+      "titulo": "LinkedIn",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.leobatistaimoveis.com.br/93/imoveis/venda-casa-6-quartos-betania-belo-horizonte-mg": {
+      "titulo": "MAIS DETALHES",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vende-se Casa (6 quartos) - Bairro Betânia - Belo Horizonte/MG - https://www.leobatistaimoveis.com.br/93/imoveis/venda-casa-6-quartos-betania-belo-horizonte-mg": {
+      "titulo": "Whatsapp",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/93/imoveis/venda-casa-6-quartos-betania-belo-horizonte-mg','Facebook','450','450','yes');": {
+      "titulo": "Facebook",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vende-se Casa (6 quartos) - Bairro Betânia - Belo Horizonte/MG \n https://www.leobatistaimoveis.com.br/93/imoveis/venda-casa-6-quartos-betania-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/93/imoveis/venda-casa-6-quartos-betania-belo-horizonte-mg','Twitter','450','450','yes');": {
+      "titulo": "Twitter",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/93/imoveis/venda-casa-6-quartos-betania-belo-horizonte-mg','Linkedin','450','450','yes');": {
+      "titulo": "LinkedIn",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.leobatistaimoveis.com.br/92/imoveis/venda-apartamento-3-quartos-estrela-do-oriente-belo-horizonte-mg": {
+      "titulo": "MAIS DETALHES",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - VENDE-SE APARTAMENTO (03 QUARTOS) - BAIRRO BETÂNIA - BELO HORIZONTE/MG - https://www.leobatistaimoveis.com.br/92/imoveis/venda-apartamento-3-quartos-estrela-do-oriente-belo-horizonte-mg": {
+      "titulo": "Whatsapp",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/92/imoveis/venda-apartamento-3-quartos-estrela-do-oriente-belo-horizonte-mg','Facebook','450','450','yes');": {
+      "titulo": "Facebook",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - VENDE-SE APARTAMENTO (03 QUARTOS) - BAIRRO BETÂNIA - BELO HORIZONTE/MG \n https://www.leobatistaimoveis.com.br/92/imoveis/venda-apartamento-3-quartos-estrela-do-oriente-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/92/imoveis/venda-apartamento-3-quartos-estrela-do-oriente-belo-horizonte-mg','Twitter','450','450','yes');": {
+      "titulo": "Twitter",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/92/imoveis/venda-apartamento-3-quartos-estrela-do-oriente-belo-horizonte-mg','Linkedin','450','450','yes');": {
+      "titulo": "LinkedIn",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.leobatistaimoveis.com.br/79/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg": {
+      "titulo": "MAIS DETALHES",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Apartamento (2 quartos) - Bairro Betânia - Belo Horizonte/MG - https://www.leobatistaimoveis.com.br/79/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg": {
+      "titulo": "Whatsapp",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/79/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Facebook','450','450','yes');": {
+      "titulo": "Facebook",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Apartamento (2 quartos) - Bairro Betânia - Belo Horizonte/MG \n https://www.leobatistaimoveis.com.br/79/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/79/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Twitter','450','450','yes');": {
+      "titulo": "Twitter",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/79/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Linkedin','450','450','yes');": {
+      "titulo": "LinkedIn",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.leobatistaimoveis.com.br/70/imoveis/venda-casa-5-quartos-estrela-do-oriente-belo-horizonte-mg": {
+      "titulo": "MAIS DETALHES",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vendo Casa -  Bairro Betânia - Belo Horizonte/MG - https://www.leobatistaimoveis.com.br/70/imoveis/venda-casa-5-quartos-estrela-do-oriente-belo-horizonte-mg": {
+      "titulo": "Whatsapp",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/70/imoveis/venda-casa-5-quartos-estrela-do-oriente-belo-horizonte-mg','Facebook','450','450','yes');": {
+      "titulo": "Facebook",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vendo Casa -  Bairro Betânia - Belo Horizonte/MG \n https://www.leobatistaimoveis.com.br/70/imoveis/venda-casa-5-quartos-estrela-do-oriente-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/70/imoveis/venda-casa-5-quartos-estrela-do-oriente-belo-horizonte-mg','Twitter','450','450','yes');": {
+      "titulo": "Twitter",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/70/imoveis/venda-casa-5-quartos-estrela-do-oriente-belo-horizonte-mg','Linkedin','450','450','yes');": {
+      "titulo": "LinkedIn",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.leobatistaimoveis.com.br/69/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg": {
+      "titulo": "MAIS DETALHES",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vendo Apartamento (2 quartos) - Bairro Betânia - Belo Horizonte/MG - https://www.leobatistaimoveis.com.br/69/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg": {
+      "titulo": "Whatsapp",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/69/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Facebook','450','450','yes');": {
+      "titulo": "Facebook",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vendo Apartamento (2 quartos) - Bairro Betânia - Belo Horizonte/MG \n https://www.leobatistaimoveis.com.br/69/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/69/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Twitter','450','450','yes');": {
+      "titulo": "Twitter",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/69/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Linkedin','450','450','yes');": {
+      "titulo": "LinkedIn",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.leobatistaimoveis.com.br/68/imoveis/venda-apartamento-3-quartos-salgado-filho-belo-horizonte-mg": {
+      "titulo": "MAIS DETALHES",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vendo Cobertura - Bairro Salgado Filho - Belo Horizonte/MG - https://www.leobatistaimoveis.com.br/68/imoveis/venda-apartamento-3-quartos-salgado-filho-belo-horizonte-mg": {
+      "titulo": "Whatsapp",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/68/imoveis/venda-apartamento-3-quartos-salgado-filho-belo-horizonte-mg','Facebook','450','450','yes');": {
+      "titulo": "Facebook",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vendo Cobertura - Bairro Salgado Filho - Belo Horizonte/MG \n https://www.leobatistaimoveis.com.br/68/imoveis/venda-apartamento-3-quartos-salgado-filho-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/68/imoveis/venda-apartamento-3-quartos-salgado-filho-belo-horizonte-mg','Twitter','450','450','yes');": {
+      "titulo": "Twitter",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/68/imoveis/venda-apartamento-3-quartos-salgado-filho-belo-horizonte-mg','Linkedin','450','450','yes');": {
+      "titulo": "LinkedIn",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.leobatistaimoveis.com.br/190/imoveis/venda-apartamento-4-quartos-marajo-belo-horizonte-mg": {
+      "titulo": "MAIS DETALHES",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vendo Apartamento 4 quartos Bairro Marajó/Cinquentenpario - https://www.leobatistaimoveis.com.br/190/imoveis/venda-apartamento-4-quartos-marajo-belo-horizonte-mg": {
+      "titulo": "Whatsapp",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/190/imoveis/venda-apartamento-4-quartos-marajo-belo-horizonte-mg','Facebook','450','450','yes');": {
+      "titulo": "Facebook",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vendo Apartamento 4 quartos Bairro Marajó/Cinquentenpario \n https://www.leobatistaimoveis.com.br/190/imoveis/venda-apartamento-4-quartos-marajo-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/190/imoveis/venda-apartamento-4-quartos-marajo-belo-horizonte-mg','Twitter','450','450','yes');": {
+      "titulo": "Twitter",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/190/imoveis/venda-apartamento-4-quartos-marajo-belo-horizonte-mg','Linkedin','450','450','yes');": {
+      "titulo": "LinkedIn",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.leobatistaimoveis.com.br/186/imoveis/venda-locacao-apartamento-2-quartos-palmeiras-belo-horizonte-mg": {
+      "titulo": "MAIS DETALHES",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Alugo Apartamento - 2 quartos - Palmeiras - Reg. Oeste de BH (LEIA A DESCRI - https://www.leobatistaimoveis.com.br/186/imoveis/venda-locacao-apartamento-2-quartos-palmeiras-belo-horizonte-mg": {
+      "titulo": "Whatsapp",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/186/imoveis/venda-locacao-apartamento-2-quartos-palmeiras-belo-horizonte-mg','Facebook','450','450','yes');": {
+      "titulo": "Facebook",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Alugo Apartamento - 2 quartos - Palmeiras - Reg. Oeste de BH (LEIA A DESCRI \n https://www.leobatistaimoveis.com.br/186/imoveis/venda-locacao-apartamento-2-quartos-palmeiras-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/186/imoveis/venda-locacao-apartamento-2-quartos-palmeiras-belo-horizonte-mg','Twitter','450','450','yes');": {
+      "titulo": "Twitter",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/186/imoveis/venda-locacao-apartamento-2-quartos-palmeiras-belo-horizonte-mg','Linkedin','450','450','yes');": {
+      "titulo": "LinkedIn",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.leobatistaimoveis.com.br/103/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg": {
+      "titulo": "MAIS DETALHES",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vendo  Excelente Cobertura 3 quartos com aproximadamente 180m² - https://www.leobatistaimoveis.com.br/103/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg": {
+      "titulo": "Whatsapp",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/103/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg','Facebook','450','450','yes');": {
+      "titulo": "Facebook",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vendo  Excelente Cobertura 3 quartos com aproximadamente 180m² \n https://www.leobatistaimoveis.com.br/103/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/103/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg','Twitter','450','450','yes');": {
+      "titulo": "Twitter",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/103/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg','Linkedin','450','450','yes');": {
+      "titulo": "LinkedIn",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.leobatistaimoveis.com.br/102/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg": {
+      "titulo": "MAIS DETALHES",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - VENDO Apartamento 3 quartos - Bairro Palmeiras - https://www.leobatistaimoveis.com.br/102/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg": {
+      "titulo": "Whatsapp",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/102/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg','Facebook','450','450','yes');": {
+      "titulo": "Facebook",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - VENDO Apartamento 3 quartos - Bairro Palmeiras \n https://www.leobatistaimoveis.com.br/102/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/102/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg','Twitter','450','450','yes');": {
+      "titulo": "Twitter",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/102/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg','Linkedin','450','450','yes');": {
+      "titulo": "LinkedIn",
+      "primeira_vez": "13/08/2026 16:33"
+    }
+  },
+  "genesis": {
+    "https://www.genesisimoveis.com.br/imovel/vende-se-lote-bairro-betania-bh-mg-r295000000/5938": {
+      "titulo": "Lote | Estrela do Oriente - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-03-quartos-bairro-betania-bh-mg-r220000000/5693": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/lote-area-terreno-a-venda-betania-belo-horizonte-mg/4914": {
+      "titulo": "Lote-Área-Terreno | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-04-quartos-bairro-betania-bh-mg-r180000000/1236": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/casa-a-venda-3-quartos-1-suite-5-vagas-betania-belo-horizonte-mg/4980": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-bairro-palmeiras-r162000000/5508": {
+      "titulo": "Casa | Palmeiras - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/casa-a-venda-3-quartos-4-vagas-betania-belo-horizonte-mg/4697": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/casa-a-venda-bairro-palmeiras-r145000000/5502": {
+      "titulo": "Casa | Palmeiras - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/casa-comercial-a-venda-1-suite-3-vagas-betania-belo-horizonte-mg/4865": {
+      "titulo": "Casa comercial | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/02-lotes-a-venda-bairro-salgado-filho-bh-mg-r139000000/7034": {
+      "titulo": "Lote | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/casa-com-habite-se-a-venda-4-quartos-1-suite-7-vagas-palmeiras-belo-horizonte-mg-r135000000/5483": {
+      "titulo": "Casa | Palmeiras - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-03-quartos-bairro-cinquentenario-betania-bh-mg-r130000000/5753": {
+      "titulo": "Casa | Cinquentenário - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/casa-a-venda-betania-belo-horizonte-mg-r120000000/5485": {
+      "titulo": "Casa | Havai - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/casa-a-venda-3-quartos-1-suite-2-vagas-betania-belo-horizonte-mg/5399": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/lote-area-terreno-a-venda-betania-belo-horizonte-mg/2713": {
+      "titulo": "Lote-Área-Terreno | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-05-quartos-bairro-betania-bh-mg-r110000000/7049": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-03-casas-em-um-lote-bairro-betania-bh-mg-r110000000/5869": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa/5750": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-residencial-comercial-bairro-betania-bh-mg-r100000000/3106": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-comercial-03-quartos-bairro-betania-bh-mg-r100000000/5687": {
+      "titulo": "Casa comercial | Cinquentenário - Belo Horizonte",
+      "primeira_vez": "13/08/2026 16:33"
+    }
   }
 }

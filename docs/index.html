@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Monitor de Imóveis - Paulo Tavares</title>
+<title>Monitor de Imóveis</title>
 <style>
   body {
     font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
@@ -26,15 +26,15 @@
     opacity: 0.8;
     font-size: 14px;
   }
-  .resumo {
-    max-width: 720px;
+  .resumo-geral {
+    max-width: 900px;
     margin: 20px auto 0;
     padding: 0 20px;
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
   }
-  .resumo .card {
+  .resumo-geral .card, .resumo .card {
     background: white;
     border-radius: 10px;
     padding: 14px 18px;
@@ -42,18 +42,62 @@
     flex: 1;
     min-width: 140px;
   }
-  .resumo .card .num {
+  .resumo {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+  }
+  .card .num {
     font-size: 26px;
     font-weight: 700;
   }
-  .resumo .card .label {
+  .card .label {
     font-size: 13px;
     color: #666;
   }
-  .lista {
-    max-width: 720px;
-    margin: 24px auto;
+  .tabs {
+    max-width: 900px;
+    margin: 24px auto 0;
     padding: 0 20px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .tab-btn {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 999px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #444;
+    position: relative;
+  }
+  .tab-btn.active {
+    background: #1f2d3d;
+    color: white;
+    border-color: #1f2d3d;
+  }
+  .badge-aba {
+    display: inline-block;
+    background: #2e9e44;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 999px;
+    margin-left: 6px;
+  }
+  .tab-content {
+    display: none;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  .tab-content.active {
+    display: block;
   }
   .item {
     background: white;
@@ -95,443 +139,1372 @@
 </head>
 <body>
 <header>
-  <h1>Monitor de Imóveis — Paulo Tavares Imóveis</h1>
-  <p>Última verificação: 13/08/2026 15:36</p>
+  <h1>Monitor de Imóveis</h1>
+  <p>Última verificação: 13/08/2026 16:33</p>
 </header>
 
-<div class="resumo">
-  <div class="card"><div class="num">85</div><div class="label">imóveis monitorados no total</div></div>
-  <div class="card"><div class="num">85</div><div class="label">novos desde a última verificação</div></div>
+<div class="resumo-geral">
+  <div class="card"><div class="num">251</div><div class="label">imóveis monitorados no total</div></div>
+  <div class="card"><div class="num">166</div><div class="label">novos em todas as imobiliárias</div></div>
 </div>
 
-<div class="lista">
-
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/galpao-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/381" target="_blank" rel="noopener">Galpão | Palmeiras - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/galpao-para-venda-em-belo-horizonte-mg-no-bairro-betania/359" target="_blank" rel="noopener">Galpão | Betânia - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-04-quartos-a-venda-no-bairro-havai-belo-horizonte-mg/1221" target="_blank" rel="noopener">Casa | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-3-quartos-1-suite-4-vagas-palmeiras-belo-horizonte-mg/1100" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/galpao-para-venda-em-belo-horizonte-mg-no-bairro-betania/563" target="_blank" rel="noopener">Galpão | Betânia - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-3-quartos-para-venda-no-bairro-palmeiras-localizado-na-cidade-de-belo-horizonte-mg/588" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-3-quartos-para-venda-no-bairro-havai-localizado-na-cidade-de-belo-horizonte-mg/528" target="_blank" rel="noopener">Casa | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-no-bairro-palmeiras-belo-horizonte-mg/855" target="_blank" rel="noopener">Casa | Estrela do Oriente - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-salgado-filho-belo-horizonte-mg/724" target="_blank" rel="noopener">Casa | Salgado Filho - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-para-venda-em-belo-horizonte-mg-no-bairro-buritis/412" target="_blank" rel="noopener">Cobertura | Buritis - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/383" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-betania/30" target="_blank" rel="noopener">Lote | Betânia - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-03-quartos-a-venda-no-bairro-betania-belo-horizonte-mg/17" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-04-quartos-a-venda-no-bairro-betania-belo-horizonte-mg/16" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-de-03-quartos-no-bairro-hhavia-belo-horizonte-mg/920" target="_blank" rel="noopener">Casa | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-havai/612" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-3-quartos-com-elevador-e-2-vagas-bairro-salgado-filho-bh/1140" target="_blank" rel="noopener">Cobertura | Salgado Filho - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-3-quartos-com-elevador-e-2-vagas-bairro-salgado-filho-bh/1139" target="_blank" rel="noopener">Cobertura | Salgado Filho - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-no-bairro-havai-belo-horizonte-mg/1089" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-5-quartos-para-venda-no-bairro-betania-localizado-na-cidade-de-belo-horizonte-mg/308" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-palmeiras-belo-horizonte-mg/101" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-com-4-quartos-e-galpao-independente-a-venda-no-bairro-betania/1210" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-no-bairro-havai-em-bh-3-quartos-e-141-m/1206" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-a-venda-3-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/1131" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-com-area-externa-e-3-quartos-no-bairro-havai-bh/1130" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-4-quartos-a-venda-no-bairro-havai-belo-horizonte-mg/1211" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/431" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-para-venda-em-belo-horizonte-mg-no-bairro-betania/889" target="_blank" rel="noopener">Cobertura | Betânia - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-salgado-filho-belo-horizonte-mg/1026" target="_blank" rel="noopener">Casa | Salgado Filho - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/408" target="_blank" rel="noopener">Lote | Palmeiras - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-marajo-belo-horizonte-mg/837" target="_blank" rel="noopener">Casa | Marajó - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-no-bairro-havai-em-bh-2-quartos-e-1245m/1218" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-em-belo-horizonte-mg-no-bairro-betania/47" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-para-venda-no-bairro-palmeiras-em-belo-horizonte-mg/1095" target="_blank" rel="noopener">Cobertura | Palmeiras - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-de-2-quartos-na-planta-a-venda-no-bairro-estrela-dalva-em-belohorizonte-mg/1114" target="_blank" rel="noopener">Cobertura | Estrela Dalva - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-2-quartos-na-planta-a-venda-no-bairro-havai-bh/1133" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-3-quartos-a-venda-no-bairro-salgado-filho-belo-horizonte-mg/1190" target="_blank" rel="noopener">Área privativa | Salgado Filho - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-03-quartos-a-venda-no-bairro-betania-belo-horizonte-mg/1166" target="_blank" rel="noopener">Apartamento | Estrela do Oriente - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-2-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/1132" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-3-quartos-com-elevador-e-2-vagas-bairro-salgado-filho-bh/1138" target="_blank" rel="noopener">Área privativa | Salgado Filho - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-3-quartos-1-suite-2-vagas-parque-sao-jose-belo-horizonte-mg/1188" target="_blank" rel="noopener">Casa | Parque São José - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-a-venda-no-bairro-havai-em-belo-horizonte/1039" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-exclusiva-no-bairro-havai-bh-mg/1119" target="_blank" rel="noopener">Área privativa | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-exclusiva-no-bairro-havai-bh-mg/1118" target="_blank" rel="noopener">Área privativa | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-95m-no-buritis-3-quartos-c-suite-2-vagas-excelente-oportunidade/1171" target="_blank" rel="noopener">Apartamento | Buritis - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-havai/611" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-na-planta-a-venda-no-bairro-havai-belo-horizonte/1197" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-havai/626" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-de-03-quartos-para-venda-no-bairro-nova-suissa-belo-horizonte-mg/499" target="_blank" rel="noopener">Área privativa | Nova Suíssa - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-salgado-filho/242" target="_blank" rel="noopener">Lote | Salgado Filho - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-de-54063-m-a-venda-bairro-palmeiras-bh/85" target="_blank" rel="noopener">Lote | Palmeiras - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-03-quartos-a-venda-no-bairro-palmeiras-belo-horizonte-mg/483" target="_blank" rel="noopener">Apartamento | Palmeiras - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-no-palmeiras-belo-horizonte-excelente-oportunidade/1189" target="_blank" rel="noopener">Apartamento | Palmeiras - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-3-quartos-2-vagas-havai-belo-horizonte-mg/1204" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-3-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/1202" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-na-planta-a-venda-no-bairro-havai-belo-horizonte/1201" target="_blank" rel="noopener">Área privativa | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-no-bairro-havai-3-quartos-e-suite/1122" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-de-02-quartos-a-venda-no-bairro-havai-belo-horizonte-bh/1120" target="_blank" rel="noopener">Área privativa | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-no-bairro-havai-3-quartos-e-suite/1124" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-havai-belo-horizonte-mg/829" target="_blank" rel="noopener">Casa | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-exclusiva-no-bairro-havai-bh-mg/1121" target="_blank" rel="noopener">Área privativa | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-com-3-quartos-1-suite-e-1-vaga-frente-bairro-havai-belo-horizonte-mg/1185" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-residencial-exclusivo-a-venda-no-bairro-havai-belo-horizonte-mg/1180" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-2-quartos-havai-belo-horizonte-mg/1205" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-2-quartos-1-vaga-havai-belo-horizonte-mg/1203" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-em-belo-horizonte-bairro-havai-2-quartos-1-suite-e-2-vagas/1167" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-2-quartos-na-planta-a-venda-no-bairro-estrela-dalva-em-belohorizonte-mg/1107" target="_blank" rel="noopener">Apartamento | Estrela Dalva - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-3-quartos-no-bairro-havai/1067" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-no-havai-bh-2-vagas-aceita-financiamento/1128" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-no-havai-bh-2-vagas-aceita-financiamento/1126" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quarto-na-planta-para-venda-em-belo-horizonte-mg-no-bairro-betania/983" target="_blank" rel="noopener">Apartamento | Betânia - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-nova-cintra-belo-horizonte-mg/1061" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-a-venda-no-bairro-havai-belo-horizonte-mg/1056" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-3-quartos-para-venda-no-bairro-marajo-belo-horizonte-mg/1170" target="_blank" rel="noopener">Apartamento | Marajó - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-c-planejados-a-venda-no-bairro-betania-belo-horizonte-mg/846" target="_blank" rel="noopener">Apartamento | Betânia - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-no-bairro-salgado-filho-belo-horizonte-mg/861" target="_blank" rel="noopener">Lote | Salgado Filho - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-para-venda-em-belo-horizonte-mg-no-bairro-havai/1030" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/loja-para-venda-no-bairro-betania-belo-horizonte-mg/828" target="_blank" rel="noopener">Loja | Betânia - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-02-quartos-para-venda-no-bairro-havai-belo-horizonte-mg/1010" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-geminada-para-venda-no-bairro-havai-belo-horizonte-mg/1198" target="_blank" rel="noopener">Casa geminada | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-02-quartos-no-bairro-havai-para-venda-belo-horizonte-mg/1068" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-em-belo-horizonte-mg-no-bairro-havai/1177" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-geminada-para-venda-em-belo-horizonte-mg-no-bairro-marajo/1207" target="_blank" rel="noopener">Casa geminada | Marajó - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-a-venda-no-bairro-havai-belo-horizonte-frente-1-vaga/538" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
-        <div class="item novo">
-          <a href="https://www.paulotavaresimoveis.com.br/imovel/loja-para-venda-em-belo-horizonte-mg-no-bairro-havai/134" target="_blank" rel="noopener">Loja | Havaí - Belo Horizonte</a>
-          <span class="badge">NOVO</span>
-          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
-        </div>
+<div class="tabs">
+  <button class="tab-btn active" data-tab="paulo_tavares">Paulo Tavares Imóveis</button><button class="tab-btn " data-tab="inteligencia_bh">Inteligência Imobiliária BH<span class="badge-aba">25</span></button><button class="tab-btn " data-tab="bihain">Bihain Imóveis<span class="badge-aba">32</span></button><button class="tab-btn " data-tab="palmeiras">Imobiliária Palmeiras</button><button class="tab-btn " data-tab="gr_imoveis">GR Imóveis<span class="badge-aba">24</span></button><button class="tab-btn " data-tab="sensale">Sensale Imóveis</button><button class="tab-btn " data-tab="leo_batista">Léo Batista Imóveis<span class="badge-aba">65</span></button><button class="tab-btn " data-tab="genesis">Genesis Imóveis<span class="badge-aba">20</span></button>
 </div>
+
+
+        <div class="tab-content active" id="tab-paulo_tavares">
+          <div class="resumo">
+            <div class="card"><div class="num">85</div><div class="label">imóveis monitorados</div></div>
+            <div class="card"><div class="num">0</div><div class="label">novos agora</div></div>
+          </div>
+          <div class="lista">
+            
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/galpao-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/381" target="_blank" rel="noopener">Galpão | Palmeiras - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/galpao-para-venda-em-belo-horizonte-mg-no-bairro-betania/359" target="_blank" rel="noopener">Galpão | Betânia - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-04-quartos-a-venda-no-bairro-havai-belo-horizonte-mg/1221" target="_blank" rel="noopener">Casa | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-3-quartos-1-suite-4-vagas-palmeiras-belo-horizonte-mg/1100" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/galpao-para-venda-em-belo-horizonte-mg-no-bairro-betania/563" target="_blank" rel="noopener">Galpão | Betânia - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-3-quartos-para-venda-no-bairro-palmeiras-localizado-na-cidade-de-belo-horizonte-mg/588" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-3-quartos-para-venda-no-bairro-havai-localizado-na-cidade-de-belo-horizonte-mg/528" target="_blank" rel="noopener">Casa | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-no-bairro-palmeiras-belo-horizonte-mg/855" target="_blank" rel="noopener">Casa | Estrela do Oriente - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-salgado-filho-belo-horizonte-mg/724" target="_blank" rel="noopener">Casa | Salgado Filho - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-para-venda-em-belo-horizonte-mg-no-bairro-buritis/412" target="_blank" rel="noopener">Cobertura | Buritis - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/383" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-betania/30" target="_blank" rel="noopener">Lote | Betânia - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-03-quartos-a-venda-no-bairro-betania-belo-horizonte-mg/17" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-04-quartos-a-venda-no-bairro-betania-belo-horizonte-mg/16" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-de-03-quartos-no-bairro-hhavia-belo-horizonte-mg/920" target="_blank" rel="noopener">Casa | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-havai/612" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-3-quartos-com-elevador-e-2-vagas-bairro-salgado-filho-bh/1140" target="_blank" rel="noopener">Cobertura | Salgado Filho - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-3-quartos-com-elevador-e-2-vagas-bairro-salgado-filho-bh/1139" target="_blank" rel="noopener">Cobertura | Salgado Filho - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-no-bairro-havai-belo-horizonte-mg/1089" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-5-quartos-para-venda-no-bairro-betania-localizado-na-cidade-de-belo-horizonte-mg/308" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-palmeiras-belo-horizonte-mg/101" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-com-4-quartos-e-galpao-independente-a-venda-no-bairro-betania/1210" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-no-bairro-havai-em-bh-3-quartos-e-141-m/1206" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-a-venda-3-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/1131" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-com-area-externa-e-3-quartos-no-bairro-havai-bh/1130" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-4-quartos-a-venda-no-bairro-havai-belo-horizonte-mg/1211" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/431" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-para-venda-em-belo-horizonte-mg-no-bairro-betania/889" target="_blank" rel="noopener">Cobertura | Betânia - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-salgado-filho-belo-horizonte-mg/1026" target="_blank" rel="noopener">Casa | Salgado Filho - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/408" target="_blank" rel="noopener">Lote | Palmeiras - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-marajo-belo-horizonte-mg/837" target="_blank" rel="noopener">Casa | Marajó - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-no-bairro-havai-em-bh-2-quartos-e-1245m/1218" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-em-belo-horizonte-mg-no-bairro-betania/47" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-para-venda-no-bairro-palmeiras-em-belo-horizonte-mg/1095" target="_blank" rel="noopener">Cobertura | Palmeiras - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-de-2-quartos-na-planta-a-venda-no-bairro-estrela-dalva-em-belohorizonte-mg/1114" target="_blank" rel="noopener">Cobertura | Estrela Dalva - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-2-quartos-na-planta-a-venda-no-bairro-havai-bh/1133" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-3-quartos-a-venda-no-bairro-salgado-filho-belo-horizonte-mg/1190" target="_blank" rel="noopener">Área privativa | Salgado Filho - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-03-quartos-a-venda-no-bairro-betania-belo-horizonte-mg/1166" target="_blank" rel="noopener">Apartamento | Estrela do Oriente - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-2-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/1132" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-3-quartos-com-elevador-e-2-vagas-bairro-salgado-filho-bh/1138" target="_blank" rel="noopener">Área privativa | Salgado Filho - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-3-quartos-1-suite-2-vagas-parque-sao-jose-belo-horizonte-mg/1188" target="_blank" rel="noopener">Casa | Parque São José - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-a-venda-no-bairro-havai-em-belo-horizonte/1039" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-exclusiva-no-bairro-havai-bh-mg/1119" target="_blank" rel="noopener">Área privativa | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-exclusiva-no-bairro-havai-bh-mg/1118" target="_blank" rel="noopener">Área privativa | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-95m-no-buritis-3-quartos-c-suite-2-vagas-excelente-oportunidade/1171" target="_blank" rel="noopener">Apartamento | Buritis - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-havai/611" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-na-planta-a-venda-no-bairro-havai-belo-horizonte/1197" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-havai/626" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-de-03-quartos-para-venda-no-bairro-nova-suissa-belo-horizonte-mg/499" target="_blank" rel="noopener">Área privativa | Nova Suíssa - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-salgado-filho/242" target="_blank" rel="noopener">Lote | Salgado Filho - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-de-54063-m-a-venda-bairro-palmeiras-bh/85" target="_blank" rel="noopener">Lote | Palmeiras - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-03-quartos-a-venda-no-bairro-palmeiras-belo-horizonte-mg/483" target="_blank" rel="noopener">Apartamento | Palmeiras - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-no-palmeiras-belo-horizonte-excelente-oportunidade/1189" target="_blank" rel="noopener">Apartamento | Palmeiras - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-3-quartos-2-vagas-havai-belo-horizonte-mg/1204" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-3-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/1202" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-na-planta-a-venda-no-bairro-havai-belo-horizonte/1201" target="_blank" rel="noopener">Área privativa | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-no-bairro-havai-3-quartos-e-suite/1122" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-de-02-quartos-a-venda-no-bairro-havai-belo-horizonte-bh/1120" target="_blank" rel="noopener">Área privativa | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-no-bairro-havai-3-quartos-e-suite/1124" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-havai-belo-horizonte-mg/829" target="_blank" rel="noopener">Casa | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-exclusiva-no-bairro-havai-bh-mg/1121" target="_blank" rel="noopener">Área privativa | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-com-3-quartos-1-suite-e-1-vaga-frente-bairro-havai-belo-horizonte-mg/1185" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-residencial-exclusivo-a-venda-no-bairro-havai-belo-horizonte-mg/1180" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-2-quartos-havai-belo-horizonte-mg/1205" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-2-quartos-1-vaga-havai-belo-horizonte-mg/1203" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-em-belo-horizonte-bairro-havai-2-quartos-1-suite-e-2-vagas/1167" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-2-quartos-na-planta-a-venda-no-bairro-estrela-dalva-em-belohorizonte-mg/1107" target="_blank" rel="noopener">Apartamento | Estrela Dalva - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-3-quartos-no-bairro-havai/1067" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-no-havai-bh-2-vagas-aceita-financiamento/1128" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-no-havai-bh-2-vagas-aceita-financiamento/1126" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quarto-na-planta-para-venda-em-belo-horizonte-mg-no-bairro-betania/983" target="_blank" rel="noopener">Apartamento | Betânia - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-nova-cintra-belo-horizonte-mg/1061" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-a-venda-no-bairro-havai-belo-horizonte-mg/1056" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-3-quartos-para-venda-no-bairro-marajo-belo-horizonte-mg/1170" target="_blank" rel="noopener">Apartamento | Marajó - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-c-planejados-a-venda-no-bairro-betania-belo-horizonte-mg/846" target="_blank" rel="noopener">Apartamento | Betânia - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-no-bairro-salgado-filho-belo-horizonte-mg/861" target="_blank" rel="noopener">Lote | Salgado Filho - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-para-venda-em-belo-horizonte-mg-no-bairro-havai/1030" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/loja-para-venda-no-bairro-betania-belo-horizonte-mg/828" target="_blank" rel="noopener">Loja | Betânia - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-02-quartos-para-venda-no-bairro-havai-belo-horizonte-mg/1010" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-geminada-para-venda-no-bairro-havai-belo-horizonte-mg/1198" target="_blank" rel="noopener">Casa geminada | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-02-quartos-no-bairro-havai-para-venda-belo-horizonte-mg/1068" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-em-belo-horizonte-mg-no-bairro-havai/1177" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-geminada-para-venda-em-belo-horizonte-mg-no-bairro-marajo/1207" target="_blank" rel="noopener">Casa geminada | Marajó - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-a-venda-no-bairro-havai-belo-horizonte-frente-1-vaga/538" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+            <div class="item">
+              <a href="https://www.paulotavaresimoveis.com.br/imovel/loja-para-venda-em-belo-horizonte-mg-no-bairro-havai/134" target="_blank" rel="noopener">Loja | Havaí - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content " id="tab-inteligencia_bh">
+          <div class="resumo">
+            <div class="card"><div class="num">25</div><div class="label">imóveis monitorados</div></div>
+            <div class="card"><div class="num">25</div><div class="label">novos agora</div></div>
+          </div>
+          <div class="lista">
+            
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/exclusiva-cobertura-com-vista-panoramica-definitiva-no-bairro-palmeiras-proximo-ao-buritis/1395" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-3-quartos-1-suite-1-vaga-e-lazer-completo-palmeiras-bh-a-venda/1400" target="_blank" rel="noopener">NOVO</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/cobertura-com-elevador-2-vagas-imovel-novo-cinquentenario/288" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-3-quartos-com-1-suite-frente-estrela-do-oriente-bh/1383" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/casa-3-quartos-2-suites-3-vagas-de-garagem-betania/306" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-alto-padrao-2-quartos-mobiliado-estrela-do-oriente/109" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-01-e-02-quartos-com-elevador-no-betania-belo-horizonte-financia/342" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/casa-3-quartos-e-4-banheiros-a-venda-372-m-bairro-cinquentenario-belo-horizonte-mg/39" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/casa-duplex-a-venda-salgado-filho/192" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/casa-5-quartos-a-venda-bairro-havai/252" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-de-luxo-2-quartos-com-elevador/8" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/cobertura-2-quartos-elevador-e-2-vagas-estrela-do-oriente-bh-mg/233" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-terreo-com-area-privativa/1397" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-3-quartos-com-suite-vista-definitiva-e-sol-da-manha-buritis-divisa-com-palmeiras/291" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-residencial-3-quartos-com-2-vagas-no-bairro-cinquentenario-bh/1398" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-2-quartos-no-palmeiras-belo-horizonte/1399" target="_blank" rel="noopener">NOVO</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/area-privativa-3-quartos-no-palmeiras-r-550-mil/1380" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/galpao-lote-no-bairro-palmeiras-bhte/1391" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-3-quartos-com-varanda-e-suite-2-vagas-bh-betania/1386" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-2-quartos-com-suite-e-varanda-i-betania-venda/202" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/venda/imovel/belo-horizonte/palmeiras/0-banheiros+0-quartos+0-suites+0-vagas" target="_blank" rel="noopener">Palmeiras</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://api.whatsapp.com/send?text=https://www.inteligenciaimobiliariabh.com.br//imovel/exclusiva-cobertura-com-vista-panoramica-definitiva-no-bairro-palmeiras-proximo-ao-buritis/1395" target="_blank" rel="noopener">1395</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.inteligenciaimobiliariabh.com.br/imovel/exclusiva-cobertura-com-vista-panoramica-definitiva-no-bairro-palmeiras-proximo-ao-buritis/1395" target="_blank" rel="noopener">1395</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.linkedin.com/shareArticle?mini=true&url=www.inteligenciaimobiliariabh.com.br/imovel/exclusiva-cobertura-com-vista-panoramica-definitiva-no-bairro-palmeiras-proximo-ao-buritis/1395&title=EXCLUSIVA COBERTURA COM VISTA PANORÂMICA DEFINITIVA NO BAIRRO PALMEIRAS – PRÓXIMO AO BURITIS&summary=&source=" target="_blank" rel="noopener">1395&Title=Exclusiva Cobertura Com Vista Panorâmica Definitiva No Bairro Palmeiras – Próximo Ao Buritis&Summary=&Source=</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.inteligenciaimobiliariabh.com.br/imovel/cobertura-a-venda-18827-m-3-quartos-com-suite-3-vagas-no-cinquentenario-bh/330" target="_blank" rel="noopener">‹</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content " id="tab-bihain">
+          <div class="resumo">
+            <div class="card"><div class="num">32</div><div class="label">imóveis monitorados</div></div>
+            <div class="card"><div class="num">32</div><div class="label">novos agora</div></div>
+          </div>
+          <div class="lista">
+            
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-70-m/AP9337-BIHA?from=sale" target="_blank" rel="noopener">AP9337-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-80-m/AP9493-BIHA?from=sale" target="_blank" rel="noopener">AP9493-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-50-m/AP9523-BIHA?from=sale" target="_blank" rel="noopener">AP9523-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-48-m/AP9471-BIHA?from=sale" target="_blank" rel="noopener">AP9471-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-60-m/AP7420-BIHA?from=sale" target="_blank" rel="noopener">AP7420-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-garden-belo-horizonte-2-quartos-68-m/GD0903-BIHA?from=sale" target="_blank" rel="noopener">GD0903-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-garden-belo-horizonte-2-quartos-62-m/GD0709-BIHA?from=sale" target="_blank" rel="noopener">GD0709-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-84-m/AP9222-BIHA?from=sale" target="_blank" rel="noopener">AP9222-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-49-m/AP9152-BIHA?from=sale" target="_blank" rel="noopener">AP9152-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-garden-belo-horizonte-1-quarto-72-m/GD0838-BIHA?from=sale" target="_blank" rel="noopener">GD0838-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-49-m/AP8823-BIHA?from=sale" target="_blank" rel="noopener">AP8823-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-69-m/AP9412-BIHA?from=sale" target="_blank" rel="noopener">AP9412-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-67-m/AP8904-BIHA?from=sale" target="_blank" rel="noopener">AP8904-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-55-m/AP9458-BIHA?from=sale" target="_blank" rel="noopener">AP9458-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-67-m/AP9436-BIHA?from=sale" target="_blank" rel="noopener">AP9436-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-75-m/AP9460-BIHA?from=sale" target="_blank" rel="noopener">AP9460-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-70-m/AP9435-BIHA?from=sale" target="_blank" rel="noopener">AP9435-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-garden-belo-horizonte-2-quartos-80-m/GD0941-BIHA?from=sale" target="_blank" rel="noopener">GD0941-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-55-m/AP8701-BIHA?from=sale" target="_blank" rel="noopener">AP8701-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-70-m/AP9328-BIHA?from=sale" target="_blank" rel="noopener">AP9328-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-67-m/AP8705-BIHA?from=sale" target="_blank" rel="noopener">AP8705-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/cobertura-belo-horizonte-4-quartos-140-m/CO1523-BIHA?from=sale" target="_blank" rel="noopener">CO1523-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-75-m/AP9480-BIHA?from=sale" target="_blank" rel="noopener">AP9480-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/cobertura-belo-horizonte-3-quartos-105-m/CO1588-BIHA?from=sale" target="_blank" rel="noopener">CO1588-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-3-quartos/CA0588-BIHA?from=sale" target="_blank" rel="noopener">CA0588-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-6-quartos/CA0592-BIHA?from=sale" target="_blank" rel="noopener">CA0592-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-3-quartos/CA0575-BIHA?from=sale" target="_blank" rel="noopener">CA0575-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-3-quartos/CA0569-BIHA?from=sale" target="_blank" rel="noopener">CA0569-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-5-quartos-306-m/CA0514-BIHA?from=sale" target="_blank" rel="noopener">CA0514-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-5-quartos/CA0573-BIHA?from=sale" target="_blank" rel="noopener">CA0573-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-5-quartos-463-m/CA0574-BIHA?from=sale" target="_blank" rel="noopener">CA0574-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.bihainimoveis.com.br/imovel/terreno-belo-horizonte-1-250-m/TE0138-BIHA?from=sale" target="_blank" rel="noopener">TE0138-BIHA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content " id="tab-palmeiras">
+          <div class="resumo">
+            <div class="card"><div class="num">0</div><div class="label">imóveis monitorados</div></div>
+            <div class="card"><div class="num">0</div><div class="label">novos agora</div></div>
+          </div>
+          <div class="lista">
+            <p>Nenhum imóvel encontrado ainda nesta imobiliária.</p>
+          </div>
+        </div>
+        <div class="tab-content " id="tab-gr_imoveis">
+          <div class="resumo">
+            <div class="card"><div class="num">24</div><div class="label">imóveis monitorados</div></div>
+            <div class="card"><div class="num">24</div><div class="label">novos agora</div></div>
+          </div>
+          <div class="lista">
+            
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/37857" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/39029" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/59165" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/59185" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/59512" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/61822" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-salgado-filho-nova-suissa-belo-horizonte-mg/61976" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-cinquentenario-belo-horizonte-mg/62627" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/63581" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/63669" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/63702" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/64501" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/64629" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/64634" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/65558" target="_blank" rel="noopener">PREÇO REDUZIDO</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/65709" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/65822" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/65914" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/cobertura-a-venda-betania-belo-horizonte-mg/65934" target="_blank" rel="noopener">PREÇO REDUZIDO</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/imovel/apartamento-a-venda-palmeiras-belo-horizonte-mg/66086" target="_blank" rel="noopener">< < < <</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/venda/imovel/regiao-do-buritis/todos-os-bairros/todos-os-condominios/apenas-lancamentos/" target="_blank" rel="noopener">Lançamentos</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.grimoveis.com.br/venda/imovel/belo-horizonte/havai" target="_blank" rel="noopener">Havaí</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://api.whatsapp.com/send?text=Olá, encontrei este imóvel e decidi compartilhar com você: https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/37857." target="_blank" rel="noopener">37857.</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/37857" target="_blank" rel="noopener">37857</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content " id="tab-sensale">
+          <div class="resumo">
+            <div class="card"><div class="num">0</div><div class="label">imóveis monitorados</div></div>
+            <div class="card"><div class="num">0</div><div class="label">novos agora</div></div>
+          </div>
+          <div class="lista">
+            <p>Nenhum imóvel encontrado ainda nesta imobiliária.</p>
+          </div>
+        </div>
+        <div class="tab-content " id="tab-leo_batista">
+          <div class="resumo">
+            <div class="card"><div class="num">65</div><div class="label">imóveis monitorados</div></div>
+            <div class="card"><div class="num">65</div><div class="label">novos agora</div></div>
+          </div>
+          <div class="lista">
+            
+            <div class="item novo">
+              <a href="https://www.leobatistaimoveis.com.br/225/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg" target="_blank" rel="noopener">MAIS DETALHES</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vendo -Area Privativa - Apartamento 2 quartos - Condominio Parque Gramado - https://www.leobatistaimoveis.com.br/225/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg" target="_blank" rel="noopener">Whatsapp</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/225/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Facebook','450','450','yes');" target="_blank" rel="noopener">Facebook</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vendo -Area Privativa - Apartamento 2 quartos - Condominio Parque Gramado 
+ https://www.leobatistaimoveis.com.br/225/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/225/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Twitter','450','450','yes');" target="_blank" rel="noopener">Twitter</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/225/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Linkedin','450','450','yes');" target="_blank" rel="noopener">LinkedIn</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.leobatistaimoveis.com.br/189/imoveis/venda-apartamento-4-quartos-palmeiras-belo-horizonte-mg" target="_blank" rel="noopener">MAIS DETALHES</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vendo Apartamento Palmeiras 4 quartos - https://www.leobatistaimoveis.com.br/189/imoveis/venda-apartamento-4-quartos-palmeiras-belo-horizonte-mg" target="_blank" rel="noopener">Whatsapp</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/189/imoveis/venda-apartamento-4-quartos-palmeiras-belo-horizonte-mg','Facebook','450','450','yes');" target="_blank" rel="noopener">Facebook</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vendo Apartamento Palmeiras 4 quartos 
+ https://www.leobatistaimoveis.com.br/189/imoveis/venda-apartamento-4-quartos-palmeiras-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/189/imoveis/venda-apartamento-4-quartos-palmeiras-belo-horizonte-mg','Twitter','450','450','yes');" target="_blank" rel="noopener">Twitter</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/189/imoveis/venda-apartamento-4-quartos-palmeiras-belo-horizonte-mg','Linkedin','450','450','yes');" target="_blank" rel="noopener">LinkedIn</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.leobatistaimoveis.com.br/168/imoveis/venda-apartamento-2-quartos-marajo-belo-horizonte-mg" target="_blank" rel="noopener">MAIS DETALHES</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vendo Apartamento Bairro Havaí - https://www.leobatistaimoveis.com.br/168/imoveis/venda-apartamento-2-quartos-marajo-belo-horizonte-mg" target="_blank" rel="noopener">Whatsapp</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/168/imoveis/venda-apartamento-2-quartos-marajo-belo-horizonte-mg','Facebook','450','450','yes');" target="_blank" rel="noopener">Facebook</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vendo Apartamento Bairro Havaí 
+ https://www.leobatistaimoveis.com.br/168/imoveis/venda-apartamento-2-quartos-marajo-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/168/imoveis/venda-apartamento-2-quartos-marajo-belo-horizonte-mg','Twitter','450','450','yes');" target="_blank" rel="noopener">Twitter</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/168/imoveis/venda-apartamento-2-quartos-marajo-belo-horizonte-mg','Linkedin','450','450','yes');" target="_blank" rel="noopener">LinkedIn</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.leobatistaimoveis.com.br/93/imoveis/venda-casa-6-quartos-betania-belo-horizonte-mg" target="_blank" rel="noopener">MAIS DETALHES</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vende-se Casa (6 quartos) - Bairro Betânia - Belo Horizonte/MG - https://www.leobatistaimoveis.com.br/93/imoveis/venda-casa-6-quartos-betania-belo-horizonte-mg" target="_blank" rel="noopener">Whatsapp</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/93/imoveis/venda-casa-6-quartos-betania-belo-horizonte-mg','Facebook','450','450','yes');" target="_blank" rel="noopener">Facebook</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vende-se Casa (6 quartos) - Bairro Betânia - Belo Horizonte/MG 
+ https://www.leobatistaimoveis.com.br/93/imoveis/venda-casa-6-quartos-betania-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/93/imoveis/venda-casa-6-quartos-betania-belo-horizonte-mg','Twitter','450','450','yes');" target="_blank" rel="noopener">Twitter</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/93/imoveis/venda-casa-6-quartos-betania-belo-horizonte-mg','Linkedin','450','450','yes');" target="_blank" rel="noopener">LinkedIn</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.leobatistaimoveis.com.br/92/imoveis/venda-apartamento-3-quartos-estrela-do-oriente-belo-horizonte-mg" target="_blank" rel="noopener">MAIS DETALHES</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - VENDE-SE APARTAMENTO (03 QUARTOS) - BAIRRO BETÂNIA - BELO HORIZONTE/MG - https://www.leobatistaimoveis.com.br/92/imoveis/venda-apartamento-3-quartos-estrela-do-oriente-belo-horizonte-mg" target="_blank" rel="noopener">Whatsapp</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/92/imoveis/venda-apartamento-3-quartos-estrela-do-oriente-belo-horizonte-mg','Facebook','450','450','yes');" target="_blank" rel="noopener">Facebook</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - VENDE-SE APARTAMENTO (03 QUARTOS) - BAIRRO BETÂNIA - BELO HORIZONTE/MG 
+ https://www.leobatistaimoveis.com.br/92/imoveis/venda-apartamento-3-quartos-estrela-do-oriente-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/92/imoveis/venda-apartamento-3-quartos-estrela-do-oriente-belo-horizonte-mg','Twitter','450','450','yes');" target="_blank" rel="noopener">Twitter</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/92/imoveis/venda-apartamento-3-quartos-estrela-do-oriente-belo-horizonte-mg','Linkedin','450','450','yes');" target="_blank" rel="noopener">LinkedIn</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.leobatistaimoveis.com.br/79/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg" target="_blank" rel="noopener">MAIS DETALHES</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Apartamento (2 quartos) - Bairro Betânia - Belo Horizonte/MG - https://www.leobatistaimoveis.com.br/79/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg" target="_blank" rel="noopener">Whatsapp</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/79/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Facebook','450','450','yes');" target="_blank" rel="noopener">Facebook</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Apartamento (2 quartos) - Bairro Betânia - Belo Horizonte/MG 
+ https://www.leobatistaimoveis.com.br/79/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/79/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Twitter','450','450','yes');" target="_blank" rel="noopener">Twitter</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/79/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Linkedin','450','450','yes');" target="_blank" rel="noopener">LinkedIn</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.leobatistaimoveis.com.br/70/imoveis/venda-casa-5-quartos-estrela-do-oriente-belo-horizonte-mg" target="_blank" rel="noopener">MAIS DETALHES</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vendo Casa -  Bairro Betânia - Belo Horizonte/MG - https://www.leobatistaimoveis.com.br/70/imoveis/venda-casa-5-quartos-estrela-do-oriente-belo-horizonte-mg" target="_blank" rel="noopener">Whatsapp</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/70/imoveis/venda-casa-5-quartos-estrela-do-oriente-belo-horizonte-mg','Facebook','450','450','yes');" target="_blank" rel="noopener">Facebook</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vendo Casa -  Bairro Betânia - Belo Horizonte/MG 
+ https://www.leobatistaimoveis.com.br/70/imoveis/venda-casa-5-quartos-estrela-do-oriente-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/70/imoveis/venda-casa-5-quartos-estrela-do-oriente-belo-horizonte-mg','Twitter','450','450','yes');" target="_blank" rel="noopener">Twitter</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/70/imoveis/venda-casa-5-quartos-estrela-do-oriente-belo-horizonte-mg','Linkedin','450','450','yes');" target="_blank" rel="noopener">LinkedIn</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.leobatistaimoveis.com.br/69/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg" target="_blank" rel="noopener">MAIS DETALHES</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vendo Apartamento (2 quartos) - Bairro Betânia - Belo Horizonte/MG - https://www.leobatistaimoveis.com.br/69/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg" target="_blank" rel="noopener">Whatsapp</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/69/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Facebook','450','450','yes');" target="_blank" rel="noopener">Facebook</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vendo Apartamento (2 quartos) - Bairro Betânia - Belo Horizonte/MG 
+ https://www.leobatistaimoveis.com.br/69/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/69/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Twitter','450','450','yes');" target="_blank" rel="noopener">Twitter</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/69/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg','Linkedin','450','450','yes');" target="_blank" rel="noopener">LinkedIn</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.leobatistaimoveis.com.br/68/imoveis/venda-apartamento-3-quartos-salgado-filho-belo-horizonte-mg" target="_blank" rel="noopener">MAIS DETALHES</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vendo Cobertura - Bairro Salgado Filho - Belo Horizonte/MG - https://www.leobatistaimoveis.com.br/68/imoveis/venda-apartamento-3-quartos-salgado-filho-belo-horizonte-mg" target="_blank" rel="noopener">Whatsapp</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/68/imoveis/venda-apartamento-3-quartos-salgado-filho-belo-horizonte-mg','Facebook','450','450','yes');" target="_blank" rel="noopener">Facebook</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vendo Cobertura - Bairro Salgado Filho - Belo Horizonte/MG 
+ https://www.leobatistaimoveis.com.br/68/imoveis/venda-apartamento-3-quartos-salgado-filho-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/68/imoveis/venda-apartamento-3-quartos-salgado-filho-belo-horizonte-mg','Twitter','450','450','yes');" target="_blank" rel="noopener">Twitter</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/68/imoveis/venda-apartamento-3-quartos-salgado-filho-belo-horizonte-mg','Linkedin','450','450','yes');" target="_blank" rel="noopener">LinkedIn</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.leobatistaimoveis.com.br/190/imoveis/venda-apartamento-4-quartos-marajo-belo-horizonte-mg" target="_blank" rel="noopener">MAIS DETALHES</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vendo Apartamento 4 quartos Bairro Marajó/Cinquentenpario - https://www.leobatistaimoveis.com.br/190/imoveis/venda-apartamento-4-quartos-marajo-belo-horizonte-mg" target="_blank" rel="noopener">Whatsapp</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/190/imoveis/venda-apartamento-4-quartos-marajo-belo-horizonte-mg','Facebook','450','450','yes');" target="_blank" rel="noopener">Facebook</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vendo Apartamento 4 quartos Bairro Marajó/Cinquentenpario 
+ https://www.leobatistaimoveis.com.br/190/imoveis/venda-apartamento-4-quartos-marajo-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/190/imoveis/venda-apartamento-4-quartos-marajo-belo-horizonte-mg','Twitter','450','450','yes');" target="_blank" rel="noopener">Twitter</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/190/imoveis/venda-apartamento-4-quartos-marajo-belo-horizonte-mg','Linkedin','450','450','yes');" target="_blank" rel="noopener">LinkedIn</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.leobatistaimoveis.com.br/186/imoveis/venda-locacao-apartamento-2-quartos-palmeiras-belo-horizonte-mg" target="_blank" rel="noopener">MAIS DETALHES</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Alugo Apartamento - 2 quartos - Palmeiras - Reg. Oeste de BH (LEIA A DESCRI - https://www.leobatistaimoveis.com.br/186/imoveis/venda-locacao-apartamento-2-quartos-palmeiras-belo-horizonte-mg" target="_blank" rel="noopener">Whatsapp</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/186/imoveis/venda-locacao-apartamento-2-quartos-palmeiras-belo-horizonte-mg','Facebook','450','450','yes');" target="_blank" rel="noopener">Facebook</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Alugo Apartamento - 2 quartos - Palmeiras - Reg. Oeste de BH (LEIA A DESCRI 
+ https://www.leobatistaimoveis.com.br/186/imoveis/venda-locacao-apartamento-2-quartos-palmeiras-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/186/imoveis/venda-locacao-apartamento-2-quartos-palmeiras-belo-horizonte-mg','Twitter','450','450','yes');" target="_blank" rel="noopener">Twitter</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/186/imoveis/venda-locacao-apartamento-2-quartos-palmeiras-belo-horizonte-mg','Linkedin','450','450','yes');" target="_blank" rel="noopener">LinkedIn</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.leobatistaimoveis.com.br/103/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg" target="_blank" rel="noopener">MAIS DETALHES</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - Vendo  Excelente Cobertura 3 quartos com aproximadamente 180m² - https://www.leobatistaimoveis.com.br/103/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg" target="_blank" rel="noopener">Whatsapp</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/103/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg','Facebook','450','450','yes');" target="_blank" rel="noopener">Facebook</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - Vendo  Excelente Cobertura 3 quartos com aproximadamente 180m² 
+ https://www.leobatistaimoveis.com.br/103/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/103/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg','Twitter','450','450','yes');" target="_blank" rel="noopener">Twitter</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/103/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg','Linkedin','450','450','yes');" target="_blank" rel="noopener">LinkedIn</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.leobatistaimoveis.com.br/102/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg" target="_blank" rel="noopener">MAIS DETALHES</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://api.whatsapp.com/send?text=Léo Batista Imóveis BH - VENDO Apartamento 3 quartos - Bairro Palmeiras - https://www.leobatistaimoveis.com.br/102/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg" target="_blank" rel="noopener">Whatsapp</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.facebook.com/sharer.php?u=https://www.leobatistaimoveis.com.br/102/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg','Facebook','450','450','yes');" target="_blank" rel="noopener">Facebook</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://twitter.com/share?text=Léo Batista Imóveis BH - VENDO Apartamento 3 quartos - Bairro Palmeiras 
+ https://www.leobatistaimoveis.com.br/102/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg&url=https://www.leobatistaimoveis.com.br/102/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg','Twitter','450','450','yes');" target="_blank" rel="noopener">Twitter</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="javascript:new_window('https://www.linkedin.com/shareArticle?mini=true&url=https://www.leobatistaimoveis.com.br/102/imoveis/venda-apartamento-3-quartos-palmeiras-belo-horizonte-mg','Linkedin','450','450','yes');" target="_blank" rel="noopener">LinkedIn</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content " id="tab-genesis">
+          <div class="resumo">
+            <div class="card"><div class="num">20</div><div class="label">imóveis monitorados</div></div>
+            <div class="card"><div class="num">20</div><div class="label">novos agora</div></div>
+          </div>
+          <div class="lista">
+            
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-lote-bairro-betania-bh-mg-r295000000/5938" target="_blank" rel="noopener">Lote | Estrela do Oriente - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-casa-03-quartos-bairro-betania-bh-mg-r220000000/5693" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/lote-area-terreno-a-venda-betania-belo-horizonte-mg/4914" target="_blank" rel="noopener">Lote-Área-Terreno | Betânia - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-casa-04-quartos-bairro-betania-bh-mg-r180000000/1236" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/casa-a-venda-3-quartos-1-suite-5-vagas-betania-belo-horizonte-mg/4980" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-casa-bairro-palmeiras-r162000000/5508" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/casa-a-venda-3-quartos-4-vagas-betania-belo-horizonte-mg/4697" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/casa-a-venda-bairro-palmeiras-r145000000/5502" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/casa-comercial-a-venda-1-suite-3-vagas-betania-belo-horizonte-mg/4865" target="_blank" rel="noopener">Casa comercial | Betânia - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/02-lotes-a-venda-bairro-salgado-filho-bh-mg-r139000000/7034" target="_blank" rel="noopener">Lote | Salgado Filho - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/casa-com-habite-se-a-venda-4-quartos-1-suite-7-vagas-palmeiras-belo-horizonte-mg-r135000000/5483" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-casa-03-quartos-bairro-cinquentenario-betania-bh-mg-r130000000/5753" target="_blank" rel="noopener">Casa | Cinquentenário - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/casa-a-venda-betania-belo-horizonte-mg-r120000000/5485" target="_blank" rel="noopener">Casa | Havai - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/casa-a-venda-3-quartos-1-suite-2-vagas-betania-belo-horizonte-mg/5399" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/lote-area-terreno-a-venda-betania-belo-horizonte-mg/2713" target="_blank" rel="noopener">Lote-Área-Terreno | Betânia - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-casa-05-quartos-bairro-betania-bh-mg-r110000000/7049" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-03-casas-em-um-lote-bairro-betania-bh-mg-r110000000/5869" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-casa/5750" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-casa-residencial-comercial-bairro-betania-bh-mg-r100000000/3106" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+            <div class="item novo">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-casa-comercial-03-quartos-bairro-betania-bh-mg-r100000000/5687" target="_blank" rel="noopener">Casa comercial | Cinquentenário - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 13/08/2026 16:33</div>
+            </div>
+          </div>
+        </div>
+
+<script>
+  document.querySelectorAll('.tab-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var key = btn.getAttribute('data-tab');
+      document.querySelectorAll('.tab-btn').forEach(function(b) { b.classList.remove('active'); });
+      document.querySelectorAll('.tab-content').forEach(function(c) { c.classList.remove('active'); });
+      btn.classList.add('active');
+      document.getElementById('tab-' + key).classList.add('active');
+    });
+  });
+</script>
 
 </body>
 </html>
