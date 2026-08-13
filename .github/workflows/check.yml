@@ -1,0 +1,39 @@
+name: Monitor de Imóveis
+
+on:
+  schedule:
+    # 11:00 UTC = 08:00 no horário de Brasília (UTC-3)
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}   # permite rodar manualmente pelo botão "Run workflow"
+
+permissions:
+  contents: write
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o código do repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Instalar navegador headless
+        run: playwright install --with-deps chromium
+
+      - name: Rodar o verificador de imóveis
+        run: python scraper.py
+
+      - name: Salvar resultado no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/seen.json docs/index.html
+          git diff --quiet --cached || git commit -m "Atualização automática $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
