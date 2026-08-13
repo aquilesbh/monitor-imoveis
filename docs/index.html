@@ -2,11 +2,536 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>Monitor de Imóveis</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monitor de Imóveis - Paulo Tavares</title>
+<style>
+  body {
+    font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background: #f5f4f1;
+    color: #2b2b2b;
+    margin: 0;
+    padding: 0 0 60px;
+  }
+  header {
+    background: #1f2d3d;
+    color: white;
+    padding: 24px 20px;
+  }
+  header h1 {
+    margin: 0 0 6px;
+    font-size: 22px;
+  }
+  header p {
+    margin: 0;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  .resumo {
+    max-width: 720px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .resumo .card {
+    background: white;
+    border-radius: 10px;
+    padding: 14px 18px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    flex: 1;
+    min-width: 140px;
+  }
+  .resumo .card .num {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .resumo .card .label {
+    font-size: 13px;
+    color: #666;
+  }
+  .lista {
+    max-width: 720px;
+    margin: 24px auto;
+    padding: 0 20px;
+  }
+  .item {
+    background: white;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    position: relative;
+  }
+  .item.novo {
+    border-left: 4px solid #2e9e44;
+  }
+  .item a {
+    color: #1f2d3d;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .item a:hover {
+    text-decoration: underline;
+  }
+  .badge {
+    display: inline-block;
+    background: #2e9e44;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 999px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+  .meta {
+    font-size: 12px;
+    color: #888;
+    margin-top: 4px;
+  }
+</style>
 </head>
-<body style="font-family: sans-serif; padding: 40px; text-align: center; color: #444;">
-  <h1>Monitor de Imóveis</h1>
-  <p>Ainda não rodou nenhuma verificação. Assim que o robô do GitHub Actions rodar pela
-  primeira vez, esta página será substituída automaticamente pelo painel com os imóveis.</p>
+<body>
+<header>
+  <h1>Monitor de Imóveis — Paulo Tavares Imóveis</h1>
+  <p>Última verificação: 13/08/2026 15:36</p>
+</header>
+
+<div class="resumo">
+  <div class="card"><div class="num">85</div><div class="label">imóveis monitorados no total</div></div>
+  <div class="card"><div class="num">85</div><div class="label">novos desde a última verificação</div></div>
+</div>
+
+<div class="lista">
+
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/galpao-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/381" target="_blank" rel="noopener">Galpão | Palmeiras - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/galpao-para-venda-em-belo-horizonte-mg-no-bairro-betania/359" target="_blank" rel="noopener">Galpão | Betânia - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-04-quartos-a-venda-no-bairro-havai-belo-horizonte-mg/1221" target="_blank" rel="noopener">Casa | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-3-quartos-1-suite-4-vagas-palmeiras-belo-horizonte-mg/1100" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/galpao-para-venda-em-belo-horizonte-mg-no-bairro-betania/563" target="_blank" rel="noopener">Galpão | Betânia - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-3-quartos-para-venda-no-bairro-palmeiras-localizado-na-cidade-de-belo-horizonte-mg/588" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-3-quartos-para-venda-no-bairro-havai-localizado-na-cidade-de-belo-horizonte-mg/528" target="_blank" rel="noopener">Casa | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-no-bairro-palmeiras-belo-horizonte-mg/855" target="_blank" rel="noopener">Casa | Estrela do Oriente - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-salgado-filho-belo-horizonte-mg/724" target="_blank" rel="noopener">Casa | Salgado Filho - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-para-venda-em-belo-horizonte-mg-no-bairro-buritis/412" target="_blank" rel="noopener">Cobertura | Buritis - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/383" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-betania/30" target="_blank" rel="noopener">Lote | Betânia - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-03-quartos-a-venda-no-bairro-betania-belo-horizonte-mg/17" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-04-quartos-a-venda-no-bairro-betania-belo-horizonte-mg/16" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-de-03-quartos-no-bairro-hhavia-belo-horizonte-mg/920" target="_blank" rel="noopener">Casa | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-havai/612" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-3-quartos-com-elevador-e-2-vagas-bairro-salgado-filho-bh/1140" target="_blank" rel="noopener">Cobertura | Salgado Filho - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-3-quartos-com-elevador-e-2-vagas-bairro-salgado-filho-bh/1139" target="_blank" rel="noopener">Cobertura | Salgado Filho - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-no-bairro-havai-belo-horizonte-mg/1089" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-de-5-quartos-para-venda-no-bairro-betania-localizado-na-cidade-de-belo-horizonte-mg/308" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-palmeiras-belo-horizonte-mg/101" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-com-4-quartos-e-galpao-independente-a-venda-no-bairro-betania/1210" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-no-bairro-havai-em-bh-3-quartos-e-141-m/1206" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-a-venda-3-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/1131" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-com-area-externa-e-3-quartos-no-bairro-havai-bh/1130" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-4-quartos-a-venda-no-bairro-havai-belo-horizonte-mg/1211" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/431" target="_blank" rel="noopener">Casa | Palmeiras - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-para-venda-em-belo-horizonte-mg-no-bairro-betania/889" target="_blank" rel="noopener">Cobertura | Betânia - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-salgado-filho-belo-horizonte-mg/1026" target="_blank" rel="noopener">Casa | Salgado Filho - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-palmeiras/408" target="_blank" rel="noopener">Lote | Palmeiras - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-marajo-belo-horizonte-mg/837" target="_blank" rel="noopener">Casa | Marajó - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-no-bairro-havai-em-bh-2-quartos-e-1245m/1218" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-em-belo-horizonte-mg-no-bairro-betania/47" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-para-venda-no-bairro-palmeiras-em-belo-horizonte-mg/1095" target="_blank" rel="noopener">Cobertura | Palmeiras - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-de-2-quartos-na-planta-a-venda-no-bairro-estrela-dalva-em-belohorizonte-mg/1114" target="_blank" rel="noopener">Cobertura | Estrela Dalva - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-2-quartos-na-planta-a-venda-no-bairro-havai-bh/1133" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-3-quartos-a-venda-no-bairro-salgado-filho-belo-horizonte-mg/1190" target="_blank" rel="noopener">Área privativa | Salgado Filho - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-03-quartos-a-venda-no-bairro-betania-belo-horizonte-mg/1166" target="_blank" rel="noopener">Apartamento | Estrela do Oriente - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/cobertura-na-planta-a-venda-2-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/1132" target="_blank" rel="noopener">Cobertura | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-3-quartos-com-elevador-e-2-vagas-bairro-salgado-filho-bh/1138" target="_blank" rel="noopener">Área privativa | Salgado Filho - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-3-quartos-1-suite-2-vagas-parque-sao-jose-belo-horizonte-mg/1188" target="_blank" rel="noopener">Casa | Parque São José - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-a-venda-no-bairro-havai-em-belo-horizonte/1039" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-exclusiva-no-bairro-havai-bh-mg/1119" target="_blank" rel="noopener">Área privativa | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-exclusiva-no-bairro-havai-bh-mg/1118" target="_blank" rel="noopener">Área privativa | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-95m-no-buritis-3-quartos-c-suite-2-vagas-excelente-oportunidade/1171" target="_blank" rel="noopener">Apartamento | Buritis - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-havai/611" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-na-planta-a-venda-no-bairro-havai-belo-horizonte/1197" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-havai/626" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-de-03-quartos-para-venda-no-bairro-nova-suissa-belo-horizonte-mg/499" target="_blank" rel="noopener">Área privativa | Nova Suíssa - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-em-belo-horizonte-mg-no-bairro-salgado-filho/242" target="_blank" rel="noopener">Lote | Salgado Filho - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-de-54063-m-a-venda-bairro-palmeiras-bh/85" target="_blank" rel="noopener">Lote | Palmeiras - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-03-quartos-a-venda-no-bairro-palmeiras-belo-horizonte-mg/483" target="_blank" rel="noopener">Apartamento | Palmeiras - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-no-palmeiras-belo-horizonte-excelente-oportunidade/1189" target="_blank" rel="noopener">Apartamento | Palmeiras - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-3-quartos-2-vagas-havai-belo-horizonte-mg/1204" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-3-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/1202" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-na-planta-a-venda-no-bairro-havai-belo-horizonte/1201" target="_blank" rel="noopener">Área privativa | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-no-bairro-havai-3-quartos-e-suite/1122" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-de-02-quartos-a-venda-no-bairro-havai-belo-horizonte-bh/1120" target="_blank" rel="noopener">Área privativa | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-no-bairro-havai-3-quartos-e-suite/1124" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-havai-belo-horizonte-mg/829" target="_blank" rel="noopener">Casa | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/area-privativa-exclusiva-no-bairro-havai-bh-mg/1121" target="_blank" rel="noopener">Área privativa | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-com-3-quartos-1-suite-e-1-vaga-frente-bairro-havai-belo-horizonte-mg/1185" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-residencial-exclusivo-a-venda-no-bairro-havai-belo-horizonte-mg/1180" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-2-quartos-havai-belo-horizonte-mg/1205" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-na-planta-a-venda-2-quartos-1-vaga-havai-belo-horizonte-mg/1203" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-em-belo-horizonte-bairro-havai-2-quartos-1-suite-e-2-vagas/1167" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-2-quartos-na-planta-a-venda-no-bairro-estrela-dalva-em-belohorizonte-mg/1107" target="_blank" rel="noopener">Apartamento | Estrela Dalva - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-3-quartos-no-bairro-havai/1067" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-no-havai-bh-2-vagas-aceita-financiamento/1128" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-no-havai-bh-2-vagas-aceita-financiamento/1126" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quarto-na-planta-para-venda-em-belo-horizonte-mg-no-bairro-betania/983" target="_blank" rel="noopener">Apartamento | Betânia - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-nova-cintra-belo-horizonte-mg/1061" target="_blank" rel="noopener">Casa | Betânia - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-a-venda-no-bairro-havai-belo-horizonte-mg/1056" target="_blank" rel="noopener">Lote | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-3-quartos-para-venda-no-bairro-marajo-belo-horizonte-mg/1170" target="_blank" rel="noopener">Apartamento | Marajó - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-c-planejados-a-venda-no-bairro-betania-belo-horizonte-mg/846" target="_blank" rel="noopener">Apartamento | Betânia - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/lote-para-venda-no-bairro-salgado-filho-belo-horizonte-mg/861" target="_blank" rel="noopener">Lote | Salgado Filho - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-para-venda-em-belo-horizonte-mg-no-bairro-havai/1030" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/loja-para-venda-no-bairro-betania-belo-horizonte-mg/828" target="_blank" rel="noopener">Loja | Betânia - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-02-quartos-para-venda-no-bairro-havai-belo-horizonte-mg/1010" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-geminada-para-venda-no-bairro-havai-belo-horizonte-mg/1198" target="_blank" rel="noopener">Casa geminada | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-02-quartos-no-bairro-havai-para-venda-belo-horizonte-mg/1068" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-em-belo-horizonte-mg-no-bairro-havai/1177" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/casa-geminada-para-venda-em-belo-horizonte-mg-no-bairro-marajo/1207" target="_blank" rel="noopener">Casa geminada | Marajó - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-a-venda-no-bairro-havai-belo-horizonte-frente-1-vaga/538" target="_blank" rel="noopener">Apartamento | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+        <div class="item novo">
+          <a href="https://www.paulotavaresimoveis.com.br/imovel/loja-para-venda-em-belo-horizonte-mg-no-bairro-havai/134" target="_blank" rel="noopener">Loja | Havaí - Belo Horizonte</a>
+          <span class="badge">NOVO</span>
+          <div class="meta">visto pela primeira vez em 13/08/2026 15:36</div>
+        </div>
+</div>
+
 </body>
 </html>
