@@ -672,7 +672,44 @@
       "primeira_vez": "13/08/2026 16:33"
     }
   },
-  "sensale": {},
+  "sensale": {
+    "https://sensaleimoveis.com.br/imovel/SE851302/apartamento-3-quartos-salgado-filho-belo-horizonte/aluguel": {
+      "titulo": "Apartamento com 3 Quartos para alugar, 54m² - Salgado Filho",
+      "primeira_vez": "13/08/2026 16:59"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851276/apartamento-2-quartos-palmeiras-belo-horizonte/aluguel": {
+      "titulo": "Lindíssimo apartamento para locação no Palmeiras !!!",
+      "primeira_vez": "13/08/2026 16:59"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851254/apartamento-2-quartos-palmeiras-belo-horizonte/aluguel": {
+      "titulo": "Apartamento com 2 Quartos para alugar, 60m² - Palmeiras",
+      "primeira_vez": "13/08/2026 16:59"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851224/apartamento-2-quartos-havai-belo-horizonte/aluguel": {
+      "titulo": "Apartamento",
+      "primeira_vez": "13/08/2026 16:59"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851170/apartamento-2-quartos-salgado-filho-belo-horizonte/venda": {
+      "titulo": "APARTAMENTO 2 QUARTOS 2 VAGAS 300 MIL SALGADO FILHO",
+      "primeira_vez": "13/08/2026 16:59"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851126/casa-3-quartos-havai-belo-horizonte/aluguel": {
+      "titulo": "Casa para alugar com 140m², 3 quartos e 3 vagas",
+      "primeira_vez": "13/08/2026 16:59"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851084/apartamento-3-quartos-estrela-dalva-belo-horizonte/venda": {
+      "titulo": "Excelente apartamento à venda no Estrela Dalva !!!",
+      "primeira_vez": "13/08/2026 16:59"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851051/apartamento-3-quartos-estoril-belo-horizonte/venda": {
+      "titulo": "Apartamento à venda com 81m², 3 quartos e 2 vagas",
+      "primeira_vez": "13/08/2026 16:59"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE850943/apartamento-2-quartos-havai-belo-horizonte/venda": {
+      "titulo": "Apartamento à venda com 68m², 2 quartos e 1 vaga",
+      "primeira_vez": "13/08/2026 16:59"
+    }
+  },
   "leo_batista": {
     "https://www.leobatistaimoveis.com.br/225/imoveis/venda-apartamento-2-quartos-estrela-do-oriente-belo-horizonte-mg": {
       "titulo": "MAIS DETALHES",
