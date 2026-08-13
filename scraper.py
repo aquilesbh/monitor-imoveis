@@ -24,7 +24,7 @@ import re
 import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 from playwright.sync_api import sync_playwright
 
@@ -48,7 +48,7 @@ SITES = [
             "?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1"
         ),
         "base": "https://www.paulotavaresimoveis.com.br",
-        "link_pattern": r"/imovel/",
+        "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
     },
     {
         "key": "inteligencia_bh",
@@ -59,7 +59,7 @@ SITES = [
             "?&pagina=1"
         ),
         "base": "https://www.inteligenciaimobiliariabh.com.br",
-        "link_pattern": r"/imovel/",
+        "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
     },
     {
         "key": "bihain",
@@ -69,7 +69,7 @@ SITES = [
             "estrela-dalva+betania+cinquentenario+palmeiras+marajo+estrela-do-oriente+parque-sao-jose"
         ),
         "base": "https://www.bihainimoveis.com.br",
-        "link_pattern": r"/imovel/",
+        "link_pattern": r"/imovel/[^/?#]+/[A-Za-z]{2,3}\d+-[A-Za-z]+",
     },
     {
         "key": "palmeiras",
@@ -80,7 +80,7 @@ SITES = [
             "&bairros=18489,1385,3879,6075,6794"
         ),
         "base": "https://www.imobiliariapalmeiras.com.br",
-        "link_pattern": r"/imovel/",
+        "link_pattern": r"/imovel/[^/?#]+/IP-\d+",
     },
     {
         "key": "gr_imoveis",
@@ -91,7 +91,7 @@ SITES = [
             "+palmeiras+parque-sao-jose+salgado-filho+salgado-filho-nova-suissa/?&pagina=1"
         ),
         "base": "https://www.grimoveis.com.br",
-        "link_pattern": r"/imovel/",
+        "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
     },
     {
         "key": "sensale",
@@ -104,7 +104,7 @@ SITES = [
             "&valor%5B0%5D=&valor%5B1%5D="
         ),
         "base": "https://sensaleimoveis.com.br",
-        "link_pattern": r"/imovel/",
+        "link_pattern": r"/imovel/[^/?#]+/[^/?#]+",
     },
     {
         "key": "leo_batista",
@@ -114,7 +114,7 @@ SITES = [
             "betania-cinquentenario-estrela-do-oriente/imoveis/4281/1"
         ),
         "base": "https://www.leobatistaimoveis.com.br",
-        "link_pattern": r"/\d+/imoveis/",
+        "link_pattern": r"^/\d+/imoveis/(venda|loca)",
     },
     {
         "key": "genesis",
@@ -126,12 +126,12 @@ SITES = [
             "0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1"
         ),
         "base": "https://www.genesisimoveis.com.br",
-        "link_pattern": r"/imovel/",
+        "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
     },
 ]
 
 MAX_PAGES = 20            # trava de segurança para não entrar em loop infinito por site
-WAIT_MS = 2500             # tempo extra de espera após o carregamento da página
+WAIT_MS = 4000             # tempo extra de espera após o carregamento da página
 SCROLL_TRIES = 4           # tentativas de "rolar para carregar mais" por página
 NAV_TIMEOUT_MS = 45000
 
@@ -139,6 +139,20 @@ DATA_FILE = Path(__file__).parent / "data" / "seen.json"
 OUTPUT_HTML = Path(__file__).parent / "docs" / "index.html"
 
 BR_TZ = timezone(timedelta(hours=-3))
+
+
+def eh_link_do_proprio_site(href_abs, base_url):
+    """
+    Só aceita links http(s) que apontem para o MESMO domínio do site sendo
+    monitorado. Isso descarta de cara botões de compartilhar (WhatsApp,
+    Facebook, LinkedIn, Twitter), links "javascript:...", "mailto:", etc.
+    """
+    p = urlparse(href_abs)
+    if p.scheme not in ("http", "https"):
+        return False
+    base_netloc = urlparse(base_url).netloc.lower().replace("www.", "")
+    href_netloc = p.netloc.lower().replace("www.", "")
+    return href_netloc == base_netloc
 
 
 def coletar_links_da_pagina(page, base_url, link_pattern):
@@ -154,9 +168,14 @@ def coletar_links_da_pagina(page, base_url, link_pattern):
     resultados = {}
     for a in anchors:
         href = a.get("href") or ""
-        if not href or not regex.search(href):
+        if not href:
             continue
         href_abs = urljoin(base_url, href)
+        if not eh_link_do_proprio_site(href_abs, base_url):
+            continue
+        caminho = urlparse(href_abs).path  # só o caminho, sem domínio nem query string
+        if not regex.search(caminho):
+            continue
         titulo = a.get("text") or ""
         if href_abs not in resultados or len(titulo) > len(resultados[href_abs]):
             resultados[href_abs] = titulo
@@ -230,6 +249,26 @@ def tentar_carregar_mais_via_scroll(page, contagem_antes):
     return True
 
 
+def tentar_fechar_banner_cookies(page):
+    """
+    Alguns sites mostram um banner de cookies/LGPD que fica por cima do
+    conteúdo. Tenta clicar em botões comuns de aceitar, se existir algum.
+    Não é um problema se não encontrar nada.
+    """
+    try:
+        botao = page.locator(
+            "button:has-text('aceit'), button:has-text('Aceit'), "
+            "button:has-text('concord'), button:has-text('Concord'), "
+            "button:has-text('entendi'), button:has-text('Entendi'), "
+            "button:has-text('OK'), a:has-text('aceit'), a:has-text('Aceit')"
+        ).first
+        if botao and botao.is_visible():
+            botao.click(timeout=2000)
+            page.wait_for_timeout(800)
+    except Exception:
+        pass
+
+
 def coletar_site(site):
     encontrados_total = {}
     with sync_playwright() as p:
@@ -253,6 +292,7 @@ def coletar_site(site):
             return encontrados_total
 
         page.wait_for_timeout(WAIT_MS)
+        tentar_fechar_banner_cookies(page)
 
         links_pagina_anterior = set()
         for numero_pagina in range(1, MAX_PAGES + 1):
@@ -262,6 +302,22 @@ def coletar_site(site):
                 pass
 
             encontrados = coletar_links_da_pagina(page, site["base"], site["link_pattern"])
+
+            # Se a primeira página veio vazia, o app pode não ter renderizado a
+            # tempo. Tenta rolar e, em último caso, recarregar a página uma vez.
+            if numero_pagina == 1 and not encontrados:
+                tentar_carregar_mais_via_scroll(page, 0)
+                encontrados = coletar_links_da_pagina(page, site["base"], site["link_pattern"])
+                if not encontrados:
+                    print("  Nada encontrado de primeira, tentando recarregar a página...")
+                    try:
+                        page.reload(wait_until="networkidle")
+                        page.wait_for_timeout(WAIT_MS)
+                        tentar_fechar_banner_cookies(page)
+                        encontrados = coletar_links_da_pagina(page, site["base"], site["link_pattern"])
+                    except Exception as e:
+                        print(f"  Falha ao recarregar: {e}")
+
             print(f"  Página {numero_pagina}: {len(encontrados)} imóveis encontrados")
 
             novos_nesta_pagina = set(encontrados.keys()) - links_pagina_anterior
