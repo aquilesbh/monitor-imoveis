@@ -1,19 +1,22 @@
 """
-Monitor de imóveis - Paulo Tavares Imóveis
+Monitor de imóveis - várias imobiliárias
 --------------------------------------------------
 Este script:
-1. Abre a página de busca (com os bairros já filtrados) usando um navegador
-   headless (Playwright), porque o site carrega a lista de imóveis via
-   JavaScript e não aparece em um simples "download" da página.
+1. Para cada imobiliária configurada em SITES, abre a página de busca (com
+   os bairros já filtrados) usando um navegador headless (Playwright),
+   porque esses sites carregam a lista de imóveis via JavaScript e não
+   aparecem em um simples "download" da página.
 2. Percorre as páginas de resultado (paginação) até não encontrar mais nada
-   novo.
+   novo — tentando primeiro achar um link/botão de "próxima página" e, se
+   não achar, tentando rolar a página (scroll infinito).
 3. Compara os links encontrados com o que já foi visto em execuções
-   anteriores (guardado em data/seen.json).
-4. Gera um painel HTML (docs/index.html) destacando os imóveis novos.
+   anteriores (guardado em data/seen.json, organizado por imobiliária).
+4. Gera um painel HTML (docs/index.html) com uma aba para cada imobiliária,
+   destacando os imóveis novos.
 
-Você não precisa mexer neste arquivo. Se um dia quiser trocar o filtro de
-bairros, basta trocar a variável SEARCH_URL abaixo pelo novo link que o
-próprio site gera quando você aplica os filtros.
+Você não precisa mexer neste arquivo no dia a dia. Se quiser adicionar,
+remover ou trocar o filtro de alguma imobiliária, edite a lista SITES logo
+abaixo.
 """
 
 import json
@@ -26,19 +29,110 @@ from urllib.parse import urljoin
 from playwright.sync_api import sync_playwright
 
 # --------------------------------------------------------------------------
-# CONFIGURAÇÃO — pode editar aqui se quiser mudar bairros/filtros no futuro.
-# Basta copiar a URL nova da barra de endereço do site depois de aplicar os
-# filtros desejados.
+# CONFIGURAÇÃO — uma entrada para cada imobiliária monitorada.
+#   name:  nome que aparece no painel
+#   url:   link de busca já com os bairros/filtros aplicados
+#   base:  domínio base do site (para resolver links relativos)
+#   link_pattern: pedaço do link que identifica a página de UM imóvel
+#                 (usado para separar links de imóveis dos outros links do
+#                 site, tipo menu, rodapé, etc.)
 # --------------------------------------------------------------------------
-SEARCH_URL = (
-    "https://www.paulotavaresimoveis.com.br/venda/imoveis/belo-horizonte/"
-    "betania--cinquentenario--marajo--palmeiras--salgado-filho--parque-sao-jose--havai/"
-    "0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios"
-    "?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina={page}"
-)
-BASE_URL = "https://www.paulotavaresimoveis.com.br"
-MAX_PAGES = 25          # trava de segurança para não entrar em loop infinito
-WAIT_MS = 2500           # tempo extra de espera após o carregamento da página
+SITES = [
+    {
+        "key": "paulo_tavares",
+        "name": "Paulo Tavares Imóveis",
+        "url": (
+            "https://www.paulotavaresimoveis.com.br/venda/imoveis/belo-horizonte/"
+            "betania--cinquentenario--marajo--palmeiras--salgado-filho--parque-sao-jose--havai/"
+            "0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios"
+            "?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1"
+        ),
+        "base": "https://www.paulotavaresimoveis.com.br",
+        "link_pattern": r"/imovel/",
+    },
+    {
+        "key": "inteligencia_bh",
+        "name": "Inteligência Imobiliária BH",
+        "url": (
+            "https://www.inteligenciaimobiliariabh.com.br/venda/imovel/belo-horizonte/"
+            "betania+cinquentenario+palmeiras+parque-sao-jose+marajo+estrela-do-oriente+havai+salgado-filho/"
+            "?&pagina=1"
+        ),
+        "base": "https://www.inteligenciaimobiliariabh.com.br",
+        "link_pattern": r"/imovel/",
+    },
+    {
+        "key": "bihain",
+        "name": "Bihain Imóveis",
+        "url": (
+            "https://www.bihainimoveis.com.br/imoveis/a-venda/belo-horizonte/"
+            "estrela-dalva+betania+cinquentenario+palmeiras+marajo+estrela-do-oriente+parque-sao-jose"
+        ),
+        "base": "https://www.bihainimoveis.com.br",
+        "link_pattern": r"/imovel/",
+    },
+    {
+        "key": "palmeiras",
+        "name": "Imobiliária Palmeiras",
+        "url": (
+            "https://www.imobiliariapalmeiras.com.br/imoveis/venda/#/?tipoNegocio=VA,VL"
+            "&n=1&ordem=valor-ASC&mb=s&slug=0&page=1"
+            "&bairros=18489,1385,3879,6075,6794"
+        ),
+        "base": "https://www.imobiliariapalmeiras.com.br",
+        "link_pattern": r"/imovel/",
+    },
+    {
+        "key": "gr_imoveis",
+        "name": "GR Imóveis",
+        "url": (
+            "https://www.grimoveis.com.br/venda/apartamento/belo-horizonte/"
+            "betania+cinquentenario+estrela-d-alva+estrela-dalva+estrela-do-oriente+havai+marajo"
+            "+palmeiras+parque-sao-jose+salgado-filho+salgado-filho-nova-suissa/?&pagina=1"
+        ),
+        "base": "https://www.grimoveis.com.br",
+        "link_pattern": r"/imovel/",
+    },
+    {
+        "key": "sensale",
+        "name": "Sensale Imóveis",
+        "url": (
+            "https://sensaleimoveis.com.br/busca/?cidade%5B%5D=belo+horizonte"
+            "&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE"
+            "&bairro%5B%5D=Cinquenten%C3%A1rio&bairro%5B%5D=Estrela+Dalva"
+            "&bairro%5B%5D=Hava%C3%AD&bairro%5B%5D=Palmeiras&bairro%5B%5D=Salgado+Filho"
+            "&valor%5B0%5D=&valor%5B1%5D="
+        ),
+        "base": "https://sensaleimoveis.com.br",
+        "link_pattern": r"/imovel/",
+    },
+    {
+        "key": "leo_batista",
+        "name": "Léo Batista Imóveis",
+        "url": (
+            "https://www.leobatistaimoveis.com.br/imobiliaria/venda/belo-horizonte-mg/"
+            "betania-cinquentenario-estrela-do-oriente/imoveis/4281/1"
+        ),
+        "base": "https://www.leobatistaimoveis.com.br",
+        "link_pattern": r"/\d+/imoveis/",
+    },
+    {
+        "key": "genesis",
+        "name": "Genesis Imóveis",
+        "url": (
+            "https://www.genesisimoveis.com.br/venda/imoveis/belo-horizonte/"
+            "cinquentenario--betania--cinquentenario--estrela-do-oriente--estrela-dalva--havai"
+            "--marajo--palmeiras--parque-sao-jose--salgado-filho/0-quartos/0-suite-ou-mais/0-vaga/"
+            "0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1"
+        ),
+        "base": "https://www.genesisimoveis.com.br",
+        "link_pattern": r"/imovel/",
+    },
+]
+
+MAX_PAGES = 20            # trava de segurança para não entrar em loop infinito por site
+WAIT_MS = 2500             # tempo extra de espera após o carregamento da página
+SCROLL_TRIES = 4           # tentativas de "rolar para carregar mais" por página
 NAV_TIMEOUT_MS = 45000
 
 DATA_FILE = Path(__file__).parent / "data" / "seen.json"
@@ -47,30 +141,97 @@ OUTPUT_HTML = Path(__file__).parent / "docs" / "index.html"
 BR_TZ = timezone(timedelta(hours=-3))
 
 
-def coletar_links_da_pagina(page):
+def coletar_links_da_pagina(page, base_url, link_pattern):
     """Extrai todos os links de imóveis visíveis na página atual."""
     anchors = page.eval_on_selector_all(
-        "a[href*='/imovel/']",
+        "a[href]",
         """els => els.map(el => ({
             href: el.getAttribute('href'),
             text: (el.innerText || el.textContent || '').trim()
         }))""",
     )
+    regex = re.compile(link_pattern)
     resultados = {}
     for a in anchors:
         href = a.get("href") or ""
-        if not href:
+        if not href or not regex.search(href):
             continue
-        href_abs = urljoin(BASE_URL, href)
+        href_abs = urljoin(base_url, href)
         titulo = a.get("text") or ""
-        # fica com o texto mais longo encontrado para aquele link
         if href_abs not in resultados or len(titulo) > len(resultados[href_abs]):
             resultados[href_abs] = titulo
     return resultados
 
 
-def coletar_todos_os_imoveis():
-    todos = {}
+def tentar_ir_para_proxima_pagina(page, pagina_atual):
+    """
+    Tenta descobrir e navegar para a próxima página de resultados.
+    Retorna True se conseguiu navegar, False se não achou como.
+    """
+    proxima_num = str(pagina_atual + 1)
+
+    tentativas_js = f"""
+    () => {{
+        // 1) link com rel="next"
+        const relNext = document.querySelector('a[rel="next"]');
+        if (relNext && relNext.href) return relNext.href;
+
+        // 2) link numerado com o próximo número da página
+        const links = Array.from(document.querySelectorAll('a[href]'));
+        const porNumero = links.find(a => (a.innerText || '').trim() === '{proxima_num}');
+        if (porNumero && porNumero.href) return porNumero.href;
+
+        // 3) link/bot\u00e3o com texto tipo "Pr\u00f3xima", "Seguinte", ">", "»"
+        const textoProximo = links.find(a => {{
+            const t = (a.innerText || '').trim().toLowerCase();
+            return t === '>' || t === '»' || t.includes('próxima') || t.includes('proxima')
+                || t.includes('seguinte') || t.includes('next') || t.includes('carregar mais')
+                || t.includes('ver mais');
+        }});
+        if (textoProximo && textoProximo.href) return textoProximo.href;
+
+        return null;
+    }}
+    """
+    try:
+        href = page.evaluate(tentativas_js)
+    except Exception:
+        href = None
+
+    if href:
+        try:
+            page.goto(href, wait_until="networkidle")
+            return True
+        except Exception:
+            return False
+    return False
+
+
+def tentar_carregar_mais_via_scroll(page, contagem_antes):
+    """
+    Para sites com scroll infinito ou botão 'carregar mais' via JS (sem link
+    navegável): rola a página algumas vezes e verifica se mais itens
+    apareceram.
+    """
+    for _ in range(SCROLL_TRIES):
+        page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        page.wait_for_timeout(1800)
+        # tenta clicar em algo como "carregar mais" se existir um botão (não link)
+        try:
+            botao = page.locator(
+                "button:has-text('carregar mais'), button:has-text('ver mais'), "
+                "button:has-text('mais imóveis')"
+            ).first
+            if botao and botao.is_visible():
+                botao.click(timeout=2000)
+                page.wait_for_timeout(1500)
+        except Exception:
+            pass
+    return True
+
+
+def coletar_site(site):
+    encontrados_total = {}
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(
@@ -83,52 +244,74 @@ def coletar_todos_os_imoveis():
         page = context.new_page()
         page.set_default_navigation_timeout(NAV_TIMEOUT_MS)
 
-        pagina_anterior_vazia = False
+        print(f"Abrindo: {site['url']}")
+        try:
+            page.goto(site["url"], wait_until="networkidle")
+        except Exception as e:
+            print(f"  Falha ao carregar a página inicial: {e}")
+            browser.close()
+            return encontrados_total
+
+        page.wait_for_timeout(WAIT_MS)
+
         links_pagina_anterior = set()
-
         for numero_pagina in range(1, MAX_PAGES + 1):
-            url = SEARCH_URL.format(page=numero_pagina)
-            print(f"Verificando página {numero_pagina}: {url}")
             try:
-                page.goto(url, wait_until="networkidle")
-            except Exception as e:
-                print(f"  Falha ao carregar a página {numero_pagina}: {e}")
-                break
-
-            # espera extra para o JavaScript terminar de montar a lista
-            page.wait_for_timeout(WAIT_MS)
-            try:
-                page.wait_for_selector("a[href*='/imovel/']", timeout=8000)
+                page.wait_for_selector("a[href]", timeout=8000)
             except Exception:
-                pass  # pode ser que essa página realmente não tenha imóveis
+                pass
 
-            encontrados = coletar_links_da_pagina(page)
+            encontrados = coletar_links_da_pagina(page, site["base"], site["link_pattern"])
+            print(f"  Página {numero_pagina}: {len(encontrados)} imóveis encontrados")
 
-            if not encontrados:
-                print("  Nenhum imóvel encontrado nesta página. Parando.")
-                break
-
-            # se a página atual tem exatamente os mesmos links da anterior,
-            # provavelmente o site parou de paginar e está repetindo a última página
-            if set(encontrados.keys()) == links_pagina_anterior:
-                print("  Página repetida (provável fim da lista). Parando.")
-                break
+            novos_nesta_pagina = set(encontrados.keys()) - links_pagina_anterior
+            if not encontrados or (numero_pagina > 1 and not novos_nesta_pagina):
+                # tenta rolar (scroll infinito) antes de desistir de vez
+                tentar_carregar_mais_via_scroll(page, len(encontrados))
+                encontrados_apos_scroll = coletar_links_da_pagina(
+                    page, site["base"], site["link_pattern"]
+                )
+                if len(encontrados_apos_scroll) > len(encontrados):
+                    encontrados = encontrados_apos_scroll
+                else:
+                    encontrados_total.update(encontrados)
+                    print("  Sem novidades nesta página. Parando por aqui.")
+                    break
 
             links_pagina_anterior = set(encontrados.keys())
-            todos.update(encontrados)
+            encontrados_total.update(encontrados)
+
+            conseguiu_navegar = tentar_ir_para_proxima_pagina(page, numero_pagina)
+            if not conseguiu_navegar:
+                print("  Não encontrei como ir para a próxima página. Parando por aqui.")
+                break
+
+            page.wait_for_timeout(WAIT_MS)
             time.sleep(1.5)  # pausa educada entre as páginas
 
         browser.close()
-    return todos
+    return encontrados_total
 
 
 def carregar_estado_anterior():
-    if DATA_FILE.exists():
-        try:
-            return json.loads(DATA_FILE.read_text(encoding="utf-8"))
-        except json.JSONDecodeError:
-            return {}
-    return {}
+    if not DATA_FILE.exists():
+        return {}
+    try:
+        estado = json.loads(DATA_FILE.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+
+    # Migração automática: versões antigas deste script guardavam o estado
+    # no formato {href: {...}} (uma imobiliária só). Se detectarmos esse
+    # formato antigo, movemos tudo para dentro da primeira imobiliária da
+    # lista SITES, para não perder o histórico já coletado.
+    if estado and all(
+        isinstance(v, dict) and "titulo" in v for v in estado.values()
+    ) and not any(k in estado for k in [s["key"] for s in SITES]):
+        primeiro_site = SITES[0]["key"]
+        return {primeiro_site: estado}
+
+    return estado
 
 
 def salvar_estado(estado):
@@ -149,35 +332,62 @@ def limpar_titulo(titulo, href):
     return linhas[0] if linhas else titulo.strip()
 
 
-def gerar_html(estado, novos_hrefs, ultima_verificacao):
-    itens = list(estado.items())
-    # novos primeiro, depois por data em que foram vistos pela primeira vez (mais recente primeiro)
-    itens.sort(key=lambda kv: (kv[0] not in novos_hrefs, kv[1].get("primeira_vez", "")), reverse=False)
-    itens.sort(key=lambda kv: (kv[0] not in novos_hrefs), reverse=False)
+def gerar_html(estado_por_site, novos_por_site, ultima_verificacao):
+    abas_botoes = []
+    abas_conteudo = []
 
-    linhas_html = []
-    for href, info in itens:
-        titulo = info.get("titulo", href)
-        eh_novo = href in novos_hrefs
-        badge = '<span class="badge">NOVO</span>' if eh_novo else ""
-        classe = "item novo" if eh_novo else "item"
-        primeira_vez = info.get("primeira_vez", "")
-        linhas_html.append(f"""
-        <div class="{classe}">
-          <a href="{href}" target="_blank" rel="noopener">{titulo}</a>
-          {badge}
-          <div class="meta">visto pela primeira vez em {primeira_vez}</div>
+    total_geral = sum(len(v) for v in estado_por_site.values())
+    total_novos_geral = sum(len(v) for v in novos_por_site.values())
+
+    site_por_key = {s["key"]: s for s in SITES}
+
+    for indice, site in enumerate(SITES):
+        key = site["key"]
+        nome = site["name"]
+        estado = estado_por_site.get(key, {})
+        novos_hrefs = novos_por_site.get(key, set())
+
+        itens = list(estado.items())
+        itens.sort(key=lambda kv: (kv[0] not in novos_hrefs))
+
+        linhas_html = []
+        for href, info in itens:
+            titulo = info.get("titulo", href)
+            eh_novo = href in novos_hrefs
+            badge = '<span class="badge">NOVO</span>' if eh_novo else ""
+            classe = "item novo" if eh_novo else "item"
+            primeira_vez = info.get("primeira_vez", "")
+            linhas_html.append(f"""
+            <div class="{classe}">
+              <a href="{href}" target="_blank" rel="noopener">{titulo}</a>
+              {badge}
+              <div class="meta">visto pela primeira vez em {primeira_vez}</div>
+            </div>""")
+
+        qtd_novos = len(novos_hrefs)
+        badge_aba = f'<span class="badge-aba">{qtd_novos}</span>' if qtd_novos else ""
+        ativa = "active" if indice == 0 else ""
+
+        abas_botoes.append(
+            f'<button class="tab-btn {ativa}" data-tab="{key}">{nome}{badge_aba}</button>'
+        )
+        abas_conteudo.append(f"""
+        <div class="tab-content {ativa}" id="tab-{key}">
+          <div class="resumo">
+            <div class="card"><div class="num">{len(estado)}</div><div class="label">imóveis monitorados</div></div>
+            <div class="card"><div class="num">{qtd_novos}</div><div class="label">novos agora</div></div>
+          </div>
+          <div class="lista">
+            {"".join(linhas_html) if linhas_html else "<p>Nenhum imóvel encontrado ainda nesta imobiliária.</p>"}
+          </div>
         </div>""")
-
-    total = len(estado)
-    total_novos = len(novos_hrefs)
 
     html = f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Monitor de Imóveis - Paulo Tavares</title>
+<title>Monitor de Imóveis</title>
 <style>
   body {{
     font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
@@ -200,15 +410,15 @@ def gerar_html(estado, novos_hrefs, ultima_verificacao):
     opacity: 0.8;
     font-size: 14px;
   }}
-  .resumo {{
-    max-width: 720px;
+  .resumo-geral {{
+    max-width: 900px;
     margin: 20px auto 0;
     padding: 0 20px;
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
   }}
-  .resumo .card {{
+  .resumo-geral .card, .resumo .card {{
     background: white;
     border-radius: 10px;
     padding: 14px 18px;
@@ -216,18 +426,62 @@ def gerar_html(estado, novos_hrefs, ultima_verificacao):
     flex: 1;
     min-width: 140px;
   }}
-  .resumo .card .num {{
+  .resumo {{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+  }}
+  .card .num {{
     font-size: 26px;
     font-weight: 700;
   }}
-  .resumo .card .label {{
+  .card .label {{
     font-size: 13px;
     color: #666;
   }}
-  .lista {{
-    max-width: 720px;
-    margin: 24px auto;
+  .tabs {{
+    max-width: 900px;
+    margin: 24px auto 0;
     padding: 0 20px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }}
+  .tab-btn {{
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 999px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #444;
+    position: relative;
+  }}
+  .tab-btn.active {{
+    background: #1f2d3d;
+    color: white;
+    border-color: #1f2d3d;
+  }}
+  .badge-aba {{
+    display: inline-block;
+    background: #2e9e44;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 999px;
+    margin-left: 6px;
+  }}
+  .tab-content {{
+    display: none;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }}
+  .tab-content.active {{
+    display: block;
   }}
   .item {{
     background: white;
@@ -269,18 +523,32 @@ def gerar_html(estado, novos_hrefs, ultima_verificacao):
 </head>
 <body>
 <header>
-  <h1>Monitor de Imóveis — Paulo Tavares Imóveis</h1>
+  <h1>Monitor de Imóveis</h1>
   <p>Última verificação: {ultima_verificacao}</p>
 </header>
 
-<div class="resumo">
-  <div class="card"><div class="num">{total}</div><div class="label">imóveis monitorados no total</div></div>
-  <div class="card"><div class="num">{total_novos}</div><div class="label">novos desde a última verificação</div></div>
+<div class="resumo-geral">
+  <div class="card"><div class="num">{total_geral}</div><div class="label">imóveis monitorados no total</div></div>
+  <div class="card"><div class="num">{total_novos_geral}</div><div class="label">novos em todas as imobiliárias</div></div>
 </div>
 
-<div class="lista">
-{"".join(linhas_html) if linhas_html else "<p>Nenhum imóvel encontrado ainda.</p>"}
+<div class="tabs">
+  {"".join(abas_botoes)}
 </div>
+
+{"".join(abas_conteudo)}
+
+<script>
+  document.querySelectorAll('.tab-btn').forEach(function(btn) {{
+    btn.addEventListener('click', function() {{
+      var key = btn.getAttribute('data-tab');
+      document.querySelectorAll('.tab-btn').forEach(function(b) {{ b.classList.remove('active'); }});
+      document.querySelectorAll('.tab-content').forEach(function(c) {{ c.classList.remove('active'); }});
+      btn.classList.add('active');
+      document.getElementById('tab-' + key).classList.add('active');
+    }});
+  }});
+</script>
 
 </body>
 </html>
@@ -291,30 +559,42 @@ def gerar_html(estado, novos_hrefs, ultima_verificacao):
 
 def main():
     estado_anterior = carregar_estado_anterior()
-    encontrados_agora = coletar_todos_os_imoveis()
-
     agora = datetime.now(BR_TZ).strftime("%d/%m/%Y %H:%M")
 
-    novos_hrefs = set()
-    estado_novo = dict(estado_anterior)  # mantém histórico mesmo se um imóvel sair da lista
+    estado_novo = {}
+    novos_por_site = {}
 
-    for href, titulo_bruto in encontrados_agora.items():
-        titulo = limpar_titulo(titulo_bruto, href)
-        if href not in estado_novo:
-            novos_hrefs.add(href)
-            estado_novo[href] = {"titulo": titulo, "primeira_vez": agora}
-        else:
-            # atualiza o título caso tenha mudado, mas preserva a data original
-            estado_novo[href]["titulo"] = titulo or estado_novo[href].get("titulo", "")
+    for site in SITES:
+        key = site["key"]
+        print(f"\n=== {site['name']} ===")
+        try:
+            encontrados_agora = coletar_site(site)
+        except Exception as e:
+            print(f"  ERRO ao coletar {site['name']}: {e}")
+            encontrados_agora = {}
 
-    print(f"Total de imóveis encontrados nesta execução: {len(encontrados_agora)}")
-    print(f"Novos imóveis: {len(novos_hrefs)}")
-    for href in novos_hrefs:
-        print(f"  NOVO: {href}")
+        estado_site_anterior = estado_anterior.get(key, {})
+        estado_site_novo = dict(estado_site_anterior)
+        novos_hrefs = set()
+
+        for href, titulo_bruto in encontrados_agora.items():
+            titulo = limpar_titulo(titulo_bruto, href)
+            if href not in estado_site_novo:
+                novos_hrefs.add(href)
+                estado_site_novo[href] = {"titulo": titulo, "primeira_vez": agora}
+            else:
+                estado_site_novo[href]["titulo"] = titulo or estado_site_novo[href].get("titulo", "")
+
+        print(f"  Total encontrado: {len(encontrados_agora)} | Novos: {len(novos_hrefs)}")
+        for href in novos_hrefs:
+            print(f"    NOVO: {href}")
+
+        estado_novo[key] = estado_site_novo
+        novos_por_site[key] = novos_hrefs
 
     salvar_estado(estado_novo)
-    gerar_html(estado_novo, novos_hrefs, agora)
-    print(f"Painel gerado em: {OUTPUT_HTML}")
+    gerar_html(estado_novo, novos_por_site, agora)
+    print(f"\nPainel gerado em: {OUTPUT_HTML}")
 
 
 if __name__ == "__main__":
