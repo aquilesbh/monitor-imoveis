@@ -128,6 +128,77 @@ SITES = [
         "base": "https://www.genesisimoveis.com.br",
         "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
     },
+    {
+        "key": "vpr",
+        "name": "VPR Imóveis",
+        "url": (
+            "https://www.vprimoveis.com.br/venda/belo-horizonte+cinquentenario+palmeiras"
+            "+betania+estrela-do-oriente+havai+marajo+estrela-dalva+salgado-filho"
+        ),
+        "base": "https://www.vprimoveis.com.br",
+        # Aqui os links de imóvel são só um número no domínio raiz, tipo
+        # vprimoveis.com.br/8586 — por isso o padrão exige que o caminho
+        # inteiro seja apenas dígitos.
+        "link_pattern": r"^/\d+$",
+    },
+    {
+        "key": "gade",
+        "name": "Gade Imóveis",
+        "url": (
+            "https://gadeimoveis.com.br/busca?finalidade=Venda&cidade=Belo+Horizonte"
+            "&bairro=Bet%C3%A2nia%2CCinquenten%C3%A1rio%2CEstrela+Dalva%2CEstrela+do+Oriente"
+            "%2Chavai%2CHavai%2CHava%C3%AD%2CMaraj%C3%B3%2CNova+Suissa%2CNova+Su%C3%ADssa"
+            "%2Cpalmeiras%2CPalmeiras%2CPALMEIRAS%2CParque+S%C3%A3o+Jose%2CParque+S%C3%A3o+Jos%C3%A9"
+            "%2CSalgado+Filho"
+        ),
+        "base": "https://gadeimoveis.com.br",
+        "link_pattern": r"/imovel/[^/?#]+-\d+(?:[/?#]|$)",
+    },
+    {
+        "key": "malta",
+        "name": "Malta Imóveis",
+        "url": (
+            "https://www.maltaimoveis.com.br/venda/imovel/belo-horizonte/"
+            "cinquentenario+havai+marajo+nova-suica+nova-suissa+palmeiras+salgado-filho/?&pagina=1"
+        ),
+        "base": "https://www.maltaimoveis.com.br",
+        "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
+    },
+    {
+        "key": "remax",
+        "name": "Remax",
+        "url": (
+            "https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971"
+            "&LocalZone=50095%2C50132%2C50133%2C50154%2C50208%2C50248%2C50280&CountryId=55"
+            "&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais"
+            "&LocalZoneNM=50095-Cinquenten%C3%A1rio%2C50132-Estrela+Dalva%2C50133-Estrela+do+Oriente"
+            "%2C50154-Hava%C3%AD%2C50208-Maraj%C3%B3%2C50248-Palmeiras%2C50280-Salgado+Filho"
+            "&ListingClass=-1&TransactionTypeUID=-1"
+        ),
+        "base": "https://www.remax.com.br",
+        # A Remax é uma rede: cada corretor tem seu próprio subdomínio
+        # (ex: mateusbomfim.remax.com.br), então em vez de exigir o domínio
+        # EXATO, aceitamos qualquer subdomínio que termine em remax.com.br.
+        "domain_suffix": "remax.com.br",
+        "link_pattern": r"(^/pt-br/imoveis/.+/\d{5,}-?\d*$)|(^/\d{5,}-\d+$)",
+    },
+    {
+        "key": "net_imoveis",
+        "name": "Net Imóveis",
+        "url": (
+            "https://www.netimoveis.com/venda/minas-gerais/belo-horizonte/oeste/havai"
+            "?transacao=venda&localizacao=BR-MG-belo-horizonte-havai-oeste-%2C"
+            "BR-MG-belo-horizonte-palmeiras-oeste-%2CBR-MG-belo-horizonte-estrela-dalva-oeste-%2C"
+            "BR-MG-belo-horizonte-betania-oeste-%2CBR-MG-belo-horizonte-cinquentenario-oeste-"
+            "&pagina=1"
+        ),
+        "base": "https://www.netimoveis.com",
+        # Site experimental: o link de detalhe é montado via um template
+        # (ex.: netimoveis.com/apartamento-venda-havai-bh-1185740) que
+        # termina num código numérico. Pode precisar de ajuste depois de
+        # ver o resultado real.
+        "link_pattern": r"^/[a-z0-9\-]+-\d{5,}$",
+    },
 ]
 
 MAX_PAGES = 20            # trava de segurança para não entrar em loop infinito por site
@@ -141,21 +212,27 @@ OUTPUT_HTML = Path(__file__).parent / "docs" / "index.html"
 BR_TZ = timezone(timedelta(hours=-3))
 
 
-def eh_link_do_proprio_site(href_abs, base_url):
+def eh_link_do_proprio_site(href_abs, base_url, domain_suffix=None):
     """
     Só aceita links http(s) que apontem para o MESMO domínio do site sendo
     monitorado. Isso descarta de cara botões de compartilhar (WhatsApp,
     Facebook, LinkedIn, Twitter), links "javascript:...", "mailto:", etc.
+
+    Se domain_suffix for informado (ex.: "remax.com.br"), aceita qualquer
+    subdomínio que termine nele — útil para redes onde cada corretor tem
+    seu próprio subdomínio.
     """
     p = urlparse(href_abs)
     if p.scheme not in ("http", "https"):
         return False
+    href_netloc = p.netloc.lower()
+    if domain_suffix:
+        return href_netloc == domain_suffix.lower() or href_netloc.endswith("." + domain_suffix.lower())
     base_netloc = urlparse(base_url).netloc.lower().replace("www.", "")
-    href_netloc = p.netloc.lower().replace("www.", "")
-    return href_netloc == base_netloc
+    return href_netloc.replace("www.", "") == base_netloc
 
 
-def coletar_links_da_pagina(page, base_url, link_pattern):
+def coletar_links_da_pagina(page, base_url, link_pattern, domain_suffix=None):
     """Extrai todos os links de imóveis visíveis na página atual."""
     anchors = page.eval_on_selector_all(
         "a[href]",
@@ -171,7 +248,7 @@ def coletar_links_da_pagina(page, base_url, link_pattern):
         if not href:
             continue
         href_abs = urljoin(base_url, href)
-        if not eh_link_do_proprio_site(href_abs, base_url):
+        if not eh_link_do_proprio_site(href_abs, base_url, domain_suffix):
             continue
         caminho = urlparse(href_abs).path  # só o caminho, sem domínio nem query string
         if not regex.search(caminho):
@@ -324,20 +401,20 @@ def coletar_site(site):
             except Exception:
                 pass
 
-            encontrados = coletar_links_da_pagina(page, site["base"], site["link_pattern"])
+            encontrados = coletar_links_da_pagina(page, site["base"], site["link_pattern"], site.get("domain_suffix"))
 
             # Se a primeira página veio vazia, o app pode não ter renderizado a
             # tempo. Tenta rolar e, em último caso, recarregar a página uma vez.
             if numero_pagina == 1 and not encontrados:
                 tentar_carregar_mais_via_scroll(page, 0)
-                encontrados = coletar_links_da_pagina(page, site["base"], site["link_pattern"])
+                encontrados = coletar_links_da_pagina(page, site["base"], site["link_pattern"], site.get("domain_suffix"))
                 if not encontrados:
                     print("  Nada encontrado de primeira, tentando recarregar a página...")
                     try:
                         page.reload(wait_until="networkidle")
                         page.wait_for_timeout(WAIT_MS)
                         tentar_fechar_banner_cookies(page)
-                        encontrados = coletar_links_da_pagina(page, site["base"], site["link_pattern"])
+                        encontrados = coletar_links_da_pagina(page, site["base"], site["link_pattern"], site.get("domain_suffix"))
                     except Exception as e:
                         print(f"  Falha ao recarregar: {e}")
 
@@ -348,7 +425,7 @@ def coletar_site(site):
                 # tenta rolar (scroll infinito) antes de desistir de vez
                 tentar_carregar_mais_via_scroll(page, len(encontrados))
                 encontrados_apos_scroll = coletar_links_da_pagina(
-                    page, site["base"], site["link_pattern"]
+                    page, site["base"], site["link_pattern"], site.get("domain_suffix")
                 )
                 if len(encontrados_apos_scroll) > len(encontrados):
                     encontrados = encontrados_apos_scroll
