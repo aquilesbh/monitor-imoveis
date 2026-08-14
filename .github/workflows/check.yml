@@ -37,3 +37,12 @@ jobs:
           git add data/seen.json docs/index.html
           git diff --quiet --cached || git commit -m "Atualização automática $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
+
+      - name: Guardar prints de diagnóstico (se houver)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: prints-diagnostico
+          path: debug/
+          if-no-files-found: ignore
+          retention-days: 7
