@@ -86,7 +86,7 @@ SITES = [
         "key": "gr_imoveis",
         "name": "GR Imóveis",
         "url": (
-            "https://www.grimoveis.com.br/venda/apartamento/belo-horizonte/"
+            "https://www.grimoveis.com.br/venda/imovel/belo-horizonte/"
             "betania+cinquentenario+estrela-d-alva+estrela-dalva+estrela-do-oriente+havai+marajo"
             "+palmeiras+parque-sao-jose+salgado-filho+salgado-filho-nova-suissa/?&pagina=1"
         ),
@@ -279,6 +279,18 @@ def coletar_site(site):
                 "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
             ),
             locale="pt-BR",
+            viewport={"width": 1366, "height": 800},
+            timezone_id="America/Sao_Paulo",
+        )
+        # Disfarça sinais comuns de "navegador automatizado" que alguns sites
+        # usam para bloquear ou não renderizar conteúdo para robôs.
+        context.add_init_script(
+            """
+            Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+            Object.defineProperty(navigator, 'languages', { get: () => ['pt-BR', 'pt'] });
+            Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3] });
+            window.chrome = { runtime: {} };
+            """
         )
         page = context.new_page()
         page.set_default_navigation_timeout(NAV_TIMEOUT_MS)
@@ -293,6 +305,17 @@ def coletar_site(site):
 
         page.wait_for_timeout(WAIT_MS)
         tentar_fechar_banner_cookies(page)
+
+        # Espera aparecer algo como "28 Imóveis" na tela — mais confiável do
+        # que só esperar a rede ficar quieta, principalmente em sites que
+        # carregam a contagem/lista de forma assíncrona (Angular, Vue etc).
+        try:
+            page.wait_for_function(
+                "() => /\\d+\\s*im[oó]ve/i.test(document.body.innerText)",
+                timeout=12000,
+            )
+        except Exception:
+            pass
 
         links_pagina_anterior = set()
         for numero_pagina in range(1, MAX_PAGES + 1):
@@ -344,6 +367,18 @@ def coletar_site(site):
 
             page.wait_for_timeout(WAIT_MS)
             time.sleep(1.5)  # pausa educada entre as páginas
+
+        if not encontrados_total:
+            # Nada encontrado em nenhuma página: salva uma captura de tela
+            # para dar pra diagnosticar visualmente o que o robô "viu".
+            try:
+                debug_dir = Path(__file__).parent / "debug"
+                debug_dir.mkdir(exist_ok=True)
+                caminho_print = debug_dir / f"{site['key']}.png"
+                page.screenshot(path=str(caminho_print), full_page=True)
+                print(f"  Nenhum imóvel encontrado. Print salvo em: {caminho_print}")
+            except Exception as e:
+                print(f"  Não consegui salvar o print de diagnóstico: {e}")
 
         browser.close()
     return encontrados_total
