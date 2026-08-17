@@ -294,7 +294,7 @@ def tentar_ir_para_proxima_pagina(page, pagina_atual):
     except Exception:
         href = None
 
- if href:
+     if href:
         try:
             page.goto(href, wait_until="networkidle")
             return True
