@@ -193,11 +193,8 @@ SITES = [
             "&pagina=1"
         ),
         "base": "https://www.netimoveis.com",
-        # Site experimental: o link de detalhe é montado via um template
-        # (ex.: netimoveis.com/apartamento-venda-havai-bh-1185740) que
-        # termina num código numérico. Pode precisar de ajuste depois de
-        # ver o resultado real.
-        "link_pattern": r"^/[a-z0-9\-]+-\d{5,}$",
+        # Padrão real confirmado ao vivo: /imovel/descricao-longa-do-imovel/1188575/
+               "link_pattern": r"^/imovel/[^/?#]+/\d+/?$",
     },
 ]
 
@@ -417,7 +414,7 @@ def coletar_site(site):
         try:
             page.wait_for_function(
                 "() => /\\d+\\s*im[oó]ve/i.test(document.body.innerText)",
-                timeout=12000,
+                timeout=25000,
             )
         except Exception:
             pass
