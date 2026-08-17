@@ -135,7 +135,7 @@ SITES = [
             "https://www.vprimoveis.com.br/venda/belo-horizonte+cinquentenario+palmeiras"
             "+betania+estrela-do-oriente+havai+marajo+estrela-dalva+salgado-filho"
         ),
-         "base": "https://www.vprimoveis.com.br",
+        "base": "https://www.vprimoveis.com.br",
         # O site mudou o formato: antes era só um número na raiz
         # (vprimoveis.com.br/8586), agora é um texto descritivo seguido do
         # número (vprimoveis.com.br/apartamento-.../8586).
