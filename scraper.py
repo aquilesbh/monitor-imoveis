@@ -39,161 +39,199 @@ from playwright.sync_api import sync_playwright
 # --------------------------------------------------------------------------
 SITES = [
     {
-        "key": "paulo_tavares",
-        "name": "Paulo Tavares Imóveis",
-        "url": (
-            "https://www.paulotavaresimoveis.com.br/venda/imoveis/belo-horizonte/"
-            "betania--cinquentenario--marajo--palmeiras--salgado-filho--parque-sao-jose--havai/"
-            "0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios"
-            "?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1"
-        ),
-        "base": "https://www.paulotavaresimoveis.com.br",
+        "key": 'paulo_tavares',
+        "name": 'Paulo Tavares Imóveis',
+        "urls": [
+            'https://www.paulotavaresimoveis.com.br/venda/imoveis/belo-horizonte/betania/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.paulotavaresimoveis.com.br/venda/imoveis/belo-horizonte/cinquentenario/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.paulotavaresimoveis.com.br/venda/imoveis/belo-horizonte/marajo/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.paulotavaresimoveis.com.br/venda/imoveis/belo-horizonte/palmeiras/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.paulotavaresimoveis.com.br/venda/imoveis/belo-horizonte/salgado-filho/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.paulotavaresimoveis.com.br/venda/imoveis/belo-horizonte/parque-sao-jose/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.paulotavaresimoveis.com.br/venda/imoveis/belo-horizonte/havai/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+        ],
+        "base": 'https://www.paulotavaresimoveis.com.br',
         "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
     },
     {
-        "key": "inteligencia_bh",
-        "name": "Inteligência Imobiliária BH",
-        "url": (
-            "https://www.inteligenciaimobiliariabh.com.br/venda/imovel/belo-horizonte/"
-            "betania+cinquentenario+palmeiras+parque-sao-jose+marajo+estrela-do-oriente+havai+salgado-filho/"
-            "?&pagina=1"
-        ),
-        "base": "https://www.inteligenciaimobiliariabh.com.br",
+        "key": 'inteligencia_bh',
+        "name": 'Inteligência Imobiliária BH',
+        "urls": [
+            'https://www.inteligenciaimobiliariabh.com.br/venda/imovel/belo-horizonte/betania/?&pagina=1',
+            'https://www.inteligenciaimobiliariabh.com.br/venda/imovel/belo-horizonte/cinquentenario/?&pagina=1',
+            'https://www.inteligenciaimobiliariabh.com.br/venda/imovel/belo-horizonte/palmeiras/?&pagina=1',
+            'https://www.inteligenciaimobiliariabh.com.br/venda/imovel/belo-horizonte/parque-sao-jose/?&pagina=1',
+            'https://www.inteligenciaimobiliariabh.com.br/venda/imovel/belo-horizonte/marajo/?&pagina=1',
+            'https://www.inteligenciaimobiliariabh.com.br/venda/imovel/belo-horizonte/estrela-do-oriente/?&pagina=1',
+            'https://www.inteligenciaimobiliariabh.com.br/venda/imovel/belo-horizonte/havai/?&pagina=1',
+            'https://www.inteligenciaimobiliariabh.com.br/venda/imovel/belo-horizonte/salgado-filho/?&pagina=1',
+        ],
+        "base": 'https://www.inteligenciaimobiliariabh.com.br',
         "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
     },
     {
-        "key": "bihain",
-        "name": "Bihain Imóveis",
-        "url": (
-            "https://www.bihainimoveis.com.br/imoveis/a-venda/belo-horizonte/"
-            "estrela-dalva+betania+cinquentenario+palmeiras+marajo+estrela-do-oriente+parque-sao-jose"
-        ),
-        "base": "https://www.bihainimoveis.com.br",
+        "key": 'bihain',
+        "name": 'Bihain Imóveis',
+        "urls": [
+            'https://www.bihainimoveis.com.br/imoveis/a-venda/belo-horizonte/estrela-dalva',
+            'https://www.bihainimoveis.com.br/imoveis/a-venda/belo-horizonte/betania',
+            'https://www.bihainimoveis.com.br/imoveis/a-venda/belo-horizonte/cinquentenario',
+            'https://www.bihainimoveis.com.br/imoveis/a-venda/belo-horizonte/palmeiras',
+            'https://www.bihainimoveis.com.br/imoveis/a-venda/belo-horizonte/marajo',
+            'https://www.bihainimoveis.com.br/imoveis/a-venda/belo-horizonte/estrela-do-oriente',
+            'https://www.bihainimoveis.com.br/imoveis/a-venda/belo-horizonte/parque-sao-jose',
+        ],
+        "base": 'https://www.bihainimoveis.com.br',
         "link_pattern": r"/imovel/[^/?#]+/[A-Za-z]{2,3}\d+-[A-Za-z]+",
     },
     {
-        "key": "palmeiras",
-        "name": "Imobiliária Palmeiras",
-        "url": (
-            "https://www.imobiliariapalmeiras.com.br/imoveis/venda/#/?tipoNegocio=VA,VL"
-            "&n=1&ordem=valor-ASC&mb=s&slug=0&page=1"
-            "&bairros=18489,1385,3879,6075,6794"
-        ),
-        "base": "https://www.imobiliariapalmeiras.com.br",
+        "key": 'palmeiras',
+        "name": 'Imobiliária Palmeiras',
+        "urls": [
+            'https://www.imobiliariapalmeiras.com.br/imoveis/venda/#/?tipoNegocio=VA,VL&n=1&ordem=valor-ASC&mb=s&slug=0&page=1&bairros=18489',
+            'https://www.imobiliariapalmeiras.com.br/imoveis/venda/#/?tipoNegocio=VA,VL&n=1&ordem=valor-ASC&mb=s&slug=0&page=1&bairros=1385',
+            'https://www.imobiliariapalmeiras.com.br/imoveis/venda/#/?tipoNegocio=VA,VL&n=1&ordem=valor-ASC&mb=s&slug=0&page=1&bairros=3879',
+            'https://www.imobiliariapalmeiras.com.br/imoveis/venda/#/?tipoNegocio=VA,VL&n=1&ordem=valor-ASC&mb=s&slug=0&page=1&bairros=6075',
+            'https://www.imobiliariapalmeiras.com.br/imoveis/venda/#/?tipoNegocio=VA,VL&n=1&ordem=valor-ASC&mb=s&slug=0&page=1&bairros=6794',
+        ],
+        "base": 'https://www.imobiliariapalmeiras.com.br',
         "link_pattern": r"/imovel/[^/?#]+/IP-\d+",
     },
     {
-        "key": "gr_imoveis",
-        "name": "GR Imóveis",
-        "url": (
-            "https://www.grimoveis.com.br/venda/imovel/belo-horizonte/"
-            "betania+cinquentenario+estrela-d-alva+estrela-dalva+estrela-do-oriente+havai+marajo"
-            "+palmeiras+parque-sao-jose+salgado-filho+salgado-filho-nova-suissa/?&pagina=1"
-        ),
-        "base": "https://www.grimoveis.com.br",
+        "key": 'gr_imoveis',
+        "name": 'GR Imóveis',
+        "urls": [
+            'https://www.grimoveis.com.br/venda/imovel/belo-horizonte/betania/?&pagina=1',
+            'https://www.grimoveis.com.br/venda/imovel/belo-horizonte/cinquentenario/?&pagina=1',
+            'https://www.grimoveis.com.br/venda/imovel/belo-horizonte/estrela-d-alva/?&pagina=1',
+            'https://www.grimoveis.com.br/venda/imovel/belo-horizonte/estrela-dalva/?&pagina=1',
+            'https://www.grimoveis.com.br/venda/imovel/belo-horizonte/estrela-do-oriente/?&pagina=1',
+            'https://www.grimoveis.com.br/venda/imovel/belo-horizonte/havai/?&pagina=1',
+            'https://www.grimoveis.com.br/venda/imovel/belo-horizonte/marajo/?&pagina=1',
+            'https://www.grimoveis.com.br/venda/imovel/belo-horizonte/palmeiras/?&pagina=1',
+            'https://www.grimoveis.com.br/venda/imovel/belo-horizonte/parque-sao-jose/?&pagina=1',
+            'https://www.grimoveis.com.br/venda/imovel/belo-horizonte/salgado-filho/?&pagina=1',
+            'https://www.grimoveis.com.br/venda/imovel/belo-horizonte/salgado-filho-nova-suissa/?&pagina=1',
+        ],
+        "base": 'https://www.grimoveis.com.br',
         "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
     },
     {
-        "key": "sensale",
-        "name": "Sensale Imóveis",
-        "url": (
-            "https://sensaleimoveis.com.br/busca/?cidade%5B%5D=belo+horizonte"
-            "&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE"
-            "&bairro%5B%5D=Cinquenten%C3%A1rio&bairro%5B%5D=Estrela+Dalva"
-            "&bairro%5B%5D=Hava%C3%AD&bairro%5B%5D=Palmeiras&bairro%5B%5D=Salgado+Filho"
-            "&valor%5B0%5D=&valor%5B1%5D="
-        ),
-        "base": "https://sensaleimoveis.com.br",
+        "key": 'sensale',
+        "name": 'Sensale Imóveis',
+        "urls": [
+            'https://sensaleimoveis.com.br/busca/?cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Cinquenten%C3%A1rio&valor%5B0%5D=&valor%5B1%5D=',
+            'https://sensaleimoveis.com.br/busca/?cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Estrela%20Dalva&valor%5B0%5D=&valor%5B1%5D=',
+            'https://sensaleimoveis.com.br/busca/?cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Hava%C3%AD&valor%5B0%5D=&valor%5B1%5D=',
+            'https://sensaleimoveis.com.br/busca/?cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Palmeiras&valor%5B0%5D=&valor%5B1%5D=',
+            'https://sensaleimoveis.com.br/busca/?cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Salgado%20Filho&valor%5B0%5D=&valor%5B1%5D=',
+        ],
+        "base": 'https://sensaleimoveis.com.br',
         "link_pattern": r"/imovel/[^/?#]+/[^/?#]+",
     },
     {
-        "key": "leo_batista",
-        "name": "Léo Batista Imóveis",
-        "url": (
-            "https://www.leobatistaimoveis.com.br/imobiliaria/venda/belo-horizonte-mg/"
-            "betania-cinquentenario-estrela-do-oriente/imoveis/4281/1"
-        ),
-        "base": "https://www.leobatistaimoveis.com.br",
+        "key": 'leo_batista',
+        "name": 'Léo Batista Imóveis',
+        "urls": [
+            'https://www.leobatistaimoveis.com.br/imobiliaria/venda/belo-horizonte-mg/betania/imoveis/4281/1',
+            'https://www.leobatistaimoveis.com.br/imobiliaria/venda/belo-horizonte-mg/cinquentenario/imoveis/4281/1',
+            'https://www.leobatistaimoveis.com.br/imobiliaria/venda/belo-horizonte-mg/estrela-do-oriente/imoveis/4281/1',
+        ],
+        "base": 'https://www.leobatistaimoveis.com.br',
         "link_pattern": r"^/\d+/imoveis/(venda|loca)",
     },
     {
-        "key": "genesis",
-        "name": "Genesis Imóveis",
-        "url": (
-            "https://www.genesisimoveis.com.br/venda/imoveis/belo-horizonte/"
-            "cinquentenario--betania--cinquentenario--estrela-do-oriente--estrela-dalva--havai"
-            "--marajo--palmeiras--parque-sao-jose--salgado-filho/0-quartos/0-suite-ou-mais/0-vaga/"
-            "0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1"
-        ),
-        "base": "https://www.genesisimoveis.com.br",
+        "key": 'genesis',
+        "name": 'Genesis Imóveis',
+        "urls": [
+            'https://www.genesisimoveis.com.br/venda/imoveis/belo-horizonte/cinquentenario/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.genesisimoveis.com.br/venda/imoveis/belo-horizonte/betania/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.genesisimoveis.com.br/venda/imoveis/belo-horizonte/estrela-do-oriente/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.genesisimoveis.com.br/venda/imoveis/belo-horizonte/estrela-dalva/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.genesisimoveis.com.br/venda/imoveis/belo-horizonte/havai/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.genesisimoveis.com.br/venda/imoveis/belo-horizonte/marajo/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.genesisimoveis.com.br/venda/imoveis/belo-horizonte/palmeiras/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.genesisimoveis.com.br/venda/imoveis/belo-horizonte/parque-sao-jose/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.genesisimoveis.com.br/venda/imoveis/belo-horizonte/salgado-filho/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
+        ],
+        "base": 'https://www.genesisimoveis.com.br',
         "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
     },
     {
-        "key": "vpr",
-        "name": "VPR Imóveis",
-        "url": (
-            "https://www.vprimoveis.com.br/venda/belo-horizonte+cinquentenario+palmeiras"
-            "+betania+estrela-do-oriente+havai+marajo+estrela-dalva+salgado-filho"
-        ),
-        "base": "https://www.vprimoveis.com.br",
-        # O site mudou o formato: antes era só um número na raiz
-        # (vprimoveis.com.br/8586), agora é um texto descritivo seguido do
-        # número (vprimoveis.com.br/apartamento-.../8586).
+        "key": 'vpr',
+        "name": 'VPR Imóveis',
+        "urls": [
+            'https://www.vprimoveis.com.br/venda/belo-horizonte+cinquentenario',
+            'https://www.vprimoveis.com.br/venda/belo-horizonte+palmeiras',
+            'https://www.vprimoveis.com.br/venda/belo-horizonte+betania',
+            'https://www.vprimoveis.com.br/venda/belo-horizonte+estrela-do-oriente',
+            'https://www.vprimoveis.com.br/venda/belo-horizonte+havai',
+            'https://www.vprimoveis.com.br/venda/belo-horizonte+marajo',
+            'https://www.vprimoveis.com.br/venda/belo-horizonte+estrela-dalva',
+            'https://www.vprimoveis.com.br/venda/belo-horizonte+salgado-filho',
+        ],
+        "base": 'https://www.vprimoveis.com.br',
         "link_pattern": r"^/[^/?#]+/\d+$",
     },
     {
-        "key": "gade",
-        "name": "Gade Imóveis",
-        "url": (
-            "https://gadeimoveis.com.br/busca?finalidade=Venda&cidade=Belo+Horizonte"
-            "&bairro=Bet%C3%A2nia%2CCinquenten%C3%A1rio%2CEstrela+Dalva%2CEstrela+do+Oriente"
-            "%2Chavai%2CHavai%2CHava%C3%AD%2CMaraj%C3%B3%2CNova+Suissa%2CNova+Su%C3%ADssa"
-            "%2Cpalmeiras%2CPalmeiras%2CPALMEIRAS%2CParque+S%C3%A3o+Jose%2CParque+S%C3%A3o+Jos%C3%A9"
-            "%2CSalgado+Filho"
-        ),
-        "base": "https://gadeimoveis.com.br",
+        "key": 'gade',
+        "name": 'Gade Imóveis',
+        "urls": [
+            'https://gadeimoveis.com.br/busca?finalidade=Venda&cidade=Belo+Horizonte&bairro=Bet%C3%A2nia',
+            'https://gadeimoveis.com.br/busca?finalidade=Venda&cidade=Belo+Horizonte&bairro=Cinquenten%C3%A1rio',
+            'https://gadeimoveis.com.br/busca?finalidade=Venda&cidade=Belo+Horizonte&bairro=Estrela%20Dalva',
+            'https://gadeimoveis.com.br/busca?finalidade=Venda&cidade=Belo+Horizonte&bairro=Estrela%20do%20Oriente',
+            'https://gadeimoveis.com.br/busca?finalidade=Venda&cidade=Belo+Horizonte&bairro=havai,Havai,Hava%C3%AD',
+            'https://gadeimoveis.com.br/busca?finalidade=Venda&cidade=Belo+Horizonte&bairro=Maraj%C3%B3',
+            'https://gadeimoveis.com.br/busca?finalidade=Venda&cidade=Belo+Horizonte&bairro=Nova%20Suissa,Nova%20Su%C3%ADssa',
+            'https://gadeimoveis.com.br/busca?finalidade=Venda&cidade=Belo+Horizonte&bairro=palmeiras,Palmeiras,PALMEIRAS',
+            'https://gadeimoveis.com.br/busca?finalidade=Venda&cidade=Belo+Horizonte&bairro=Parque%20S%C3%A3o%20Jose,Parque%20S%C3%A3o%20Jos%C3%A9',
+            'https://gadeimoveis.com.br/busca?finalidade=Venda&cidade=Belo+Horizonte&bairro=Salgado%20Filho',
+        ],
+        "base": 'https://gadeimoveis.com.br',
         "link_pattern": r"/imovel/[^/?#]+-\d+(?:[/?#]|$)",
     },
     {
-        "key": "malta",
-        "name": "Malta Imóveis",
-        "url": (
-            "https://www.maltaimoveis.com.br/venda/imovel/belo-horizonte/"
-            "cinquentenario+havai+marajo+nova-suica+nova-suissa+palmeiras+salgado-filho/?&pagina=1"
-        ),
-        "base": "https://www.maltaimoveis.com.br",
+        "key": 'malta',
+        "name": 'Malta Imóveis',
+        "urls": [
+            'https://www.maltaimoveis.com.br/venda/imovel/belo-horizonte/cinquentenario/?&pagina=1',
+            'https://www.maltaimoveis.com.br/venda/imovel/belo-horizonte/havai/?&pagina=1',
+            'https://www.maltaimoveis.com.br/venda/imovel/belo-horizonte/marajo/?&pagina=1',
+            'https://www.maltaimoveis.com.br/venda/imovel/belo-horizonte/nova-suica+nova-suissa/?&pagina=1',
+            'https://www.maltaimoveis.com.br/venda/imovel/belo-horizonte/palmeiras/?&pagina=1',
+            'https://www.maltaimoveis.com.br/venda/imovel/belo-horizonte/salgado-filho/?&pagina=1',
+        ],
+        "base": 'https://www.maltaimoveis.com.br',
         "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
     },
     {
-        "key": "remax",
-        "name": "Remax",
-        "url": (
-            "https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971"
-            "&LocalZone=50095%2C50132%2C50133%2C50154%2C50208%2C50248%2C50280&CountryId=55"
-            "&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais"
-            "&LocalZoneNM=50095-Cinquenten%C3%A1rio%2C50132-Estrela+Dalva%2C50133-Estrela+do+Oriente"
-            "%2C50154-Hava%C3%AD%2C50208-Maraj%C3%B3%2C50248-Palmeiras%2C50280-Salgado+Filho"
-            "&ListingClass=-1&TransactionTypeUID=-1"
-        ),
-        "base": "https://www.remax.com.br",
-        # A Remax é uma rede: cada corretor tem seu próprio subdomínio
-        # (ex: mateusbomfim.remax.com.br), então em vez de exigir o domínio
-        # EXATO, aceitamos qualquer subdomínio que termine em remax.com.br.
-        "domain_suffix": "remax.com.br",
+        "key": 'remax',
+        "name": 'Remax',
+        "urls": [
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50095&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50095-Cinquenten%C3%A1rio&ListingClass=-1&TransactionTypeUID=-1',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50132&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50132-Estrela%20Dalva&ListingClass=-1&TransactionTypeUID=-1',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50133&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50133-Estrela%20do%20Oriente&ListingClass=-1&TransactionTypeUID=-1',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50154&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50154-Hava%C3%AD&ListingClass=-1&TransactionTypeUID=-1',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50208&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50208-Maraj%C3%B3&ListingClass=-1&TransactionTypeUID=-1',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50248&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50248-Palmeiras&ListingClass=-1&TransactionTypeUID=-1',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50280&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50280-Salgado%20Filho&ListingClass=-1&TransactionTypeUID=-1',
+        ],
+        "base": 'https://www.remax.com.br',
+        "domain_suffix": 'remax.com.br',
         "link_pattern": r"(^/pt-br/imoveis/.+/\d{5,}-?\d*$)|(^/\d{5,}-\d+$)",
     },
     {
-        "key": "net_imoveis",
-        "name": "Net Imóveis",
-        "url": (
-            "https://www.netimoveis.com/venda/minas-gerais/belo-horizonte/oeste/havai"
-            "?transacao=venda&localizacao=BR-MG-belo-horizonte-havai-oeste-%2C"
-            "BR-MG-belo-horizonte-palmeiras-oeste-%2CBR-MG-belo-horizonte-estrela-dalva-oeste-%2C"
-            "BR-MG-belo-horizonte-betania-oeste-%2CBR-MG-belo-horizonte-cinquentenario-oeste-"
-            "&pagina=1"
-        ),
-        "base": "https://www.netimoveis.com",
-        # Padrão real confirmado ao vivo: /imovel/descricao-longa-do-imovel/1188575/
+        "key": 'net_imoveis',
+        "name": 'Net Imóveis',
+        "urls": [
+            'https://www.netimoveis.com/venda/minas-gerais/belo-horizonte/oeste/havai?transacao=venda&localizacao=BR-MG-belo-horizonte-havai-oeste-&pagina=1',
+            'https://www.netimoveis.com/venda/minas-gerais/belo-horizonte/oeste/palmeiras?transacao=venda&localizacao=BR-MG-belo-horizonte-palmeiras-oeste-&pagina=1',
+            'https://www.netimoveis.com/venda/minas-gerais/belo-horizonte/oeste/estrela-dalva?transacao=venda&localizacao=BR-MG-belo-horizonte-estrela-dalva-oeste-&pagina=1',
+            'https://www.netimoveis.com/venda/minas-gerais/belo-horizonte/oeste/betania?transacao=venda&localizacao=BR-MG-belo-horizonte-betania-oeste-&pagina=1',
+            'https://www.netimoveis.com/venda/minas-gerais/belo-horizonte/oeste/cinquentenario?transacao=venda&localizacao=BR-MG-belo-horizonte-cinquentenario-oeste-&pagina=1',
+        ],
+        "base": 'https://www.netimoveis.com',
         "link_pattern": r"^/imovel/[^/?#]+/\d+/?$",
     },
 ]
@@ -291,7 +329,6 @@ def tentar_ir_para_proxima_pagina(page, pagina_atual):
     except Exception:
         href = None
 
-   
     if href:
         try:
             page.goto(href, wait_until="networkidle")
@@ -371,8 +408,95 @@ def tentar_fechar_banner_cookies(page):
         pass
 
 
-def coletar_site(site):
+def coletar_uma_url(page, site, url):
+    """Coleta os imóveis de UMA busca (ex: um bairro só) até esgotar as páginas."""
     encontrados_total = {}
+
+    print(f"  Abrindo: {url}")
+    try:
+        page.goto(url, wait_until="networkidle")
+    except Exception as e:
+        print(f"    Falha ao carregar a página inicial: {e}")
+        return encontrados_total
+
+    page.wait_for_timeout(WAIT_MS)
+    tentar_fechar_banner_cookies(page)
+
+    # Espera aparecer algo como "28 Imóveis" na tela — mais confiável do
+    # que só esperar a rede ficar quieta, principalmente em sites que
+    # carregam a contagem/lista de forma assíncrona (Angular, Vue etc).
+    try:
+        page.wait_for_function(
+            "() => /\\d+\\s*im[oó]ve/i.test(document.body.innerText)",
+            timeout=25000,
+        )
+    except Exception:
+        pass
+
+    links_pagina_anterior = set()
+    for numero_pagina in range(1, MAX_PAGES + 1):
+        try:
+            page.wait_for_selector("a[href]", timeout=8000)
+        except Exception:
+            pass
+
+        encontrados = coletar_links_da_pagina(page, site["base"], site["link_pattern"], site.get("domain_suffix"))
+
+        # Se a primeira página veio vazia, o app pode não ter renderizado a
+        # tempo. Tenta rolar e, em último caso, recarregar a página uma vez.
+        if numero_pagina == 1 and not encontrados:
+            tentar_carregar_mais_via_scroll(page, 0)
+            encontrados = coletar_links_da_pagina(page, site["base"], site["link_pattern"], site.get("domain_suffix"))
+            if not encontrados:
+                print("    Nada encontrado de primeira, tentando recarregar a página...")
+                try:
+                    page.reload(wait_until="networkidle")
+                    page.wait_for_timeout(WAIT_MS)
+                    tentar_fechar_banner_cookies(page)
+                    encontrados = coletar_links_da_pagina(page, site["base"], site["link_pattern"], site.get("domain_suffix"))
+                except Exception as e:
+                    print(f"    Falha ao recarregar: {e}")
+
+        print(f"    Página {numero_pagina}: {len(encontrados)} imóveis encontrados")
+
+        novos_nesta_pagina = set(encontrados.keys()) - links_pagina_anterior
+        if not encontrados or (numero_pagina > 1 and not novos_nesta_pagina):
+            # tenta rolar (scroll infinito) antes de desistir de vez
+            tentar_carregar_mais_via_scroll(page, len(encontrados))
+            encontrados_apos_scroll = coletar_links_da_pagina(
+                page, site["base"], site["link_pattern"], site.get("domain_suffix")
+            )
+            if len(encontrados_apos_scroll) > len(encontrados):
+                encontrados = encontrados_apos_scroll
+            else:
+                encontrados_total.update(encontrados)
+                print("    Sem novidades nesta página. Parando por aqui.")
+                break
+
+        links_pagina_anterior = set(encontrados.keys())
+        encontrados_total.update(encontrados)
+
+        conseguiu_navegar = tentar_ir_para_proxima_pagina(page, numero_pagina)
+        if not conseguiu_navegar:
+            print("    Não encontrei como ir para a próxima página. Parando por aqui.")
+            break
+
+        page.wait_for_timeout(WAIT_MS)
+        time.sleep(1.5)  # pausa educada entre as páginas
+
+    return encontrados_total
+
+
+def coletar_site(site):
+    """
+    Percorre TODAS as urls configuradas para essa imobiliária (uma por
+    bairro, normalmente) e junta os resultados. Dividir por bairro deixa
+    cada busca bem menor, então a paginação (o ponto mais frágil) tem menos
+    páginas pra dar conta.
+    """
+    encontrados_total = {}
+    urls = site.get("urls") or [site["url"]]
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(
@@ -394,93 +518,31 @@ def coletar_site(site):
             window.chrome = { runtime: {} };
             """
         )
-        page = context.new_page()
-        page.set_default_navigation_timeout(NAV_TIMEOUT_MS)
 
-        print(f"Abrindo: {site['url']}")
-        try:
-            page.goto(site["url"], wait_until="networkidle")
-        except Exception as e:
-            print(f"  Falha ao carregar a página inicial: {e}")
-            browser.close()
-            return encontrados_total
-
-        page.wait_for_timeout(WAIT_MS)
-        tentar_fechar_banner_cookies(page)
-
-        # Espera aparecer algo como "28 Imóveis" na tela — mais confiável do
-        # que só esperar a rede ficar quieta, principalmente em sites que
-        # carregam a contagem/lista de forma assíncrona (Angular, Vue etc).
-        try:
-            page.wait_for_function(
-                "() => /\\d+\\s*im[oó]ve/i.test(document.body.innerText)",
-                timeout=25000,
-            )
-        except Exception:
-            pass
-
-        links_pagina_anterior = set()
-        for numero_pagina in range(1, MAX_PAGES + 1):
+        for indice_url, url in enumerate(urls, start=1):
+            print(f"  -- Busca {indice_url}/{len(urls)} --")
+            page = context.new_page()
+            page.set_default_navigation_timeout(NAV_TIMEOUT_MS)
             try:
-                page.wait_for_selector("a[href]", timeout=8000)
-            except Exception:
-                pass
-
-            encontrados = coletar_links_da_pagina(page, site["base"], site["link_pattern"], site.get("domain_suffix"))
-
-            # Se a primeira página veio vazia, o app pode não ter renderizado a
-            # tempo. Tenta rolar e, em último caso, recarregar a página uma vez.
-            if numero_pagina == 1 and not encontrados:
-                tentar_carregar_mais_via_scroll(page, 0)
-                encontrados = coletar_links_da_pagina(page, site["base"], site["link_pattern"], site.get("domain_suffix"))
-                if not encontrados:
-                    print("  Nada encontrado de primeira, tentando recarregar a página...")
-                    try:
-                        page.reload(wait_until="networkidle")
-                        page.wait_for_timeout(WAIT_MS)
-                        tentar_fechar_banner_cookies(page)
-                        encontrados = coletar_links_da_pagina(page, site["base"], site["link_pattern"], site.get("domain_suffix"))
-                    except Exception as e:
-                        print(f"  Falha ao recarregar: {e}")
-
-            print(f"  Página {numero_pagina}: {len(encontrados)} imóveis encontrados")
-
-            novos_nesta_pagina = set(encontrados.keys()) - links_pagina_anterior
-            if not encontrados or (numero_pagina > 1 and not novos_nesta_pagina):
-                # tenta rolar (scroll infinito) antes de desistir de vez
-                tentar_carregar_mais_via_scroll(page, len(encontrados))
-                encontrados_apos_scroll = coletar_links_da_pagina(
-                    page, site["base"], site["link_pattern"], site.get("domain_suffix")
-                )
-                if len(encontrados_apos_scroll) > len(encontrados):
-                    encontrados = encontrados_apos_scroll
-                else:
-                    encontrados_total.update(encontrados)
-                    print("  Sem novidades nesta página. Parando por aqui.")
-                    break
-
-            links_pagina_anterior = set(encontrados.keys())
-            encontrados_total.update(encontrados)
-
-            conseguiu_navegar = tentar_ir_para_proxima_pagina(page, numero_pagina)
-            if not conseguiu_navegar:
-                print("  Não encontrei como ir para a próxima página. Parando por aqui.")
-                break
-
-            page.wait_for_timeout(WAIT_MS)
-            time.sleep(1.5)  # pausa educada entre as páginas
-
-        if not encontrados_total:
-            # Nada encontrado em nenhuma página: salva uma captura de tela
-            # para dar pra diagnosticar visualmente o que o robô "viu".
-            try:
-                debug_dir = Path(__file__).parent / "debug"
-                debug_dir.mkdir(exist_ok=True)
-                caminho_print = debug_dir / f"{site['key']}.png"
-                page.screenshot(path=str(caminho_print), full_page=True)
-                print(f"  Nenhum imóvel encontrado. Print salvo em: {caminho_print}")
+                encontrados_url = coletar_uma_url(page, site, url)
             except Exception as e:
-                print(f"  Não consegui salvar o print de diagnóstico: {e}")
+                print(f"    ERRO nesta busca: {e}")
+                encontrados_url = {}
+
+            if not encontrados_url:
+                # Nada encontrado nessa busca: salva uma captura de tela
+                # para dar pra diagnosticar visualmente o que o robô "viu".
+                try:
+                    debug_dir = Path(__file__).parent / "debug"
+                    debug_dir.mkdir(exist_ok=True)
+                    caminho_print = debug_dir / f"{site['key']}-{indice_url}.png"
+                    page.screenshot(path=str(caminho_print), full_page=True)
+                    print(f"    Nenhum imóvel encontrado. Print salvo em: {caminho_print}")
+                except Exception as e:
+                    print(f"    Não consegui salvar o print de diagnóstico: {e}")
+
+            encontrados_total.update(encontrados_url)
+            page.close()
 
         browser.close()
     return encontrados_total
