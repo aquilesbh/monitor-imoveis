@@ -1302,7 +1302,88 @@
       "primeira_vez": "13/08/2026 16:33"
     }
   },
-  "vpr": {},
+  "vpr": {
+    "https://www.vprimoveis.com.br/apartamento-a-venda-3-quartos-1-suite-2-vagas-palmeiras-belo-horizontemg/11650": {
+      "titulo": "Apartamento à venda em Palmeiras de 70m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/apartamento-02-quartos-para-alugar-no-palmeiras-de-47m2/12000": {
+      "titulo": "Apartamento à venda em Palmeiras de 47m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/apartamento-a-venda-2-quartos-1-vaga-palmeiras-belo-horizontemg/8089": {
+      "titulo": "Apartamento à venda em Palmeiras de 47m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/apartamento-a-venda-2-quartos-1-suite-1-vaga-palmeiras-belo-horizontemg/9328": {
+      "titulo": "Apartamento à venda em Palmeiras de 48m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/apartamento-a-venda-2-quartos-1-vaga-palmeiras-belo-horizontemg/11763": {
+      "titulo": "Apartamento à venda em Palmeiras de 47,70m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/area-privativa-a-venda-2-quartos-1-suite-1-vaga-palmeiras-belo-horizontemg/13556": {
+      "titulo": "Área privativa à venda em Palmeiras de 80m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/apartamento-com-3-quartos-a-venda-no-palmeiras-em-belo-horizonte-de-70m2/975": {
+      "titulo": "Apartamento à venda em Palmeiras de 70m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/apartamento-a-venda-3-quartos-1-suite-2-vagas-palmeiras-belo-horizontemg/13489": {
+      "titulo": "Apartamento à venda em Palmeiras de 67,40m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/apartamento-a-venda-2-quartos-1-suite-1-vaga-palmeiras-belo-horizontemg/11382": {
+      "titulo": "Apartamento à venda em Palmeiras de 47,70m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/cobertura-a-venda-3-quartos-1-suite-3-vagas-havai-belo-horizontemg/11386": {
+      "titulo": "Cobertura à venda em Havaí de 133,70m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/area-privativa-a-venda-3-quartos-1-suite-2-vagas-havai-belo-horizontemg/11384": {
+      "titulo": "Área privativa à venda em Havaí de 95,34m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/apartamento-a-venda-4-quartos-1-suite-2-vagas-havai-belo-horizontemg/13665": {
+      "titulo": "Apartamento à venda em Havaí de 100,08m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/apartamento-com-2-quartos-a-venda-no-palmeiras-em-belo-horizonte-de-47m2/13662": {
+      "titulo": "Apartamento à venda em Palmeiras de 47m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/apartamento-a-venda-3-quartos-1-suite-1-vaga-palmeiras-belo-horizontemg/13468": {
+      "titulo": "Apartamento à venda em Palmeiras de 70m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/apartamento-a-venda-3-quartos-1-suite-2-vagas-havai-belo-horizontemg/13535": {
+      "titulo": "Apartamento à venda em Havaí de 100m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/apartamento-a-venda-3-quartos-1-suite-2-vagas-palmeiras-belo-horizontemg/13566": {
+      "titulo": "Apartamento à venda em Palmeiras de 67m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/apartamento-a-venda-3-quartos-1-suite-2-vagas-havai-belo-horizontemg/13509": {
+      "titulo": "Apartamento à venda em Havaí de 75m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/apartamento-com-3-quartos-a-venda-no-havai-em-belo-horizonte-de-75m2/13365": {
+      "titulo": "Apartamento à venda em Havaí de 75m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/cobertura-a-venda-2-quartos-1-suite-2-vagas-palmeiras-belo-horizontemg/13515": {
+      "titulo": "Cobertura à venda em Palmeiras de 148m2",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.vprimoveis.com.br/casa-a-venda-4-quartos-2-vagas-palmeiras-belo-horizontemg/13508": {
+      "titulo": "Casa à venda em Palmeiras de 160m2",
+      "primeira_vez": "17/08/2026 10:07"
+    }
+  },
   "gade": {
     "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-82m2-3801": {
       "titulo": "Cód: 3801",
@@ -1351,6 +1432,126 @@
     "https://gadeimoveis.com.br/imovel/casa-em-condominio-parque-sao-jose-belo-horizonte-mg-3-quartos-110m2-3662": {
       "titulo": "Cód: 3662",
       "primeira_vez": "14/08/2026 14:20"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-2-quartos-44m2-3790": {
+      "titulo": "Cód: 3790",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-2-quartos-70m2-3672": {
+      "titulo": "Cód: 3672",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/cobertura-havai-belo-horizonte-mg-3-quartos-174m2-3649": {
+      "titulo": "Cód: 3649",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-palmeiras-belo-horizonte-mg-2-quartos-60m2-3761": {
+      "titulo": "Cód: 3761",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-4-quartos-248.9m2-3788": {
+      "titulo": "Cód: 3788",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-palmeiras-belo-horizonte-mg-3-quartos-265m2-3784": {
+      "titulo": "Cód: 3784",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-palmeiras-belo-horizonte-mg-2-quartos-55m2-3677": {
+      "titulo": "Cód: 3677",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/area-privativa-parque-sao-jose-belo-horizonte-mg-3-quartos-100m2-3468": {
+      "titulo": "Cód: 3468",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-3707": {
+      "titulo": "Cód: 3707",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/area-privativa-havai-belo-horizonte-mg-3-quartos-75m2-3678": {
+      "titulo": "Cód: 3678",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-2-quartos-52m2-3641": {
+      "titulo": "Cód: 3641",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-betania-belo-horizonte-mg-3620": {
+      "titulo": "Cód: 3620",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-salgado-filho-belo-horizonte-mg-4-quartos-154m2-3787": {
+      "titulo": "Cód: 3787",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-3298": {
+      "titulo": "Cód: 3298",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-estrela-do-oriente-belo-horizonte-mg-3-quartos-75m2-3785": {
+      "titulo": "Cód: 3785",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-3786": {
+      "titulo": "Cód: 3786",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-palmeiras-belo-horizonte-mg-4-quartos-292m2-3783": {
+      "titulo": "Cód: 3783",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-marajo-belo-horizonte-mg-3-quartos-94.52m2-3654": {
+      "titulo": "Cód: 3654",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3-quartos-500m2-3497": {
+      "titulo": "Cód: 3497",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-palmeiras-belo-horizonte-mg-4-quartos-360m2-3209": {
+      "titulo": "Cód: 3209",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-cinquentenario-belo-horizonte-mg-3-quartos-3750": {
+      "titulo": "Cód: 3750",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-67.5m2-3773": {
+      "titulo": "Cód: 3773",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/area-privativa-havai-belo-horizonte-mg-2-quartos-77m2-3772": {
+      "titulo": "Cód: 3772",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-palmeiras-belo-horizonte-mg-3-quartos-3777": {
+      "titulo": "Cód: 3777",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3-quartos-3356": {
+      "titulo": "Cód: 3356",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3-quartos-3764": {
+      "titulo": "Cód: 3764",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3-quartos-121m2-3711": {
+      "titulo": "Cód: 3711",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3-quartos-3558": {
+      "titulo": "Cód: 3558",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3-quartos-3670": {
+      "titulo": "Cód: 3670",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3-quartos-2708": {
+      "titulo": "Cód: 2708",
+      "primeira_vez": "17/08/2026 10:07"
     }
   },
   "malta": {
@@ -1535,6 +1736,114 @@
     "https://www.remax.com.br/pt-br/imoveis/loja/alugar/belo-horizonte/870701002-106": {
       "titulo": "R$ 2.000 Mensal",
       "primeira_vez": "15/08/2026 08:15"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/cobertura/alugar/belo-horizonte/1161-rua-julio-de-castilho/870701036-7": {
+      "titulo": "R$ 4.250 Mensal",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/belo-horizonte/870701005-96": {
+      "titulo": "R$ 690.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/1330-rua-senhora-do-porto-pizzaria-reserva/870701013-39": {
+      "titulo": "R$ 8.500 Mensal",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701002-61": {
+      "titulo": "R$ 393.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701004-76": {
+      "titulo": "R$ 655.398",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/590-rua-jamil-farah-edificio-atari-xiv/870351012-243": {
+      "titulo": "R$ 320.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/870701004-80": {
+      "titulo": "R$ 2.300 Mensal",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/loja/alugar/belo-horizonte/870701005-118": {
+      "titulo": "R$ 1.600 Mensal",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701002-67": {
+      "titulo": "R$ 487.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701002-97": {
+      "titulo": "R$ 380.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/324-rua-dona-luci/870701004-91": {
+      "titulo": "R$ 680.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/163-rua-ivo-rocha/870701005-121": {
+      "titulo": "R$ 2.000 Mensal",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701002-74": {
+      "titulo": "R$ 392.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/cobertura/venda/belo-horizonte/195-rua-marcos-coelho-neto/870701002-123": {
+      "titulo": "R$ 730.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/cobertura/venda/belo-horizonte/195-rua-marcos-coelho-neto/870701002-119": {
+      "titulo": "R$ 825.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/belo-horizonte/55-rua-aguas-formosas-esquina-com-magi-salomon/870351012-235": {
+      "titulo": "R$ 1.700.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/380-rua-zinia/870351012-234": {
+      "titulo": "R$ 1.100.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701002-64": {
+      "titulo": "R$ 490.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/cobertura/venda/belo-horizonte/870701002-56": {
+      "titulo": "R$ 802.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701002-66": {
+      "titulo": "R$ 490.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/cobertura/venda/belo-horizonte/870701002-78": {
+      "titulo": "R$ 725.400",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/belo-horizonte/260-rua-papoula-vermelha-proximo-a-av-barao-homem-de-melo/870251073-108": {
+      "titulo": "R$ 499.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701002-54": {
+      "titulo": "R$ 490.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/cobertura/venda/belo-horizonte/870701004-31": {
+      "titulo": "R$ 940.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701002-55": {
+      "titulo": "R$ 391.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701002-60": {
+      "titulo": "R$ 391.000",
+      "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/195-rua-marcos-coelho-neto/870701002-121": {
+      "titulo": "R$ 498.000",
+      "primeira_vez": "17/08/2026 10:07"
     }
   },
   "net_imoveis": {}
