@@ -194,7 +194,7 @@ SITES = [
         ),
         "base": "https://www.netimoveis.com",
         # Padrão real confirmado ao vivo: /imovel/descricao-longa-do-imovel/1188575/
-               "link_pattern": r"^/imovel/[^/?#]+/\d+/?$",
+        "link_pattern": r"^/imovel/[^/?#]+/\d+/?$",
     },
 ]
 
