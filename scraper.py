@@ -135,11 +135,11 @@ SITES = [
             "https://www.vprimoveis.com.br/venda/belo-horizonte+cinquentenario+palmeiras"
             "+betania+estrela-do-oriente+havai+marajo+estrela-dalva+salgado-filho"
         ),
-        "base": "https://www.vprimoveis.com.br",
-        # Aqui os links de imóvel são só um número no domínio raiz, tipo
-        # vprimoveis.com.br/8586 — por isso o padrão exige que o caminho
-        # inteiro seja apenas dígitos.
-        "link_pattern": r"^/\d+$",
+         "base": "https://www.vprimoveis.com.br",
+        # O site mudou o formato: antes era só um número na raiz
+        # (vprimoveis.com.br/8586), agora é um texto descritivo seguido do
+        # número (vprimoveis.com.br/apartamento-.../8586).
+        "link_pattern": r"^/[^/?#]+/\d+$",
     },
     {
         "key": "gade",
@@ -294,12 +294,39 @@ def tentar_ir_para_proxima_pagina(page, pagina_atual):
     except Exception:
         href = None
 
-    if href:
+ if href:
         try:
             page.goto(href, wait_until="networkidle")
             return True
         except Exception:
             return False
+
+    # 4) Alguns sites (ex: Gade Imóveis) paginam com <button> em vez de
+    # <a href> — não há link pra "ir", precisa clicar mesmo, e o conteúdo
+    # atualiza via JavaScript/AJAX (sem trocar de URL).
+    try:
+        botao_numero = page.locator(f"button:text-is('{proxima_num}')").first
+        if botao_numero.is_visible(timeout=1500):
+            botao_numero.click(timeout=3000)
+            page.wait_for_timeout(2000)
+            return True
+    except Exception:
+        pass
+
+    try:
+        botao_proximo = page.locator(
+            "button:has-text('Próxima'), button:has-text('próxima'), "
+            "button:has-text('Seguinte'), button:has-text('seguinte'), "
+            "button:has-text('Carregar mais'), button:has-text('carregar mais'), "
+            "button:has-text('Ver mais'), button:has-text('ver mais')"
+        ).first
+        if botao_proximo.is_visible(timeout=1500):
+            botao_proximo.click(timeout=3000)
+            page.wait_for_timeout(2000)
+            return True
+    except Exception:
+        pass
+
     return False
 
 
