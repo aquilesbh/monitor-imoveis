@@ -27,6 +27,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
 from playwright.sync_api import sync_playwright
+from playwright_stealth import Stealth
 
 # --------------------------------------------------------------------------
 # CONFIGURAÇÃO — uma entrada para cada imobiliária monitorada.
@@ -234,7 +235,37 @@ SITES = [
         "base": 'https://www.netimoveis.com',
         "link_pattern": r"^/imovel/[^/?#]+/\d+/?$",
     },
+    {
+        "key": 'point_imoveis',
+        "name": 'Point Imóveis',
+        "urls": [
+            'https://www.pointimoveisbh.com.br/venda/imoveis/belo-horizonte/betania/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.pointimoveisbh.com.br/venda/imoveis/belo-horizonte/cinquentenario/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.pointimoveisbh.com.br/venda/imoveis/belo-horizonte/estrela-do-oriente/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.pointimoveisbh.com.br/venda/imoveis/belo-horizonte/havai/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.pointimoveisbh.com.br/venda/imoveis/belo-horizonte/marajo/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.pointimoveisbh.com.br/venda/imoveis/belo-horizonte/palmeiras/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+        ],
+        "base": 'https://www.pointimoveisbh.com.br',
+        "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
+    },
+    {
+        "key": 'new_core',
+        "name": 'New Core',
+        "urls": [
+            'https://www.newcore.com.br/imoveis/betania-belo-horizonte-mg?show-map=true',
+            'https://www.newcore.com.br/imoveis/palmeiras-belo-horizonte-mg?show-map=true',
+            'https://www.newcore.com.br/imoveis/cinquentenario-belo-horizonte-mg?show-map=true',
+            'https://www.newcore.com.br/imoveis/marajo-belo-horizonte-mg?show-map=true',
+            'https://www.newcore.com.br/imoveis/havai-belo-horizonte-mg?show-map=true',
+        ],
+        "base": 'https://www.newcore.com.br',
+        # Site renderiza os imóveis direto no HTML (nem precisa de
+        # JavaScript pra aparecer) — deve ser um dos mais confiáveis.
+        "link_pattern": r"^/imovel/\d+/[^/?#]+$",
+    },
 ]
+
 
 MAX_PAGES = 20            # trava de segurança para não entrar em loop infinito por site
 WAIT_MS = 4000             # tempo extra de espera após o carregamento da página
@@ -509,15 +540,10 @@ def coletar_site(site):
             timezone_id="America/Sao_Paulo",
         )
         # Disfarça sinais comuns de "navegador automatizado" que alguns sites
-        # usam para bloquear ou não renderizar conteúdo para robôs.
-        context.add_init_script(
-            """
-            Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-            Object.defineProperty(navigator, 'languages', { get: () => ['pt-BR', 'pt'] });
-            Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3] });
-            window.chrome = { runtime: {} };
-            """
-        )
+        # usam para bloquear ou não renderizar conteúdo para robôs (webdriver,
+        # placa de vídeo, plugins, idioma, etc). A biblioteca cobre bem mais
+        # coisas do que dava pra fazer só na mão.
+        Stealth(navigator_languages_override=("pt-BR", "pt")).apply_stealth_sync(context)
 
         for indice_url, url in enumerate(urls, start=1):
             print(f"  -- Busca {indice_url}/{len(urls)} --")
