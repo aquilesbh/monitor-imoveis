@@ -1670,6 +1670,10 @@
     "https://www.leobatistaimoveis.com.br/146/imoveis/locacao-apartamento-2-quartos-europa-contagem-mg": {
       "titulo": "MAIS DETALHES",
       "primeira_vez": "16/08/2026 08:16"
+    },
+    "https://www.leobatistaimoveis.com.br/266/imoveis/locacao-apartamento-2-quartos-serrano-belo-horizonte-mg": {
+      "titulo": "MAIS DETALHES",
+      "primeira_vez": "19/08/2026 08:29"
     }
   },
   "genesis": {
@@ -2484,6 +2488,14 @@
     "https://gadeimoveis.com.br/imovel/casa-palmeiras-belo-horizonte-mg-3-quartos-3804": {
       "titulo": "Cód: 3804",
       "primeira_vez": "18/08/2026 08:22"
+    },
+    "https://gadeimoveis.com.br/imovel/cobertura-cinquentenario-belo-horizonte-mg-2-quartos-120m2-3805": {
+      "titulo": "Cód: 3805",
+      "primeira_vez": "19/08/2026 08:29"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-palmeiras-belo-horizonte-mg-3-quartos-540m2-3804": {
+      "titulo": "Cód: 3804",
+      "primeira_vez": "19/08/2026 08:29"
     }
   },
   "malta": {
@@ -3269,6 +3281,10 @@
     "https://www.newcore.com.br/imovel/507443/cobertura-4-quartos--rua-engenheiro-alberto-pontes--buritis--belo-horizonte--mg": {
       "titulo": "1/50",
       "primeira_vez": "18/08/2026 10:37"
+    },
+    "https://www.newcore.com.br/imovel/514741/predio-inteiro-6-quartos--rua-jamil-farah--havai--belo-horizonte--mg": {
+      "titulo": "1/52",
+      "primeira_vez": "19/08/2026 08:29"
     }
   }
 }
