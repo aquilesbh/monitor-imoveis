@@ -2798,7 +2798,462 @@
       "primeira_vez": "17/08/2026 10:07"
     }
   },
-  "net_imoveis": {},
+  "dual_imoveis": {},
+  "visao_imoveis": {},
+  "boreal_imoveis": {},
+  "solimob": {
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-palmeiras/1168119/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-lote-area-terreno-minas-gerais-belo-horizonte-oeste-palmeiras/1052486/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-palmeiras/1154199/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-palmeiras/1154214/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-palmeiras/404709/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-palmeiras/1097721/?tipoUrl=casa&bairroUrl=palmeiras": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-predio-minas-gerais-belo-horizonte-oeste-palmeiras/1097721/?tipoUrl=predio&bairroUrl=palmeiras": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-palmeiras/406665/?tipoUrl=casa&bairroUrl=palmeiras": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-palmeiras/1107139/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-palmeiras/1146447/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-lote-area-terreno-minas-gerais-belo-horizonte-oeste-palmeiras/770732/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-palmeiras/1182922/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-palmeiras/942769/?tipoUrl=casa&bairroUrl=palmeiras": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-lote-area-terreno-minas-gerais-belo-horizonte-oeste-palmeiras/942769/?tipoUrl=lote-area-terreno&bairroUrl=palmeiras": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-betania/735130/?tipoUrl=apartamento-3-quartos&bairroUrl=betania": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-betania/1191379/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-betania/406665/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-betania/417186/?tipoUrl=apartamento-3-quartos&bairroUrl=betania": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-cobertura-minas-gerais-belo-horizonte-oeste-betania/417186/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-betania/784035/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-betania/1175309/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-betania/173072/?tipoUrl=apartamento-3-quartos&bairroUrl=betania": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-cobertura-minas-gerais-belo-horizonte-oeste-betania/173072/?tipoUrl=cobertura&bairroUrl=betania": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-betania/659285/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-betania/556118/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-betania/1119897/?tipoUrl=apartamento-3-quartos&bairroUrl=betania": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-cobertura-minas-gerais-belo-horizonte-oeste-betania/1119897/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-betania/1069982/?tipoUrl=casa&bairroUrl=betania": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-lote-area-terreno-minas-gerais-belo-horizonte-nordeste-parque-sao-jose/863742/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-nordeste-parque-sao-jose/428326/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-nordeste-parque-sao-jose/1061832/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-lote-area-terreno-minas-gerais-belo-horizonte-nordeste-parque-sao-jose/1152371/?tipoUrl=lote-area-terreno&bairroUrl=parque-sao-jose": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-comercial-minas-gerais-belo-horizonte-nordeste-parque-sao-jose/1152371/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-cinquentenario/910080/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-cinquentenario/625477/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-lote-area-terreno-minas-gerais-belo-horizonte-oeste-cinquentenario/625477/?tipoUrl=lote-area-terreno&bairroUrl=cinquentenario": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-cinquentenario/852521/?tipoUrl=casa&bairroUrl=cinquentenario": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-cinquentenario/1137938/?tipoUrl=casa&bairroUrl=cinquentenario": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-lote-area-terreno-minas-gerais-belo-horizonte-oeste-cinquentenario/1137938/?tipoUrl=lote-area-terreno&bairroUrl=cinquentenario": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-cinquentenario/1192368/?tipoUrl=apartamento-3-quartos&bairroUrl=cinquentenario": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-area-privativa-minas-gerais-belo-horizonte-oeste-cinquentenario/1192368/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-cinquentenario/434153/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-cinquentenario/1074366/?tipoUrl=casa&bairroUrl=cinquentenario": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-comercial-minas-gerais-belo-horizonte-oeste-cinquentenario/1074366/?tipoUrl=casa-comercial&bairroUrl=cinquentenario": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-cinquentenario/1115475/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-cinquentenario/1115475/?tipoUrl=apartamento-3-quartos&bairroUrl=cinquentenario": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-galpao-minas-gerais-belo-horizonte-oeste-cinquentenario/590401/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-havai/1188575/?tipoUrl=apartamento-2-quartos&bairroUrl=havai": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-havai/1188575/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-havai/839176/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-havai/937510/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-havai/1085056/?tipoUrl=apartamento-3-quartos&bairroUrl=havai": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-cobertura-minas-gerais-belo-horizonte-oeste-havai/1085056/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-havai/906488/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-comercial-minas-gerais-belo-horizonte-oeste-havai/906488/?tipoUrl=casa-comercial&bairroUrl=havai": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-havai/955178/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-comercial-minas-gerais-belo-horizonte-oeste-havai/955178/?tipoUrl=casa-comercial&bairroUrl=havai": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-havai/1185934/?tipoUrl=apartamento-3-quartos&bairroUrl=havai": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-4-quartos-minas-gerais-belo-horizonte-oeste-havai/1185934/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-havai/417824/?tipoUrl=apartamento-3-quartos&bairroUrl=havai": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-4-quartos-minas-gerais-belo-horizonte-oeste-havai/417824/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-estrela-dalva/1188575/?tipoUrl=apartamento-2-quartos&bairroUrl=estrela-dalva": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-dalva/1188575/?tipoUrl=apartamento-3-quartos&bairroUrl=estrela-dalva": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-estrela-dalva/1190983/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-estrela-dalva/906488/?tipoUrl=casa&bairroUrl=estrela-dalva": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-comercial-minas-gerais-belo-horizonte-oeste-estrela-dalva/906488/?tipoUrl=casa-comercial&bairroUrl=estrela-dalva": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-estrela-dalva/947490/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-lote-area-terreno-minas-gerais-belo-horizonte-oeste-estrela-dalva/750689/?tipoUrl=lote-area-terreno&bairroUrl=estrela-dalva": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-estrela-dalva/947491/?tipoUrl=apartamento-2-quartos&bairroUrl=estrela-dalva": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-cobertura-minas-gerais-belo-horizonte-oeste-estrela-dalva/947491/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-dalva/1191544/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-estrela-dalva/947486/?tipoUrl=apartamento-2-quartos&bairroUrl=estrela-dalva": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-area-privativa-minas-gerais-belo-horizonte-oeste-estrela-dalva/947486/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-estrela-dalva/1191856/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-dalva/601044/?tipoUrl=apartamento-3-quartos&bairroUrl=estrela-dalva": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/735130/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1097721/?tipoUrl=casa&bairroUrl=estrela-do-oriente": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-predio-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1097721/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/942769/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-lote-area-terreno-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/942769/?tipoUrl=lote-area-terreno&bairroUrl=estrela-do-oriente": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1183792/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1191385/?tipoUrl=casa&bairroUrl=estrela-do-oriente": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-lote-area-terreno-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1191385/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1163387/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1087729/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1189861/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1097500/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1131381/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1190204/?tipoUrl=apartamento-3-quartos&bairroUrl=estrela-do-oriente": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-salgado-filho/304578/?tipoUrl=apartamento-3-quartos&bairroUrl=salgado-filho": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-4-quartos-minas-gerais-belo-horizonte-oeste-salgado-filho/304578/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-salgado-filho/937510/?tipoUrl=apartamento-2-quartos&bairroUrl=salgado-filho": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-salgado-filho/1180534/?tipoUrl=apartamento-2-quartos&bairroUrl=salgado-filho": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-salgado-filho/1180534/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-1-quarto-minas-gerais-belo-horizonte-oeste-salgado-filho/1157180/?tipoUrl=apartamento-1-quarto&bairroUrl=salgado-filho": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-salgado-filho/1157180/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-salgado-filho/826924/?tipoUrl=casa&bairroUrl=salgado-filho": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-salgado-filho/382550/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-4-quartos-minas-gerais-belo-horizonte-oeste-salgado-filho/1189529/?tipoUrl=apartamento-4-quartos&bairroUrl=salgado-filho": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-cobertura-minas-gerais-belo-horizonte-oeste-salgado-filho/1189529/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-salgado-filho/464927/?tipoUrl=apartamento-3-quartos&bairroUrl=salgado-filho": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-cobertura-minas-gerais-belo-horizonte-oeste-salgado-filho/464927/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-salgado-filho/1177650/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-marajo/995961/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-lote-area-terreno-minas-gerais-belo-horizonte-oeste-marajo/995961/?tipoUrl=lote-area-terreno&bairroUrl=marajo": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-marajo/84002/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-marajo/169309/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-lote-area-terreno-minas-gerais-belo-horizonte-oeste-marajo/976809/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-marajo/1095595/?tipoUrl=casa&bairroUrl=marajo": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-lote-area-terreno-minas-gerais-belo-horizonte-oeste-marajo/1095595/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-marajo/1166576/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-comercial-minas-gerais-belo-horizonte-oeste-marajo/1166576/?tipoUrl=casa-comercial&bairroUrl=marajo": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "19/08/2026 11:08"
+    }
+  },
+  "stilo_imoveis": {},
+  "java_imoveis": {},
+  "sandro_pimenta": {},
   "point_imoveis": {
     "https://www.pointimoveisbh.com.br/imovel/lote-de-214921m-a-venda-betania-bh-mg/904": {
       "titulo": "Lote | Betânia - Belo Horizonte",
