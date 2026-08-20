@@ -24,11 +24,13 @@ jobs:
       - name: Instalar dependências
         run: pip install -r requirements.txt
 
-      - name: Instalar navegador headless
-        run: playwright install --with-deps chromium
+      - name: Instalar navegador (Chrome de verdade) e tela virtual
+        run: |
+          playwright install --with-deps chrome
+          sudo apt-get install -y xvfb          
 
       - name: Rodar o verificador de imóveis
-        run: python scraper.py
+        run: xvfb-run --auto-servernum python scraper.py
 
       - name: Salvar resultado no repositório
         run: |
