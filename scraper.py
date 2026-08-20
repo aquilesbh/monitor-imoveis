@@ -370,7 +370,25 @@ SITES = [
         # JavaScript pra aparecer) — deve ser um dos mais confiáveis.
         "link_pattern": r"^/imovel/\d+/[^/?#]+$",
     },
-]
+    {
+        "key": "imovel_net",
+        "name": "Imóvel Net",
+        "urls": [
+            'https://www.imovelnet.imb.br/venda/imovel/belo-horizonte/palmeiras',
+            'https://www.imovelnet.imb.br/venda/imovel/belo-horizonte/betania',
+            'https://www.imovelnet.imb.br/venda/imovel/belo-horizonte/parque-sao-jose',
+            'https://www.imovelnet.imb.br/venda/imovel/belo-horizonte/cinquentenario',
+            'https://www.imovelnet.imb.br/venda/imovel/belo-horizonte/havai',
+            'https://www.imovelnet.imb.br/venda/imovel/belo-horizonte/estrela-dalva',
+            'https://www.imovelnet.imb.br/venda/imovel/belo-horizonte/estrela-do-oriente',
+            'https://www.imovelnet.imb.br/venda/imovel/belo-horizonte/salgado-filho',
+            'https://www.imovelnet.imb.br/venda/imovel/belo-horizonte/marajo',
+        ],
+        "base": "https://www.imovelnet.imb.br",
+        "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
+    },
+   
+        ]
 
 
 MAX_PAGES = 20            # trava de segurança para não entrar em loop infinito por site
