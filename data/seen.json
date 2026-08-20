@@ -1094,6 +1094,10 @@
     "https://www.grimoveis.com.br/imovel/apartamento-com-area-privativa-a-venda-salgado-filho-nova-suissa-belo-horizonte-mg/61975": {
       "titulo": "< < < <",
       "primeira_vez": "17/08/2026 16:21"
+    },
+    "https://www.grimoveis.com.br/imovel/cobertura-a-venda-cinquentenario-belo-horizonte-mg/70161": {
+      "titulo": "NOVO",
+      "primeira_vez": "20/08/2026 10:35"
     }
   },
   "sensale": {
@@ -2008,6 +2012,10 @@
     "https://www.genesisimoveis.com.br/imovel/vende-se-apto-02-quartos-bairro-salgado-filho-bh-mg-r32000000/5946": {
       "titulo": "Apto 2 quartos | Salgado Filho - Belo Horizonte",
       "primeira_vez": "17/08/2026 16:21"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-quartos-bairro-betania-cinquentenario-bh-mg-r43500000/7098": {
+      "titulo": "Apto 3 quartos | Cinquentenário - Belo Horizonte",
+      "primeira_vez": "20/08/2026 10:35"
     }
   },
   "vpr": {
@@ -2106,6 +2114,22 @@
     "https://www.vprimoveis.com.br/casa-a-venda-4-quartos-1-suite-2-vagas-palmeiras-belo-horizontemg/11298": {
       "titulo": "Casa à venda em Palmeiras de 220m2",
       "primeira_vez": "17/08/2026 16:21"
+    },
+    "https://www.vprimoveis.com.br/apartamento-a-venda-2-quartos-1-vaga-cinquentenario-belo-horizontemg/13689": {
+      "titulo": "Apartamento à venda em Cinqüentenário de 57m2",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.vprimoveis.com.br/cobertura-a-venda-3-quartos-1-vaga-cinquentenario-belo-horizontemg/13442": {
+      "titulo": "Cobertura à venda em Cinqüentenário de 130m2",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.vprimoveis.com.br/lote-a-venda-cinquentenario-belo-horizontemg/13360": {
+      "titulo": "Lote à venda em Cinqüentenário de 540m2",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.vprimoveis.com.br/apartamento-a-venda-3-quartos-1-vaga-cinquentenario-belo-horizontemg/4783": {
+      "titulo": "Apartamento à venda em Cinqüentenário de 65m2",
+      "primeira_vez": "20/08/2026 10:35"
     }
   },
   "gade": {
@@ -3538,6 +3562,10 @@
     "https://www.pointimoveisbh.com.br/imovel/cobertura-de-4-quartos-sendo-um-suite-palmeiras-bh-mg/696": {
       "titulo": "Cobertura | Palmeiras - Belo Horizonte",
       "primeira_vez": "18/08/2026 10:37"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/apartamento-3-quartos-02-vagas-bairro-betania/2088": {
+      "titulo": "Apartamento | Marajó - Belo Horizonte",
+      "primeira_vez": "20/08/2026 10:35"
     }
   },
   "new_core": {
@@ -3662,11 +3690,11 @@
       "primeira_vez": "18/08/2026 10:37"
     },
     "https://www.newcore.com.br/imovel/510345/cobertura-3-quartos--rua-alameda-dos-pardais--masterville--sarzedo--mg": {
-      "titulo": "1/48",
+      "titulo": "BAIXOU O PREÇO",
       "primeira_vez": "18/08/2026 10:37"
     },
     "https://www.newcore.com.br/imovel/510358/apartamento-3-quartos--rua-alameda-dos-pardais--masterville--sarzedo--mg": {
-      "titulo": "1/33",
+      "titulo": "BAIXOU O PREÇO",
       "primeira_vez": "18/08/2026 10:37"
     },
     "https://www.newcore.com.br/imovel/510287/apartamento-3-quartos--alameda-dos-pardais--masterville--sarzedo--mg": {
@@ -3740,6 +3768,352 @@
     "https://www.newcore.com.br/imovel/514741/predio-inteiro-6-quartos--rua-jamil-farah--havai--belo-horizonte--mg": {
       "titulo": "1/52",
       "primeira_vez": "19/08/2026 08:29"
+    }
+  },
+  "imovel_net": {
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-3-quartos-1-suite-1-vaga-palmeiras-belo-horizonte-mg/9073": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-2-quartos-1-suite-2-vagas-palmeiras-belo-horizonte-mg/9517": {
+      "titulo": "NOVO",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-a-venda-no-bairro-betania/9476": {
+      "titulo": "NOVO",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-3-quartos-1-suite-1-vaga-palmeiras-belo-horizonte-mg/9385": {
+      "titulo": "NOVO",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-no-palmeiras-3-quartos-suite-2-vagas/9362": {
+      "titulo": "NOVO",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/3-quartos-com-suite-e-andar-alto-no-reserva-do-bosque-palmeiras/9411": {
+      "titulo": "NOVO",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-com-suite-lazer-completo-a-venda-palmeiras/5078": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-1-suite-com-56m-1-vaga-e-lazer-completo-no-bairro-palmeiras/7694": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-com-lazer-a-venda-no-palmeiras/7989": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/area-privativa-com-armarios-e-lazer-completo-bairro-palmeiras/7642": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo/9024": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/lote-a-venda-palmeiras-belo-horizonte-mg/380": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-no-bairro-palmeiras-lazer-completo/8338": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/galpao-a-venda-palmeiras/7884": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/predio-a-venda-20-vagas-palmeiras-belo-horizonte-mg/4105": {
+      "titulo": "EXCLUSIVO",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-2-quartos-1-suite-1-vaga-palmeiras-belo-horizonte-mg/4779": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-2-quartos-1-suite-1-vaga-palmeiras-belo-horizonte-mg/4776": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-3-ate-3-quartos-1-ate-1-suites-2-ate-2-vagas-padre-eustaquio-belo-horizonte-mg/8186": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/unidades-a-venda-1-a-2-quartos-santo-agostinho-belo-horizonte/6991": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/unidades-a-venda-4-quartos-gutierrez-belo-horizonte/6765": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/unidades-a-venda-2-quartos-anchieta-belo-horizonte/6655": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-1-ate-2-quartos-0-ate-1-suites-1-ate-1-vagas-estoril-belo-horizonte-mg/6623": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/lancamento-12-ou-3-quartos-com-suite/6611": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-1-ate-2-quartos-1-ate-2-suites-0-ate-2-vagas-buritis-belo-horizonte-mg/5283": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-de-luxo-exclusivo-no-castelo/5186": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/unidades-a-venda-1-a-2-quartos-buritis-belo-horizonte/4329": {
+      "titulo": "TOUR VIRTUAL",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-2-a-3-quartos-buritis-belo-horizonte/3986": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/unidades-a-venda-4-quartos-gutierrez-belo-horizonte/3354": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/unidades-a-venda-1-a-2-quartos-estoril-belo-horizonte/3352": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/unidades-a-venda-3-a-4-quartos-gutierrez-belo-horizonte/3348": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/unidades-a-venda-1-a-2-quartos-estoril-belo-horizonte/3334": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/unidades-a-venda-2-a-3-quartos-gutierrez-belo-horizonte/3331": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/unidades-a-venda-2-quartos-buritis-belo-horizonte/3326": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/unidades-a-venda-1-a-3-quartos-buritis-belo-horizonte/3321": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/unidades-a-venda-4-quartos-buritis-belo-horizonte/3319": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/unidades-a-venda-3-quartos-buritis-belo-horizonte/3317": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/unidades-a-venda-1-a-2-quartos-estoril-belo-horizonte/3315": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-2-ate-2-quartos-0-ate-1-suites-1-ate-1-vagas-alipio-de-melo-belo-horizonte-mg/8194": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-2-quartos-1-suite-2-vagas-betania-belo-horizonte-mg/9515": {
+      "titulo": "NOVO",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-3-quartos-1-suite-2-vagas-estrela-do-oriente-belo-horizonte-mg/8018": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-residencial-de-540-m-em-betania/8071": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-3-quartos-1-suite-2-vagas-estrela-do-oriente-belo-horizonte-mg/8015": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-3-quartos-1-suite-2-vagas-estrela-do-oriente-belo-horizonte-mg/8017": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-2-quartos-1-vaga-betania-belo-horizonte-mg/8016": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-residencial-em-belo-horizonte-betania-11770-m-2-vagas-ar-condicionado/9068": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-3-quartos-1-suite-1-vaga-betania-belo-horizonte-mg/6615": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-2-quartos-1-suite-2-vagas-betania-belo-horizonte-mg/6614": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/area-privativa-a-venda-3-quartos-1-suite-1-vaga-betania-belo-horizonte-mg/6613": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/area-privativa-a-venda-1-quarto-1-suite-1-vaga-betania-belo-horizonte-mg/6612": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-2-quartos-1-suite-1-vaga-havai-belo-horizonte-mg/7679": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-2-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/7680": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-com-excelente-custo-beneficio-no-bairro-buritis/4798": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-duplex-com-jacuzzi-no-salgado-filho/9398": {
+      "titulo": "NOVO",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-3-quartos-1-suite-2-vagas-castelo-belo-horizonte-mg/8052": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-2-quartos-2-vagas-concordia-belo-horizonte-mg/497": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-com-espaco-gourmet-3-quartos-2-vagas/9413": {
+      "titulo": "NOVO",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/linda-cobertura-de-2-quartos-no-castelo-conforto-espaco-e-excelente-localizacao/9435": {
+      "titulo": "NOVO",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-espacosa-com-3-quartos-area-gourmet-e-excelente-localizacao/9160": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-a-venda-em-ouro-preto-bh-3-quartos-2-salas-piscina-de-oportunidades/7946": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-3-quartos-2-vagas-a-venda-no-buritis/7889": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-cobertura-no-bairro-castelo-pampulha-12242-m-2-quartos-2-vagas/8234": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apto-reformado-no-palmeiras-2qts-pronto-para-morar/9313": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-germinada-no-manacas-com-3-quartos-e-excelente-area-externa-seguranca-e-conforto/8329": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-em-condominio-tres-quartos-com-suite/8084": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-geminada-individual-com-3-quartos-varanda-e-4-vagas-no-manacas/8299": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-duplex-no-bairro-santa-terezinha-pampulha-3-quartos-1-suite-1-vaga/8116": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-a-venda-no-buritis-2-quartos-1-suite-2-vagas/1774": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-residencial-de-3-quartos-com-espaco-gourmet-e-4-vagas-frente-bairro-ceu-azul-bh/7957": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-a-venda-no-bairro-paqueta-belo-horizonte-3-quartos-1-suite-2-vagas-e-espaco-gourmet/9098": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-geminada-de-esquina-no-bairro-paqueta-14321-m-3-quartos-1-suite-2-vagas/9092": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/oportunidade-casa-03-quartos-a-venda-no-bairro-serrano-bh/4640": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-a-venda-em-belo-horizonte-pampulha-3-suites-frente-espaco-gourmet/7980": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-tres-quartos-com-suite-a-venda-bairro-castelo/8077": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-a-venda-2-quartos-1-suite-1-vaga-santa-terezinha-belo-horizonte-mg/8115": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-residencial-frente-c-2-quartos-suite-e-quintal-santa-terezinha-bh/9296": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-a-venda-3-quartos-2-vagas-havai-belo-horizonte-mg/4508": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-de-alto-padrao-no-ouro-preto-sofisticacao-espaco-e-localizacao-privilegiada/9190": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-havai-2-quartos/7627": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/excelente-apartamento-de-2-quartos-em-localizacao-privilegiada-no-havai/9208": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/area-privativa-a-venda-3-quartos-1-suite-1-vaga-havai-belo-horizonte-mg/9420": {
+      "titulo": "NOVO",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-area-privativa-2-quartos-1-vaga-havai-belo-horizonte-mg/2116": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-4-quartos-1-suite-2-vagas-buritis-belo-horizonte-mg/9270": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/area-privativa-de-11104-m-em-belo-horizonte-mg-bairro-havai/4789": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-a-venda-3-quartos-1-suite-4-vagas-havai-belo-horizonte-mg/3915": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-4685-m-no-bairro-havai-oeste-de-belo-horizonte/4790": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "20/08/2026 10:35"
     }
   }
 }
