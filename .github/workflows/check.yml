@@ -28,7 +28,7 @@ jobs:
         run: playwright install --with-deps chromium
 
       - name: Rodar o verificador de imóveis
-        run: xvfb-run --auto-servernum python scraper.py
+        run: python scraper.py
 
       - name: Salvar resultado no repositório
         run: |
