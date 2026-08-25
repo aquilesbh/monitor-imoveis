@@ -387,8 +387,7 @@ SITES = [
         "base": "https://www.imovelnet.imb.br",
         "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
     },
-   
-        ]
+]
 
 
 MAX_PAGES = 20            # trava de segurança para não entrar em loop infinito por site
@@ -400,6 +399,22 @@ DATA_FILE = Path(__file__).parent / "data" / "seen.json"
 OUTPUT_HTML = Path(__file__).parent / "docs" / "index.html"
 
 BR_TZ = timezone(timedelta(hours=-3))
+
+
+def data_para_iso(primeira_vez_str):
+    """
+    Converte a data guardada no formato brasileiro ("21/08/2026 14:30")
+    para ISO (2026-08-21T14:30:00-03:00), que é o que o filtro de data do
+    painel (JavaScript) consegue entender. Se não conseguir converter
+    (formato inesperado/antigo), retorna vazio e o item simplesmente não
+    entra no filtro por data (mas continua aparecendo normalmente).
+    """
+    try:
+        dt = datetime.strptime(primeira_vez_str, "%d/%m/%Y %H:%M")
+        dt = dt.replace(tzinfo=BR_TZ)
+        return dt.isoformat()
+    except (ValueError, TypeError):
+        return ""
 
 
 def eh_link_do_proprio_site(href_abs, base_url, domain_suffix=None):
@@ -653,6 +668,16 @@ def coletar_site(site):
     urls = site.get("urls") or [site["url"]]
 
     with sync_playwright() as p:
+        # Usa o Chrome de verdade (não o Chromium genérico) e roda "com
+        # tela" (não headless) — só que numa tela virtual (Xvfb, configurada
+        # no workflow do GitHub Actions). Isso passa por detecções de robô
+        # mais rígidas que nem a biblioteca de disfarce sozinha cobre,
+        # porque alguns sites checam sinais que só existem no modo headless
+        # de verdade.
+        # Testamos rodar com Chrome de verdade + tela virtual (headed) pra
+        # tentar passar por bloqueios anti-robô mais rígidos, mas isso
+        # deixou alguns sites travando (timeout) em vez de só responder
+        # vazio — piorou mais do que ajudou. Voltamos ao headless comum.
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(
             user_agent=(
@@ -762,8 +787,9 @@ def gerar_html(estado_por_site, novos_por_site, ultima_verificacao):
             badge = '<span class="badge">NOVO</span>' if eh_novo else ""
             classe = "item novo" if eh_novo else "item"
             primeira_vez = info.get("primeira_vez", "")
+            primeira_vez_iso = data_para_iso(primeira_vez)
             linhas_html.append(f"""
-            <div class="{classe}">
+            <div class="{classe}" data-primeira-vez="{primeira_vez_iso}">
               <a href="{href}" target="_blank" rel="noopener">{titulo}</a>
               {badge}
               <div class="meta">visto pela primeira vez em {primeira_vez}</div>
@@ -830,6 +856,25 @@ def gerar_html(estado_por_site, novos_por_site, ultima_verificacao):
     box-shadow: 0 1px 3px rgba(0,0,0,0.08);
     flex: 1;
     min-width: 140px;
+  }}
+  .filtro-data {{
+    max-width: 900px;
+    margin: 16px auto 0;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #444;
+  }}
+  .filtro-data select {{
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: white;
+    font-size: 13px;
+    color: #1f2d3d;
+    font-weight: 600;
   }}
   .resumo {{
     display: flex;
@@ -937,6 +982,16 @@ def gerar_html(estado_por_site, novos_por_site, ultima_verificacao):
   <div class="card"><div class="num">{total_novos_geral}</div><div class="label">novos em todas as imobiliárias</div></div>
 </div>
 
+<div class="filtro-data">
+  <label for="filtro-data-select">Mostrar anúncios novos de:</label>
+  <select id="filtro-data-select" onchange="aplicarFiltroData()">
+    <option value="todos" selected>Todos</option>
+    <option value="hoje">Hoje</option>
+    <option value="3">Últimos 3 dias</option>
+    <option value="7">Últimos 7 dias</option>
+  </select>
+</div>
+
 <div class="tabs">
   {"".join(abas_botoes)}
 </div>
@@ -953,6 +1008,35 @@ def gerar_html(estado_por_site, novos_por_site, ultima_verificacao):
       document.getElementById('tab-' + key).classList.add('active');
     }});
   }});
+
+  function inicioDoDia(diasAtras) {{
+    var d = new Date();
+    d.setHours(0, 0, 0, 0);
+    d.setDate(d.getDate() - diasAtras);
+    return d;
+  }}
+
+  function aplicarFiltroData() {{
+    var valor = document.getElementById('filtro-data-select').value;
+    var corte = null;
+    if (valor === 'hoje') corte = inicioDoDia(0);
+    else if (valor === '3') corte = inicioDoDia(2);
+    else if (valor === '7') corte = inicioDoDia(6);
+
+    document.querySelectorAll('.item').forEach(function(item) {{
+      if (!corte) {{
+        item.style.display = '';
+        return;
+      }}
+      var iso = item.getAttribute('data-primeira-vez');
+      if (!iso) {{
+        item.style.display = '';
+        return;
+      }}
+      var data = new Date(iso);
+      item.style.display = (data >= corte) ? '' : 'none';
+    }});
+  }}
 </script>
 
 </body>
