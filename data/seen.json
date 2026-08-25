@@ -1102,6 +1102,10 @@
     "https://www.grimoveis.com.br/imovel/apartamento-a-venda-estrela-do-oriente-belo-horizonte-mg/67353": {
       "titulo": "< < < <",
       "primeira_vez": "22/08/2026 08:16"
+    },
+    "https://www.grimoveis.com.br/imovel/predio-comercial-a-venda-cinquentenario-belo-horizonte-mg/70181": {
+      "titulo": "NOVO",
+      "primeira_vez": "25/08/2026 08:22"
     }
   },
   "sensale": {
@@ -2540,6 +2544,18 @@
     "https://gadeimoveis.com.br/imovel/casa-estrela-do-oriente-belo-horizonte-mg-3-quartos-360m2-3806": {
       "titulo": "Cód: 3806",
       "primeira_vez": "23/08/2026 08:17"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3807": {
+      "titulo": "Cód: 3807",
+      "primeira_vez": "25/08/2026 08:22"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-50m2-3767": {
+      "titulo": "Cód: 3767",
+      "primeira_vez": "25/08/2026 08:22"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3710": {
+      "titulo": "Cód: 3710",
+      "primeira_vez": "25/08/2026 08:22"
     }
   },
   "malta": {
@@ -2778,7 +2794,7 @@
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/163-rua-ivo-rocha/870701005-121": {
-      "titulo": "R$ 2.000 Mensal",
+      "titulo": "R$ 1.900 Mensal",
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701002-74": {
@@ -3321,6 +3337,14 @@
     "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1112807/": {
       "titulo": "MAIS INFORMAÇÕES",
       "primeira_vez": "24/08/2026 08:23"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-comercial-minas-gerais-belo-horizonte-oeste-betania/1069982/?tipoUrl=casa-comercial&bairroUrl=betania": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "25/08/2026 08:22"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-dalva/647011/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "25/08/2026 08:22"
     }
   },
   "stilo_imoveis": {},
@@ -4226,6 +4250,10 @@
     "https://www.imovelnet.imb.br/imovel/cobertura-mobiliada-a-venda-em-santa-terezinha-158-m-3-quartos-1-suite-2-vagas/9531": {
       "titulo": "NOVO",
       "primeira_vez": "22/08/2026 08:16"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-3-quartos-1-suite-2-vagas-castelo-belo-horizonte-mg/9566": {
+      "titulo": "NOVO",
+      "primeira_vez": "25/08/2026 08:22"
     }
   }
 }
