@@ -2036,6 +2036,10 @@
     "https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-quartos-bairro-havai-bh-mg-r57200000/5916": {
       "titulo": "Apto 3 quartos | Havai - Belo Horizonte",
       "primeira_vez": "22/08/2026 08:16"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-apto-02-quartos-bairro-palmeiras-bh-mg-r29500000/7125": {
+      "titulo": "Apto 2 quartos | Parque São José - Belo Horizonte",
+      "primeira_vez": "26/08/2026 02:24"
     }
   },
   "vpr": {
@@ -2556,6 +2560,10 @@
     "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3710": {
       "titulo": "Cód: 3710",
       "primeira_vez": "25/08/2026 08:22"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-2-quartos-52m2-3691": {
+      "titulo": "Cód: 3691",
+      "primeira_vez": "26/08/2026 02:24"
     }
   },
   "malta": {
@@ -2856,6 +2864,10 @@
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/195-rua-marcos-coelho-neto/870701002-121": {
       "titulo": "R$ 498.000",
       "primeira_vez": "17/08/2026 10:07"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/430-rua-dois-mil-duzentos-e-vinte-e-sete/870701004-96": {
+      "titulo": "R$ 323.000",
+      "primeira_vez": "26/08/2026 02:24"
     }
   },
   "dual_imoveis": {},
@@ -3345,6 +3357,30 @@
     "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-dalva/647011/": {
       "titulo": "MAIS INFORMAÇÕES",
       "primeira_vez": "25/08/2026 08:22"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-galpao-minas-gerais-belo-horizonte-oeste-betania/1121912/?tipoUrl=galpao&bairroUrl=betania": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "26/08/2026 02:24"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-havai/694920/?tipoUrl=apartamento-3-quartos&bairroUrl=havai": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "26/08/2026 02:24"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-4-quartos-minas-gerais-belo-horizonte-oeste-havai/694920/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "26/08/2026 02:24"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-lote-area-terreno-minas-gerais-belo-horizonte-oeste-salgado-filho/1061940/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "26/08/2026 02:24"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-ponto-comercial-minas-gerais-belo-horizonte-oeste-salgado-filho/1061940/?tipoUrl=ponto-comercial&bairroUrl=salgado-filho": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "26/08/2026 02:24"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-salgado-filho/975505/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "26/08/2026 02:24"
     }
   },
   "stilo_imoveis": {},
@@ -3686,7 +3722,7 @@
       "primeira_vez": "18/08/2026 10:37"
     },
     "https://www.newcore.com.br/imovel/332722/casa-4-quartos--avenida-dom-joao-vi--palmeiras--belo-horizonte--mg": {
-      "titulo": "BAIXOU O PREÇO",
+      "titulo": "1/16",
       "primeira_vez": "18/08/2026 10:37"
     },
     "https://www.newcore.com.br/imovel/356262/casa-5-quartos--avenida-walter-amadeu-pace--havai--belo-horizonte--mg": {
