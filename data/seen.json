@@ -481,6 +481,10 @@
     "https://www.inteligenciaimobiliariabh.com.br/imovel/casa-duplex-em-buritis/250": {
       "titulo": "‹",
       "primeira_vez": "17/08/2026 16:21"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-3-quartos-reformado-1-vaga-betania-venda-32000000/318": {
+      "titulo": "‹",
+      "primeira_vez": "27/08/2026 12:59"
     }
   },
   "bihain": {
@@ -2040,6 +2044,10 @@
     "https://www.genesisimoveis.com.br/imovel/vende-se-apto-02-quartos-bairro-palmeiras-bh-mg-r29500000/7125": {
       "titulo": "Apto 2 quartos | Parque São José - Belo Horizonte",
       "primeira_vez": "26/08/2026 02:24"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-quartos-bairro-betania-bh-mg-r27500000/7064": {
+      "titulo": "Apto 3 quartos | Cinquentenário - Belo Horizonte",
+      "primeira_vez": "27/08/2026 12:59"
     }
   },
   "vpr": {
@@ -2154,6 +2162,10 @@
     "https://www.vprimoveis.com.br/apartamento-a-venda-3-quartos-1-vaga-cinquentenario-belo-horizontemg/4783": {
       "titulo": "Apartamento à venda em Cinqüentenário de 65m2",
       "primeira_vez": "20/08/2026 10:35"
+    },
+    "https://www.vprimoveis.com.br/apartamento-a-venda-2-quartos-1-vaga-palmeiras-belo-horizontemg/13647": {
+      "titulo": "Apartamento à venda em Palmeiras de 47m2",
+      "primeira_vez": "27/08/2026 12:59"
     }
   },
   "gade": {
@@ -2564,6 +2576,18 @@
     "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-2-quartos-52m2-3691": {
       "titulo": "Cód: 3691",
       "primeira_vez": "26/08/2026 02:24"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-nova-suissa-belo-horizonte-mg-1-quartos-3808": {
+      "titulo": "Cód: 3808",
+      "primeira_vez": "27/08/2026 12:59"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-nova-suissa-belo-horizonte-mg-2-quartos-51m2-3809": {
+      "titulo": "Cód: 3809",
+      "primeira_vez": "27/08/2026 12:59"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-palmeiras-belo-horizonte-mg-3-quartos-3811": {
+      "titulo": "Cód: 3811",
+      "primeira_vez": "27/08/2026 12:59"
     }
   },
   "malta": {
@@ -2786,7 +2810,7 @@
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://www.remax.com.br/pt-br/imoveis/loja/alugar/belo-horizonte/870701005-118": {
-      "titulo": "R$ 1.600 Mensal",
+      "titulo": "R$ 1.550 Mensal",
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701002-67": {
@@ -3381,6 +3405,18 @@
     "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-salgado-filho/975505/": {
       "titulo": "MAIS INFORMAÇÕES",
       "primeira_vez": "26/08/2026 02:24"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-betania/1193265/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "27/08/2026 12:59"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-lote-area-terreno-minas-gerais-belo-horizonte-oeste-betania/1193265/?tipoUrl=lote-area-terreno&bairroUrl=betania": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "27/08/2026 12:59"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1046306/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "27/08/2026 12:59"
     }
   },
   "stilo_imoveis": {},
@@ -3710,7 +3746,7 @@
       "primeira_vez": "18/08/2026 10:37"
     },
     "https://www.newcore.com.br/imovel/517556/apartamento-3-quartos--avenida-dom-joao-vi--cinquentenario--belo-horizonte--mg": {
-      "titulo": "NOVIDADE",
+      "titulo": "1/34",
       "primeira_vez": "18/08/2026 10:37"
     },
     "https://www.newcore.com.br/imovel/485713/casa-4-quartos--rua-julio-de-castilho--cinquentenario--belo-horizonte--mg": {
@@ -3896,6 +3932,10 @@
     "https://www.newcore.com.br/imovel/514741/predio-inteiro-6-quartos--rua-jamil-farah--havai--belo-horizonte--mg": {
       "titulo": "1/52",
       "primeira_vez": "19/08/2026 08:29"
+    },
+    "https://www.newcore.com.br/imovel/518836/apartamento-3-quartos--rua-iracy-manata--buritis--belo-horizonte--mg": {
+      "titulo": "NOVIDADE",
+      "primeira_vez": "27/08/2026 12:59"
     }
   },
   "imovel_net": {
@@ -4290,6 +4330,10 @@
     "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-3-quartos-1-suite-2-vagas-castelo-belo-horizonte-mg/9566": {
       "titulo": "NOVO",
       "primeira_vez": "25/08/2026 08:22"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-2-quartos-1-suite-1-vaga-palmeiras-belo-horizonte-mg/9587": {
+      "titulo": "NOVO",
+      "primeira_vez": "27/08/2026 12:59"
     }
   }
 }
