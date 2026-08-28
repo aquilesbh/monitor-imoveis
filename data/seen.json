@@ -343,6 +343,10 @@
     "https://www.paulotavaresimoveis.com.br/imovel/cobertura-de-3-quartos-para-venda-em-belo-horizonte-mg-no-bairro-betania/889": {
       "titulo": "Cobertura | Betânia - Belo Horizonte",
       "primeira_vez": "17/08/2026 16:21"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-3-quartos-e-2-vagas-para-venda-no-bairro-marajo-belo-horizonte-mg/1231": {
+      "titulo": "Apartamento | Marajó - Belo Horizonte",
+      "primeira_vez": "28/08/2026 13:59"
     }
   },
   "inteligencia_bh": {
@@ -615,6 +619,10 @@
     "https://www.bihainimoveis.com.br/imovel/terreno-belo-horizonte-1-250-m/TE0138-BIHA?from=sale": {
       "titulo": "TE0138-BIHA",
       "primeira_vez": "13/08/2026 16:33"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-48-m/AP9579-BIHA?from=sale": {
+      "titulo": "AP9579-BIHA",
+      "primeira_vez": "28/08/2026 13:59"
     }
   },
   "palmeiras": {},
@@ -900,11 +908,11 @@
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://www.grimoveis.com.br/imovel/lote-a-venda-cinquentenario-belo-horizonte-mg/70022": {
-      "titulo": "NOVO",
+      "titulo": "< < < <",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://www.grimoveis.com.br/imovel/lote-a-venda-cinquentenario-belo-horizonte-mg/70025": {
-      "titulo": "NOVO",
+      "titulo": "< < < <",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://www.grimoveis.com.br/imovel/apartamento-a-venda-estrela-d-alva-belo-horizonte-mg/69802": {
@@ -2048,6 +2056,18 @@
     "https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-quartos-bairro-betania-bh-mg-r27500000/7064": {
       "titulo": "Apto 3 quartos | Cinquentenário - Belo Horizonte",
       "primeira_vez": "27/08/2026 12:59"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-03-quartos-bairro-salgado-filho-bh-mg-r63990000/7128": {
+      "titulo": "Casa | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "28/08/2026 13:59"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-02-quartos-bairro-salgado-filho-bh-mg-r49990000/7127": {
+      "titulo": "Casa | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "28/08/2026 13:59"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-02-quartos-bairro-salgado-filho-bh-mg-r39990000/7126": {
+      "titulo": "Casa | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "28/08/2026 13:59"
     }
   },
   "vpr": {
@@ -2166,6 +2186,10 @@
     "https://www.vprimoveis.com.br/apartamento-a-venda-2-quartos-1-vaga-palmeiras-belo-horizontemg/13647": {
       "titulo": "Apartamento à venda em Palmeiras de 47m2",
       "primeira_vez": "27/08/2026 12:59"
+    },
+    "https://www.vprimoveis.com.br/casa-a-venda-2-quartos-1-suite-2-vagas-palmeiras-belo-horizontemg/13737": {
+      "titulo": "Casa à venda em Palmeiras de 210m2",
+      "primeira_vez": "28/08/2026 13:59"
     }
   },
   "gade": {
@@ -3730,6 +3754,14 @@
     "https://www.pointimoveisbh.com.br/imovel/excelente-casa-geminada-a-venda-bairro-palmeiras-03-quartos-02-banhos-02-vagas/2089": {
       "titulo": "Casa | Palmeiras - Belo Horizonte",
       "primeira_vez": "22/08/2026 08:16"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/area-privativa-de-2-quartos-1-suite-a-venda-havai-bh-mg/2096": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "28/08/2026 13:59"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/apartamento-2-quartos-1-suite-a-venda-havai-bh-mg/2094": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "28/08/2026 13:59"
     }
   },
   "new_core": {
@@ -4152,7 +4184,7 @@
       "primeira_vez": "20/08/2026 10:35"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-duplex-com-jacuzzi-no-salgado-filho/9398": {
-      "titulo": "NOVO",
+      "titulo": "arrow_back_ios",
       "primeira_vez": "20/08/2026 10:35"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-3-quartos-1-suite-2-vagas-castelo-belo-horizonte-mg/8052": {
