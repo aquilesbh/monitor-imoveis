@@ -1118,6 +1118,14 @@
     "https://www.grimoveis.com.br/imovel/predio-comercial-a-venda-cinquentenario-belo-horizonte-mg/70181": {
       "titulo": "NOVO",
       "primeira_vez": "25/08/2026 08:22"
+    },
+    "https://www.grimoveis.com.br/imovel/casa-a-venda-havai-belo-horizonte-mg/65472": {
+      "titulo": "< < < <",
+      "primeira_vez": "01/09/2026 06:40"
+    },
+    "https://www.grimoveis.com.br/imovel/lote-a-venda-havai-belo-horizonte-mg/65474": {
+      "titulo": "< <",
+      "primeira_vez": "01/09/2026 06:40"
     }
   },
   "sensale": {
@@ -2068,6 +2076,10 @@
     "https://www.genesisimoveis.com.br/imovel/vende-se-casa-02-quartos-bairro-salgado-filho-bh-mg-r39990000/7126": {
       "titulo": "Casa | Salgado Filho - Belo Horizonte",
       "primeira_vez": "28/08/2026 13:59"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-apto-04-quartos-bairro-havai-bh-mg-r72000000/6969": {
+      "titulo": "Apto 4 quartos | Havai - Belo Horizonte",
+      "primeira_vez": "01/09/2026 06:40"
     }
   },
   "vpr": {
@@ -2730,7 +2742,7 @@
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://www.remax.com.br/pt-br/imoveis/casa/alugar/belo-horizonte/232-rua-helcio-correa/870761019-21": {
-      "titulo": "R$ 13.500 Mensal",
+      "titulo": "R$ 11.500 Mensal",
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://www.remax.com.br/pt-br/imoveis/cobertura/venda/belo-horizonte/870701005-70": {
@@ -3449,6 +3461,22 @@
     "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-palmeiras/1195365/": {
       "titulo": "MAIS INFORMAÇÕES",
       "primeira_vez": "31/08/2026 08:14"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-havai/120294/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "01/09/2026 06:40"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-comercial-minas-gerais-belo-horizonte-oeste-havai/120294/?tipoUrl=casa-comercial&bairroUrl=havai": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "01/09/2026 06:40"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-havai/27144/?tipoUrl=apartamento-3-quartos&bairroUrl=havai": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "01/09/2026 06:40"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-comercial-minas-gerais-belo-horizonte-oeste-salgado-filho/975505/?tipoUrl=casa-comercial&bairroUrl=salgado-filho": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "01/09/2026 06:40"
     }
   },
   "stilo_imoveis": {},
@@ -3770,6 +3798,14 @@
     "https://www.pointimoveisbh.com.br/imovel/apartamento-2-quartos-1-suite-a-venda-havai-bh-mg/2094": {
       "titulo": "Apartamento | Havaí - Belo Horizonte",
       "primeira_vez": "28/08/2026 13:59"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/area-privativa-reformada-3-quartos-1-vaga-betania-bh-mg/2101": {
+      "titulo": "Apartamento | Cinquentenário - Belo Horizonte",
+      "primeira_vez": "01/09/2026 06:40"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/apartamento-3-quartos-1-vaga-no-bairro-havai/2102": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "01/09/2026 06:40"
     }
   },
   "new_core": {
@@ -4374,6 +4410,10 @@
     "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-2-quartos-1-suite-1-vaga-palmeiras-belo-horizonte-mg/9587": {
       "titulo": "NOVO",
       "primeira_vez": "27/08/2026 12:59"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-a-venda-no-estrela-dalva-conforto-e-excelente-localizacao-em-bh/9618": {
+      "titulo": "NOVO",
+      "primeira_vez": "01/09/2026 06:40"
     }
   }
 }
