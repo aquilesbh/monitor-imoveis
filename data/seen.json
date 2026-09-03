@@ -411,7 +411,7 @@
       "primeira_vez": "13/08/2026 16:33"
     },
     "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-2-quartos-no-palmeiras-belo-horizonte/1399": {
-      "titulo": "NOVO",
+      "titulo": "‹",
       "primeira_vez": "13/08/2026 16:33"
     },
     "https://www.inteligenciaimobiliariabh.com.br/imovel/area-privativa-3-quartos-no-palmeiras-r-550-mil/1380": {
@@ -489,6 +489,10 @@
     "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-3-quartos-reformado-1-vaga-betania-venda-32000000/318": {
       "titulo": "‹",
       "primeira_vez": "27/08/2026 12:59"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-de-2-quartos-a-venda-no-camargos-proximo-ao-metro/1403": {
+      "titulo": "NOVO",
+      "primeira_vez": "03/09/2026 06:18"
     }
   },
   "bihain": {
@@ -1252,6 +1256,10 @@
     "https://sensaleimoveis.com.br/imovel/AP1729/apartamento-3-quartos-salgado-filho-belo-horizonte/venda": {
       "titulo": "Apartamento",
       "primeira_vez": "17/08/2026 16:21"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851397/apartamento-3-quartos-palmeiras-belo-horizonte/aluguel": {
+      "titulo": "Apartamento com 3 Quartos para alugar, 98m² - Palmeiras",
+      "primeira_vez": "03/09/2026 06:18"
     }
   },
   "leo_batista": {
@@ -2080,6 +2088,18 @@
     "https://www.genesisimoveis.com.br/imovel/vende-se-apto-04-quartos-bairro-havai-bh-mg-r72000000/6969": {
       "titulo": "Apto 4 quartos | Havai - Belo Horizonte",
       "primeira_vez": "01/09/2026 06:40"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-apto-02-quartos-bairro-cinquentenario-bh-mg-r37000000/7131": {
+      "titulo": "Apto 2 quartos | Cinquentenário - Belo Horizonte",
+      "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-03-quartos-bairro-havai-bh-mg-r90000000/7132": {
+      "titulo": "Casa | Havai - Belo Horizonte",
+      "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-03-quartos-bairro-palmeiras-bh-mg-r52000000/7130": {
+      "titulo": "Casa | Palmeiras - Belo Horizonte",
+      "primeira_vez": "03/09/2026 06:18"
     }
   },
   "vpr": {
@@ -2624,6 +2644,10 @@
     "https://gadeimoveis.com.br/imovel/casa-palmeiras-belo-horizonte-mg-3-quartos-3811": {
       "titulo": "Cód: 3811",
       "primeira_vez": "27/08/2026 12:59"
+    },
+    "https://gadeimoveis.com.br/imovel/terreno-havai-belo-horizonte-mg-3813": {
+      "titulo": "Cód: 3813",
+      "primeira_vez": "03/09/2026 06:18"
     }
   },
   "malta": {
@@ -3485,6 +3509,14 @@
     "https://www.solimobnetimoveis.com.br/imovel/venda-lote-area-terreno-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/949911/?tipoUrl=lote-area-terreno&bairroUrl=estrela-do-oriente": {
       "titulo": "MAIS INFORMAÇÕES",
       "primeira_vez": "02/09/2026 06:11"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-salgado-filho/1188381/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-salgado-filho/1164308/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "03/09/2026 06:18"
     }
   },
   "stilo_imoveis": {},
@@ -3814,6 +3846,54 @@
     "https://www.pointimoveisbh.com.br/imovel/apartamento-3-quartos-1-vaga-no-bairro-havai/2102": {
       "titulo": "Apartamento | Havaí - Belo Horizonte",
       "primeira_vez": "01/09/2026 06:40"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/casa-a-venda-06-quartos-04-suites-03-vagas-bairro-mangabeiras/554": {
+      "titulo": "Casa | Mangabeiras - Belo Horizonte",
+      "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/excelente-casa-a-venda-bairro-nova-granada-04-quartos-02-suites-03-vagas/1997": {
+      "titulo": "Casa | Nova Granada - Belo Horizonte",
+      "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/linda-cobertura-de-4-quartos-no-prado/733": {
+      "titulo": "Cobertura | Prado - Belo Horizonte",
+      "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/casa-06-quartos-01-suite-06-vagas-nova-gameleira/629": {
+      "titulo": "Casa | Nova Gameleira - Belo Horizonte",
+      "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/excelente-area-privativa-3-quartos-1-suite-e-3-vagas-bairro-barreiro/1977": {
+      "titulo": "Área privativa | Barreiro - Belo Horizonte",
+      "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/andar-corrido-19275m-03-vagas-santo-agostinho-bh-mg/820": {
+      "titulo": "Andar corrido | Santo Agostinho - Belo Horizonte",
+      "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/linda-privativa-de-3-quartos-no-prado/732": {
+      "titulo": "Área privativa | Prado - Belo Horizonte",
+      "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/area-privativa-de-alto-padrao-3-quartos-1-suite-e-2-vagas-de-garagem-barreiro-bh-mg/1964": {
+      "titulo": "Área privativa | Barreiro - Belo Horizonte",
+      "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/excelente-lote-760m-ideal-para-construtores-bairro-salgado-filho/251": {
+      "titulo": "Terreno | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/casa-3-quartos-4-vagas-alto-padrao-bairro-paqueta/149": {
+      "titulo": "Casa | Paquetá - Belo Horizonte",
+      "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/casa-05-quartos-03-suite-com-07-vagas-bairro-salgado-filho/58": {
+      "titulo": "Casa | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/galpao-comercial-a-venda-no-bairro-salgado-filho-com-03-casas-proximo-a-magi-salomao-360m-10-vagas/2059": {
+      "titulo": "Galpão | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "03/09/2026 06:18"
     }
   },
   "new_core": {
@@ -4252,7 +4332,7 @@
       "primeira_vez": "20/08/2026 10:35"
     },
     "https://www.imovelnet.imb.br/imovel/linda-cobertura-de-2-quartos-no-castelo-conforto-espaco-e-excelente-localizacao/9435": {
-      "titulo": "NOVO",
+      "titulo": "arrow_back_ios",
       "primeira_vez": "20/08/2026 10:35"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-espacosa-com-3-quartos-area-gourmet-e-excelente-localizacao/9160": {
@@ -4422,6 +4502,14 @@
     "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-a-venda-no-estrela-dalva-conforto-e-excelente-localizacao-em-bh/9618": {
       "titulo": "NOVO",
       "primeira_vez": "01/09/2026 06:40"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-no-manacas-pampulha-belo-horizonte/9641": {
+      "titulo": "NOVO",
+      "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-2-quartos-1-vaga-bonsucesso-belo-horizonte-mg/4814": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "03/09/2026 06:18"
     }
   }
 }
