@@ -355,7 +355,7 @@
       "primeira_vez": "13/08/2026 16:33"
     },
     "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-3-quartos-1-suite-1-vaga-e-lazer-completo-palmeiras-bh-a-venda/1400": {
-      "titulo": "NOVO",
+      "titulo": "‹",
       "primeira_vez": "13/08/2026 16:33"
     },
     "https://www.inteligenciaimobiliariabh.com.br/imovel/cobertura-com-elevador-2-vagas-imovel-novo-cinquentenario/288": {
@@ -627,6 +627,10 @@
     "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-48-m/AP9579-BIHA?from=sale": {
       "titulo": "AP9579-BIHA",
       "primeira_vez": "28/08/2026 13:59"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-55-m/AP9437-BIHA?from=sale": {
+      "titulo": "AP9437-BIHA",
+      "primeira_vez": "04/09/2026 06:11"
     }
   },
   "palmeiras": {},
@@ -1260,6 +1264,22 @@
     "https://sensaleimoveis.com.br/imovel/SE851397/apartamento-3-quartos-palmeiras-belo-horizonte/aluguel": {
       "titulo": "Apartamento com 3 Quartos para alugar, 98m² - Palmeiras",
       "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://sensaleimoveis.com.br/imovel/848663/casa-2-quartos-havai-belo-horizonte/venda": {
+      "titulo": "Casa a venda ideal para morar e investir!!",
+      "primeira_vez": "04/09/2026 06:11"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851402/casa-5-quartos-havai-belo-horizonte/venda": {
+      "titulo": "Casa",
+      "primeira_vez": "04/09/2026 06:11"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851400/casa-5-quartos-havai-belo-horizonte/aluguel": {
+      "titulo": "Casa com 5 Quartos para alugar, 360m² - Havaí",
+      "primeira_vez": "04/09/2026 06:11"
+    },
+    "https://sensaleimoveis.com.br/imovel/GD0062/apartamento-3-quartos-salgado-filho-belo-horizonte/venda": {
+      "titulo": "Apartamento",
+      "primeira_vez": "04/09/2026 06:11"
     }
   },
   "leo_batista": {
@@ -3894,6 +3914,10 @@
     "https://www.pointimoveisbh.com.br/imovel/galpao-comercial-a-venda-no-bairro-salgado-filho-com-03-casas-proximo-a-magi-salomao-360m-10-vagas/2059": {
       "titulo": "Galpão | Salgado Filho - Belo Horizonte",
       "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/apartamento-02-quartos-01-vaga-betania-bh-mg/523": {
+      "titulo": "Apartamento | Betânia - Belo Horizonte",
+      "primeira_vez": "04/09/2026 06:11"
     }
   },
   "new_core": {
