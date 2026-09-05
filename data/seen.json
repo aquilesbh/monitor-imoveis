@@ -493,6 +493,10 @@
     "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-de-2-quartos-a-venda-no-camargos-proximo-ao-metro/1403": {
       "titulo": "NOVO",
       "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/seu-novo-lar-no-cinquentenario/1404": {
+      "titulo": "NOVO",
+      "primeira_vez": "05/09/2026 05:43"
     }
   },
   "bihain": {
@@ -2886,7 +2890,7 @@
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/870701004-80": {
-      "titulo": "R$ 2.300 Mensal",
+      "titulo": "R$ 2.240 Mensal",
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://www.remax.com.br/pt-br/imoveis/loja/alugar/belo-horizonte/870701005-118": {
@@ -3537,6 +3541,22 @@
     "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-salgado-filho/1164308/": {
       "titulo": "MAIS INFORMAÇÕES",
       "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-cinquentenario/1189391/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "05/09/2026 05:43"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-cobertura-minas-gerais-belo-horizonte-oeste-havai/27144/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "05/09/2026 05:43"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-havai/1000251/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "05/09/2026 05:43"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-dalva/1196855/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "05/09/2026 05:43"
     }
   },
   "stilo_imoveis": {},
@@ -3918,6 +3938,10 @@
     "https://www.pointimoveisbh.com.br/imovel/apartamento-02-quartos-01-vaga-betania-bh-mg/523": {
       "titulo": "Apartamento | Betânia - Belo Horizonte",
       "primeira_vez": "04/09/2026 06:11"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/casa-3-quartos-2-vagas-a-venda-no-bairro-havai-belo-horizonte/2103": {
+      "titulo": "Casa | Havaí - Belo Horizonte",
+      "primeira_vez": "05/09/2026 05:43"
     }
   },
   "new_core": {
@@ -4014,7 +4038,7 @@
       "primeira_vez": "18/08/2026 10:37"
     },
     "https://www.newcore.com.br/imovel/508468/casa-3-quartos--rua-brumadinho--parque-xangri-la--contagem--mg": {
-      "titulo": "BAIXOU O PREÇO",
+      "titulo": "1/36",
       "primeira_vez": "18/08/2026 10:37"
     },
     "https://www.newcore.com.br/imovel/506218/lote--rua-maria-de-lurdes-pereira--estancia-santa-izabel--peruibe--sp": {
@@ -4534,6 +4558,30 @@
     "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-2-quartos-1-vaga-bonsucesso-belo-horizonte-mg/4814": {
       "titulo": "arrow_back_ios",
       "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-2-quartos-1-suite-2-vagas-buritis-belo-horizonte-mg/3070": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "05/09/2026 05:43"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-completa-no-castelo-2-quartos-lazer-privativo/8388": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "05/09/2026 05:43"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-2-quartos-com-suite-no-exclusive-montreal-8892m-terraco-2-vagas-lazer-completo/9625": {
+      "titulo": "NOVO",
+      "primeira_vez": "05/09/2026 05:43"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-4-quartos-2-suites-2-vagas-buritis-belo-horizonte-mg/7667": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "05/09/2026 05:43"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-com-espaco-gourmet-e-lazer-3-quartos/9289": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "05/09/2026 05:43"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-3-quartos-no-buritis/9468": {
+      "titulo": "NOVO",
+      "primeira_vez": "05/09/2026 05:43"
     }
   }
 }
