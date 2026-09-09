@@ -355,6 +355,22 @@
     "https://www.paulotavaresimoveis.com.br/imovel/apartamento-a-venda-no-bairro-havai-belo-horizonte/1202": {
       "titulo": "Apartamento | Havaí - Belo Horizonte",
       "primeira_vez": "08/09/2026 06:14"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-com-3-quartos-a-venda-no-bairro-cinquentenario-em-belo-horizonte-mg/1233": {
+      "titulo": "Apartamento | Cinquentenário - Belo Horizonte",
+      "primeira_vez": "09/09/2026 06:18"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-no-bairro-palmeiras-belo-horizonte/1100": {
+      "titulo": "Casa | Palmeiras - Belo Horizonte",
+      "primeira_vez": "09/09/2026 06:18"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-a-venda-no-bairro-palmeiras-belo-horizonte/1188": {
+      "titulo": "Casa | Palmeiras - Belo Horizonte",
+      "primeira_vez": "09/09/2026 06:18"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/cobertura-3-quartos-a-venda-no-salgado-filho-bh-elevador-e-2-vagas/1140": {
+      "titulo": "Cobertura | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "09/09/2026 06:18"
     }
   },
   "inteligencia_bh": {
@@ -3136,6 +3152,10 @@
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/430-rua-dois-mil-duzentos-e-vinte-e-sete/870701004-96": {
       "titulo": "R$ 323.000",
       "primeira_vez": "26/08/2026 02:24"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/belo-horizonte/260-rua-papoula-vermelha-proximo-a-av-barao-homem-de-melo/870251047-292": {
+      "titulo": "R$ 499.000",
+      "primeira_vez": "09/09/2026 06:18"
     }
   },
   "dual_imoveis": {},
@@ -3721,6 +3741,10 @@
     "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1197130/": {
       "titulo": "MAIS INFORMAÇÕES",
       "primeira_vez": "07/09/2026 06:50"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-cinquentenario/1113368/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "09/09/2026 06:18"
     }
   },
   "stilo_imoveis": {},
@@ -4106,6 +4130,10 @@
     "https://www.pointimoveisbh.com.br/imovel/casa-3-quartos-2-vagas-a-venda-no-bairro-havai-belo-horizonte/2103": {
       "titulo": "Casa | Havaí - Belo Horizonte",
       "primeira_vez": "05/09/2026 05:43"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/casa-a-venda-com-lote-745m-no-bairro-palmeiras-bh-mg/2104": {
+      "titulo": "Casa | Cinquentenário - Belo Horizonte",
+      "primeira_vez": "09/09/2026 06:18"
     }
   },
   "new_core": {
@@ -4862,6 +4890,38 @@
     "https://www.imovelnet.imb.br/imovel/area-privativa-mobiliada-e-reformada-no-buritis-2-quartos-1-vaga-e-lazer-completo/5037": {
       "titulo": "arrow_back_ios",
       "primeira_vez": "08/09/2026 06:14"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-3-quartos-1-suite-2-vagas-buritis-belo-horizonte-mg/9677": {
+      "titulo": "NOVO",
+      "primeira_vez": "09/09/2026 06:18"
+    },
+    "https://www.imovelnet.imb.br/imovel/unidades-a-venda-3-quartos-buritis-belo-horizonte/3313": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "09/09/2026 06:18"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-2-ate-3-quartos-1-ate-2-suites-2-ate-3-vagas-buritis-belo-horizonte-mg/1300": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "09/09/2026 06:18"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-4-quartos-1-suite-2-vagas-buritis-belo-horizonte-mg/9665": {
+      "titulo": "NOVO",
+      "primeira_vez": "09/09/2026 06:18"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-e-varanda-em-condominio-completo/7912": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "09/09/2026 06:18"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-3-quartos-1-suite-2-vagas-buritis-belo-horizonte-mg/8218": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "09/09/2026 06:18"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-04-quartos-a-venda-no-bairro-buritis/1050": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "09/09/2026 06:18"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-lazer-completo-a-venda-no-buritis/5309": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "09/09/2026 06:18"
     }
   }
 }
