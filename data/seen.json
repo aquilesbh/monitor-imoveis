@@ -659,6 +659,14 @@
     "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-55-m/AP9437-BIHA?from=sale": {
       "titulo": "AP9437-BIHA",
       "primeira_vez": "04/09/2026 06:11"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-54-m/AP9603-BIHA?from=sale": {
+      "titulo": "AP9603-BIHA",
+      "primeira_vez": "11/09/2026 06:15"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-50-m/AP9606-BIHA?from=sale": {
+      "titulo": "AP9606-BIHA",
+      "primeira_vez": "11/09/2026 06:15"
     }
   },
   "palmeiras": {},
@@ -1320,6 +1328,14 @@
     "https://sensaleimoveis.com.br/imovel/SE851425/apartamento-2-quartos-havai-belo-horizonte/venda": {
       "titulo": "Apartamento com Àrea Privativa a venda com 70m², 2 quartos e 1 vaga",
       "primeira_vez": "10/09/2026 06:17"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851437/cobertura-2-quartos-havai-belo-horizonte/venda": {
+      "titulo": "COBERTURA com 2 Quartos à venda, 144 m² - Havaí",
+      "primeira_vez": "11/09/2026 06:15"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851436/apartamento-2-quartos-havai-belo-horizonte/venda": {
+      "titulo": "Apartamento com 2 Quartos à venda, 47m² - Havaí",
+      "primeira_vez": "11/09/2026 06:15"
     }
   },
   "leo_batista": {
@@ -4218,6 +4234,10 @@
     "https://www.pointimoveisbh.com.br/imovel/casa-a-venda-com-lote-745m-no-bairro-palmeiras-bh-mg/2104": {
       "titulo": "Casa | Cinquentenário - Belo Horizonte",
       "primeira_vez": "09/09/2026 06:18"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/casa-03-quartos-01-suite-quintal-amplo-bairro-havai-em-belo-horizonte-360-m-de-terreno/2106": {
+      "titulo": "Casa | Havaí - Belo Horizonte",
+      "primeira_vez": "11/09/2026 06:15"
     }
   },
   "new_core": {
@@ -4440,7 +4460,7 @@
       "primeira_vez": "20/08/2026 10:35"
     },
     "https://www.imovelnet.imb.br/imovel/casa-a-venda-no-bairro-betania/9476": {
-      "titulo": "NOVO",
+      "titulo": "arrow_back_ios",
       "primeira_vez": "20/08/2026 10:35"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-3-quartos-1-suite-1-vaga-palmeiras-belo-horizonte-mg/9385": {
@@ -5010,6 +5030,30 @@
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-lazer-completo-a-venda-no-buritis/5309": {
       "titulo": "arrow_back_ios",
       "primeira_vez": "09/09/2026 06:18"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-3-quartos-2-suites-3-vagas-buritis-belo-horizonte-mg/9694": {
+      "titulo": "NOVO",
+      "primeira_vez": "11/09/2026 06:15"
+    },
+    "https://www.imovelnet.imb.br/imovel/havai-4-quartos-suite-todo-reformado-1-por-andar/9719": {
+      "titulo": "NOVO",
+      "primeira_vez": "11/09/2026 06:15"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-2-quartos-1-suite-2-vagas-buritis-belo-horizonte-mg/8429": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "11/09/2026 06:15"
+    },
+    "https://www.imovelnet.imb.br/imovel/buritis-3-quartos-suite-e-area-privativamontada/4911": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "11/09/2026 06:15"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-mobiliado-santo-antonio-reformado/9432": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "11/09/2026 06:15"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-2-vagas-e-elevador-no-salgado-filho/9661": {
+      "titulo": "NOVO",
+      "primeira_vez": "11/09/2026 06:15"
     }
   }
 }
