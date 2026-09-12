@@ -667,6 +667,14 @@
     "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-50-m/AP9606-BIHA?from=sale": {
       "titulo": "AP9606-BIHA",
       "primeira_vez": "11/09/2026 06:15"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-100-m/AP9605-BIHA?from=sale": {
+      "titulo": "AP9605-BIHA",
+      "primeira_vez": "12/09/2026 05:56"
+    },
+    "https://www.bihainimoveis.com.br/imovel/terreno-belo-horizonte-500-m/TE0129-BIHA?from=sale": {
+      "titulo": "TE0129-BIHA",
+      "primeira_vez": "12/09/2026 05:56"
     }
   },
   "palmeiras": {},
@@ -2176,6 +2184,18 @@
     "https://www.genesisimoveis.com.br/imovel/vende-se-casa-03-quartos-bairro-palmeiras-bh-mg-r52000000/7130": {
       "titulo": "Casa | Palmeiras - Belo Horizonte",
       "primeira_vez": "03/09/2026 06:18"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-com-lote-bairro-betania-bh-mg-r89000000/7133": {
+      "titulo": "Casa | Cinquentenário - Belo Horizonte",
+      "primeira_vez": "12/09/2026 05:56"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-03-quartos-betania-cinquentenario-bh-mg-r85000000/5725": {
+      "titulo": "Casa | Cinquentenário - Belo Horizonte",
+      "primeira_vez": "12/09/2026 05:56"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-apto-02-quartos-bairro-salgado-filho-bh-mg-r34500000/5946": {
+      "titulo": "Apto 2 quartos | Salgado Filho - Belo Horizonte",
+      "primeira_vez": "12/09/2026 05:56"
     }
   },
   "vpr": {
@@ -3256,6 +3276,10 @@
     "https://www.remax.com.br/pt-br/imoveis/terreno/venda/belo-horizonte/260-rua-papoula-vermelha-proximo-a-av-barao-homem-de-melo/870251047-292": {
       "titulo": "R$ 499.000",
       "primeira_vez": "09/09/2026 06:18"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/belo-horizonte/558-rua-herculano-pena-mercearia-do-lazaro/870241175-15": {
+      "titulo": "R$ 580.000",
+      "primeira_vez": "12/09/2026 05:56"
     }
   },
   "dual_imoveis": {},
@@ -4964,7 +4988,7 @@
       "primeira_vez": "08/09/2026 06:14"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-a-venda-3-quartos-1-suite-2-vagas-estoril-belo-horizonte-mg/9465": {
-      "titulo": "NOVO",
+      "titulo": "arrow_back_ios",
       "primeira_vez": "08/09/2026 06:14"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-3-quartos-no-buritis-com-espaco-gourmet-e-lazer/5235": {
@@ -5054,6 +5078,14 @@
     "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-2-vagas-e-elevador-no-salgado-filho/9661": {
       "titulo": "NOVO",
       "primeira_vez": "11/09/2026 06:15"
+    },
+    "https://www.imovelnet.imb.br/imovel/area-privativa-de-3-quartos-suite-santo-antonio-bh/9713": {
+      "titulo": "NOVO",
+      "primeira_vez": "12/09/2026 05:56"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-no-bairro-castelo-pampulha-2-quartos-1-suite-com-closet/9217": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "12/09/2026 05:56"
     }
   }
 }
