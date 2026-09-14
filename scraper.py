@@ -991,6 +991,7 @@ def gerar_html(estado_por_site, novos_por_site, ultima_verificacao):
     <option value="7">Últimos 7 dias</option>
   </select>
 </div>
+<span id="contador-filtro" class="contador-filtro"></span>
 
 <div class="tabs">
   {"".join(abas_botoes)}
@@ -1006,6 +1007,7 @@ def gerar_html(estado_por_site, novos_por_site, ultima_verificacao):
       document.querySelectorAll('.tab-content').forEach(function(c) {{ c.classList.remove('active'); }});
       btn.classList.add('active');
       document.getElementById('tab-' + key).classList.add('active');
+        atualizarContadorFiltro();
     }});
   }});
 
@@ -1036,6 +1038,16 @@ def gerar_html(estado_por_site, novos_por_site, ultima_verificacao):
       var data = new Date(iso);
       item.style.display = (data >= corte) ? '' : 'none';
     }});
+      atualizarContadorFiltro();
+    }}
+
+  function atualizarContadorFiltro() {{
+    var abaAtiva = document.querySelector('.tab-content.active');
+    if (!abaAtiva) return;
+    var total = abaAtiva.querySelectorAll('.item').length;
+    var visiveis = abaAtiva.querySelectorAll(".item:not([style*='display: none'])").length;
+    var contador = document.getElementById('contador-filtro');
+    if (contador) {{ contador.textContent = 'Mostrando ' + visiveis + ' de ' + total + ' imóveis nesta aba'; }}
   }}
 </script>
 
