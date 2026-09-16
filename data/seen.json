@@ -521,6 +521,18 @@
     "https://www.inteligenciaimobiliariabh.com.br/imovel/seu-novo-lar-no-cinquentenario/1404": {
       "titulo": "NOVO",
       "primeira_vez": "05/09/2026 05:43"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-a-venda-3-quartos-1-suite-1-vaga-barroca-belo-horizonte-mg/1402": {
+      "titulo": "NOVO",
+      "primeira_vez": "16/09/2026 06:36"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-3-quartos-no-buritis-bh-seguranca-24h-75-m/374": {
+      "titulo": "‹",
+      "primeira_vez": "16/09/2026 06:36"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-a-venda-2-quartos-1-suite-1-vaga-pampulha-belo-horizonte-mg/1375": {
+      "titulo": "EXCLUSIVO",
+      "primeira_vez": "16/09/2026 06:36"
     }
   },
   "bihain": {
@@ -2196,6 +2208,10 @@
     "https://www.genesisimoveis.com.br/imovel/vende-se-apto-02-quartos-bairro-salgado-filho-bh-mg-r34500000/5946": {
       "titulo": "Apto 2 quartos | Salgado Filho - Belo Horizonte",
       "primeira_vez": "12/09/2026 05:56"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-apto-02-quartos-bairro-betania-bh-mg-r25000000/7137": {
+      "titulo": "Apto 2 quartos | Estrela do Oriente - Belo Horizonte",
+      "primeira_vez": "16/09/2026 06:36"
     }
   },
   "vpr": {
@@ -3078,7 +3094,7 @@
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/530-rua-lindolfo-deodoro/870691030-2": {
-      "titulo": "R$ 585.000",
+      "titulo": "R$ 595.000",
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701002-63": {
@@ -3869,6 +3885,30 @@
     "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-cinquentenario/1113368/": {
       "titulo": "MAIS INFORMAÇÕES",
       "primeira_vez": "09/09/2026 06:18"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-betania/1161649/?tipoUrl=apartamento-2-quartos&bairroUrl=betania": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "16/09/2026 06:36"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-area-privativa-minas-gerais-belo-horizonte-oeste-havai/1000251/?tipoUrl=area-privativa&bairroUrl=havai": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "16/09/2026 06:36"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-havai/1196855/?tipoUrl=apartamento-3-quartos&bairroUrl=havai": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "16/09/2026 06:36"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1161649/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "16/09/2026 06:36"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-salgado-filho/449916/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "16/09/2026 06:36"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-loja-minas-gerais-belo-horizonte-oeste-salgado-filho/449916/?tipoUrl=loja&bairroUrl=salgado-filho": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "16/09/2026 06:36"
     }
   },
   "stilo_imoveis": {},
@@ -5094,6 +5134,10 @@
     "https://www.imovelnet.imb.br/imovel/apartamento-no-bairro-castelo-pampulha-2-quartos-1-suite-com-closet/9217": {
       "titulo": "arrow_back_ios",
       "primeira_vez": "12/09/2026 05:56"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo-portaria-24h/9748": {
+      "titulo": "NOVO",
+      "primeira_vez": "16/09/2026 06:36"
     }
   }
 }
