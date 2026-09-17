@@ -1356,6 +1356,14 @@
     "https://sensaleimoveis.com.br/imovel/SE851436/apartamento-2-quartos-havai-belo-horizonte/venda": {
       "titulo": "Apartamento com 2 Quartos à venda, 47m² - Havaí",
       "primeira_vez": "11/09/2026 06:15"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851464/apartamento-3-quartos-palmeiras-belo-horizonte/venda": {
+      "titulo": "Reserva dos Buritis - T2: Lançamento no Palmeiras",
+      "primeira_vez": "17/09/2026 06:44"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851463/apartamento-1-quarto-palmeiras-belo-horizonte/venda": {
+      "titulo": "Reserva dos Buritis - T2: Lançamento no Palmeiras",
+      "primeira_vez": "17/09/2026 06:44"
     }
   },
   "leo_batista": {
@@ -2212,6 +2220,10 @@
     "https://www.genesisimoveis.com.br/imovel/vende-se-apto-02-quartos-bairro-betania-bh-mg-r25000000/7137": {
       "titulo": "Apto 2 quartos | Estrela do Oriente - Belo Horizonte",
       "primeira_vez": "16/09/2026 06:36"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-apto-04-quartos-bairro-havai-bh-mg-r80000000/7138": {
+      "titulo": "Apto 4 quartos | Havai - Belo Horizonte",
+      "primeira_vez": "17/09/2026 06:44"
     }
   },
   "vpr": {
@@ -2334,6 +2346,10 @@
     "https://www.vprimoveis.com.br/casa-a-venda-2-quartos-1-suite-2-vagas-palmeiras-belo-horizontemg/13737": {
       "titulo": "Casa à venda em Palmeiras de 210m2",
       "primeira_vez": "28/08/2026 13:59"
+    },
+    "https://www.vprimoveis.com.br/cobertura-a-venda-2-quartos-1-suite-3-vagas-palmeiras-belo-horizontemg/13804": {
+      "titulo": "Cobertura à venda em Palmeiras de 120m2",
+      "primeira_vez": "17/09/2026 06:44"
     }
   },
   "gade": {
@@ -2764,6 +2780,10 @@
     "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-3745": {
       "titulo": "Cód: 3745",
       "primeira_vez": "10/09/2026 06:17"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-2-quartos-3815": {
+      "titulo": "Cód: 3815",
+      "primeira_vez": "17/09/2026 06:44"
     }
   },
   "malta": {
@@ -3909,6 +3929,10 @@
     "https://www.solimobnetimoveis.com.br/imovel/venda-loja-minas-gerais-belo-horizonte-oeste-salgado-filho/449916/?tipoUrl=loja&bairroUrl=salgado-filho": {
       "titulo": "MAIS INFORMAÇÕES",
       "primeira_vez": "16/09/2026 06:36"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-estrela-dalva/1187463/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "17/09/2026 06:44"
     }
   },
   "stilo_imoveis": {},
@@ -4676,7 +4700,7 @@
       "primeira_vez": "20/08/2026 10:35"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-2-quartos-1-suite-2-vagas-betania-belo-horizonte-mg/9515": {
-      "titulo": "NOVO",
+      "titulo": "arrow_back_ios",
       "primeira_vez": "20/08/2026 10:35"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-3-quartos-1-suite-2-vagas-estrela-do-oriente-belo-horizonte-mg/8018": {
