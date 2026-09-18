@@ -22,6 +22,7 @@ abaixo.
 import json
 import re
 import time
+import unicodedata
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -343,6 +344,7 @@ SITES = [
     },
     {
         "key": 'point_imoveis',
+        "filtrar_por_bairro": True,
         "name": 'Point Imóveis',
         "urls": [
             'https://www.pointimoveisbh.com.br/venda/imoveis/belo-horizonte/betania/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
@@ -357,6 +359,7 @@ SITES = [
     },
     {
         "key": 'new_core',
+        "filtrar_por_bairro": True,
         "name": 'New Core',
         "urls": [
             'https://www.newcore.com.br/imoveis/betania-belo-horizonte-mg?show-map=true',
@@ -372,6 +375,7 @@ SITES = [
     },
     {
         "key": "imovel_net",
+        "filtrar_por_bairro": True,
         "name": "Imóvel Net",
         "urls": [
             'https://www.imovelnet.imb.br/venda/imovel/belo-horizonte/palmeiras',
@@ -399,6 +403,31 @@ DATA_FILE = Path(__file__).parent / "data" / "seen.json"
 OUTPUT_HTML = Path(__file__).parent / "docs" / "index.html"
 
 BR_TZ = timezone(timedelta(hours=-3))
+
+
+BAIRROS_ALVO = [
+    "betania", "cinquentenario", "estrela-do-oriente", "havai", "marajo",
+    "palmeiras", "estrela-dalva", "salgado-filho", "parque-sao-jose",
+]
+
+
+def remover_acentos(texto):
+    return "".join(
+        c for c in unicodedata.normalize("NFD", texto) if unicodedata.category(c) != "Mn"
+    )
+
+
+def eh_do_bairro_alvo(texto):
+    """
+    Confere se o texto (link ou titulo) menciona algum dos bairros que
+    estamos monitorando. Alguns sites (Point Imoveis, New Core, Imovel Net)
+    mostram sugestoes de bairros vizinhos quando nao acham imoveis
+    suficientes no bairro pedido -- isso filtra esse ruido.
+    """
+    if not texto:
+        return True
+    t = remover_acentos(texto.lower()).replace(" ", "-")
+    return any(b in t for b in BAIRROS_ALVO)
 
 
 def data_para_iso(primeira_vez_str):
@@ -654,6 +683,11 @@ def coletar_uma_url(page, site, url):
         page.wait_for_timeout(WAIT_MS)
         time.sleep(1.5)  # pausa educada entre as páginas
 
+    if site.get("filtrar_por_bairro"):
+        encontrados_total = {
+            h: t for h, t in encontrados_total.items()
+            if eh_do_bairro_alvo(h) or eh_do_bairro_alvo(t)
+        }
     return encontrados_total
 
 
@@ -752,7 +786,10 @@ def salvar_estado(estado):
 
 
 def limpar_titulo(titulo, href):
-    if not titulo:
+    # alguns sites (ex: New Core) usam o mesmo link pra foto e pra
+    # titulo, e o texto que sobra é só um contador de fotos tipo "1/20"
+    titulo_e_contador_de_foto = bool(titulo) and bool(re.fullmatch(r"\s*\d+\s*/\s*\d+\s*", titulo))
+    if not titulo or titulo_e_contador_de_foto:
         # fallback: monta um título a partir da URL
         slug = href.rstrip("/").split("/")[-1]
         slug = re.sub(r"[-_]+", " ", slug)
@@ -800,7 +837,8 @@ def gerar_html(estado_por_site, novos_por_site, ultima_verificacao):
         ativa = "active" if indice == 0 else ""
 
         abas_botoes.append(
-            f'<button class="tab-btn {ativa}" data-tab="{key}">{nome}{badge_aba}</button>'
+            f'<button class="tab-btn {ativa}" data-tab="{key}">{nome}{badge_aba}'
+            f'<span class="badge-filtro" id="badge-filtro-{key}"></span></button>'
         )
         abas_conteudo.append(f"""
         <div class="tab-content {ativa}" id="tab-{key}">
@@ -924,6 +962,16 @@ def gerar_html(estado_por_site, novos_por_site, ultima_verificacao):
     border-radius: 999px;
     margin-left: 6px;
   }}
+  .badge-filtro {{
+    display: none;
+    background: #e67e22;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 999px;
+    margin-left: 4px;
+  }}
   .tab-content {{
     display: none;
     max-width: 900px;
@@ -1039,7 +1087,26 @@ def gerar_html(estado_por_site, novos_por_site, ultima_verificacao):
       item.style.display = (data >= corte) ? '' : 'none';
     }});
       atualizarContadorFiltro();
+      atualizarBadgesDasAbas(valor !== 'todos');
     }}
+
+  function atualizarBadgesDasAbas(filtroAtivo) {{
+    document.querySelectorAll('.tab-content').forEach(function(tabContent) {{
+      var key = tabContent.id.replace('tab-', '');
+      var badge = document.getElementById('badge-filtro-' + key);
+      if (!badge) return;
+      var visiveis = 0;
+      tabContent.querySelectorAll('.item').forEach(function(item) {{
+        if (item.style.display !== 'none') visiveis++;
+      }});
+      if (filtroAtivo && visiveis > 0) {{
+        badge.textContent = visiveis;
+        badge.style.display = 'inline-block';
+      }} else {{
+        badge.style.display = 'none';
+      }}
+    }});
+  }}
 
   function atualizarContadorFiltro() {{
     var abaAtiva = document.querySelector('.tab-content.active');
