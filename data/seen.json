@@ -2224,6 +2224,14 @@
     "https://www.genesisimoveis.com.br/imovel/vende-se-apto-04-quartos-bairro-havai-bh-mg-r80000000/7138": {
       "titulo": "Apto 4 quartos | Havai - Belo Horizonte",
       "primeira_vez": "17/09/2026 06:44"
+    },
+    "https://www.genesisimoveis.com.br/imovel/apto-03-quartos-a-venda-central-park-betania-bh-mg-r66000000/7043": {
+      "titulo": "Apto 3 quartos | Estrela do Oriente - Belo Horizonte",
+      "primeira_vez": "18/09/2026 06:17"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-quartos-bairro-palmeiras-marajo-bh-mg-r43000000/7139": {
+      "titulo": "Apto 3 quartos | Marajo - Belo Horizonte",
+      "primeira_vez": "18/09/2026 06:17"
     }
   },
   "vpr": {
@@ -3316,6 +3324,14 @@
     "https://www.remax.com.br/pt-br/imoveis/terreno/venda/belo-horizonte/558-rua-herculano-pena-mercearia-do-lazaro/870241175-15": {
       "titulo": "R$ 580.000",
       "primeira_vez": "12/09/2026 05:56"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/200-rua-cipreste/870701002-130": {
+      "titulo": "R$ 1.850 Mensal",
+      "primeira_vez": "18/09/2026 06:17"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/1330-rua-senhora-do-porto-buritis/870701013-44": {
+      "titulo": "R$ 4.600 Mensal",
+      "primeira_vez": "18/09/2026 06:17"
     }
   },
   "dual_imoveis": {},
@@ -4544,6 +4560,10 @@
     "https://www.newcore.com.br/imovel/319931/lote--rua-jose-rocha-coutinho--serra-azul--sarzedo--mg": {
       "titulo": "1/7",
       "primeira_vez": "10/09/2026 06:17"
+    },
+    "https://www.newcore.com.br/imovel/517358/apartamento-3-quartos--rua-maria-heilbuth-surette--buritis--belo-horizonte--mg": {
+      "titulo": "1/20",
+      "primeira_vez": "18/09/2026 06:17"
     }
   },
   "imovel_net": {
