@@ -109,6 +109,16 @@
     border-radius: 999px;
     margin-left: 6px;
   }
+  .badge-filtro {
+    display: none;
+    background: #e67e22;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 999px;
+    margin-left: 4px;
+  }
   .tab-content {
     display: none;
     max-width: 900px;
@@ -159,12 +169,12 @@
 <body>
 <header>
   <h1>Monitor de Imóveis</h1>
-  <p>Última verificação: 18/09/2026 06:17</p>
+  <p>Última verificação: 18/09/2026 10:08</p>
 </header>
 
 <div class="resumo-geral">
-  <div class="card"><div class="num">1287</div><div class="label">imóveis monitorados no total</div></div>
-  <div class="card"><div class="num">5</div><div class="label">novos em todas as imobiliárias</div></div>
+  <div class="card"><div class="num">1308</div><div class="label">imóveis monitorados no total</div></div>
+  <div class="card"><div class="num">21</div><div class="label">novos em todas as imobiliárias</div></div>
 </div>
 
 <div class="filtro-data">
@@ -179,7 +189,7 @@
 <span id="contador-filtro" class="contador-filtro"></span>
 
 <div class="tabs">
-  <button class="tab-btn active" data-tab="paulo_tavares">Paulo Tavares Imóveis</button><button class="tab-btn " data-tab="inteligencia_bh">Inteligência Imobiliária BH</button><button class="tab-btn " data-tab="bihain">Bihain Imóveis</button><button class="tab-btn " data-tab="palmeiras">Imobiliária Palmeiras</button><button class="tab-btn " data-tab="gr_imoveis">GR Imóveis</button><button class="tab-btn " data-tab="sensale">Sensale Imóveis</button><button class="tab-btn " data-tab="leo_batista">Léo Batista Imóveis</button><button class="tab-btn " data-tab="genesis">Genesis Imóveis<span class="badge-aba">2</span></button><button class="tab-btn " data-tab="vpr">VPR Imóveis</button><button class="tab-btn " data-tab="gade">Gade Imóveis</button><button class="tab-btn " data-tab="malta">Malta Imóveis</button><button class="tab-btn " data-tab="remax">Remax<span class="badge-aba">2</span></button><button class="tab-btn " data-tab="dual_imoveis">Dual Imóveis</button><button class="tab-btn " data-tab="visao_imoveis">Visão Imóveis BH</button><button class="tab-btn " data-tab="boreal_imoveis">Boreal Imóveis</button><button class="tab-btn " data-tab="solimob">Solimob Netimóveis</button><button class="tab-btn " data-tab="stilo_imoveis">Stilo Netimóveis</button><button class="tab-btn " data-tab="java_imoveis">Java Imóveis</button><button class="tab-btn " data-tab="sandro_pimenta">Sandro Pimenta Imóveis</button><button class="tab-btn " data-tab="point_imoveis">Point Imóveis</button><button class="tab-btn " data-tab="new_core">New Core<span class="badge-aba">1</span></button><button class="tab-btn " data-tab="imovel_net">Imóvel Net</button>
+  <button class="tab-btn active" data-tab="paulo_tavares">Paulo Tavares Imóveis<span class="badge-filtro" id="badge-filtro-paulo_tavares"></span></button><button class="tab-btn " data-tab="inteligencia_bh">Inteligência Imobiliária BH<span class="badge-filtro" id="badge-filtro-inteligencia_bh"></span></button><button class="tab-btn " data-tab="bihain">Bihain Imóveis<span class="badge-filtro" id="badge-filtro-bihain"></span></button><button class="tab-btn " data-tab="palmeiras">Imobiliária Palmeiras<span class="badge-filtro" id="badge-filtro-palmeiras"></span></button><button class="tab-btn " data-tab="gr_imoveis">GR Imóveis<span class="badge-filtro" id="badge-filtro-gr_imoveis"></span></button><button class="tab-btn " data-tab="sensale">Sensale Imóveis<span class="badge-filtro" id="badge-filtro-sensale"></span></button><button class="tab-btn " data-tab="leo_batista">Léo Batista Imóveis<span class="badge-filtro" id="badge-filtro-leo_batista"></span></button><button class="tab-btn " data-tab="genesis">Genesis Imóveis<span class="badge-aba">19</span><span class="badge-filtro" id="badge-filtro-genesis"></span></button><button class="tab-btn " data-tab="vpr">VPR Imóveis<span class="badge-filtro" id="badge-filtro-vpr"></span></button><button class="tab-btn " data-tab="gade">Gade Imóveis<span class="badge-filtro" id="badge-filtro-gade"></span></button><button class="tab-btn " data-tab="malta">Malta Imóveis<span class="badge-filtro" id="badge-filtro-malta"></span></button><button class="tab-btn " data-tab="remax">Remax<span class="badge-aba">1</span><span class="badge-filtro" id="badge-filtro-remax"></span></button><button class="tab-btn " data-tab="dual_imoveis">Dual Imóveis<span class="badge-filtro" id="badge-filtro-dual_imoveis"></span></button><button class="tab-btn " data-tab="visao_imoveis">Visão Imóveis BH<span class="badge-filtro" id="badge-filtro-visao_imoveis"></span></button><button class="tab-btn " data-tab="boreal_imoveis">Boreal Imóveis<span class="badge-filtro" id="badge-filtro-boreal_imoveis"></span></button><button class="tab-btn " data-tab="solimob">Solimob Netimóveis<span class="badge-aba">1</span><span class="badge-filtro" id="badge-filtro-solimob"></span></button><button class="tab-btn " data-tab="stilo_imoveis">Stilo Netimóveis<span class="badge-filtro" id="badge-filtro-stilo_imoveis"></span></button><button class="tab-btn " data-tab="java_imoveis">Java Imóveis<span class="badge-filtro" id="badge-filtro-java_imoveis"></span></button><button class="tab-btn " data-tab="sandro_pimenta">Sandro Pimenta Imóveis<span class="badge-filtro" id="badge-filtro-sandro_pimenta"></span></button><button class="tab-btn " data-tab="point_imoveis">Point Imóveis<span class="badge-filtro" id="badge-filtro-point_imoveis"></span></button><button class="tab-btn " data-tab="new_core">New Core<span class="badge-filtro" id="badge-filtro-new_core"></span></button><button class="tab-btn " data-tab="imovel_net">Imóvel Net<span class="badge-filtro" id="badge-filtro-imovel_net"></span></button>
 </div>
 
 
@@ -2521,20 +2531,105 @@
         </div>
         <div class="tab-content " id="tab-genesis">
           <div class="resumo">
-            <div class="card"><div class="num">103</div><div class="label">imóveis monitorados</div></div>
-            <div class="card"><div class="num">2</div><div class="label">novos agora</div></div>
+            <div class="card"><div class="num">122</div><div class="label">imóveis monitorados</div></div>
+            <div class="card"><div class="num">19</div><div class="label">novos agora</div></div>
           </div>
           <div class="lista">
             
-            <div class="item novo" data-primeira-vez="2026-09-18T06:17:00-03:00">
-              <a href="https://www.genesisimoveis.com.br/imovel/apto-03-quartos-a-venda-central-park-betania-bh-mg-r66000000/7043" target="_blank" rel="noopener">Apto 3 quartos | Estrela do Oriente - Belo Horizonte</a>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/predio-a-venda-50-vagas-cruzeiro-belo-horizonte-mg/4876" target="_blank" rel="noopener">Prédio | CRUZEIRO - Belo Horizonte</a>
               <span class="badge">NOVO</span>
-              <div class="meta">visto pela primeira vez em 18/09/2026 06:17</div>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
             </div>
-            <div class="item novo" data-primeira-vez="2026-09-18T06:17:00-03:00">
-              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-quartos-bairro-palmeiras-marajo-bh-mg-r43000000/7139" target="_blank" rel="noopener">Apto 3 quartos | Marajo - Belo Horizonte</a>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-cobertura-03-a-04-quartos-bairro-santo-agostinho-bh-mg-r708370000/7023" target="_blank" rel="noopener">Cobertura | SANTO AGOSTINHO - Belo Horizonte</a>
               <span class="badge">NOVO</span>
-              <div class="meta">visto pela primeira vez em 18/09/2026 06:17</div>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-apto-04-quartos-bairro-lourdes-r679240000/6996" target="_blank" rel="noopener">Apto 4 quartos | LOURDES - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-predio-comercial-bairro-sao-benedito-santa-luzia-mg-r650000000/5875" target="_blank" rel="noopener">Prédio | Duquesa I (São Benedito) - SANTA LUZIA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-apto-04-quartos-bairro-lourdes-r519010000/6992" target="_blank" rel="noopener">Apto 4 quartos | LOURDES - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-apto-04-quartos-bairro-lourdes-r509660000/6994" target="_blank" rel="noopener">Apto 4 quartos | LOURDES - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-apto-04-quartos-bairro-lourdes-r508340000/6995" target="_blank" rel="noopener">Apto 4 quartos | LOURDES - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-apto-04-quartos-bairro-lourdes-r508160000/6991" target="_blank" rel="noopener">Apto 4 quartos | LOURDES - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-apto-04-quartos-bairro-lourdes-r505150000/6993" target="_blank" rel="noopener">Apto 4 quartos | LOURDES - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-apto-04-quartos-bairro-lourdes-r491130000/6989" target="_blank" rel="noopener">Apto 4 quartos | LOURDES - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-a-04-quartos-bairro-savassi-bh-mg-r432270000/7008" target="_blank" rel="noopener">Apto 4 quartos | SAVASSI - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-a-04-quartos-bairro-savassi-bh-mg-r406820000/7007" target="_blank" rel="noopener">Apto 4 quartos | SAVASSI - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-a-04-quartos-bairro-santo-agostinho-bh-mg-r386830000/7022" target="_blank" rel="noopener">Apto 4 quartos | SANTO AGOSTINHO - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-a-04-quartos-bairro-santo-agostinho-bh-mg-r386830000/7021" target="_blank" rel="noopener">Apto 4 quartos | SANTO AGOSTINHO - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-galpao-jardim-industrial-contagem-mg-r355000000/5896" target="_blank" rel="noopener">Galpão | Jardim Industrial - Contagem</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-quartos-vale-do-sereno-nova-lima-mg-r345000000/5915" target="_blank" rel="noopener">Apto 3 quartos | VILA DA SERRA - NOVA LIMA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/fazenda-a-venda-6-quartos-10-vagas-pina-rio-espera-mg/3001" target="_blank" rel="noopener">VENDA</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/loja-a-venda-empreendimento-edificio-viena-bairro-nova-suica-bh-mg-r312690546/5586" target="_blank" rel="noopener">Loja | Nova Suissa - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/lote-area-terreno-a-venda-pampulha-belo-horizonte-mg/5046" target="_blank" rel="noopener">Lote-Área-Terreno | Pampulha - Belo Horizonte</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
             </div>
             <div class="item" data-primeira-vez="2026-08-13T16:33:00-03:00">
               <a href="https://www.genesisimoveis.com.br/imovel/vende-se-lote-bairro-betania-bh-mg-r295000000/5938" target="_blank" rel="noopener">Lote | Estrela do Oriente - Belo Horizonte</a>
@@ -3040,6 +3135,16 @@
               <a href="https://www.genesisimoveis.com.br/imovel/vende-se-apto-04-quartos-bairro-havai-bh-mg-r80000000/7138" target="_blank" rel="noopener">Apto 4 quartos | Havai - Belo Horizonte</a>
               
               <div class="meta">visto pela primeira vez em 17/09/2026 06:44</div>
+            </div>
+            <div class="item" data-primeira-vez="2026-09-18T06:17:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/apto-03-quartos-a-venda-central-park-betania-bh-mg-r66000000/7043" target="_blank" rel="noopener">Apto 3 quartos | Estrela do Oriente - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 18/09/2026 06:17</div>
+            </div>
+            <div class="item" data-primeira-vez="2026-09-18T06:17:00-03:00">
+              <a href="https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-quartos-bairro-palmeiras-marajo-bh-mg-r43000000/7139" target="_blank" rel="noopener">Apto 3 quartos | Marajo - Belo Horizonte</a>
+              
+              <div class="meta">visto pela primeira vez em 18/09/2026 06:17</div>
             </div>
           </div>
         </div>
@@ -4152,20 +4257,15 @@
         </div>
         <div class="tab-content " id="tab-remax">
           <div class="resumo">
-            <div class="card"><div class="num">57</div><div class="label">imóveis monitorados</div></div>
-            <div class="card"><div class="num">2</div><div class="label">novos agora</div></div>
+            <div class="card"><div class="num">58</div><div class="label">imóveis monitorados</div></div>
+            <div class="card"><div class="num">1</div><div class="label">novos agora</div></div>
           </div>
           <div class="lista">
             
-            <div class="item novo" data-primeira-vez="2026-09-18T06:17:00-03:00">
-              <a href="https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/200-rua-cipreste/870701002-130" target="_blank" rel="noopener">R$ 1.850 Mensal</a>
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/800-avenida-nossa-senhora-do-porto-avenida-aggeo-pio-sobrinho-e-av-dom-joao-vi/870701031-8" target="_blank" rel="noopener">R$ 443.000</a>
               <span class="badge">NOVO</span>
-              <div class="meta">visto pela primeira vez em 18/09/2026 06:17</div>
-            </div>
-            <div class="item novo" data-primeira-vez="2026-09-18T06:17:00-03:00">
-              <a href="https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/1330-rua-senhora-do-porto-buritis/870701013-44" target="_blank" rel="noopener">R$ 4.600 Mensal</a>
-              <span class="badge">NOVO</span>
-              <div class="meta">visto pela primeira vez em 18/09/2026 06:17</div>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
             </div>
             <div class="item" data-primeira-vez="2026-08-14T14:20:00-03:00">
               <a href="https://www.remax.com.br/pt-br/imoveis/cobertura/venda/belo-horizonte/870701002-59" target="_blank" rel="noopener">R$ 706.000</a>
@@ -4442,6 +4542,16 @@
               
               <div class="meta">visto pela primeira vez em 12/09/2026 05:56</div>
             </div>
+            <div class="item" data-primeira-vez="2026-09-18T06:17:00-03:00">
+              <a href="https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/200-rua-cipreste/870701002-130" target="_blank" rel="noopener">R$ 1.850 Mensal</a>
+              
+              <div class="meta">visto pela primeira vez em 18/09/2026 06:17</div>
+            </div>
+            <div class="item" data-primeira-vez="2026-09-18T06:17:00-03:00">
+              <a href="https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/1330-rua-senhora-do-porto-buritis/870701013-44" target="_blank" rel="noopener">R$ 4.600 Mensal</a>
+              
+              <div class="meta">visto pela primeira vez em 18/09/2026 06:17</div>
+            </div>
           </div>
         </div>
         <div class="tab-content " id="tab-dual_imoveis">
@@ -4473,11 +4583,16 @@
         </div>
         <div class="tab-content " id="tab-solimob">
           <div class="resumo">
-            <div class="card"><div class="num">153</div><div class="label">imóveis monitorados</div></div>
-            <div class="card"><div class="num">0</div><div class="label">novos agora</div></div>
+            <div class="card"><div class="num">154</div><div class="label">imóveis monitorados</div></div>
+            <div class="card"><div class="num">1</div><div class="label">novos agora</div></div>
           </div>
           <div class="lista">
             
+            <div class="item novo" data-primeira-vez="2026-09-18T10:08:00-03:00">
+              <a href="https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1186781/" target="_blank" rel="noopener">MAIS INFORMAÇÕES</a>
+              <span class="badge">NOVO</span>
+              <div class="meta">visto pela primeira vez em 18/09/2026 10:08</div>
+            </div>
             <div class="item" data-primeira-vez="2026-08-19T11:08:00-03:00">
               <a href="https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-palmeiras/1168119/" target="_blank" rel="noopener">MAIS INFORMAÇÕES</a>
               
@@ -5779,15 +5894,10 @@
         <div class="tab-content " id="tab-new_core">
           <div class="resumo">
             <div class="card"><div class="num">53</div><div class="label">imóveis monitorados</div></div>
-            <div class="card"><div class="num">1</div><div class="label">novos agora</div></div>
+            <div class="card"><div class="num">0</div><div class="label">novos agora</div></div>
           </div>
           <div class="lista">
             
-            <div class="item novo" data-primeira-vez="2026-09-18T06:17:00-03:00">
-              <a href="https://www.newcore.com.br/imovel/517358/apartamento-3-quartos--rua-maria-heilbuth-surette--buritis--belo-horizonte--mg" target="_blank" rel="noopener">1/20</a>
-              <span class="badge">NOVO</span>
-              <div class="meta">visto pela primeira vez em 18/09/2026 06:17</div>
-            </div>
             <div class="item" data-primeira-vez="2026-08-18T10:37:00-03:00">
               <a href="https://www.newcore.com.br/imovel/383794/apartamento-2-quartos--rua-francisco-garcia-carvalho--estrela-do-oriente--belo-horizonte--mg" target="_blank" rel="noopener">1/13</a>
               
@@ -6047,6 +6157,11 @@
               <a href="https://www.newcore.com.br/imovel/319931/lote--rua-jose-rocha-coutinho--serra-azul--sarzedo--mg" target="_blank" rel="noopener">1/7</a>
               
               <div class="meta">visto pela primeira vez em 10/09/2026 06:17</div>
+            </div>
+            <div class="item" data-primeira-vez="2026-09-18T06:17:00-03:00">
+              <a href="https://www.newcore.com.br/imovel/517358/apartamento-3-quartos--rua-maria-heilbuth-surette--buritis--belo-horizonte--mg" target="_blank" rel="noopener">1/20</a>
+              
+              <div class="meta">visto pela primeira vez em 18/09/2026 06:17</div>
             </div>
           </div>
         </div>
@@ -6870,7 +6985,26 @@
       item.style.display = (data >= corte) ? '' : 'none';
     });
       atualizarContadorFiltro();
+      atualizarBadgesDasAbas(valor !== 'todos');
     }
+
+  function atualizarBadgesDasAbas(filtroAtivo) {
+    document.querySelectorAll('.tab-content').forEach(function(tabContent) {
+      var key = tabContent.id.replace('tab-', '');
+      var badge = document.getElementById('badge-filtro-' + key);
+      if (!badge) return;
+      var visiveis = 0;
+      tabContent.querySelectorAll('.item').forEach(function(item) {
+        if (item.style.display !== 'none') visiveis++;
+      });
+      if (filtroAtivo && visiveis > 0) {
+        badge.textContent = visiveis;
+        badge.style.display = 'inline-block';
+      } else {
+        badge.style.display = 'none';
+      }
+    });
+  }
 
   function atualizarContadorFiltro() {
     var abaAtiva = document.querySelector('.tab-content.active');
