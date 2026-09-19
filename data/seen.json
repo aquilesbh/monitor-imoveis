@@ -1172,7 +1172,7 @@
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://www.grimoveis.com.br/imovel/cobertura-a-venda-cinquentenario-belo-horizonte-mg/70161": {
-      "titulo": "NOVO",
+      "titulo": "< < < <",
       "primeira_vez": "20/08/2026 10:35"
     },
     "https://www.grimoveis.com.br/imovel/apartamento-a-venda-estrela-do-oriente-belo-horizonte-mg/67353": {
@@ -1190,6 +1190,10 @@
     "https://www.grimoveis.com.br/imovel/lote-a-venda-havai-belo-horizonte-mg/65474": {
       "titulo": "< <",
       "primeira_vez": "01/09/2026 06:40"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-marajo-belo-horizonte-mg/70300": {
+      "titulo": "NOVO",
+      "primeira_vez": "19/09/2026 06:04"
     }
   },
   "sensale": {
@@ -3412,6 +3416,10 @@
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/800-avenida-nossa-senhora-do-porto-avenida-aggeo-pio-sobrinho-e-av-dom-joao-vi/870701031-8": {
       "titulo": "R$ 443.000",
       "primeira_vez": "18/09/2026 10:08"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/buritis/870701013-44": {
+      "titulo": "R$ 4.600 Mensal",
+      "primeira_vez": "19/09/2026 06:04"
     }
   },
   "dual_imoveis": {},
@@ -5266,6 +5274,10 @@
     "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo-portaria-24h/9748": {
       "titulo": "NOVO",
       "primeira_vez": "16/09/2026 06:36"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-a-venda-5-quartos-2-suites-4-vagas-betania-belo-horizonte-mg/9770": {
+      "titulo": "NOVO",
+      "primeira_vez": "19/09/2026 06:04"
     }
   }
 }
