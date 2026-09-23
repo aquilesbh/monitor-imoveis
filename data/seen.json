@@ -383,6 +383,10 @@
     "https://www.paulotavaresimoveis.com.br/imovel/apartamento-2-quartos-no-bairro-havai-bh-financiamento-facilitado/1127": {
       "titulo": "Apartamento | Havaí - Belo Horizonte",
       "primeira_vez": "22/09/2026 06:33"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-com-area-privativa-a-venda-no-bairro-havai-belo-horizonte-mg/1236": {
+      "titulo": "Área privativa | Havaí - Belo Horizonte",
+      "primeira_vez": "23/09/2026 06:38"
     }
   },
   "inteligencia_bh": {
@@ -2324,6 +2328,10 @@
     "https://www.genesisimoveis.com.br/imovel/lote-area-terreno-a-venda-pampulha-belo-horizonte-mg/5046": {
       "titulo": "Lote-Área-Terreno | Pampulha - Belo Horizonte",
       "primeira_vez": "18/09/2026 10:08"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-com-lote-bairro-betania-bh-mg-r64000000/7077": {
+      "titulo": "Casa | Estrela do Oriente - Belo Horizonte",
+      "primeira_vez": "23/09/2026 06:38"
     }
   },
   "vpr": {
@@ -2884,6 +2892,10 @@
     "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-2-quartos-3815": {
       "titulo": "Cód: 3815",
       "primeira_vez": "17/09/2026 06:44"
+    },
+    "https://gadeimoveis.com.br/imovel/area-privativa-cinquentenario-belo-horizonte-mg-3-quartos-3827": {
+      "titulo": "Cód: 3827",
+      "primeira_vez": "23/09/2026 06:38"
     }
   },
   "malta": {
@@ -4057,6 +4069,10 @@
     "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1186781/": {
       "titulo": "MAIS INFORMAÇÕES",
       "primeira_vez": "18/09/2026 10:08"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-havai/1113965/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "23/09/2026 06:38"
     }
   },
   "stilo_imoveis": {},
@@ -4462,6 +4478,10 @@
     "https://www.pointimoveisbh.com.br/imovel/apartamento-a-venda-bairro-betania-02-quartos-banho-social-01-vaga/2008": {
       "titulo": "Apartamento | Betânia - Belo Horizonte",
       "primeira_vez": "20/09/2026 06:31"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/apartamento-com-3-quartos-e-1-vaga-no-betania-belo-horizonte-mg/2113": {
+      "titulo": "Apartamento | Cinquentenário - Belo Horizonte",
+      "primeira_vez": "23/09/2026 06:38"
     }
   },
   "new_core": {
@@ -5298,6 +5318,14 @@
     "https://www.imovelnet.imb.br/imovel/casa-a-venda-5-quartos-2-suites-4-vagas-betania-belo-horizonte-mg/9770": {
       "titulo": "NOVO",
       "primeira_vez": "19/09/2026 06:04"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-com-habite-se-no-betania/9788": {
+      "titulo": "NOVO",
+      "primeira_vez": "23/09/2026 06:38"
+    },
+    "https://www.imovelnet.imb.br/imovel/apto-3-quartos-reformado-no-havai/9793": {
+      "titulo": "NOVO",
+      "primeira_vez": "23/09/2026 06:38"
     }
   }
 }
