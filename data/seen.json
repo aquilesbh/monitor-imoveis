@@ -387,6 +387,10 @@
     "https://www.paulotavaresimoveis.com.br/imovel/apartamento-3-quartos-com-area-privativa-a-venda-no-bairro-havai-belo-horizonte-mg/1236": {
       "titulo": "Área privativa | Havaí - Belo Horizonte",
       "primeira_vez": "23/09/2026 06:38"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/casa-para-venda-no-bairro-havai-belo-horizonte-mg/1058": {
+      "titulo": "Casa | Havaí - Belo Horizonte",
+      "primeira_vez": "24/09/2026 06:38"
     }
   },
   "inteligencia_bh": {
@@ -703,6 +707,14 @@
     "https://www.bihainimoveis.com.br/imovel/terreno-belo-horizonte-500-m/TE0129-BIHA?from=sale": {
       "titulo": "TE0129-BIHA",
       "primeira_vez": "12/09/2026 05:56"
+    },
+    "https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-3-quartos-210-m/CA0725-BIHA?from=sale": {
+      "titulo": "CA0725-BIHA",
+      "primeira_vez": "24/09/2026 06:38"
+    },
+    "https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-5-quartos-600-m/CA0573-BIHA?from=sale": {
+      "titulo": "CA0573-BIHA",
+      "primeira_vez": "24/09/2026 06:38"
     }
   },
   "palmeiras": {},
@@ -1196,7 +1208,7 @@
       "primeira_vez": "22/08/2026 08:16"
     },
     "https://www.grimoveis.com.br/imovel/predio-comercial-a-venda-cinquentenario-belo-horizonte-mg/70181": {
-      "titulo": "NOVO",
+      "titulo": "< < < <",
       "primeira_vez": "25/08/2026 08:22"
     },
     "https://www.grimoveis.com.br/imovel/casa-a-venda-havai-belo-horizonte-mg/65472": {
@@ -4480,7 +4492,7 @@
       "primeira_vez": "20/09/2026 06:31"
     },
     "https://www.pointimoveisbh.com.br/imovel/apartamento-com-3-quartos-e-1-vaga-no-betania-belo-horizonte-mg/2113": {
-      "titulo": "Apartamento | Cinquentenário - Belo Horizonte",
+      "titulo": "Apartamento | Betânia - Belo Horizonte",
       "primeira_vez": "23/09/2026 06:38"
     }
   },
