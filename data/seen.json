@@ -2344,6 +2344,10 @@
     "https://www.genesisimoveis.com.br/imovel/vende-se-casa-com-lote-bairro-betania-bh-mg-r64000000/7077": {
       "titulo": "Casa | Estrela do Oriente - Belo Horizonte",
       "primeira_vez": "23/09/2026 06:38"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-03-quartos-bairro-palmeiras-bh-mg-r65000000/7142": {
+      "titulo": "Casa | Palmeiras - Belo Horizonte",
+      "primeira_vez": "25/09/2026 06:55"
     }
   },
   "vpr": {
@@ -3460,6 +3464,10 @@
     "https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/buritis/870701013-44": {
       "titulo": "R$ 4.600 Mensal",
       "primeira_vez": "19/09/2026 06:04"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/alugar/belo-horizonte/200-rua-chico-rei/870701002-131": {
+      "titulo": "R$ 5.000 Mensal",
+      "primeira_vez": "25/09/2026 06:55"
     }
   },
   "dual_imoveis": {},
@@ -4085,6 +4093,14 @@
     "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-havai/1113965/": {
       "titulo": "MAIS INFORMAÇÕES",
       "primeira_vez": "23/09/2026 06:38"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-ponto-comercial-minas-gerais-belo-horizonte-oeste-cinquentenario/1012474/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "25/09/2026 06:55"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1202026/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "25/09/2026 06:55"
     }
   },
   "stilo_imoveis": {},
