@@ -553,6 +553,10 @@
     "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-a-venda-2-quartos-1-suite-1-vaga-pampulha-belo-horizonte-mg/1375": {
       "titulo": "EXCLUSIVO",
       "primeira_vez": "16/09/2026 06:36"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-a-venda-no-bairro-cinquentenario-belo-horizonte-mg/1405": {
+      "titulo": "NOVO",
+      "primeira_vez": "26/09/2026 06:37"
     }
   },
   "bihain": {
@@ -1396,6 +1400,10 @@
     "https://sensaleimoveis.com.br/imovel/SE851463/apartamento-1-quarto-palmeiras-belo-horizonte/venda": {
       "titulo": "Reserva dos Buritis - T2: Lançamento no Palmeiras",
       "primeira_vez": "17/09/2026 06:44"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851494/apartamento-2-quartos-havai-belo-horizonte/venda": {
+      "titulo": "APARTAMENTO HAVAI 2 QUARTOS, 1 VAGA COBERTA LIVRE",
+      "primeira_vez": "26/09/2026 06:37"
     }
   },
   "leo_batista": {
@@ -2912,6 +2920,18 @@
     "https://gadeimoveis.com.br/imovel/area-privativa-cinquentenario-belo-horizonte-mg-3-quartos-3827": {
       "titulo": "Cód: 3827",
       "primeira_vez": "23/09/2026 06:38"
+    },
+    "https://gadeimoveis.com.br/imovel/cobertura-cinquentenario-belo-horizonte-mg-3-quartos-130m2-3830": {
+      "titulo": "Cód: 3830",
+      "primeira_vez": "26/09/2026 06:37"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-3832": {
+      "titulo": "Cód: 3832",
+      "primeira_vez": "26/09/2026 06:37"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-salgado-filho-belo-horizonte-mg-2-quartos-3834": {
+      "titulo": "Cód: 3834",
+      "primeira_vez": "26/09/2026 06:37"
     }
   },
   "malta": {
@@ -3234,7 +3254,7 @@
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://www.remax.com.br/pt-br/imoveis/terreno/venda/belo-horizonte/208-rua-ophil-ribeiro/870701002-125": {
-      "titulo": "R$ 1.000.000",
+      "titulo": "R$ 900.000",
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://www.remax.com.br/pt-br/imoveis/cobertura/venda/belo-horizonte/870701005-71": {
@@ -4101,6 +4121,10 @@
     "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1202026/": {
       "titulo": "MAIS INFORMAÇÕES",
       "primeira_vez": "25/09/2026 06:55"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-dalva/393453/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "26/09/2026 06:37"
     }
   },
   "stilo_imoveis": {},
@@ -4900,7 +4924,7 @@
       "primeira_vez": "20/08/2026 10:35"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-2-quartos-1-vaga-betania-belo-horizonte-mg/8016": {
-      "titulo": "arrow_back_ios",
+      "titulo": "TEM PROPOSTA",
       "primeira_vez": "20/08/2026 10:35"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-residencial-em-belo-horizonte-betania-11770-m-2-vagas-ar-condicionado/9068": {
@@ -5072,7 +5096,7 @@
       "primeira_vez": "20/08/2026 10:35"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-no-bairro-palmeiras/9540": {
-      "titulo": "arrow_back_ios",
+      "titulo": "TEM PROPOSTA",
       "primeira_vez": "22/08/2026 08:16"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-174-m-3-quartos-1-suite-3-banheiros-2-vagas/5016": {
