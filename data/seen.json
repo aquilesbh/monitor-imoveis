@@ -719,6 +719,10 @@
     "https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-5-quartos-600-m/CA0573-BIHA?from=sale": {
       "titulo": "CA0573-BIHA",
       "primeira_vez": "24/09/2026 06:38"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-70-m/AP9631-BIHA?from=sale": {
+      "titulo": "AP9631-BIHA",
+      "primeira_vez": "29/09/2026 07:59"
     }
   },
   "palmeiras": {},
@@ -1404,6 +1408,10 @@
     "https://sensaleimoveis.com.br/imovel/SE851494/apartamento-2-quartos-havai-belo-horizonte/venda": {
       "titulo": "APARTAMENTO HAVAI 2 QUARTOS, 1 VAGA COBERTA LIVRE",
       "primeira_vez": "26/09/2026 06:37"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851506/apartamento-2-quartos-palmeiras-belo-horizonte/aluguel": {
+      "titulo": "Casa para locação no Palmeiras !!!",
+      "primeira_vez": "29/09/2026 07:59"
     }
   },
   "leo_batista": {
@@ -3346,7 +3354,7 @@
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://www.remax.com.br/pt-br/imoveis/loja/alugar/belo-horizonte/870701002-106": {
-      "titulo": "R$ 2.000 Mensal",
+      "titulo": "R$ 1.800 Mensal",
       "primeira_vez": "15/08/2026 08:15"
     },
     "https://www.remax.com.br/pt-br/imoveis/cobertura/alugar/belo-horizonte/1161-rua-julio-de-castilho/870701036-7": {
