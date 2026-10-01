@@ -1234,6 +1234,10 @@
     "https://www.grimoveis.com.br/imovel/apartamento-a-venda-marajo-belo-horizonte-mg/70300": {
       "titulo": "NOVO",
       "primeira_vez": "19/09/2026 06:04"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-com-area-privativa-a-venda-havai-belo-horizonte-mg/65650": {
+      "titulo": "< < < <",
+      "primeira_vez": "01/10/2026 08:15"
     }
   },
   "sensale": {
@@ -2948,6 +2952,10 @@
     "https://gadeimoveis.com.br/imovel/casa-salgado-filho-belo-horizonte-mg-2-quartos-3834": {
       "titulo": "Cód: 3834",
       "primeira_vez": "26/09/2026 06:37"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-palmeiras-belo-horizonte-mg-3-quartos-100m2-3839": {
+      "titulo": "Cód: 3839",
+      "primeira_vez": "01/10/2026 08:15"
     }
   },
   "malta": {
@@ -5168,7 +5176,7 @@
       "primeira_vez": "27/08/2026 12:59"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-a-venda-no-estrela-dalva-conforto-e-excelente-localizacao-em-bh/9618": {
-      "titulo": "NOVO",
+      "titulo": "arrow_back_ios",
       "primeira_vez": "01/09/2026 06:40"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-no-manacas-pampulha-belo-horizonte/9641": {
@@ -5398,6 +5406,14 @@
     "https://www.imovelnet.imb.br/imovel/apto-3-quartos-reformado-no-havai/9793": {
       "titulo": "NOVO",
       "primeira_vez": "23/09/2026 06:38"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-2-quartos-2-vagas-havai-belo-horizonte-mg/7680": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "01/10/2026 08:15"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-2-quartos-1-vaga-havai-belo-horizonte-mg/7679": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "01/10/2026 08:15"
     }
   }
 }
