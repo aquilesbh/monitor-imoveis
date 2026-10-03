@@ -535,7 +535,7 @@
       "primeira_vez": "27/08/2026 12:59"
     },
     "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-de-2-quartos-a-venda-no-camargos-proximo-ao-metro/1403": {
-      "titulo": "NOVO",
+      "titulo": "‹",
       "primeira_vez": "03/09/2026 06:18"
     },
     "https://www.inteligenciaimobiliariabh.com.br/imovel/seu-novo-lar-no-cinquentenario/1404": {
@@ -561,6 +561,10 @@
     "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-de-3-quartos-a-venda-no-salgado-filho-belo-horizonte/1406": {
       "titulo": "NOVO",
       "primeira_vez": "30/09/2026 07:49"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-de-3-quartos-no-salgado-filho/1407": {
+      "titulo": "NOVO",
+      "primeira_vez": "03/10/2026 07:07"
     }
   },
   "bihain": {
@@ -2376,6 +2380,22 @@
     "https://www.genesisimoveis.com.br/imovel/vende-se-casa-03-quartos-bairro-palmeiras-bh-mg-r65000000/7142": {
       "titulo": "Casa | Palmeiras - Belo Horizonte",
       "primeira_vez": "25/09/2026 06:55"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-cobertura-02-quartos-bairro-havai-bh-mg-r73962000/5923": {
+      "titulo": "Cobertura | Havai - Belo Horizonte",
+      "primeira_vez": "03/10/2026 07:07"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-quartos-bairro-havai-bh-mg-r49800000/7101": {
+      "titulo": "Apto 3 quartos | Havai - Belo Horizonte",
+      "primeira_vez": "03/10/2026 07:07"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-apto-02-quartos-bairro-havai-bh-mg-r49150000/7100": {
+      "titulo": "Apto 2 quartos | Havai - Belo Horizonte",
+      "primeira_vez": "03/10/2026 07:07"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-quartos-bairro-palmeiras-bh-mg-r59000000/7144": {
+      "titulo": "Apto 3 quartos | Palmeiras - Belo Horizonte",
+      "primeira_vez": "03/10/2026 07:07"
     }
   },
   "vpr": {
@@ -2502,6 +2522,10 @@
     "https://www.vprimoveis.com.br/cobertura-a-venda-2-quartos-1-suite-3-vagas-palmeiras-belo-horizontemg/13804": {
       "titulo": "Cobertura à venda em Palmeiras de 120m2",
       "primeira_vez": "17/09/2026 06:44"
+    },
+    "https://www.vprimoveis.com.br/apartamento-a-venda-com-3-quartos-lazer-e-elevador/13856": {
+      "titulo": "Apartamento à venda em Cinqüentenário de 65m2",
+      "primeira_vez": "03/10/2026 07:07"
     }
   },
   "gade": {
@@ -3270,6 +3294,10 @@
     "https://www.maltaimoveis.com.br/imovel/apartamento-a-venda-no-bairro-barreiro-de-3-quartos-1-vagas/11143": {
       "titulo": "< < < <",
       "primeira_vez": "22/09/2026 06:33"
+    },
+    "https://www.maltaimoveis.com.br/imovel/apartamento-area-privativa-a-venda-no-bairro-tirol-de-2-quartos-1-vagas/9464": {
+      "titulo": "< < < <",
+      "primeira_vez": "03/10/2026 07:07"
     }
   },
   "remax": {
@@ -4562,6 +4590,10 @@
     "https://www.pointimoveisbh.com.br/imovel/excelente-casa-com-habite-se-a-venda-bairro-palmeiras-03-quartos-01-suite-02-vagas/718": {
       "titulo": "Casa | Palmeiras - Belo Horizonte",
       "primeira_vez": "30/09/2026 07:49"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/casa-maravilhosa-de-3-quartos-1-suite-palmeiras-bh-mg/2120": {
+      "titulo": "Casa | Palmeiras - Belo Horizonte",
+      "primeira_vez": "03/10/2026 07:07"
     }
   },
   "new_core": {
