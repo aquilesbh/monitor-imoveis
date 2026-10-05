@@ -2,8 +2,8 @@ name: Monitor de Imóveis
 
 on:
   schedule:
-    # 05:00 UTC = 02:00 no horário de Brasília (UTC-3)
-    - cron: "0 5 * * *"
+    # 02:00 UTC = 23:00 no horário de Brasília (UTC-3) do dia anterior
+    - cron: "0 2 * * *"
   workflow_dispatch: {}   # permite rodar manualmente pelo botão "Run workflow"
 
 permissions:
@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/seen.json docs/index.html
+          git add data/seen.json data/seen_locacao.json docs/index.html docs/venda.html docs/locacao.html
           git diff --quiet --cached || git commit -m "Atualização automática $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
 
