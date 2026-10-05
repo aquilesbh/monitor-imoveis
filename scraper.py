@@ -393,14 +393,320 @@ SITES = [
     },
 ]
 
+BAIRROS_ALVO_LOCACAO = [
+    "betania", "cinquentenario", "estrela-do-oriente", "havai", "marajo",
+    "palmeiras", "estrela-dalva",
+]
+
+
+SITES_LOCACAO = [
+    {
+        "key": 'paulo_tavares',
+        "name": 'Paulo Tavares Imóveis',
+        "urls": [
+            'https://www.paulotavaresimoveis.com.br/aluguel/imoveis/belo-horizonte/betania/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.paulotavaresimoveis.com.br/aluguel/imoveis/belo-horizonte/cinquentenario/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.paulotavaresimoveis.com.br/aluguel/imoveis/belo-horizonte/marajo/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.paulotavaresimoveis.com.br/aluguel/imoveis/belo-horizonte/palmeiras/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.paulotavaresimoveis.com.br/aluguel/imoveis/belo-horizonte/havai/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+        ],
+        "base": 'https://www.paulotavaresimoveis.com.br',
+        "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
+    },
+    {
+        "key": 'inteligencia_bh',
+        "name": 'Inteligência Imobiliária BH',
+        "urls": [
+            'https://www.inteligenciaimobiliariabh.com.br/aluguel/imovel/belo-horizonte/betania/?&pagina=1',
+            'https://www.inteligenciaimobiliariabh.com.br/aluguel/imovel/belo-horizonte/cinquentenario/?&pagina=1',
+            'https://www.inteligenciaimobiliariabh.com.br/aluguel/imovel/belo-horizonte/palmeiras/?&pagina=1',
+            'https://www.inteligenciaimobiliariabh.com.br/aluguel/imovel/belo-horizonte/marajo/?&pagina=1',
+            'https://www.inteligenciaimobiliariabh.com.br/aluguel/imovel/belo-horizonte/estrela-do-oriente/?&pagina=1',
+            'https://www.inteligenciaimobiliariabh.com.br/aluguel/imovel/belo-horizonte/havai/?&pagina=1',
+        ],
+        "base": 'https://www.inteligenciaimobiliariabh.com.br',
+        "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
+    },
+    {
+        "key": 'bihain',
+        "name": 'Bihain Imóveis',
+        "urls": [
+            'https://www.bihainimoveis.com.br/imoveis/para-alugar/belo-horizonte/estrela-dalva',
+            'https://www.bihainimoveis.com.br/imoveis/para-alugar/belo-horizonte/betania',
+            'https://www.bihainimoveis.com.br/imoveis/para-alugar/belo-horizonte/cinquentenario',
+            'https://www.bihainimoveis.com.br/imoveis/para-alugar/belo-horizonte/palmeiras',
+            'https://www.bihainimoveis.com.br/imoveis/para-alugar/belo-horizonte/marajo',
+            'https://www.bihainimoveis.com.br/imoveis/para-alugar/belo-horizonte/estrela-do-oriente',
+            'https://www.bihainimoveis.com.br/imoveis/para-alugar/belo-horizonte/havai',
+        ],
+        "base": 'https://www.bihainimoveis.com.br',
+        "link_pattern": r"/imovel/[^/?#]+/[A-Za-z]{2,3}\d+-[A-Za-z]+",
+    },
+    {
+        "key": 'palmeiras',
+        "name": 'Imobiliária Palmeiras',
+        "urls": [
+            'https://www.imobiliariapalmeiras.com.br/imoveis/aluguel/#/?tipoNegocio=AA&n=1&ordem=valor-ASC&mb=s&slug=0&page=1&bairros=18489',
+            'https://www.imobiliariapalmeiras.com.br/imoveis/aluguel/#/?tipoNegocio=AA&n=1&ordem=valor-ASC&mb=s&slug=0&page=1&bairros=1385',
+            'https://www.imobiliariapalmeiras.com.br/imoveis/aluguel/#/?tipoNegocio=AA&n=1&ordem=valor-ASC&mb=s&slug=0&page=1&bairros=3879',
+            'https://www.imobiliariapalmeiras.com.br/imoveis/aluguel/#/?tipoNegocio=AA&n=1&ordem=valor-ASC&mb=s&slug=0&page=1&bairros=6075',
+            'https://www.imobiliariapalmeiras.com.br/imoveis/aluguel/#/?tipoNegocio=AA&n=1&ordem=valor-ASC&mb=s&slug=0&page=1&bairros=6794',
+        ],
+        "base": 'https://www.imobiliariapalmeiras.com.br',
+        "link_pattern": r"/imovel/[^/?#]+/IP-\d+",
+    },
+    {
+        "key": 'gr_imoveis',
+        "name": 'GR Imóveis',
+        "urls": [
+            'https://www.grimoveis.com.br/aluguel/imovel/belo-horizonte/betania/?&pagina=1',
+            'https://www.grimoveis.com.br/aluguel/imovel/belo-horizonte/cinquentenario/?&pagina=1',
+            'https://www.grimoveis.com.br/aluguel/imovel/belo-horizonte/estrela-dalva/?&pagina=1',
+            'https://www.grimoveis.com.br/aluguel/imovel/belo-horizonte/estrela-do-oriente/?&pagina=1',
+            'https://www.grimoveis.com.br/aluguel/imovel/belo-horizonte/havai/?&pagina=1',
+            'https://www.grimoveis.com.br/aluguel/imovel/belo-horizonte/marajo/?&pagina=1',
+            'https://www.grimoveis.com.br/aluguel/imovel/belo-horizonte/palmeiras/?&pagina=1',
+        ],
+        "base": 'https://www.grimoveis.com.br',
+        "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
+    },
+    {
+        "key": 'sensale',
+        "name": 'Sensale Imóveis',
+        "urls": [
+            'https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Betania&valor%5B0%5D=&valor%5B1%5D=',
+            'https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Cinquenten%C3%A1rio&valor%5B0%5D=&valor%5B1%5D=',
+            'https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Estrela+Dalva&valor%5B0%5D=&valor%5B1%5D=',
+            'https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Hava%C3%AD&valor%5B0%5D=&valor%5B1%5D=',
+            'https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Palmeiras&valor%5B0%5D=&valor%5B1%5D=',
+        ],
+        "base": 'https://sensaleimoveis.com.br',
+        "link_pattern": r"/imovel/[^/?#]+/[^/?#]+",
+    },
+    {
+        "key": 'leo_batista',
+        "name": 'Léo Batista Imóveis',
+        "urls": [
+            'https://www.leobatistaimoveis.com.br/imobiliaria/locacao/betania/imoveis/10852/1?tipo=2&bairro=16&ordem=recentes',
+            'https://www.leobatistaimoveis.com.br/imobiliaria/locacao/havai/imoveis/10854/1?tipo=2&bairro=5&ordem=recentes',
+            'https://www.leobatistaimoveis.com.br/imobiliaria/locacao/palmeiras/imoveis/10859/1?tipo=2&bairro=18&ordem=recentes',
+            'https://www.leobatistaimoveis.com.br/imobiliaria/locacao/cinquentenario/imoveis/10861/1?tipo=2&bairro=68&ordem=recentes',
+            'https://www.leobatistaimoveis.com.br/imobiliaria/locacao/estrela-do-oriente/imoveis/10863/1?tipo=2&bairro=21&ordem=recentes',
+            'https://www.leobatistaimoveis.com.br/imobiliaria/locacao/marajo/imoveis/10865/1?tipo=2&bairro=51&ordem=recentes',
+        ],
+        "base": 'https://www.leobatistaimoveis.com.br',
+        "link_pattern": r"^/\d+/imoveis/(venda|loca)",
+    },
+    {
+        "key": 'genesis',
+        "name": 'Genesis Imóveis',
+        "urls": [
+            'https://www.genesisimoveis.com.br/aluguel/imoveis/belo-horizonte/cinquentenario/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.genesisimoveis.com.br/aluguel/imoveis/belo-horizonte/betania/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.genesisimoveis.com.br/aluguel/imoveis/belo-horizonte/estrela-do-oriente/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.genesisimoveis.com.br/aluguel/imoveis/belo-horizonte/estrela-dalva/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.genesisimoveis.com.br/aluguel/imoveis/belo-horizonte/havai/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.genesisimoveis.com.br/aluguel/imoveis/belo-horizonte/marajo/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.genesisimoveis.com.br/aluguel/imoveis/belo-horizonte/palmeiras/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
+        ],
+        "base": 'https://www.genesisimoveis.com.br',
+        "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
+    },
+    {
+        "key": 'vpr',
+        "name": 'VPR Imóveis',
+        "urls": [
+            'https://www.vprimoveis.com.br/aluguel/belo-horizonte+cinquentenario',
+            'https://www.vprimoveis.com.br/aluguel/belo-horizonte+palmeiras',
+            'https://www.vprimoveis.com.br/aluguel/belo-horizonte+betania',
+            'https://www.vprimoveis.com.br/aluguel/belo-horizonte+estrela-do-oriente',
+            'https://www.vprimoveis.com.br/aluguel/belo-horizonte+havai',
+            'https://www.vprimoveis.com.br/aluguel/belo-horizonte+marajo',
+            'https://www.vprimoveis.com.br/aluguel/belo-horizonte+estrela-dalva',
+        ],
+        "base": 'https://www.vprimoveis.com.br',
+        "link_pattern": r"^/[^/?#]+/\d+$",
+    },
+    {
+        "key": 'gade',
+        "name": 'Gade Imóveis',
+        "urls": [
+            'https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=Bet%C3%A2nia',
+            'https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=Cinquenten%C3%A1rio',
+            'https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=Estrela%20Dalva',
+            'https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=Estrela%20do%20Oriente',
+            'https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=havai,Havai,Hava%C3%AD',
+            'https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=Maraj%C3%B3',
+            'https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=palmeiras,Palmeiras,PALMEIRAS',
+        ],
+        "base": 'https://gadeimoveis.com.br',
+        "link_pattern": r"/imovel/[^/?#]+-\d+(?:[/?#]|$)",
+    },
+    {
+        "key": 'malta',
+        "name": 'Malta Imóveis',
+        "urls": [
+            'https://www.maltaimoveis.com.br/aluguel/imovel/belo-horizonte/cinquentenario/?&pagina=1',
+            'https://www.maltaimoveis.com.br/aluguel/imovel/belo-horizonte/havai/?&pagina=1',
+            'https://www.maltaimoveis.com.br/aluguel/imovel/belo-horizonte/marajo/?&pagina=1',
+            'https://www.maltaimoveis.com.br/aluguel/imovel/belo-horizonte/palmeiras/?&pagina=1',
+        ],
+        "base": 'https://www.maltaimoveis.com.br',
+        "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
+    },
+    {
+        "key": 'remax',
+        "name": 'Remax',
+        "urls": [
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50062&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50062-Bet%C3%A2nia&ListingClass=-1&TransactionTypeUID=260',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50095&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50095-Cinquenten%C3%A1rio&ListingClass=-1&TransactionTypeUID=260',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50132&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50132-Estrela%20Dalva&ListingClass=-1&TransactionTypeUID=260',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50133&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50133-Estrela%20do%20Oriente&ListingClass=-1&TransactionTypeUID=260',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50154&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50154-Hava%C3%AD&ListingClass=-1&TransactionTypeUID=260',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50208&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50208-Maraj%C3%B3&ListingClass=-1&TransactionTypeUID=260',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50248&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50248-Palmeiras&ListingClass=-1&TransactionTypeUID=260',
+        ],
+        "base": 'https://www.remax.com.br',
+        "domain_suffix": 'remax.com.br',
+        "link_pattern": r"(^/pt-br/imoveis/.+/\d{5,}-?\d*$)|(^/\d{5,}-\d+$)",
+    },
+    {
+        "key": 'dual_imoveis',
+        "name": 'Dual Imóveis',
+        "urls": [
+            'https://www.dualimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/palmeiras/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-palmeiras-oeste-&pagina=1',
+            'https://www.dualimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/betania/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-betania-oeste-&pagina=1',
+            'https://www.dualimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/cinquentenario/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-cinquentenario-oeste-&pagina=1',
+            'https://www.dualimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/havai/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-havai-oeste-&pagina=1',
+            'https://www.dualimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/estrela-dalva/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-estrela-dalva-oeste-&pagina=1',
+            'https://www.dualimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/estrela-do-oriente/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-estrela-do-oriente-oeste-&pagina=1',
+            'https://www.dualimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/marajo/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-marajo-oeste-&pagina=1',
+        ],
+        "base": 'https://www.dualimoveis.com.br',
+        "link_pattern": r"^/imovel/[^/?#]+/\d+/?$",
+    },
+    {
+        "key": 'visao_imoveis',
+        "name": 'Visão Imóveis BH',
+        "urls": [
+            'https://www.visaoimoveisbh.com.br/aluguel/minas-gerais/belo-horizonte/oeste/palmeiras/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-palmeiras-oeste-&pagina=1',
+            'https://www.visaoimoveisbh.com.br/aluguel/minas-gerais/belo-horizonte/oeste/betania/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-betania-oeste-&pagina=1',
+            'https://www.visaoimoveisbh.com.br/aluguel/minas-gerais/belo-horizonte/oeste/cinquentenario/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-cinquentenario-oeste-&pagina=1',
+            'https://www.visaoimoveisbh.com.br/aluguel/minas-gerais/belo-horizonte/oeste/havai/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-havai-oeste-&pagina=1',
+            'https://www.visaoimoveisbh.com.br/aluguel/minas-gerais/belo-horizonte/oeste/estrela-dalva/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-estrela-dalva-oeste-&pagina=1',
+            'https://www.visaoimoveisbh.com.br/aluguel/minas-gerais/belo-horizonte/oeste/estrela-do-oriente/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-estrela-do-oriente-oeste-&pagina=1',
+            'https://www.visaoimoveisbh.com.br/aluguel/minas-gerais/belo-horizonte/oeste/marajo/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-marajo-oeste-&pagina=1',
+        ],
+        "base": 'https://www.visaoimoveisbh.com.br',
+        "link_pattern": r"^/imovel/[^/?#]+/\d+/?$",
+    },
+    {
+        "key": 'boreal_imoveis',
+        "name": 'Boreal Imóveis',
+        "urls": [
+            'https://www.borealimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/palmeiras/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-palmeiras-oeste-&pagina=1',
+            'https://www.borealimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/betania/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-betania-oeste-&pagina=1',
+            'https://www.borealimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/cinquentenario/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-cinquentenario-oeste-&pagina=1',
+            'https://www.borealimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/havai/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-havai-oeste-&pagina=1',
+            'https://www.borealimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/estrela-dalva/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-estrela-dalva-oeste-&pagina=1',
+            'https://www.borealimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/estrela-do-oriente/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-estrela-do-oriente-oeste-&pagina=1',
+            'https://www.borealimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/marajo/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-marajo-oeste-&pagina=1',
+        ],
+        "base": 'https://www.borealimoveis.com.br',
+        "link_pattern": r"^/imovel/[^/?#]+/\d+/?$",
+    },
+    {
+        "key": 'solimob',
+        "name": 'Solimob Netimóveis',
+        "urls": [
+            'https://www.solimobnetimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/palmeiras/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-palmeiras-oeste-&pagina=1',
+            'https://www.solimobnetimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/betania/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-betania-oeste-&pagina=1',
+            'https://www.solimobnetimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/cinquentenario/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-cinquentenario-oeste-&pagina=1',
+            'https://www.solimobnetimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/havai/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-havai-oeste-&pagina=1',
+            'https://www.solimobnetimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/estrela-dalva/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-estrela-dalva-oeste-&pagina=1',
+            'https://www.solimobnetimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/estrela-do-oriente/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-estrela-do-oriente-oeste-&pagina=1',
+            'https://www.solimobnetimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/marajo/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-marajo-oeste-&pagina=1',
+        ],
+        "base": 'https://www.solimobnetimoveis.com.br',
+        "link_pattern": r"^/imovel/[^/?#]+/\d+/?$",
+    },
+    {
+        "key": 'stilo_imoveis',
+        "name": 'Stilo Netimóveis',
+        "urls": [
+            'https://www.stilonetimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/palmeiras/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-palmeiras-oeste-&pagina=1',
+            'https://www.stilonetimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/betania/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-betania-oeste-&pagina=1',
+            'https://www.stilonetimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/cinquentenario/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-cinquentenario-oeste-&pagina=1',
+            'https://www.stilonetimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/havai/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-havai-oeste-&pagina=1',
+            'https://www.stilonetimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/estrela-dalva/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-estrela-dalva-oeste-&pagina=1',
+            'https://www.stilonetimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/estrela-do-oriente/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-estrela-do-oriente-oeste-&pagina=1',
+            'https://www.stilonetimoveis.com.br/aluguel/minas-gerais/belo-horizonte/oeste/marajo/?transacao=aluguel&localizacao=BR-MG-belo-horizonte-marajo-oeste-&pagina=1',
+        ],
+        "base": 'https://www.stilonetimoveis.com.br',
+        "link_pattern": r"^/imovel/[^/?#]+/\d+/?$",
+    },
+    {
+        "key": 'sandro_pimenta',
+        "name": 'Sandro Pimenta Imóveis',
+        "urls": [
+            'https://www.sandropimentaimoveis.com.br/aluguel/imoveis/belo-horizonte/palmeiras/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.sandropimentaimoveis.com.br/aluguel/imoveis/belo-horizonte/betania/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.sandropimentaimoveis.com.br/aluguel/imoveis/belo-horizonte/cinquentenario/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.sandropimentaimoveis.com.br/aluguel/imoveis/belo-horizonte/havai/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.sandropimentaimoveis.com.br/aluguel/imoveis/belo-horizonte/estrela-dalva/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.sandropimentaimoveis.com.br/aluguel/imoveis/belo-horizonte/estrela-do-oriente/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais?valorminimo=0&valormaximo=0&pagina=1',
+            'https://www.sandropimentaimoveis.com.br/aluguel/imoveis/belo-horizonte/marajo/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais?valorminimo=0&valormaximo=0&pagina=1',
+        ],
+        "base": 'https://www.sandropimentaimoveis.com.br',
+        "link_pattern": r"/detalhe-imovel/\d+",
+    },
+    {
+        "key": 'point_imoveis',
+        "name": 'Point Imóveis',
+        "filtrar_por_bairro": True,
+        "bairros_alvo": BAIRROS_ALVO_LOCACAO,
+        "urls": [
+            'https://www.pointimoveisbh.com.br/aluguel/imoveis/belo-horizonte/betania/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.pointimoveisbh.com.br/aluguel/imoveis/belo-horizonte/cinquentenario/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.pointimoveisbh.com.br/aluguel/imoveis/belo-horizonte/estrela-do-oriente/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.pointimoveisbh.com.br/aluguel/imoveis/belo-horizonte/havai/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.pointimoveisbh.com.br/aluguel/imoveis/belo-horizonte/marajo/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.pointimoveisbh.com.br/aluguel/imoveis/belo-horizonte/palmeiras/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            'https://www.pointimoveisbh.com.br/aluguel/imoveis/belo-horizonte/estrela-dalva/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+        ],
+        "base": 'https://www.pointimoveisbh.com.br',
+        "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
+    },
+    {
+        "key": 'imovel_net',
+        "name": 'Imóvel Net',
+        "filtrar_por_bairro": True,
+        "bairros_alvo": BAIRROS_ALVO_LOCACAO,
+        "urls": [
+            'https://www.imovelnet.imb.br/aluguel/imovel/belo-horizonte/palmeiras',
+            'https://www.imovelnet.imb.br/aluguel/imovel/belo-horizonte/betania',
+            'https://www.imovelnet.imb.br/aluguel/imovel/belo-horizonte/cinquentenario',
+            'https://www.imovelnet.imb.br/aluguel/imovel/belo-horizonte/havai',
+            'https://www.imovelnet.imb.br/aluguel/imovel/belo-horizonte/estrela-dalva',
+            'https://www.imovelnet.imb.br/aluguel/imovel/belo-horizonte/estrela-do-oriente',
+            'https://www.imovelnet.imb.br/aluguel/imovel/belo-horizonte/marajo',
+        ],
+        "base": 'https://www.imovelnet.imb.br',
+        "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
+    },
+]
+
 
 MAX_PAGES = 20            # trava de segurança para não entrar em loop infinito por site
 WAIT_MS = 4000             # tempo extra de espera após o carregamento da página
 SCROLL_TRIES = 4           # tentativas de "rolar para carregar mais" por página
 NAV_TIMEOUT_MS = 45000
 
-DATA_FILE = Path(__file__).parent / "data" / "seen.json"
-OUTPUT_HTML = Path(__file__).parent / "docs" / "index.html"
+DATA_FILE_VENDA = Path(__file__).parent / "data" / "seen.json"
+DATA_FILE_LOCACAO = Path(__file__).parent / "data" / "seen_locacao.json"
+OUTPUT_HTML_LANDING = Path(__file__).parent / "docs" / "index.html"
+OUTPUT_HTML_VENDA = Path(__file__).parent / "docs" / "venda.html"
+OUTPUT_HTML_LOCACAO = Path(__file__).parent / "docs" / "locacao.html"
 
 BR_TZ = timezone(timedelta(hours=-3))
 
@@ -417,7 +723,7 @@ def remover_acentos(texto):
     )
 
 
-def eh_do_bairro_alvo(texto):
+def eh_do_bairro_alvo(texto, bairros=None):
     """
     Confere se o texto (link ou titulo) menciona algum dos bairros que
     estamos monitorando. Alguns sites (Point Imoveis, New Core, Imovel Net)
@@ -426,8 +732,10 @@ def eh_do_bairro_alvo(texto):
     """
     if not texto:
         return True
+    if bairros is None:
+        bairros = BAIRROS_ALVO
     t = remover_acentos(texto.lower()).replace(" ", "-")
-    return any(b in t for b in BAIRROS_ALVO)
+    return any(b in t for b in bairros)
 
 
 def data_para_iso(primeira_vez_str):
@@ -684,9 +992,10 @@ def coletar_uma_url(page, site, url):
         time.sleep(1.5)  # pausa educada entre as páginas
 
     if site.get("filtrar_por_bairro"):
+        bairros = site.get("bairros_alvo", BAIRROS_ALVO)
         encontrados_total = {
             h: t for h, t in encontrados_total.items()
-            if eh_do_bairro_alvo(h) or eh_do_bairro_alvo(t)
+            if eh_do_bairro_alvo(h, bairros) or eh_do_bairro_alvo(t, bairros)
         }
     return encontrados_total
 
@@ -757,11 +1066,11 @@ def coletar_site(site):
     return encontrados_total
 
 
-def carregar_estado_anterior():
-    if not DATA_FILE.exists():
+def carregar_estado_anterior(data_file, sites):
+    if not data_file.exists():
         return {}
     try:
-        estado = json.loads(DATA_FILE.read_text(encoding="utf-8"))
+        estado = json.loads(data_file.read_text(encoding="utf-8"))
     except json.JSONDecodeError:
         return {}
 
@@ -771,16 +1080,16 @@ def carregar_estado_anterior():
     # lista SITES, para não perder o histórico já coletado.
     if estado and all(
         isinstance(v, dict) and "titulo" in v for v in estado.values()
-    ) and not any(k in estado for k in [s["key"] for s in SITES]):
-        primeiro_site = SITES[0]["key"]
+    ) and not any(k in estado for k in [s["key"] for s in sites]):
+        primeiro_site = sites[0]["key"]
         return {primeiro_site: estado}
 
     return estado
 
 
-def salvar_estado(estado):
-    DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
-    DATA_FILE.write_text(
+def salvar_estado(estado, data_file):
+    data_file.parent.mkdir(parents=True, exist_ok=True)
+    data_file.write_text(
         json.dumps(estado, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
@@ -799,16 +1108,16 @@ def limpar_titulo(titulo, href):
     return linhas[0] if linhas else titulo.strip()
 
 
-def gerar_html(estado_por_site, novos_por_site, ultima_verificacao):
+def gerar_html(sites, estado_por_site, novos_por_site, ultima_verificacao, output_html, rotulo):
     abas_botoes = []
     abas_conteudo = []
 
     total_geral = sum(len(v) for v in estado_por_site.values())
     total_novos_geral = sum(len(v) for v in novos_por_site.values())
 
-    site_por_key = {s["key"]: s for s in SITES}
+    site_por_key = {s["key"]: s for s in sites}
 
-    for indice, site in enumerate(SITES):
+    for indice, site in enumerate(sites):
         key = site["key"]
         nome = site["name"]
         estado = estado_por_site.get(key, {})
@@ -856,8 +1165,20 @@ def gerar_html(estado_por_site, novos_por_site, ultima_verificacao):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Monitor de Imóveis</title>
+<title>Monitor de Imóveis -- {rotulo}</title>
 <style>
+  .voltar {{
+    color: white;
+    opacity: 0.85;
+    text-decoration: none;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 8px;
+  }}
+  .voltar:hover {{
+    opacity: 1;
+    text-decoration: underline;
+  }}
   body {{
     font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     background: #f5f4f1;
@@ -1021,7 +1342,8 @@ def gerar_html(estado_por_site, novos_por_site, ultima_verificacao):
 </head>
 <body>
 <header>
-  <h1>Monitor de Imóveis</h1>
+  <a href="index.html" class="voltar">&larr; Voltar</a>
+  <h1>Monitor de Imóveis -- {rotulo}</h1>
   <p>Última verificação: {ultima_verificacao}</p>
 </header>
 
@@ -1121,20 +1443,26 @@ def gerar_html(estado_por_site, novos_por_site, ultima_verificacao):
 </body>
 </html>
 """
-    OUTPUT_HTML.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_HTML.write_text(html, encoding="utf-8")
+    output_html.parent.mkdir(parents=True, exist_ok=True)
+    output_html.write_text(html, encoding="utf-8")
 
 
-def main():
-    estado_anterior = carregar_estado_anterior()
+def rodar_pipeline(sites, data_file, output_html, rotulo):
+    """
+    Roda a coleta completa de uma lista de sites (venda OU locação) e
+    gera o painel HTML correspondente.
+    """
+    print(f"\n{'='*60}\nINICIANDO COLETA: {rotulo.upper()}\n{'='*60}")
+
+    estado_anterior = carregar_estado_anterior(data_file, sites)
     agora = datetime.now(BR_TZ).strftime("%d/%m/%Y %H:%M")
 
     estado_novo = {}
     novos_por_site = {}
 
-    for site in SITES:
+    for site in sites:
         key = site["key"]
-        print(f"\n=== {site['name']} ===")
+        print(f"\n=== {site['name']} ({rotulo}) ===")
         try:
             encontrados_agora = coletar_site(site)
         except Exception as e:
@@ -1160,9 +1488,72 @@ def main():
         estado_novo[key] = estado_site_novo
         novos_por_site[key] = novos_hrefs
 
-    salvar_estado(estado_novo)
-    gerar_html(estado_novo, novos_por_site, agora)
-    print(f"\nPainel gerado em: {OUTPUT_HTML}")
+    salvar_estado(estado_novo, data_file)
+    gerar_html(sites, estado_novo, novos_por_site, agora, output_html, rotulo)
+    print(f"\nPainel de {rotulo} gerado em: {output_html}")
+
+
+def gerar_landing_html():
+    """
+    Página inicial: só o título e os 2 botões (Venda / Locação).
+    """
+    html = """<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monitor de Imóveis</title>
+<style>
+  body {
+    font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background: #f5f4f1;
+    color: #2b2b2b;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .caixa { text-align: center; }
+  .caixa h1 { font-size: 24px; margin-bottom: 8px; color: #1f2d3d; }
+  .caixa p { color: #666; margin-bottom: 32px; }
+  .botoes { display: flex; gap: 16px; justify-content: center; }
+  .botao {
+    display: block;
+    padding: 24px 48px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+  .botao.venda { background: #1f2d3d; }
+  .botao.locacao { background: #2e9e44; }
+</style>
+</head>
+<body>
+  <div class="caixa">
+    <h1>Monitor de Imóveis</h1>
+    <p>Escolha o que você quer ver:</p>
+    <div class="botoes">
+      <a class="botao venda" href="venda.html">Venda</a>
+      <a class="botao locacao" href="locacao.html">Locação</a>
+    </div>
+  </div>
+</body>
+</html>
+"""
+    OUTPUT_HTML_LANDING.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_HTML_LANDING.write_text(html, encoding="utf-8")
+
+
+def main():
+    rodar_pipeline(SITES, DATA_FILE_VENDA, OUTPUT_HTML_VENDA, "Venda")
+    rodar_pipeline(SITES_LOCACAO, DATA_FILE_LOCACAO, OUTPUT_HTML_LOCACAO, "Locação")
+    gerar_landing_html()
+    print(f"\nPágina inicial gerada em: {OUTPUT_HTML_LANDING}")
 
 
 if __name__ == "__main__":
