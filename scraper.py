@@ -393,6 +393,7 @@ SITES = [
     },
 ]
 
+
 BAIRROS_ALVO_LOCACAO = [
     "betania", "cinquentenario", "estrela-do-oriente", "havai", "marajo",
     "palmeiras", "estrela-dalva",
@@ -409,6 +410,7 @@ SITES_LOCACAO = [
             'https://www.paulotavaresimoveis.com.br/aluguel/imoveis/belo-horizonte/marajo/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
             'https://www.paulotavaresimoveis.com.br/aluguel/imoveis/belo-horizonte/palmeiras/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
             'https://www.paulotavaresimoveis.com.br/aluguel/imoveis/belo-horizonte/havai/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
+            # (sem URL de estrela-dalva e estrela-do-oriente no cadastro original da Paulo Tavares -- precisa confirmar se o site cobre esses bairros)
         ],
         "base": 'https://www.paulotavaresimoveis.com.br',
         "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
@@ -451,6 +453,9 @@ SITES_LOCACAO = [
             'https://www.imobiliariapalmeiras.com.br/imoveis/aluguel/#/?tipoNegocio=AA&n=1&ordem=valor-ASC&mb=s&slug=0&page=1&bairros=3879',
             'https://www.imobiliariapalmeiras.com.br/imoveis/aluguel/#/?tipoNegocio=AA&n=1&ordem=valor-ASC&mb=s&slug=0&page=1&bairros=6075',
             'https://www.imobiliariapalmeiras.com.br/imoveis/aluguel/#/?tipoNegocio=AA&n=1&ordem=valor-ASC&mb=s&slug=0&page=1&bairros=6794',
+            # ATENÇÃO: não sabemos ao certo qual ID de bairro corresponde a qual
+            # nome (nunca descobrimos o mapeamento exato) -- reaproveitando os
+            # mesmos 5 IDs já usados na venda. Estoque de aluguel é pequeno (13 no total).
         ],
         "base": 'https://www.imobiliariapalmeiras.com.br',
         "link_pattern": r"/imovel/[^/?#]+/IP-\d+",
@@ -458,6 +463,8 @@ SITES_LOCACAO = [
     {
         "key": 'gr_imoveis',
         "name": 'GR Imóveis',
+        "filtrar_por_bairro": True,
+        "bairros_alvo": BAIRROS_ALVO_LOCACAO,
         "urls": [
             'https://www.grimoveis.com.br/aluguel/imovel/belo-horizonte/betania/?&pagina=1',
             'https://www.grimoveis.com.br/aluguel/imovel/belo-horizonte/cinquentenario/?&pagina=1',
@@ -474,11 +481,13 @@ SITES_LOCACAO = [
         "key": 'sensale',
         "name": 'Sensale Imóveis',
         "urls": [
-            'https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Betania&valor%5B0%5D=&valor%5B1%5D=',
-            'https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Cinquenten%C3%A1rio&valor%5B0%5D=&valor%5B1%5D=',
-            'https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Estrela+Dalva&valor%5B0%5D=&valor%5B1%5D=',
-            'https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Hava%C3%AD&valor%5B0%5D=&valor%5B1%5D=',
-            'https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Palmeiras&valor%5B0%5D=&valor%5B1%5D=',
+            "https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Betania&valor%5B0%5D=&valor%5B1%5D=",
+            "https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Cinquenten%C3%A1rio&valor%5B0%5D=&valor%5B1%5D=",
+            "https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Estrela+Dalva&valor%5B0%5D=&valor%5B1%5D=",
+            "https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Hava%C3%AD&valor%5B0%5D=&valor%5B1%5D=",
+            "https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Palmeiras&valor%5B0%5D=&valor%5B1%5D=",
+            # (Marajó e Estrela do Oriente: não confirmei se existem como opção de
+            # bairro no site da Sensale -- precisa verificar)
         ],
         "base": 'https://sensaleimoveis.com.br',
         "link_pattern": r"/imovel/[^/?#]+/[^/?#]+",
@@ -493,6 +502,7 @@ SITES_LOCACAO = [
             'https://www.leobatistaimoveis.com.br/imobiliaria/locacao/cinquentenario/imoveis/10861/1?tipo=2&bairro=68&ordem=recentes',
             'https://www.leobatistaimoveis.com.br/imobiliaria/locacao/estrela-do-oriente/imoveis/10863/1?tipo=2&bairro=21&ordem=recentes',
             'https://www.leobatistaimoveis.com.br/imobiliaria/locacao/marajo/imoveis/10865/1?tipo=2&bairro=51&ordem=recentes',
+            # SEM Estrela Dalva: não existe esse bairro na lista do site.
         ],
         "base": 'https://www.leobatistaimoveis.com.br',
         "link_pattern": r"^/\d+/imoveis/(venda|loca)",
@@ -531,13 +541,13 @@ SITES_LOCACAO = [
         "key": 'gade',
         "name": 'Gade Imóveis',
         "urls": [
-            'https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=Bet%C3%A2nia',
-            'https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=Cinquenten%C3%A1rio',
-            'https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=Estrela%20Dalva',
-            'https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=Estrela%20do%20Oriente',
-            'https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=havai,Havai,Hava%C3%AD',
-            'https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=Maraj%C3%B3',
-            'https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=palmeiras,Palmeiras,PALMEIRAS',
+            "https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=Bet%C3%A2nia",
+            "https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=Cinquenten%C3%A1rio",
+            "https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=Estrela%20Dalva",
+            "https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=Estrela%20do%20Oriente",
+            "https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=havai,Havai,Hava%C3%AD",
+            "https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=Maraj%C3%B3",
+            "https://gadeimoveis.com.br/busca?finalidade=Aluguel&cidade=Belo+Horizonte&bairro=palmeiras,Palmeiras,PALMEIRAS",
         ],
         "base": 'https://gadeimoveis.com.br',
         "link_pattern": r"/imovel/[^/?#]+-\d+(?:[/?#]|$)",
@@ -545,6 +555,8 @@ SITES_LOCACAO = [
     {
         "key": 'malta',
         "name": 'Malta Imóveis',
+        "filtrar_por_bairro": True,
+        "bairros_alvo": BAIRROS_ALVO_LOCACAO,
         "urls": [
             'https://www.maltaimoveis.com.br/aluguel/imovel/belo-horizonte/cinquentenario/?&pagina=1',
             'https://www.maltaimoveis.com.br/aluguel/imovel/belo-horizonte/havai/?&pagina=1',
@@ -657,12 +669,12 @@ SITES_LOCACAO = [
             'https://www.sandropimentaimoveis.com.br/aluguel/imoveis/belo-horizonte/estrela-do-oriente/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais?valorminimo=0&valormaximo=0&pagina=1',
             'https://www.sandropimentaimoveis.com.br/aluguel/imoveis/belo-horizonte/marajo/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais?valorminimo=0&valormaximo=0&pagina=1',
         ],
-        "base": 'https://www.sandropimentaimoveis.com.br',
+        "base": "https://www.sandropimentaimoveis.com.br",
         "link_pattern": r"/detalhe-imovel/\d+",
     },
     {
-        "key": 'point_imoveis',
-        "name": 'Point Imóveis',
+        "key": "point_imoveis",
+        "name": "Point Imóveis",
         "filtrar_por_bairro": True,
         "bairros_alvo": BAIRROS_ALVO_LOCACAO,
         "urls": [
@@ -678,8 +690,8 @@ SITES_LOCACAO = [
         "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
     },
     {
-        "key": 'imovel_net',
-        "name": 'Imóvel Net',
+        "key": "imovel_net",
+        "name": "Imóvel Net",
         "filtrar_por_bairro": True,
         "bairros_alvo": BAIRROS_ALVO_LOCACAO,
         "urls": [
@@ -691,9 +703,11 @@ SITES_LOCACAO = [
             'https://www.imovelnet.imb.br/aluguel/imovel/belo-horizonte/estrela-do-oriente',
             'https://www.imovelnet.imb.br/aluguel/imovel/belo-horizonte/marajo',
         ],
-        "base": 'https://www.imovelnet.imb.br',
+        "base": "https://www.imovelnet.imb.br",
         "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
     },
+    # EXCLUÍDAS: java_imoveis (não destravei o filtro de bairro no aluguel)
+    #            new_core (confirmei que é site só de venda, sem aluguel)
 ]
 
 
@@ -729,6 +743,8 @@ def eh_do_bairro_alvo(texto, bairros=None):
     estamos monitorando. Alguns sites (Point Imoveis, New Core, Imovel Net)
     mostram sugestoes de bairros vizinhos quando nao acham imoveis
     suficientes no bairro pedido -- isso filtra esse ruido.
+    "bairros" permite usar uma lista diferente (ex: a de locação, que tem
+    menos bairros que a de venda) -- se não informado, usa BAIRROS_ALVO.
     """
     if not texto:
         return True
@@ -1077,7 +1093,7 @@ def carregar_estado_anterior(data_file, sites):
     # Migração automática: versões antigas deste script guardavam o estado
     # no formato {href: {...}} (uma imobiliária só). Se detectarmos esse
     # formato antigo, movemos tudo para dentro da primeira imobiliária da
-    # lista SITES, para não perder o histórico já coletado.
+    # lista de sites, para não perder o histórico já coletado.
     if estado and all(
         isinstance(v, dict) and "titulo" in v for v in estado.values()
     ) and not any(k in estado for k in [s["key"] for s in sites]):
@@ -1450,7 +1466,9 @@ def gerar_html(sites, estado_por_site, novos_por_site, ultima_verificacao, outpu
 def rodar_pipeline(sites, data_file, output_html, rotulo):
     """
     Roda a coleta completa de uma lista de sites (venda OU locação) e
-    gera o painel HTML correspondente.
+    gera o painel HTML correspondente. Antes disso virava o main()
+    inteiro -- agora é uma função à parte pra poder rodar duas vezes
+    (uma pra venda, outra pra locação) na mesma execução.
     """
     print(f"\n{'='*60}\nINICIANDO COLETA: {rotulo.upper()}\n{'='*60}")
 
@@ -1495,7 +1513,9 @@ def rodar_pipeline(sites, data_file, output_html, rotulo):
 
 def gerar_landing_html():
     """
-    Página inicial: só o título e os 2 botões (Venda / Locação).
+    Página inicial: só o título e os 2 botões (Venda / Locação). O resto
+    das informações só aparece depois de escolher uma opção -- cada
+    botão é um link pra página daquele tipo de negócio.
     """
     html = """<!DOCTYPE html>
 <html lang="pt-BR">
@@ -1515,10 +1535,23 @@ def gerar_landing_html():
     align-items: center;
     justify-content: center;
   }
-  .caixa { text-align: center; }
-  .caixa h1 { font-size: 24px; margin-bottom: 8px; color: #1f2d3d; }
-  .caixa p { color: #666; margin-bottom: 32px; }
-  .botoes { display: flex; gap: 16px; justify-content: center; }
+  .caixa {
+    text-align: center;
+  }
+  .caixa h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: #1f2d3d;
+  }
+  .caixa p {
+    color: #666;
+    margin-bottom: 32px;
+  }
+  .botoes {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
   .botao {
     display: block;
     padding: 24px 48px;
@@ -1529,8 +1562,12 @@ def gerar_landing_html():
     color: white;
     box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   }
-  .botao.venda { background: #1f2d3d; }
-  .botao.locacao { background: #2e9e44; }
+  .botao.venda {
+    background: #1f2d3d;
+  }
+  .botao.locacao {
+    background: #2e9e44;
+  }
 </style>
 </head>
 <body>
