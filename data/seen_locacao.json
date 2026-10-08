@@ -93,6 +93,10 @@
     "https://www.inteligenciaimobiliariabh.com.br/imovel/cobertura-2-quartos-elevador-e-2-vagas-estrela-do-oriente-bh-mg/233": {
       "titulo": "‹",
       "primeira_vez": "05/10/2026 15:23"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-de-3-quartos-no-salgado-filho/1407": {
+      "titulo": "NOVO",
+      "primeira_vez": "08/10/2026 06:51"
     }
   },
   "bihain": {
@@ -882,7 +886,7 @@
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/133-rua-julio-de-castilho/870701004-89": {
-      "titulo": "R$ 2.300 Mensal",
+      "titulo": "R$ 2.200 Mensal",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/551-avenida-dom-joao-vi-umei-dom-joao-vi/870701004-86": {
@@ -1225,6 +1229,18 @@
     "https://www.solimobnetimoveis.com.br/imovel/aluguel-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-marajo/1197283/": {
       "titulo": "MAIS INFORMAÇÕES",
       "primeira_vez": "05/10/2026 15:23"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/aluguel-casa-minas-gerais-belo-horizonte-oeste-palmeiras/809175/?tipoUrl=casa&bairroUrl=palmeiras": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "08/10/2026 06:51"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/aluguel-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-cinquentenario/1132437/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "08/10/2026 06:51"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/aluguel-casa-minas-gerais-belo-horizonte-oeste-marajo/809175/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "08/10/2026 06:51"
     }
   },
   "stilo_imoveis": {},
