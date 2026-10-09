@@ -731,6 +731,10 @@
     "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-70-m/AP9631-BIHA?from=sale": {
       "titulo": "AP9631-BIHA",
       "primeira_vez": "29/09/2026 07:59"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-47-m/AP9644-BIHA?from=sale": {
+      "titulo": "AP9644-BIHA",
+      "primeira_vez": "09/10/2026 05:08"
     }
   },
   "palmeiras": {},
@@ -1534,6 +1538,10 @@
     "https://www.grimoveis.com.br/imovel/casa-a-venda-santa-lucia-belo-horizonte-mg/61689": {
       "titulo": "< < < <",
       "primeira_vez": "08/10/2026 05:09"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-buritis-belo-horizonte-mg/38141": {
+      "titulo": "< < < <",
+      "primeira_vez": "09/10/2026 05:08"
     }
   },
   "sensale": {
@@ -1732,6 +1740,10 @@
     "https://sensaleimoveis.com.br/imovel/SE851542/apartamento-3-quartos-havai-belo-horizonte/venda": {
       "titulo": "Apartamento à venda com 165m², 3 quartos e 2 vagas",
       "primeira_vez": "08/10/2026 05:09"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851478/casa-3-quartos-havai-belo-horizonte/aluguel": {
+      "titulo": "Casa para alugar com 140m², 3 quartos e 3 vagas",
+      "primeira_vez": "09/10/2026 05:08"
     }
   },
   "leo_batista": {
@@ -3948,6 +3960,10 @@
     "https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/144-rua-campina-verde/870701005-125": {
       "titulo": "R$ 2.800 Mensal",
       "primeira_vez": "06/10/2026 05:17"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/loja/alugar/belo-horizonte/870701036-18": {
+      "titulo": "R$ 2.400 Mensal",
+      "primeira_vez": "09/10/2026 05:08"
     }
   },
   "dual_imoveis": {},
@@ -5022,6 +5038,10 @@
     "https://www.pointimoveisbh.com.br/imovel/casa-maravilhosa-de-3-quartos-1-suite-palmeiras-bh-mg/2120": {
       "titulo": "Casa | Palmeiras - Belo Horizonte",
       "primeira_vez": "03/10/2026 07:07"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/casa-04-quartos-03-vagas-bairro-marajo/384": {
+      "titulo": "Casa | Marajó - Belo Horizonte",
+      "primeira_vez": "09/10/2026 05:08"
     }
   },
   "new_core": {
@@ -5874,6 +5894,14 @@
     "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-2-quartos-1-vaga-havai-belo-horizonte-mg/7679": {
       "titulo": "arrow_back_ios",
       "primeira_vez": "01/10/2026 08:15"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-3-quartos-1-suite-3-vagas-havai-belo-horizonte-mg/9921": {
+      "titulo": "NOVO",
+      "primeira_vez": "09/10/2026 05:08"
+    },
+    "https://www.imovelnet.imb.br/imovel/area-privativa-a-venda-3-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/9920": {
+      "titulo": "NOVO",
+      "primeira_vez": "09/10/2026 05:08"
     }
   }
 }
