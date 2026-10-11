@@ -1542,6 +1542,10 @@
     "https://www.grimoveis.com.br/imovel/apartamento-a-venda-buritis-belo-horizonte-mg/38141": {
       "titulo": "< < < <",
       "primeira_vez": "09/10/2026 05:08"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-estrela-do-oriente-belo-horizonte-mg/70459": {
+      "titulo": "NOVO",
+      "primeira_vez": "11/10/2026 04:59"
     }
   },
   "sensale": {
@@ -5856,7 +5860,7 @@
       "primeira_vez": "11/09/2026 06:15"
     },
     "https://www.imovelnet.imb.br/imovel/havai-4-quartos-suite-todo-reformado-1-por-andar/9719": {
-      "titulo": "NOVO",
+      "titulo": "arrow_back_ios",
       "primeira_vez": "11/09/2026 06:15"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-2-quartos-1-suite-2-vagas-buritis-belo-horizonte-mg/8429": {
@@ -5914,6 +5918,10 @@
     "https://www.imovelnet.imb.br/imovel/area-privativa-a-venda-3-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/9920": {
       "titulo": "NOVO",
       "primeira_vez": "09/10/2026 05:08"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-no-central-park-3-quartos-lazer-completo/9929": {
+      "titulo": "NOVO",
+      "primeira_vez": "11/10/2026 04:59"
     }
   }
 }
