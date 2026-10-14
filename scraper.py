@@ -43,6 +43,7 @@ SITES = [
     {
         "key": 'paulo_tavares',
         "name": 'Paulo Tavares Imóveis',
+        "filtrar_por_bairro": True,
         "urls": [
             'https://www.paulotavaresimoveis.com.br/venda/imoveis/belo-horizonte/betania/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
             'https://www.paulotavaresimoveis.com.br/venda/imoveis/belo-horizonte/cinquentenario/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
@@ -102,6 +103,7 @@ SITES = [
     {
         "key": 'gr_imoveis',
         "name": 'GR Imóveis',
+        "filtrar_por_bairro": True,
         "urls": [
             'https://www.grimoveis.com.br/venda/imovel/belo-horizonte/betania/?&pagina=1',
             'https://www.grimoveis.com.br/venda/imovel/belo-horizonte/cinquentenario/?&pagina=1',
@@ -121,6 +123,7 @@ SITES = [
     {
         "key": 'sensale',
         "name": 'Sensale Imóveis',
+        "filtrar_por_bairro": True,
         "urls": [
             'https://sensaleimoveis.com.br/busca/?cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Cinquenten%C3%A1rio&valor%5B0%5D=&valor%5B1%5D=',
             'https://sensaleimoveis.com.br/busca/?cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Estrela%20Dalva&valor%5B0%5D=&valor%5B1%5D=',
@@ -134,6 +137,7 @@ SITES = [
     {
         "key": 'leo_batista',
         "name": 'Léo Batista Imóveis',
+        "filtrar_por_bairro": True,
         "urls": [
             'https://www.leobatistaimoveis.com.br/imobiliaria/venda/belo-horizonte-mg/betania/imoveis/4281/1',
             'https://www.leobatistaimoveis.com.br/imobiliaria/venda/belo-horizonte-mg/cinquentenario/imoveis/4281/1',
@@ -145,6 +149,7 @@ SITES = [
     {
         "key": 'genesis',
         "name": 'Genesis Imóveis',
+        "filtrar_por_bairro": True,
         "urls": [
             'https://www.genesisimoveis.com.br/venda/imoveis/belo-horizonte/cinquentenario/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
             'https://www.genesisimoveis.com.br/venda/imoveis/belo-horizonte/betania/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
@@ -196,6 +201,7 @@ SITES = [
     {
         "key": 'malta',
         "name": 'Malta Imóveis',
+        "filtrar_por_bairro": True,
         "urls": [
             'https://www.maltaimoveis.com.br/venda/imovel/belo-horizonte/cinquentenario/?&pagina=1',
             'https://www.maltaimoveis.com.br/venda/imovel/belo-horizonte/havai/?&pagina=1',
@@ -211,13 +217,13 @@ SITES = [
         "key": 'remax',
         "name": 'Remax',
         "urls": [
-            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50095&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50095-Cinquenten%C3%A1rio&ListingClass=-1&TransactionTypeUID=-1',
-            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50132&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50132-Estrela%20Dalva&ListingClass=-1&TransactionTypeUID=-1',
-            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50133&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50133-Estrela%20do%20Oriente&ListingClass=-1&TransactionTypeUID=-1',
-            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50154&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50154-Hava%C3%AD&ListingClass=-1&TransactionTypeUID=-1',
-            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50208&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50208-Maraj%C3%B3&ListingClass=-1&TransactionTypeUID=-1',
-            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50248&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50248-Palmeiras&ListingClass=-1&TransactionTypeUID=-1',
-            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50280&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50280-Salgado%20Filho&ListingClass=-1&TransactionTypeUID=-1',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50095&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50095-Cinquenten%C3%A1rio&ListingClass=-1&TransactionTypeUID=261',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50132&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50132-Estrela%20Dalva&ListingClass=-1&TransactionTypeUID=261',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50133&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50133-Estrela%20do%20Oriente&ListingClass=-1&TransactionTypeUID=261',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50154&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50154-Hava%C3%AD&ListingClass=-1&TransactionTypeUID=261',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50208&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50208-Maraj%C3%B3&ListingClass=-1&TransactionTypeUID=261',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50248&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50248-Palmeiras&ListingClass=-1&TransactionTypeUID=261',
+            'https://www.remax.com.br/listings?Country=Brasil&Province=9512&City=6578971&LocalZone=50280&CountryId=55&CityNM=6578971-Belo+Horizonte&ProvinceNM=9512-Minas+Gerais&LocalZoneNM=50280-Salgado%20Filho&ListingClass=-1&TransactionTypeUID=261',
         ],
         "base": 'https://www.remax.com.br',
         "domain_suffix": 'remax.com.br',
@@ -404,6 +410,8 @@ SITES_LOCACAO = [
     {
         "key": 'paulo_tavares',
         "name": 'Paulo Tavares Imóveis',
+        "filtrar_por_bairro": True,
+        "bairros_alvo": BAIRROS_ALVO_LOCACAO,
         "urls": [
             'https://www.paulotavaresimoveis.com.br/aluguel/imoveis/belo-horizonte/betania/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
             'https://www.paulotavaresimoveis.com.br/aluguel/imoveis/belo-horizonte/cinquentenario/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&areade=0&areaate=0&pagina=1',
@@ -480,6 +488,8 @@ SITES_LOCACAO = [
     {
         "key": 'sensale',
         "name": 'Sensale Imóveis',
+        "filtrar_por_bairro": True,
+        "bairros_alvo": BAIRROS_ALVO_LOCACAO,
         "urls": [
             "https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Betania&valor%5B0%5D=&valor%5B1%5D=",
             "https://sensaleimoveis.com.br/busca/?finalidade=Aluguel&cidade%5B%5D=belo+horizonte&cidade%5B%5D=Belo+Horizonte&cidade%5B%5D=BELO+HORIZONTE&bairro%5B%5D=Cinquenten%C3%A1rio&valor%5B0%5D=&valor%5B1%5D=",
@@ -495,6 +505,8 @@ SITES_LOCACAO = [
     {
         "key": 'leo_batista',
         "name": 'Léo Batista Imóveis',
+        "filtrar_por_bairro": True,
+        "bairros_alvo": BAIRROS_ALVO_LOCACAO,
         "urls": [
             'https://www.leobatistaimoveis.com.br/imobiliaria/locacao/betania/imoveis/10852/1?tipo=2&bairro=16&ordem=recentes',
             'https://www.leobatistaimoveis.com.br/imobiliaria/locacao/havai/imoveis/10854/1?tipo=2&bairro=5&ordem=recentes',
@@ -510,6 +522,8 @@ SITES_LOCACAO = [
     {
         "key": 'genesis',
         "name": 'Genesis Imóveis',
+        "filtrar_por_bairro": True,
+        "bairros_alvo": BAIRROS_ALVO_LOCACAO,
         "urls": [
             'https://www.genesisimoveis.com.br/aluguel/imoveis/belo-horizonte/cinquentenario/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
             'https://www.genesisimoveis.com.br/aluguel/imoveis/belo-horizonte/betania/0-quartos/0-suite-ou-mais/0-vaga/0-banheiro-ou-mais/todos-os-condominios?valorminimo=0&valormaximo=0&pagina=1',
@@ -751,7 +765,42 @@ def eh_do_bairro_alvo(texto, bairros=None):
     if bairros is None:
         bairros = BAIRROS_ALVO
     t = remover_acentos(texto.lower()).replace(" ", "-")
+    # alguns sites escrevem "Estrela D'Alva" / "Estrela d-Alva"
+    t = t.replace("estrela-d'alva", "estrela-dalva").replace("estrela-d-alva", "estrela-dalva")
     return any(b in t for b in bairros)
+
+
+# Palavras no link que mostram se o anúncio é de aluguel ou de venda.
+_RE_ALUGUEL = re.compile(r"alugar|aluguel|locacao|from=rent")
+_RE_VENDA = re.compile(r"a-venda|para-venda|vende-se|/venda\b|venda-|-venda|from=sale|comprar")
+
+
+def eh_do_tipo_negocio(href, tipo):
+    """
+    Garante que o anúncio é do tipo certo para o painel: "venda" ou "locacao".
+    Alguns sites misturam os dois (ex: Remax com TransactionTypeUID=-1, Léo
+    Batista, Sensale, Inteligência BH). Se o link só tem marca do outro tipo,
+    o anúncio é descartado. Se tem as duas (ex: "venda-locacao") ou nenhuma,
+    mantém, porque não dá para ter certeza.
+    """
+    h = remover_acentos((href or "").lower())
+    aluguel = bool(_RE_ALUGUEL.search(h))
+    venda = bool(_RE_VENDA.search(h))
+    if tipo == "venda":
+        return not (aluguel and not venda)
+    if tipo == "locacao":
+        return not (venda and not aluguel)
+    return True
+
+
+def passa_filtros(site, href, titulo, tipo):
+    """Mesmas regras usadas na coleta e na limpeza do histórico."""
+    if not eh_do_tipo_negocio(href, tipo):
+        return False
+    if site.get("filtrar_por_bairro"):
+        bairros = site.get("bairros_alvo", BAIRROS_ALVO)
+        return eh_do_bairro_alvo(href, bairros) or eh_do_bairro_alvo(titulo, bairros)
+    return True
 
 
 def data_para_iso(primeira_vez_str):
@@ -1007,12 +1056,15 @@ def coletar_uma_url(page, site, url):
         page.wait_for_timeout(WAIT_MS)
         time.sleep(1.5)  # pausa educada entre as páginas
 
-    if site.get("filtrar_por_bairro"):
-        bairros = site.get("bairros_alvo", BAIRROS_ALVO)
-        encontrados_total = {
-            h: t for h, t in encontrados_total.items()
-            if eh_do_bairro_alvo(h, bairros) or eh_do_bairro_alvo(t, bairros)
-        }
+    # tipo de negócio (venda x locação) + bairro
+    tipo = site.get("tipo")
+    antes = len(encontrados_total)
+    encontrados_total = {
+        h: t for h, t in encontrados_total.items()
+        if passa_filtros(site, h, t, tipo)
+    }
+    if len(encontrados_total) != antes:
+        print(f"    Filtro tipo/bairro descartou {antes - len(encontrados_total)} anúncio(s) fora do alvo")
     return encontrados_total
 
 
@@ -1472,8 +1524,24 @@ def rodar_pipeline(sites, data_file, output_html, rotulo):
     """
     print(f"\n{'='*60}\nINICIANDO COLETA: {rotulo.upper()}\n{'='*60}")
 
+    tipo = "locacao" if rotulo.lower().startswith("loca") else "venda"
     estado_anterior = carregar_estado_anterior(data_file, sites)
     agora = datetime.now(BR_TZ).strftime("%d/%m/%Y %H:%M")
+
+    # Limpa do histórico anúncios que hoje seriam descartados (tipo errado
+    # ou bairro fora do alvo, coletados antes dos filtros existirem).
+    sites_por_chave = {s["key"]: s for s in sites}
+    for chave, itens in list(estado_anterior.items()):
+        s_cfg = sites_por_chave.get(chave)
+        if not s_cfg or not isinstance(itens, dict):
+            continue
+        limpos = {
+            h: x for h, x in itens.items()
+            if passa_filtros(s_cfg, h, x.get("titulo", ""), tipo)
+        }
+        if len(limpos) != len(itens):
+            print(f"  [{rotulo}] {chave}: {len(itens) - len(limpos)} anúncio(s) fora do alvo removidos do histórico")
+        estado_anterior[chave] = limpos
 
     estado_novo = {}
     novos_por_site = {}
@@ -1482,7 +1550,7 @@ def rodar_pipeline(sites, data_file, output_html, rotulo):
         key = site["key"]
         print(f"\n=== {site['name']} ({rotulo}) ===")
         try:
-            encontrados_agora = coletar_site(site)
+            encontrados_agora = coletar_site(dict(site, tipo=tipo))
         except Exception as e:
             print(f"  ERRO ao coletar {site['name']}: {e}")
             encontrados_agora = {}
