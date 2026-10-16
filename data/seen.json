@@ -2768,6 +2768,10 @@
     "https://gadeimoveis.com.br/imovel/cobertura-parque-sao-jose-belo-horizonte-mg-2-quartos-130m2-3598": {
       "titulo": "Cód: 3598",
       "primeira_vez": "08/10/2026 05:09"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3-quartos-360m2-3796": {
+      "titulo": "Cód: 3796",
+      "primeira_vez": "16/10/2026 03:33"
     }
   },
   "malta": {
@@ -4022,6 +4026,10 @@
     "https://www.pointimoveisbh.com.br/imovel/apartamento-a-venda-bairro-havai-02-quartos-banho-social-01-vaga/2122": {
       "titulo": "Apartamento | Havaí - Belo Horizonte",
       "primeira_vez": "10/10/2026 04:53"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/casa-3-quartos-2-vagas-de-garagem-a-venda-no-bairro-palmeiras-belo-horizonte/2131": {
+      "titulo": "Casa | Palmeiras - Belo Horizonte",
+      "primeira_vez": "16/10/2026 03:33"
     }
   },
   "new_core": {
@@ -4312,32 +4320,32 @@
       "primeira_vez": "09/10/2026 05:08"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo-portaria-24h/9748": {
-      "titulo": "NOVO",
-      "primeira_vez": "15/10/2026 03:41"
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "16/10/2026 03:33"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo/9024": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "15/10/2026 03:41"
+      "primeira_vez": "16/10/2026 03:33"
     },
     "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "15/10/2026 03:41"
+      "primeira_vez": "16/10/2026 03:33"
     },
     "https://www.imovelnet.imb.br/imovel/lancamento-12-ou-3-quartos-com-suite/6611": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "15/10/2026 03:41"
+      "primeira_vez": "16/10/2026 03:33"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-150m2-3-quartos-espaco-gourmet/9673": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "15/10/2026 03:41"
+      "primeira_vez": "16/10/2026 03:33"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-com-excelente-custo-beneficio-no-bairro-buritis/4798": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "15/10/2026 03:41"
+      "primeira_vez": "16/10/2026 03:33"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-no-central-park-3-quartos-lazer-completo/9929": {
       "titulo": "NOVO",
-      "primeira_vez": "15/10/2026 03:41"
+      "primeira_vez": "16/10/2026 03:33"
     }
   }
 }
