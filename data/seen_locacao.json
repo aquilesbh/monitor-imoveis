@@ -198,6 +198,14 @@
     "https://www.grimoveis.com.br/imovel/apartamento-para-alugar-palmeiras-belo-horizonte-mg/70405": {
       "titulo": "NOVO",
       "primeira_vez": "05/10/2026 15:23"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-para-alugar-cinquentenario-belo-horizonte-mg/53867": {
+      "titulo": "< < < <",
+      "primeira_vez": "21/10/2026 05:34"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-para-alugar-palmeiras-belo-horizonte-mg/53866": {
+      "titulo": "< < < <",
+      "primeira_vez": "21/10/2026 05:34"
     }
   },
   "sensale": {
@@ -634,6 +642,10 @@
     "https://www.maltaimoveis.com.br/imovel/kitnet-para-alugar-no-bairro-havai-de-2-quartos-1-vagas/14137": {
       "titulo": "NOVO",
       "primeira_vez": "17/10/2026 05:06"
+    },
+    "https://www.maltaimoveis.com.br/imovel/apartamento-para-alugar-no-bairro-palmeiras-de-2-quartos-1-vagas/13981": {
+      "titulo": "< < < <",
+      "primeira_vez": "21/10/2026 05:34"
     }
   },
   "remax": {
@@ -1097,6 +1109,10 @@
     "https://www.pointimoveisbh.com.br/imovel/apartamento-02-quartos-01-vaga-lazer-completo-bairro-betania/2133": {
       "titulo": "Apartamento | Betânia - Belo Horizonte",
       "primeira_vez": "17/10/2026 05:06"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/casa-para-locacao-bairro-palmeiras-parque-sao-jose-02-quartos-01-suite-02-vagas/2140": {
+      "titulo": "Casa | Palmeiras - Belo Horizonte",
+      "primeira_vez": "21/10/2026 05:34"
     }
   },
   "imovel_net": {
@@ -1146,27 +1162,27 @@
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-cooktop-e-2-vagas-de-garagem/9939": {
       "titulo": "NOVO",
-      "primeira_vez": "20/10/2026 05:34"
+      "primeira_vez": "21/10/2026 05:34"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-2-vagas-e-lazer-completo/9940": {
       "titulo": "NOVO",
-      "primeira_vez": "20/10/2026 05:34"
+      "primeira_vez": "21/10/2026 05:34"
     },
     "https://www.imovelnet.imb.br/imovel/casa-ampla-com-5-quartos-suite-area-gourmet-e-8-vagas/9688": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "20/10/2026 05:34"
+      "primeira_vez": "21/10/2026 05:34"
     },
     "https://www.imovelnet.imb.br/imovel/casa-para-aluguel-com-varanda-e-vagas-de-garagem/9617": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "20/10/2026 05:34"
+      "primeira_vez": "21/10/2026 05:34"
     },
     "https://www.imovelnet.imb.br/imovel/excelente-casa-com-02-pavimentos-e-area-gourmet-r1300000/5276": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "20/10/2026 05:34"
+      "primeira_vez": "21/10/2026 05:34"
     },
     "https://www.imovelnet.imb.br/imovel/casa-ampla-e-aconchegante-para-aluguel-2-quartos-varanda-e-garagem/9796": {
       "titulo": "NOVO",
-      "primeira_vez": "20/10/2026 05:34"
+      "primeira_vez": "21/10/2026 05:34"
     }
   }
 }
