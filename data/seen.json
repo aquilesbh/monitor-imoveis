@@ -557,6 +557,10 @@
     "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-no-bairro-cinquentenario-2-quartos-lazer-completo/1408": {
       "titulo": "NOVO",
       "primeira_vez": "14/10/2026 03:53"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/cobertura-a-venda-no-alto-barroca/1410": {
+      "titulo": "NOVO",
+      "primeira_vez": "22/10/2026 03:49"
     }
   },
   "bihain": {
@@ -1250,6 +1254,10 @@
     "https://www.grimoveis.com.br/imovel/apartamento-a-venda-estrela-do-oriente-belo-horizonte-mg/70459": {
       "titulo": "NOVO",
       "primeira_vez": "11/10/2026 04:59"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-com-area-privativa-a-venda-havai-belo-horizonte-mg/37932": {
+      "titulo": "< < < <",
+      "primeira_vez": "22/10/2026 03:49"
     }
   },
   "sensale": {
@@ -2784,6 +2792,10 @@
     "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3-quartos-360m2-3796": {
       "titulo": "Cód: 3796",
       "primeira_vez": "16/10/2026 03:33"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-salgado-filho-belo-horizonte-mg-3-quartos-3017": {
+      "titulo": "Cód: 3017",
+      "primeira_vez": "22/10/2026 03:49"
     }
   },
   "malta": {
@@ -2992,6 +3004,10 @@
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/800-avenida-nossa-senhora-do-porto-avenida-aggeo-pio-sobrinho-e-av-dom-joao-vi/870701031-8": {
       "titulo": "R$ 443.000",
       "primeira_vez": "18/09/2026 10:08"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/844-rua-julio-de-castilho/870701002-132": {
+      "titulo": "R$ 380.000",
+      "primeira_vez": "22/10/2026 03:49"
     }
   },
   "dual_imoveis": {},
@@ -4058,6 +4074,10 @@
     "https://www.pointimoveisbh.com.br/imovel/cobertura-de-2-quartos-sendo1-suite-a-venda-havai-bh-mg/2139": {
       "titulo": "Apartamento | Havaí - Belo Horizonte",
       "primeira_vez": "21/10/2026 03:45"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/apartamento-de-2-quartos-com-suite-a-venda-no-bairro-havai-em-belo-horizonte/2142": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "22/10/2026 03:49"
     }
   },
   "new_core": {
@@ -4324,7 +4344,7 @@
       "primeira_vez": "19/09/2026 06:04"
     },
     "https://www.imovelnet.imb.br/imovel/casa-com-habite-se-no-betania/9788": {
-      "titulo": "NOVO",
+      "titulo": "arrow_back_ios",
       "primeira_vez": "23/09/2026 06:38"
     },
     "https://www.imovelnet.imb.br/imovel/apto-3-quartos-reformado-no-havai/9793": {
@@ -4347,37 +4367,37 @@
       "titulo": "TEM PROPOSTA",
       "primeira_vez": "09/10/2026 05:08"
     },
-    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo-portaria-24h/9748": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "21/10/2026 03:45"
-    },
-    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo/9024": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "21/10/2026 03:45"
-    },
-    "https://www.imovelnet.imb.br/imovel/lancamento-12-ou-3-quartos-com-suite/6611": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "21/10/2026 03:45"
-    },
-    "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "21/10/2026 03:45"
-    },
     "https://www.imovelnet.imb.br/imovel/area-privativa-no-havai/9978": {
       "titulo": "NOVO",
       "primeira_vez": "21/10/2026 03:45"
     },
+    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo-portaria-24h/9748": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "22/10/2026 03:49"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo/9024": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "22/10/2026 03:49"
+    },
+    "https://www.imovelnet.imb.br/imovel/lancamento-12-ou-3-quartos-com-suite/6611": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "22/10/2026 03:49"
+    },
+    "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "22/10/2026 03:49"
+    },
     "https://www.imovelnet.imb.br/imovel/area-privativa-150m2-3-quartos-espaco-gourmet/9673": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "21/10/2026 03:45"
+      "primeira_vez": "22/10/2026 03:49"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-com-excelente-custo-beneficio-no-bairro-buritis/4798": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "21/10/2026 03:45"
+      "primeira_vez": "22/10/2026 03:49"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-no-central-park-3-quartos-lazer-completo/9929": {
       "titulo": "NOVO",
-      "primeira_vez": "21/10/2026 03:45"
+      "primeira_vez": "22/10/2026 03:49"
     }
   }
 }
