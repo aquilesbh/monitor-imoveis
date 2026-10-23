@@ -2112,6 +2112,10 @@
     "https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-quartos-bairro-palmeiras-havai-bh-mg-r39500000/7152": {
       "titulo": "Apto 3 quartos | Palmeiras - Belo Horizonte",
       "primeira_vez": "21/10/2026 03:45"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-06-quartos-bairro-betania-bh-mg-r85000000/3471": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "23/10/2026 03:50"
     }
   },
   "vpr": {
@@ -2796,6 +2800,10 @@
     "https://gadeimoveis.com.br/imovel/apartamento-salgado-filho-belo-horizonte-mg-3-quartos-3017": {
       "titulo": "Cód: 3017",
       "primeira_vez": "22/10/2026 03:49"
+    },
+    "https://gadeimoveis.com.br/imovel/area-privativa-havai-belo-horizonte-mg-3-quartos-70m2-3461": {
+      "titulo": "Cód: 3461",
+      "primeira_vez": "23/10/2026 03:50"
     }
   },
   "malta": {
@@ -3008,6 +3016,10 @@
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/844-rua-julio-de-castilho/870701002-132": {
       "titulo": "R$ 380.000",
       "primeira_vez": "22/10/2026 03:49"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/belo-horizonte/219-r-lourival-goncalves-oliveira-assembleia-de-deus/870701022-4": {
+      "titulo": "R$ 1.399.000",
+      "primeira_vez": "23/10/2026 03:50"
     }
   },
   "dual_imoveis": {},
@@ -3677,6 +3689,18 @@
     "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-palmeiras/1205505/": {
       "titulo": "MAIS INFORMAÇÕES",
       "primeira_vez": "20/10/2026 03:50"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-palmeiras/1205537/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "23/10/2026 03:50"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-havai/672818/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "23/10/2026 03:50"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-salgado-filho/968534/": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "23/10/2026 03:50"
     }
   },
   "stilo_imoveis": {},
@@ -4348,7 +4372,7 @@
       "primeira_vez": "23/09/2026 06:38"
     },
     "https://www.imovelnet.imb.br/imovel/apto-3-quartos-reformado-no-havai/9793": {
-      "titulo": "NOVO",
+      "titulo": "arrow_back_ios",
       "primeira_vez": "23/09/2026 06:38"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-2-quartos-2-vagas-havai-belo-horizonte-mg/7680": {
@@ -4373,31 +4397,35 @@
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo-portaria-24h/9748": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "22/10/2026 03:49"
+      "primeira_vez": "23/10/2026 03:50"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo/9024": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "22/10/2026 03:49"
+      "primeira_vez": "23/10/2026 03:50"
     },
     "https://www.imovelnet.imb.br/imovel/lancamento-12-ou-3-quartos-com-suite/6611": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "22/10/2026 03:49"
+      "primeira_vez": "23/10/2026 03:50"
     },
     "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "22/10/2026 03:49"
+      "primeira_vez": "23/10/2026 03:50"
+    },
+    "https://www.imovelnet.imb.br/imovel/more-bem-apartamento-de-2-quartos-com-armarios-planejados/10007": {
+      "titulo": "NOVO",
+      "primeira_vez": "23/10/2026 03:50"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-150m2-3-quartos-espaco-gourmet/9673": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "22/10/2026 03:49"
+      "primeira_vez": "23/10/2026 03:50"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-com-excelente-custo-beneficio-no-bairro-buritis/4798": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "22/10/2026 03:49"
+      "primeira_vez": "23/10/2026 03:50"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-no-central-park-3-quartos-lazer-completo/9929": {
       "titulo": "NOVO",
-      "primeira_vez": "22/10/2026 03:49"
+      "primeira_vez": "23/10/2026 03:50"
     }
   }
 }
