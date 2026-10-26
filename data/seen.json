@@ -543,7 +543,7 @@
       "primeira_vez": "16/09/2026 06:36"
     },
     "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-a-venda-no-bairro-cinquentenario-belo-horizonte-mg/1405": {
-      "titulo": "NOVO",
+      "titulo": "‹",
       "primeira_vez": "26/09/2026 06:37"
     },
     "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-de-3-quartos-a-venda-no-salgado-filho-belo-horizonte/1406": {
@@ -3713,6 +3713,14 @@
     "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-2-quartos-minas-gerais-belo-horizonte-oeste-estrela-do-oriente/1206361/": {
       "titulo": "MAIS INFORMAÇÕES",
       "primeira_vez": "24/10/2026 03:39"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-apartamento-3-quartos-minas-gerais-belo-horizonte-oeste-estrela-dalva/1205852/?tipoUrl=apartamento-3-quartos&bairroUrl=estrela-dalva": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "26/10/2026 04:12"
+    },
+    "https://www.solimobnetimoveis.com.br/imovel/venda-casa-minas-gerais-belo-horizonte-oeste-estrela-dalva/1205852/?tipoUrl=casa&bairroUrl=estrela-dalva": {
+      "titulo": "MAIS INFORMAÇÕES",
+      "primeira_vez": "26/10/2026 04:12"
     }
   },
   "stilo_imoveis": {},
@@ -4407,41 +4415,41 @@
       "titulo": "NOVO",
       "primeira_vez": "21/10/2026 03:45"
     },
-    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo-portaria-24h/9748": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "25/10/2026 04:05"
-    },
-    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo/9024": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "25/10/2026 04:05"
-    },
-    "https://www.imovelnet.imb.br/imovel/lancamento-12-ou-3-quartos-com-suite/6611": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "25/10/2026 04:05"
-    },
     "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-2-quartos-1-vaga-betania-belo-horizonte-mg/10020": {
       "titulo": "NOVO",
       "primeira_vez": "25/10/2026 04:05"
     },
+    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo-portaria-24h/9748": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "26/10/2026 04:12"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo/9024": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "26/10/2026 04:12"
+    },
+    "https://www.imovelnet.imb.br/imovel/lancamento-12-ou-3-quartos-com-suite/6611": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "26/10/2026 04:12"
+    },
     "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "25/10/2026 04:05"
+      "primeira_vez": "26/10/2026 04:12"
     },
     "https://www.imovelnet.imb.br/imovel/more-bem-apartamento-de-2-quartos-com-armarios-planejados/10007": {
       "titulo": "NOVO",
-      "primeira_vez": "25/10/2026 04:05"
+      "primeira_vez": "26/10/2026 04:12"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-150m2-3-quartos-espaco-gourmet/9673": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "25/10/2026 04:05"
+      "primeira_vez": "26/10/2026 04:12"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-com-excelente-custo-beneficio-no-bairro-buritis/4798": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "25/10/2026 04:05"
+      "primeira_vez": "26/10/2026 04:12"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-no-central-park-3-quartos-lazer-completo/9929": {
       "titulo": "NOVO",
-      "primeira_vez": "25/10/2026 04:05"
+      "primeira_vez": "26/10/2026 04:12"
     }
   }
 }
