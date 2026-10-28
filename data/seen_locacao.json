@@ -85,6 +85,10 @@
     "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-no-bairro-cinquentenario-2-quartos-lazer-completo/1408": {
       "titulo": "NOVO",
       "primeira_vez": "14/10/2026 05:39"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/casa-geminada-com-area-privativa-3-quartos-bairro-havai-aceita-financiamento/333": {
+      "titulo": "EXCLUSIVO",
+      "primeira_vez": "28/10/2026 06:30"
     }
   },
   "bihain": {
@@ -434,6 +438,14 @@
     "https://www.vprimoveis.com.br/apartamento-para-aluguel-3-quartos-1-suite-2-vagas-palmeiras-belo-horizontemg/9187": {
       "titulo": "Apartamento para alugar em Palmeiras de 70m2",
       "primeira_vez": "23/10/2026 05:38"
+    },
+    "https://www.vprimoveis.com.br/apartamento-para-aluguel-2-quartos-1-suite-1-vaga-palmeiras-belo-horizontemg/13905": {
+      "titulo": "Apartamento para alugar em Palmeiras de 47m2",
+      "primeira_vez": "28/10/2026 06:30"
+    },
+    "https://www.vprimoveis.com.br/apartamento-para-aluguel-2-quartos-palmeiras-belo-horizontemg/13926": {
+      "titulo": "Apartamento para alugar em Palmeiras de 45m2",
+      "primeira_vez": "28/10/2026 06:30"
     }
   },
   "gade": {
@@ -690,6 +702,14 @@
     "https://www.maltaimoveis.com.br/imovel/sala-para-alugar-no-bairro-havai/14139": {
       "titulo": "NOVO",
       "primeira_vez": "23/10/2026 05:38"
+    },
+    "https://www.maltaimoveis.com.br/imovel/apartamento-para-alugar-no-bairro-palmeiras-de-3-quartos-2-vagas/14185": {
+      "titulo": "NOVO",
+      "primeira_vez": "28/10/2026 06:30"
+    },
+    "https://www.maltaimoveis.com.br/imovel/apartamento-para-alugar-no-bairro-palmeiras-de-3-quartos-2-vagas/14186": {
+      "titulo": "NOVO",
+      "primeira_vez": "28/10/2026 06:30"
     }
   },
   "remax": {
@@ -768,6 +788,10 @@
     "https://www.remax.com.br/pt-br/imoveis/cobertura/alugar/belo-horizonte/351-rua-boqueirao/870701005-124": {
       "titulo": "R$ 3.400 Mensal",
       "primeira_vez": "27/10/2026 05:49"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/430-rua-antonio-de-andrade-mendes/870701013-47": {
+      "titulo": "R$ 2.250 Mensal",
+      "primeira_vez": "28/10/2026 06:30"
     }
   },
   "dual_imoveis": {},
@@ -1242,27 +1266,27 @@
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-cooktop-e-2-vagas-de-garagem/9939": {
       "titulo": "NOVO",
-      "primeira_vez": "27/10/2026 05:49"
+      "primeira_vez": "28/10/2026 06:30"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-2-vagas-e-lazer-completo/9940": {
       "titulo": "NOVO",
-      "primeira_vez": "27/10/2026 05:49"
+      "primeira_vez": "28/10/2026 06:30"
     },
     "https://www.imovelnet.imb.br/imovel/casa-ampla-com-5-quartos-suite-area-gourmet-e-8-vagas/9688": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "27/10/2026 05:49"
+      "primeira_vez": "28/10/2026 06:30"
     },
     "https://www.imovelnet.imb.br/imovel/casa-para-aluguel-com-varanda-e-vagas-de-garagem/9617": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "27/10/2026 05:49"
+      "primeira_vez": "28/10/2026 06:30"
     },
     "https://www.imovelnet.imb.br/imovel/casa-ampla-e-aconchegante-para-aluguel-2-quartos-varanda-e-garagem/9796": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "27/10/2026 05:49"
+      "primeira_vez": "28/10/2026 06:30"
     },
     "https://www.imovelnet.imb.br/imovel/excelente-casa-com-02-pavimentos-e-area-gourmet-r1300000/5276": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "27/10/2026 05:49"
+      "primeira_vez": "28/10/2026 06:30"
     }
   }
 }
