@@ -19,6 +19,10 @@
     "https://www.paulotavaresimoveis.com.br/imovel/apartamento-para-locacao-no-bairro-betania-belo-horizonte-mg/884": {
       "titulo": "Apartamento | Estrela do Oriente - Belo Horizonte",
       "primeira_vez": "24/10/2026 05:25"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/loja-para-locacao-no-bairro-havai-localizado-na-cidade-de-belo-horizonte-mg/1018": {
+      "titulo": "Loja | Havaí - Belo Horizonte",
+      "primeira_vez": "30/10/2026 06:43"
     }
   },
   "inteligencia_bh": {
@@ -200,7 +204,7 @@
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://www.grimoveis.com.br/imovel/apartamento-para-alugar-palmeiras-belo-horizonte-mg/70397": {
-      "titulo": "NOVO",
+      "titulo": "< < < <",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://www.grimoveis.com.br/imovel/apartamento-para-alugar-palmeiras-belo-horizonte-mg/70405": {
@@ -612,6 +616,10 @@
     "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3567": {
       "titulo": "Cód: 3567",
       "primeira_vez": "24/10/2026 05:25"
+    },
+    "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3831": {
+      "titulo": "Cód: 3831",
+      "primeira_vez": "30/10/2026 06:43"
     }
   },
   "malta": {
@@ -794,8 +802,12 @@
       "primeira_vez": "27/10/2026 05:49"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/430-rua-antonio-de-andrade-mendes/870701013-47": {
-      "titulo": "R$ 2.250 Mensal",
+      "titulo": "R$ 2.300 Mensal",
       "primeira_vez": "28/10/2026 06:30"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/loja/alugar/belo-horizonte/870701036-22": {
+      "titulo": "R$ 800 Mensal",
+      "primeira_vez": "30/10/2026 06:43"
     }
   },
   "dual_imoveis": {},
@@ -1272,29 +1284,37 @@
       "titulo": "NOVO",
       "primeira_vez": "29/10/2026 06:39"
     },
+    "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10057": {
+      "titulo": "NOVO",
+      "primeira_vez": "30/10/2026 06:43"
+    },
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-cooktop-e-2-vagas-de-garagem/9939": {
       "titulo": "NOVO",
-      "primeira_vez": "29/10/2026 06:39"
+      "primeira_vez": "30/10/2026 06:43"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-2-vagas-e-lazer-completo/9940": {
       "titulo": "NOVO",
-      "primeira_vez": "29/10/2026 06:39"
+      "primeira_vez": "30/10/2026 06:43"
     },
     "https://www.imovelnet.imb.br/imovel/casa-ampla-com-5-quartos-suite-area-gourmet-e-8-vagas/9688": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "29/10/2026 06:39"
+      "primeira_vez": "30/10/2026 06:43"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-vaga-de-garagem-no-bairro-betania/10060": {
+      "titulo": "NOVO",
+      "primeira_vez": "30/10/2026 06:43"
     },
     "https://www.imovelnet.imb.br/imovel/casa-para-aluguel-com-varanda-e-vagas-de-garagem/9617": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "29/10/2026 06:39"
-    },
-    "https://www.imovelnet.imb.br/imovel/casa-ampla-e-aconchegante-para-aluguel-2-quartos-varanda-e-garagem/9796": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "29/10/2026 06:39"
+      "primeira_vez": "30/10/2026 06:43"
     },
     "https://www.imovelnet.imb.br/imovel/excelente-casa-com-02-pavimentos-e-area-gourmet-r1300000/5276": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "29/10/2026 06:39"
+      "primeira_vez": "30/10/2026 06:43"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-ampla-e-aconchegante-para-aluguel-2-quartos-varanda-e-garagem/9796": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "30/10/2026 06:43"
     }
   }
 }
