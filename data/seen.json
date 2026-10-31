@@ -743,6 +743,10 @@
     "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-75-m/AP9657-BIHA?from=sale": {
       "titulo": "AP9657-BIHA",
       "primeira_vez": "21/10/2026 03:45"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-65-m/AP9677-BIHA?from=sale": {
+      "titulo": "AP9677-BIHA",
+      "primeira_vez": "31/10/2026 04:42"
     }
   },
   "palmeiras": {},
@@ -1274,6 +1278,10 @@
     "https://www.grimoveis.com.br/imovel/casa-a-venda-salgado-filho-belo-horizonte-mg/69819": {
       "titulo": "< < < <",
       "primeira_vez": "30/10/2026 04:52"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-betania-belo-horizonte-mg/70583": {
+      "titulo": "NOVO",
+      "primeira_vez": "31/10/2026 04:42"
     }
   },
   "sensale": {
@@ -2140,6 +2148,10 @@
     "https://www.genesisimoveis.com.br/imovel/vende-se-apartamento-02-quartos-bairro-palmeiras-bh-mg-r29000000/5619": {
       "titulo": "Apto 2 quartos | Cinquentenário - Belo Horizonte",
       "primeira_vez": "29/10/2026 04:46"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-casa-05-quartos-bairro-betania-bh-mg-r86000000/5932": {
+      "titulo": "Casa | Betânia - Belo Horizonte",
+      "primeira_vez": "31/10/2026 04:42"
     }
   },
   "vpr": {
@@ -4528,7 +4540,7 @@
       "primeira_vez": "09/10/2026 05:08"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-no-havai/9978": {
-      "titulo": "NOVO",
+      "titulo": "TEM PROPOSTA",
       "primeira_vez": "21/10/2026 03:45"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-2-quartos-1-vaga-betania-belo-horizonte-mg/10020": {
@@ -4541,35 +4553,35 @@
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo-portaria-24h/9748": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "30/10/2026 04:52"
+      "primeira_vez": "31/10/2026 04:42"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo/9024": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "30/10/2026 04:52"
-    },
-    "https://www.imovelnet.imb.br/imovel/lancamento-12-ou-3-quartos-com-suite/6611": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "30/10/2026 04:52"
+      "primeira_vez": "31/10/2026 04:42"
     },
     "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "30/10/2026 04:52"
+      "primeira_vez": "31/10/2026 04:42"
+    },
+    "https://www.imovelnet.imb.br/imovel/lancamento-12-ou-3-quartos-com-suite/6611": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "31/10/2026 04:42"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-com-excelente-custo-beneficio-no-bairro-buritis/4798": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "30/10/2026 04:52"
+      "primeira_vez": "31/10/2026 04:42"
     },
     "https://www.imovelnet.imb.br/imovel/more-bem-apartamento-de-2-quartos-com-armarios-planejados/10007": {
       "titulo": "NOVO",
-      "primeira_vez": "30/10/2026 04:52"
+      "primeira_vez": "31/10/2026 04:42"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-150m2-3-quartos-espaco-gourmet/9673": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "30/10/2026 04:52"
+      "primeira_vez": "31/10/2026 04:42"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-no-central-park-3-quartos-lazer-completo/9929": {
       "titulo": "NOVO",
-      "primeira_vez": "30/10/2026 04:52"
+      "primeira_vez": "31/10/2026 04:42"
     }
   }
 }
