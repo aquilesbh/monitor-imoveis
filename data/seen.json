@@ -747,6 +747,10 @@
     "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-65-m/AP9677-BIHA?from=sale": {
       "titulo": "AP9677-BIHA",
       "primeira_vez": "31/10/2026 04:42"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-48-m/AP9682-BIHA?from=sale": {
+      "titulo": "AP9682-BIHA",
+      "primeira_vez": "04/11/2026 05:17"
     }
   },
   "palmeiras": {},
@@ -2916,6 +2920,10 @@
     "https://gadeimoveis.com.br/imovel/casa-estrela-dalva-belo-horizonte-mg-2-quartos-3360": {
       "titulo": "Cód: 3360",
       "primeira_vez": "30/10/2026 04:52"
+    },
+    "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3770": {
+      "titulo": "Cód: 3770",
+      "primeira_vez": "04/11/2026 05:17"
     }
   },
   "malta": {
@@ -4557,35 +4565,35 @@
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo-portaria-24h/9748": {
       "titulo": "TEM PROPOSTA",
-      "primeira_vez": "03/11/2026 05:48"
+      "primeira_vez": "04/11/2026 05:17"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo/9024": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "03/11/2026 05:48"
-    },
-    "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "03/11/2026 05:48"
+      "primeira_vez": "04/11/2026 05:17"
     },
     "https://www.imovelnet.imb.br/imovel/lancamento-12-ou-3-quartos-com-suite/6611": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "03/11/2026 05:48"
+      "primeira_vez": "04/11/2026 05:17"
     },
-    "https://www.imovelnet.imb.br/imovel/cobertura-com-excelente-custo-beneficio-no-bairro-buritis/4798": {
+    "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "03/11/2026 05:48"
+      "primeira_vez": "04/11/2026 05:17"
     },
     "https://www.imovelnet.imb.br/imovel/more-bem-apartamento-de-2-quartos-com-armarios-planejados/10007": {
       "titulo": "NOVO",
-      "primeira_vez": "03/11/2026 05:48"
+      "primeira_vez": "04/11/2026 05:17"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-150m2-3-quartos-espaco-gourmet/9673": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "03/11/2026 05:48"
+      "primeira_vez": "04/11/2026 05:17"
+    },
+    "https://www.imovelnet.imb.br/imovel/cobertura-com-excelente-custo-beneficio-no-bairro-buritis/4798": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "04/11/2026 05:17"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-no-central-park-3-quartos-lazer-completo/9929": {
       "titulo": "NOVO",
-      "primeira_vez": "03/11/2026 05:48"
+      "primeira_vez": "04/11/2026 05:17"
     }
   }
 }
