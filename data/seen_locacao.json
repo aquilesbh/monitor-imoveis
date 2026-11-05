@@ -23,6 +23,10 @@
     "https://www.paulotavaresimoveis.com.br/imovel/loja-para-locacao-no-bairro-havai-localizado-na-cidade-de-belo-horizonte-mg/1018": {
       "titulo": "Loja | Havaí - Belo Horizonte",
       "primeira_vez": "30/10/2026 06:43"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/apartamento-de-2-quartos-para-locacao-no-bairro-havai-belo-horizonte-mg/1035": {
+      "titulo": "Apartamento | Havaí - Belo Horizonte",
+      "primeira_vez": "05/11/2026 07:39"
     }
   },
   "inteligencia_bh": {
@@ -155,6 +159,10 @@
     "https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-4-quartos-250-m/CA0740-BIHA?from=rent": {
       "titulo": "CA0740-BIHA",
       "primeira_vez": "31/10/2026 06:31"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-48-m/AP9683-BIHA?from=rent": {
+      "titulo": "AP9683-BIHA",
+      "primeira_vez": "05/11/2026 07:39"
     }
   },
   "palmeiras": {},
@@ -778,7 +786,7 @@
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://www.remax.com.br/pt-br/imoveis/casa/alugar/belo-horizonte/870701036-10": {
-      "titulo": "R$ 3.200 Mensal",
+      "titulo": "R$ 3.000 Mensal",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://www.remax.com.br/pt-br/imoveis/loja/alugar/belo-horizonte/870701005-118": {
@@ -828,6 +836,10 @@
     "https://www.remax.com.br/pt-br/imoveis/ponto-comercial/alugar/belo-horizonte/870701002-42": {
       "titulo": "R$ 1.000 Mensal",
       "primeira_vez": "04/11/2026 07:16"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/kitnet/alugar/belo-horizonte/717-rua-cipriano-de-carvalho-centro-de-acolhida-betania/870701013-48": {
+      "titulo": "R$ 2.100 Mensal",
+      "primeira_vez": "05/11/2026 07:39"
     }
   },
   "dual_imoveis": {},
@@ -1308,33 +1320,37 @@
       "titulo": "TEM PROPOSTA",
       "primeira_vez": "30/10/2026 06:43"
     },
+    "https://www.imovelnet.imb.br/imovel/area-privativa-residencial-com-70m-01-quarto-e-lazer-completo/10077": {
+      "titulo": "NOVO",
+      "primeira_vez": "05/11/2026 07:39"
+    },
     "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10057": {
       "titulo": "NOVO",
-      "primeira_vez": "04/11/2026 07:16"
+      "primeira_vez": "05/11/2026 07:39"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-cooktop-e-2-vagas-de-garagem/9939": {
       "titulo": "NOVO",
-      "primeira_vez": "04/11/2026 07:16"
+      "primeira_vez": "05/11/2026 07:39"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-2-vagas-e-lazer-completo/9940": {
       "titulo": "NOVO",
-      "primeira_vez": "04/11/2026 07:16"
+      "primeira_vez": "05/11/2026 07:39"
     },
     "https://www.imovelnet.imb.br/imovel/casa-ampla-com-5-quartos-suite-area-gourmet-e-8-vagas/9688": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "04/11/2026 07:16"
+      "primeira_vez": "05/11/2026 07:39"
     },
     "https://www.imovelnet.imb.br/imovel/casa-para-aluguel-com-varanda-e-vagas-de-garagem/9617": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "04/11/2026 07:16"
+      "primeira_vez": "05/11/2026 07:39"
     },
     "https://www.imovelnet.imb.br/imovel/excelente-casa-com-02-pavimentos-e-area-gourmet-r1300000/5276": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "04/11/2026 07:16"
+      "primeira_vez": "05/11/2026 07:39"
     },
     "https://www.imovelnet.imb.br/imovel/casa-ampla-e-aconchegante-para-aluguel-2-quartos-varanda-e-garagem/9796": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "04/11/2026 07:16"
+      "primeira_vez": "05/11/2026 07:39"
     }
   }
 }
