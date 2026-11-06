@@ -383,6 +383,10 @@
     "https://www.paulotavaresimoveis.com.br/imovel/cobertura-a-venda-com-3-quartos-suite-terraco-e-2-vagas-no-havai-belo-horizonte/1244": {
       "titulo": "Cobertura | Havaí - Belo Horizonte",
       "primeira_vez": "30/10/2026 04:52"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/loja-a-venda-no-bairro-betania-belo-horizonte-mg/1247": {
+      "titulo": "Loja | Betânia - Belo Horizonte",
+      "primeira_vez": "06/11/2026 05:54"
     }
   },
   "inteligencia_bh": {
@@ -751,6 +755,10 @@
     "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-48-m/AP9682-BIHA?from=sale": {
       "titulo": "AP9682-BIHA",
       "primeira_vez": "04/11/2026 05:17"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-70-m/AP9674-BIHA?from=sale": {
+      "titulo": "AP9674-BIHA",
+      "primeira_vez": "06/11/2026 05:54"
     }
   },
   "palmeiras": {},
@@ -1286,6 +1294,10 @@
     "https://www.grimoveis.com.br/imovel/apartamento-a-venda-betania-belo-horizonte-mg/70583": {
       "titulo": "NOVO",
       "primeira_vez": "31/10/2026 04:42"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-a-venda-havai-belo-horizonte-mg/65425": {
+      "titulo": "< < < <",
+      "primeira_vez": "06/11/2026 05:54"
     }
   },
   "sensale": {
@@ -4567,37 +4579,41 @@
       "titulo": "NOVO",
       "primeira_vez": "29/10/2026 04:46"
     },
+    "https://www.imovelnet.imb.br/imovel/casa-a-venda-3-quartos-1-suite-palmeiras-belo-horizonte-mg/10091": {
+      "titulo": "NOVO",
+      "primeira_vez": "06/11/2026 05:54"
+    },
     "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo-portaria-24h/9748": {
       "titulo": "TEM PROPOSTA",
-      "primeira_vez": "05/11/2026 05:42"
+      "primeira_vez": "06/11/2026 05:54"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo/9024": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "05/11/2026 05:42"
-    },
-    "https://www.imovelnet.imb.br/imovel/lancamento-12-ou-3-quartos-com-suite/6611": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "05/11/2026 05:42"
+      "primeira_vez": "06/11/2026 05:54"
     },
     "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "05/11/2026 05:42"
+      "primeira_vez": "06/11/2026 05:54"
+    },
+    "https://www.imovelnet.imb.br/imovel/lancamento-12-ou-3-quartos-com-suite/6611": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "06/11/2026 05:54"
     },
     "https://www.imovelnet.imb.br/imovel/more-bem-apartamento-de-2-quartos-com-armarios-planejados/10007": {
       "titulo": "NOVO",
-      "primeira_vez": "05/11/2026 05:42"
+      "primeira_vez": "06/11/2026 05:54"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-150m2-3-quartos-espaco-gourmet/9673": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "05/11/2026 05:42"
+      "primeira_vez": "06/11/2026 05:54"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-com-excelente-custo-beneficio-no-bairro-buritis/4798": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "05/11/2026 05:42"
+      "primeira_vez": "06/11/2026 05:54"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-no-central-park-3-quartos-lazer-completo/9929": {
       "titulo": "NOVO",
-      "primeira_vez": "05/11/2026 05:42"
+      "primeira_vez": "06/11/2026 05:54"
     }
   }
 }
