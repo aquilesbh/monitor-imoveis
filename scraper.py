@@ -139,9 +139,13 @@ SITES = [
         "name": 'Léo Batista Imóveis',
         "filtrar_por_bairro": True,
         "urls": [
-            'https://www.leobatistaimoveis.com.br/imobiliaria/venda/belo-horizonte-mg/betania/imoveis/4281/1',
-            'https://www.leobatistaimoveis.com.br/imobiliaria/venda/belo-horizonte-mg/cinquentenario/imoveis/4281/1',
-            'https://www.leobatistaimoveis.com.br/imobiliaria/venda/belo-horizonte-mg/estrela-do-oriente/imoveis/4281/1',
+            'https://www.leobatistaimoveis.com.br/imobiliaria/venda/betania/imoveis/14634/1?tipo=1&cidade=158&bairro=16&ordem=recentes',
+            'https://www.leobatistaimoveis.com.br/imobiliaria/venda/havai/imoveis/14635/1?tipo=1&cidade=158&bairro=5&ordem=recentes',
+            'https://www.leobatistaimoveis.com.br/imobiliaria/venda/palmeiras/imoveis/14633/1?tipo=1&cidade=158&bairro=18&ordem=recentes',
+            'https://www.leobatistaimoveis.com.br/imobiliaria/venda/cinquentenario/imoveis/14636/1?tipo=1&cidade=158&bairro=68&ordem=recentes',
+            'https://www.leobatistaimoveis.com.br/imobiliaria/venda/estrela-do-oriente/imoveis/14637/1?tipo=1&cidade=158&bairro=21&ordem=recentes',
+            'https://www.leobatistaimoveis.com.br/imobiliaria/venda/marajo/imoveis/14638/1?tipo=1&cidade=158&bairro=51&ordem=recentes',
+            # códigos de busca criados no próprio site (um por bairro); sem Estrela Dalva, Salgado Filho e Parque São José: não existem na lista do site.
         ],
         "base": 'https://www.leobatistaimoveis.com.br',
         "link_pattern": r"^/\d+/imoveis/(venda|loca)",
@@ -396,6 +400,24 @@ SITES = [
         ],
         "base": "https://www.imovelnet.imb.br",
         "link_pattern": r"/imovel/[^/?#]+/\d+(?:[/?#]|$)",
+    },
+    {
+        "key": 'a_mineira',
+        "name": 'A Mineira Imóveis',
+        "filtrar_por_bairro": True,
+        "urls": [
+            'https://www.amineiraimoveis.com.br/imoveis-a-venda-para-comprar/belo-horizonte-mg/bairro-betania',
+            'https://www.amineiraimoveis.com.br/imoveis-a-venda-para-comprar/belo-horizonte-mg/bairro-cinquentenario',
+            'https://www.amineiraimoveis.com.br/imoveis-a-venda-para-comprar/belo-horizonte-mg/bairro-estrela-dalva',
+            'https://www.amineiraimoveis.com.br/imoveis-a-venda-para-comprar/belo-horizonte-mg/bairro-estrela-do-oriente',
+            'https://www.amineiraimoveis.com.br/imoveis-a-venda-para-comprar/belo-horizonte-mg/bairro-havai',
+            'https://www.amineiraimoveis.com.br/imoveis-a-venda-para-comprar/belo-horizonte-mg/bairro-marajo',
+            'https://www.amineiraimoveis.com.br/imoveis-a-venda-para-comprar/belo-horizonte-mg/bairro-palmeiras',
+            'https://www.amineiraimoveis.com.br/imoveis-a-venda-para-comprar/belo-horizonte-mg/bairro-salgado-filho',
+            'https://www.amineiraimoveis.com.br/imoveis-a-venda-para-comprar/belo-horizonte-mg/bairro-parque-sao-jose',
+        ],
+        "base": 'https://www.amineiraimoveis.com.br',
+        "link_pattern": r"^/imovel/[^/?#]+/\d+",
     },
 ]
 
@@ -722,6 +744,23 @@ SITES_LOCACAO = [
     },
     # EXCLUÍDAS: java_imoveis (não destravei o filtro de bairro no aluguel)
     #            new_core (confirmei que é site só de venda, sem aluguel)
+    {
+        "key": 'a_mineira',
+        "name": 'A Mineira Imóveis',
+        "filtrar_por_bairro": True,
+        "bairros_alvo": BAIRROS_ALVO_LOCACAO,
+        "urls": [
+            'https://www.amineiraimoveis.com.br/imoveis-para-alugar-para-locacao/belo-horizonte-mg/bairro-betania',
+            'https://www.amineiraimoveis.com.br/imoveis-para-alugar-para-locacao/belo-horizonte-mg/bairro-cinquentenario',
+            'https://www.amineiraimoveis.com.br/imoveis-para-alugar-para-locacao/belo-horizonte-mg/bairro-estrela-dalva',
+            'https://www.amineiraimoveis.com.br/imoveis-para-alugar-para-locacao/belo-horizonte-mg/bairro-estrela-do-oriente',
+            'https://www.amineiraimoveis.com.br/imoveis-para-alugar-para-locacao/belo-horizonte-mg/bairro-havai',
+            'https://www.amineiraimoveis.com.br/imoveis-para-alugar-para-locacao/belo-horizonte-mg/bairro-marajo',
+            'https://www.amineiraimoveis.com.br/imoveis-para-alugar-para-locacao/belo-horizonte-mg/bairro-palmeiras',
+        ],
+        "base": 'https://www.amineiraimoveis.com.br',
+        "link_pattern": r"^/imovel/[^/?#]+/\d+",
+    },
 ]
 
 
@@ -772,7 +811,7 @@ def eh_do_bairro_alvo(texto, bairros=None):
 
 # Palavras no link que mostram se o anúncio é de aluguel ou de venda.
 _RE_ALUGUEL = re.compile(r"alugar|aluguel|locacao|from=rent")
-_RE_VENDA = re.compile(r"a-venda|para-venda|vende-se|/venda\b|venda-|-venda|from=sale|comprar")
+_RE_VENDA = re.compile(r"a-venda|para-venda|vende-se|/venda\b|venda-|-venda|from=sale|comprar|[?&]compra\b")
 
 
 def eh_do_tipo_negocio(href, tipo):
@@ -793,13 +832,32 @@ def eh_do_tipo_negocio(href, tipo):
     return True
 
 
+def link_pertence_ao_site(site, href):
+    """
+    Descarta links de compartilhamento (WhatsApp, Facebook, LinkedIn...) e
+    qualquer link que não seja do domínio da imobiliária. Alguns sites têm
+    esses botões dentro da página do anúncio e eles entravam como "imóvel".
+    """
+    base = site.get("base")
+    if not base or not href:
+        return True
+    if href.startswith("/"):
+        return True
+    host_site = urlparse(base).netloc.lower().removeprefix("www.")
+    host_link = urlparse(href).netloc.lower().removeprefix("www.")
+    return bool(host_link) and host_link.endswith(host_site)
+
+
 def passa_filtros(site, href, titulo, tipo):
     """Mesmas regras usadas na coleta e na limpeza do histórico."""
+    if not link_pertence_ao_site(site, href):
+        return False
     if not eh_do_tipo_negocio(href, tipo):
         return False
     if site.get("filtrar_por_bairro"):
         bairros = site.get("bairros_alvo", BAIRROS_ALVO)
-        return eh_do_bairro_alvo(href, bairros) or eh_do_bairro_alvo(titulo, bairros)
+        # título vazio NÃO pode aprovar o anúncio (a função devolve True p/ texto vazio)
+        return eh_do_bairro_alvo(href, bairros) or (bool(titulo) and eh_do_bairro_alvo(titulo, bairros))
     return True
 
 
