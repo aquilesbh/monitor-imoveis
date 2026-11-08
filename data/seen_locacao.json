@@ -1338,31 +1338,65 @@
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-2-vagas-e-lazer-completo/9940": {
       "titulo": "NOVO",
-      "primeira_vez": "07/11/2026 06:57"
+      "primeira_vez": "08/11/2026 07:24"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-cooktop-e-2-vagas-de-garagem/9939": {
       "titulo": "NOVO",
-      "primeira_vez": "07/11/2026 06:57"
+      "primeira_vez": "08/11/2026 07:24"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-residencial-com-7096m-01-quarto-e-lazer-completo/10077": {
       "titulo": "NOVO",
-      "primeira_vez": "07/11/2026 06:57"
+      "primeira_vez": "08/11/2026 07:24"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10057": {
       "titulo": "NOVO",
-      "primeira_vez": "07/11/2026 06:57"
+      "primeira_vez": "08/11/2026 07:24"
     },
     "https://www.imovelnet.imb.br/imovel/casa-para-aluguel-com-varanda-e-vagas-de-garagem/9617": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "07/11/2026 06:57"
+      "primeira_vez": "08/11/2026 07:24"
     },
     "https://www.imovelnet.imb.br/imovel/casa-ampla-e-aconchegante-para-aluguel-2-quartos-varanda-e-garagem/9796": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "07/11/2026 06:57"
+      "primeira_vez": "08/11/2026 07:24"
     },
     "https://www.imovelnet.imb.br/imovel/excelente-casa-com-02-pavimentos-e-area-gourmet-r1300000/5276": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "07/11/2026 06:57"
+      "primeira_vez": "08/11/2026 07:24"
+    }
+  },
+  "a_mineira": {
+    "https://www.amineiraimoveis.com.br/imovel/casa-para-alugar-resid-ou-comercial-4-quartos-bairro-betania-bh-betania-belo-horizonte-mg/180814": {
+      "titulo": "2  193m²",
+      "primeira_vez": "08/11/2026 07:24"
+    },
+    "https://www.amineiraimoveis.com.br/imovel/casa-para-alugar-3-quartos-sendo-2-suites-280mt-bairro-betania-bh-betania-belo-horizonte-mg/178398": {
+      "titulo": "3  3  280m²",
+      "primeira_vez": "08/11/2026 07:24"
+    },
+    "https://www.amineiraimoveis.com.br/imovel/cobertura-para-alugar-2-quartos-sendo-1-suite-115-m-bairro-palmeiras-bhte-cinquentenario-belo-horizonte-mg/179509": {
+      "titulo": "2  2  115m²",
+      "primeira_vez": "08/11/2026 07:24"
+    },
+    "https://www.amineiraimoveis.com.br/imovel/loja-para-alugar-60m-no-bairro-estrela-dalva-bh-estrela-dalva-belo-horizonte-mg/180200": {
+      "titulo": "1  45m²",
+      "primeira_vez": "08/11/2026 07:24"
+    },
+    "https://www.amineiraimoveis.com.br/imovel/casa-comercial-2-salas-com-area-externa-bairro-havai-bh-havai-belo-horizonte-mg/180821": {
+      "titulo": "2  1  60m²",
+      "primeira_vez": "08/11/2026 07:24"
+    },
+    "https://www.amineiraimoveis.com.br/imovel/loja-para-alugar-12m-no-bairro-havai-bh-havai-belo-horizonte-mg/180562": {
+      "titulo": "1  12m²",
+      "primeira_vez": "08/11/2026 07:24"
+    },
+    "https://www.amineiraimoveis.com.br/imovel/galpao-deposito-armazem-para-alugar-150mt-no-bairro-palmeiras-bh-marajo-belo-horizonte-mg/180332": {
+      "titulo": "3  150m²",
+      "primeira_vez": "08/11/2026 07:24"
+    },
+    "https://www.amineiraimoveis.com.br/imovel/casa-para-alugar-2-quartos-60mt-bairro-marajo-bh-marajo-belo-horizonte-mg/180301": {
+      "titulo": "2  60m²",
+      "primeira_vez": "08/11/2026 07:24"
     }
   }
 }
