@@ -551,7 +551,7 @@
       "primeira_vez": "03/10/2026 07:07"
     },
     "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-no-bairro-cinquentenario-2-quartos-lazer-completo/1408": {
-      "titulo": "NOVO",
+      "titulo": "‹",
       "primeira_vez": "14/10/2026 03:53"
     },
     "https://www.inteligenciaimobiliariabh.com.br/imovel/cobertura-a-venda-no-alto-barroca/1410": {
@@ -747,6 +747,10 @@
     "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-70-m/AP9674-BIHA?from=sale": {
       "titulo": "AP9674-BIHA",
       "primeira_vez": "06/11/2026 05:54"
+    },
+    "https://www.bihainimoveis.com.br/imovel/cobertura-belo-horizonte-3-quartos-160-m/CO1625-BIHA?from=sale": {
+      "titulo": "CO1625-BIHA",
+      "primeira_vez": "13/11/2026 05:53"
     }
   },
   "palmeiras": {},
@@ -2082,6 +2086,10 @@
     "https://www.vprimoveis.com.br/cobertura-a-venda-2-quartos-1-suite-palmeiras-belo-horizontemg/11820": {
       "titulo": "Cobertura à venda em Palmeiras de 150m2",
       "primeira_vez": "25/10/2026 04:05"
+    },
+    "https://www.vprimoveis.com.br/area-privativa-a-venda-1-quarto-1-suite-1-vaga-palmeiras-belo-horizontemg/13977": {
+      "titulo": "Área privativa à venda em Palmeiras de 61m2",
+      "primeira_vez": "13/11/2026 05:53"
     }
   },
   "gade": {
@@ -2944,6 +2952,10 @@
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/290-rua-domingos-rocha-rua-lagoa-da-prata/870701013-50": {
       "titulo": "R$ 365.000",
       "primeira_vez": "08/11/2026 05:16"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/1080-senhora-do-porto-escola-municipal-mestre-ataide/870241081-128": {
+      "titulo": "R$ 499.000",
+      "primeira_vez": "13/11/2026 05:53"
     }
   },
   "dual_imoveis": {},
@@ -4399,37 +4411,37 @@
       "titulo": "NOVO",
       "primeira_vez": "12/11/2026 05:57"
     },
-    "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10140": {
-      "titulo": "NOVO",
-      "primeira_vez": "12/11/2026 05:57"
-    },
-    "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "12/11/2026 05:57"
-    },
     "https://www.imovelnet.imb.br/imovel/apartamento-residencial-de-145-m-com-suite-e-2-vagas-no-bairro-havai/10148": {
       "titulo": "NOVO",
       "primeira_vez": "12/11/2026 05:57"
     },
+    "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10140": {
+      "titulo": "NOVO",
+      "primeira_vez": "13/11/2026 05:53"
+    },
     "https://www.imovelnet.imb.br/imovel/more-bem-apartamento-de-2-quartos-com-armarios-planejados/10007": {
       "titulo": "NOVO",
-      "primeira_vez": "12/11/2026 05:57"
+      "primeira_vez": "13/11/2026 05:53"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo/9024": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "13/11/2026 05:53"
+    },
+    "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "13/11/2026 05:53"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-150m2-3-quartos-espaco-gourmet/9673": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "12/11/2026 05:57"
+      "primeira_vez": "13/11/2026 05:53"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-com-excelente-custo-beneficio-no-bairro-buritis/4798": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "12/11/2026 05:57"
-    },
-    "https://www.imovelnet.imb.br/imovel/lancamento-12-ou-3-quartos-com-suite/6611": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "12/11/2026 05:57"
+      "primeira_vez": "13/11/2026 05:53"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-no-central-park-3-quartos-lazer-completo/9929": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "12/11/2026 05:57"
+      "primeira_vez": "13/11/2026 05:53"
     }
   },
   "a_mineira": {
