@@ -1284,7 +1284,7 @@
       "primeira_vez": "06/11/2026 05:54"
     },
     "https://www.grimoveis.com.br/imovel/apartamento-com-area-privativa-a-venda-havai-belo-horizonte-mg/70471": {
-      "titulo": "NOVO",
+      "titulo": "< < < <",
       "primeira_vez": "07/11/2026 04:58"
     }
   },
@@ -2090,6 +2090,10 @@
     "https://www.vprimoveis.com.br/area-privativa-a-venda-1-quarto-1-suite-1-vaga-palmeiras-belo-horizontemg/13977": {
       "titulo": "Área privativa à venda em Palmeiras de 61m2",
       "primeira_vez": "13/11/2026 05:53"
+    },
+    "https://www.vprimoveis.com.br/area-privativa-a-venda-2-quartos-1-vaga-palmeiras-belo-horizontemg/13983": {
+      "titulo": "Área privativa à venda em Palmeiras de 68,30m2",
+      "primeira_vez": "14/11/2026 05:17"
     }
   },
   "gade": {
@@ -2956,6 +2960,10 @@
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/1080-senhora-do-porto-escola-municipal-mestre-ataide/870241081-128": {
       "titulo": "R$ 499.000",
       "primeira_vez": "13/11/2026 05:53"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/430-rua-antonio-de-andrade-mendes-pizzaria-reserva/870701013-53": {
+      "titulo": "R$ 367.000",
+      "primeira_vez": "14/11/2026 05:17"
     }
   },
   "dual_imoveis": {},
@@ -4244,7 +4252,7 @@
       "primeira_vez": "20/08/2026 10:35"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-2-quartos-1-suite-2-vagas-betania-belo-horizonte-mg/9515": {
-      "titulo": "TEM PROPOSTA",
+      "titulo": "arrow_back_ios",
       "primeira_vez": "20/08/2026 10:35"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-3-quartos-1-suite-2-vagas-estrela-do-oriente-belo-horizonte-mg/8018": {
@@ -4380,7 +4388,7 @@
       "primeira_vez": "09/10/2026 05:08"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-a-venda-3-quartos-1-suite-2-vagas-havai-belo-horizonte-mg/9920": {
-      "titulo": "TEM PROPOSTA",
+      "titulo": "arrow_back_ios",
       "primeira_vez": "09/10/2026 05:08"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-no-havai/9978": {
@@ -4415,33 +4423,33 @@
       "titulo": "NOVO",
       "primeira_vez": "12/11/2026 05:57"
     },
+    "https://www.imovelnet.imb.br/imovel/casa-a-venda-3-quartos-1-suite-2-vagas-palmeiras-belo-horizonte-mg/10091": {
+      "titulo": "NOVO",
+      "primeira_vez": "14/11/2026 05:17"
+    },
     "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10140": {
       "titulo": "NOVO",
-      "primeira_vez": "13/11/2026 05:53"
-    },
-    "https://www.imovelnet.imb.br/imovel/more-bem-apartamento-de-2-quartos-com-armarios-planejados/10007": {
-      "titulo": "NOVO",
-      "primeira_vez": "13/11/2026 05:53"
-    },
-    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo/9024": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "13/11/2026 05:53"
+      "primeira_vez": "14/11/2026 05:17"
     },
     "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "13/11/2026 05:53"
+      "primeira_vez": "14/11/2026 05:17"
+    },
+    "https://www.imovelnet.imb.br/imovel/more-bem-apartamento-de-2-quartos-com-armarios-planejados/10007": {
+      "titulo": "NOVO",
+      "primeira_vez": "14/11/2026 05:17"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-150m2-3-quartos-espaco-gourmet/9673": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "13/11/2026 05:53"
+      "primeira_vez": "14/11/2026 05:17"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-com-excelente-custo-beneficio-no-bairro-buritis/4798": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "13/11/2026 05:53"
+      "primeira_vez": "14/11/2026 05:17"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-no-central-park-3-quartos-lazer-completo/9929": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "13/11/2026 05:53"
+      "primeira_vez": "14/11/2026 05:17"
     }
   },
   "a_mineira": {
@@ -4692,6 +4700,14 @@
     "https://www.amineiraimoveis.com.br/imovel/apartamento-a-venda-3-qtos-sendo-1-suite-bairro-havai-bh-havai-belo-horizonte-mg/180981?compra": {
       "titulo": "3  1  70m²",
       "primeira_vez": "11/11/2026 05:37"
+    },
+    "https://www.amineiraimoveis.com.br/imovel/apartamento-para-alugar-2-quartos-com-1-suite-1-vaga-bairro-betania-bh-betania-belo-horizonte-mg/181082?compra": {
+      "titulo": "1",
+      "primeira_vez": "14/11/2026 05:17"
+    },
+    "https://www.amineiraimoveis.com.br/imovel/apartamento-a-venda-2-quartos-1-vaga-bairro-salgado-filho-bh-havai-belo-horizonte-mg/181079?compra": {
+      "titulo": "2  1  50m²",
+      "primeira_vez": "14/11/2026 05:17"
     }
   }
 }

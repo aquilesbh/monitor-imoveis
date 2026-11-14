@@ -31,6 +31,10 @@
     "https://www.paulotavaresimoveis.com.br/imovel/loja-de-2-andares-para-locacao-no-bairro-betania-belo-horizonte-mg/1246": {
       "titulo": "Loja | Betânia - Belo Horizonte",
       "primeira_vez": "07/11/2026 06:57"
+    },
+    "https://www.paulotavaresimoveis.com.br/imovel/loja-para-locacao-em-belo-horizonte-mg-no-bairro-havai/466": {
+      "titulo": "Loja | Havaí - Belo Horizonte",
+      "primeira_vez": "14/11/2026 07:24"
     }
   },
   "inteligencia_bh": {
@@ -95,7 +99,7 @@
       "primeira_vez": "14/10/2026 05:39"
     },
     "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-no-bairro-cinquentenario-2-quartos-lazer-completo/1408": {
-      "titulo": "NOVO",
+      "titulo": "‹",
       "primeira_vez": "14/10/2026 05:39"
     },
     "https://www.inteligenciaimobiliariabh.com.br/imovel/casa-geminada-com-area-privativa-3-quartos-bairro-havai-aceita-financiamento/333": {
@@ -274,6 +278,10 @@
     "https://www.grimoveis.com.br/imovel/apartamento-para-alugar-estrela-dalva-belo-horizonte-mg/67839": {
       "titulo": "< < < <",
       "primeira_vez": "12/11/2026 08:09"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-para-alugar-palmeiras-belo-horizonte-mg/70690": {
+      "titulo": "NOVO",
+      "primeira_vez": "14/11/2026 07:24"
     }
   },
   "sensale": {
@@ -884,6 +892,10 @@
     "https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/870701036-26": {
       "titulo": "R$ 2.300 Mensal",
       "primeira_vez": "12/11/2026 08:09"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/alugar/belo-horizonte/45-padre-lattankamp-esquina-com-rua-ursula-paulino/870701025-15": {
+      "titulo": "R$ 3.300 Mensal",
+      "primeira_vez": "14/11/2026 07:24"
     }
   },
   "dual_imoveis": {},
@@ -1367,6 +1379,34 @@
     "https://www.imovelnet.imb.br/imovel/apartamento-de-2-quartos-para-aluguel-no-bairro-palmeiras-em-belo-horizonte/10092": {
       "titulo": "NOVO",
       "primeira_vez": "06/11/2026 07:57"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-com-2-quartos-para-alugar-bairro-palmeiras-belo-horizonte-mg/10154": {
+      "titulo": "NOVO",
+      "primeira_vez": "14/11/2026 07:24"
+    },
+    "https://www.imovelnet.imb.br/imovel/area-privativa-residencial-com-7096m-01-quarto-e-lazer-completo/10077": {
+      "titulo": "NOVO",
+      "primeira_vez": "14/11/2026 07:24"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-2-vagas-e-lazer-completo/9940": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "14/11/2026 07:24"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-cooktop-e-2-vagas-de-garagem/9939": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "14/11/2026 07:24"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10057": {
+      "titulo": "NOVO",
+      "primeira_vez": "14/11/2026 07:24"
+    },
+    "https://www.imovelnet.imb.br/imovel/casa-para-aluguel-com-varanda-e-vagas-de-garagem/9617": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "14/11/2026 07:24"
+    },
+    "https://www.imovelnet.imb.br/imovel/excelente-casa-com-02-pavimentos-e-area-gourmet-r1300000/5276": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "14/11/2026 07:24"
     }
   },
   "a_mineira": {
@@ -1401,6 +1441,18 @@
     "https://www.amineiraimoveis.com.br/imovel/casa-para-alugar-2-quartos-60mt-bairro-marajo-bh-marajo-belo-horizonte-mg/180301": {
       "titulo": "2  60m²",
       "primeira_vez": "08/11/2026 07:24"
+    },
+    "https://www.amineiraimoveis.com.br/imovel/apartamento-para-alugar-2-quartos-com-1-suite-1-vaga-bairro-betania-bh-betania-belo-horizonte-mg/181082": {
+      "titulo": "1",
+      "primeira_vez": "14/11/2026 07:24"
+    },
+    "https://www.amineiraimoveis.com.br/imovel/loja-para-alugar-46m-no-bairro-havai-bh-havai-belo-horizonte-mg/181077": {
+      "titulo": "1  46m²",
+      "primeira_vez": "14/11/2026 07:24"
+    },
+    "https://www.amineiraimoveis.com.br/imovel/loja-para-alugar-55m-no-bairro-havai-bh-havai-belo-horizonte-mg/181073": {
+      "titulo": "1  52m²",
+      "primeira_vez": "14/11/2026 07:24"
     }
   }
 }
