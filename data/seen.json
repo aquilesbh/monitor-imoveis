@@ -1956,6 +1956,10 @@
     "https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-quartos-bairro-betania-bh-mg-r32800000/7156": {
       "titulo": "Apto 3 quartos | Cinquentenário - Belo Horizonte",
       "primeira_vez": "17/11/2026 06:53"
+    },
+    "https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-quartos-bairro-cinquentenario-palmeiras-bh-mg-r49000000/7158": {
+      "titulo": "Apto 3 quartos | Cinquentenário - Belo Horizonte",
+      "primeira_vez": "18/11/2026 06:30"
     }
   },
   "vpr": {
@@ -2114,11 +2118,11 @@
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://gadeimoveis.com.br/imovel/casa-betania-belo-horizonte-mg-5-quartos-1914": {
-      "titulo": "Cód: 1914",
+      "titulo": "1914",
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3-quartos-220m2-2284": {
-      "titulo": "Cód: 2284",
+      "titulo": "2284",
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3-quartos-3796": {
@@ -2126,15 +2130,15 @@
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-2-quartos-3629": {
-      "titulo": "Cód: 3629",
+      "titulo": "3629",
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://gadeimoveis.com.br/imovel/cobertura-nova-suissa-belo-horizonte-mg-2-quartos-2919": {
-      "titulo": "Cód: 2919",
+      "titulo": "2919",
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://gadeimoveis.com.br/imovel/cobertura-nova-suissa-belo-horizonte-mg-2-quartos-2920": {
-      "titulo": "Cód: 2920",
+      "titulo": "2920",
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-93m2-3795": {
@@ -2150,15 +2154,15 @@
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://gadeimoveis.com.br/imovel/casa-em-condominio-parque-sao-jose-belo-horizonte-mg-3-quartos-110m2-3662": {
-      "titulo": "Cód: 3662",
+      "titulo": "3662",
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-2-quartos-44m2-3790": {
-      "titulo": "Cód: 3790",
+      "titulo": "3790",
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-2-quartos-70m2-3672": {
-      "titulo": "Cód: 3672",
+      "titulo": "3672",
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://gadeimoveis.com.br/imovel/cobertura-havai-belo-horizonte-mg-3-quartos-174m2-3649": {
@@ -2198,11 +2202,11 @@
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-betania-belo-horizonte-mg-3620": {
-      "titulo": "Cód: 3620",
+      "titulo": "3620",
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://gadeimoveis.com.br/imovel/casa-salgado-filho-belo-horizonte-mg-4-quartos-154m2-3787": {
-      "titulo": "Cód: 3787",
+      "titulo": "3787",
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-3298": {
@@ -2210,7 +2214,7 @@
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-estrela-do-oriente-belo-horizonte-mg-3-quartos-75m2-3785": {
-      "titulo": "Cód: 3785",
+      "titulo": "3785",
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-3786": {
@@ -2222,7 +2226,7 @@
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-marajo-belo-horizonte-mg-3-quartos-94.52m2-3654": {
-      "titulo": "Cód: 3654",
+      "titulo": "3654",
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3-quartos-500m2-3497": {
@@ -2234,7 +2238,7 @@
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://gadeimoveis.com.br/imovel/casa-cinquentenario-belo-horizonte-mg-3-quartos-3750": {
-      "titulo": "Cód: 3750",
+      "titulo": "3750",
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-67.5m2-3773": {
@@ -2274,39 +2278,39 @@
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-betania-belo-horizonte-mg-3-quartos-65m2-3749": {
-      "titulo": "Cód: 3749",
+      "titulo": "3749",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-betania-belo-horizonte-mg-4-quartos-3753": {
-      "titulo": "Cód: 3753",
+      "titulo": "3753",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/area-privativa-cinquentenario-belo-horizonte-mg-3-quartos-100m2-3727": {
-      "titulo": "Cód: 3727",
+      "titulo": "3727",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-estrela-do-oriente-belo-horizonte-mg-2-quartos-46m2-3700": {
-      "titulo": "Cód: 3700",
+      "titulo": "3700",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-betania-belo-horizonte-mg-2-quartos-3329": {
-      "titulo": "Cód: 3329",
+      "titulo": "3329",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-betania-belo-horizonte-mg-3-quartos-75m2-2322": {
-      "titulo": "Cód: 2322",
+      "titulo": "2322",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-betania-belo-horizonte-mg-3-quartos-3467": {
-      "titulo": "Cód: 3467",
+      "titulo": "3467",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/terreno-betania-belo-horizonte-mg-1-quartos-1358": {
-      "titulo": "Cód: 1358",
+      "titulo": "1358",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-betania-belo-horizonte-mg-6-quartos-3373": {
-      "titulo": "Cód: 3373",
+      "titulo": "3373",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-betania-belo-horizonte-mg-3-quartos-235m2-2827": {
@@ -2314,15 +2318,15 @@
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/terreno-betania-belo-horizonte-mg-3183": {
-      "titulo": "Cód: 3183",
+      "titulo": "3183",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-parque-sao-jose-belo-horizonte-mg-2-quartos-45m2-3752": {
-      "titulo": "Cód: 3752",
+      "titulo": "3752",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-3-quartos-78m2-3738": {
-      "titulo": "Cód: 3738",
+      "titulo": "3738",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-2-quartos-60m2-3691": {
@@ -2330,39 +2334,39 @@
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/cobertura-cinquentenario-belo-horizonte-mg-3-quartos-90.42m2-3668": {
-      "titulo": "Cód: 3668",
+      "titulo": "3668",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-3-quartos-72m2-3095": {
-      "titulo": "Cód: 3095",
+      "titulo": "3095",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/cobertura-cinquentenario-belo-horizonte-mg-4-quartos-150m2-3660": {
-      "titulo": "Cód: 3660",
+      "titulo": "3660",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-3-quartos-72m2-3605": {
-      "titulo": "Cód: 3605",
+      "titulo": "3605",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-2-quartos-59m2-3595": {
-      "titulo": "Cód: 3595",
+      "titulo": "3595",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-estrela-do-oriente-belo-horizonte-mg-3-quartos-396m2-3580": {
-      "titulo": "Cód: 3580",
+      "titulo": "3580",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-estrela-do-oriente-belo-horizonte-mg-2-quartos-3696": {
-      "titulo": "Cód: 3696",
+      "titulo": "3696",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-estrela-do-oriente-belo-horizonte-mg-2-quartos-55m2-3596": {
-      "titulo": "Cód: 3596",
+      "titulo": "3596",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-estrela-do-oriente-belo-horizonte-mg-4-quartos-3586": {
-      "titulo": "Cód: 3586",
+      "titulo": "3586",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/area-privativa-havai-belo-horizonte-mg-3-quartos-89m2-3771": {
@@ -2370,15 +2374,15 @@
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-marajo-belo-horizonte-mg-3-quartos-65m2-3513": {
-      "titulo": "Cód: 3513",
+      "titulo": "3513",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-marajo-belo-horizonte-mg-3-quartos-520m2-3590": {
-      "titulo": "Cód: 3590",
+      "titulo": "3590",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-nova-suissa-belo-horizonte-mg-3-quartos-93m2-3652": {
-      "titulo": "Cód: 3652",
+      "titulo": "3652",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-nova-suissa-belo-horizonte-mg-2-quartos-3469": {
@@ -2386,19 +2390,19 @@
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-nova-suissa-belo-horizonte-mg-2-quartos-2918": {
-      "titulo": "Cód: 2918",
+      "titulo": "2918",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/cobertura-nova-suissa-belo-horizonte-mg-3-quartos-160m2-2825": {
-      "titulo": "Cód: 2825",
+      "titulo": "2825",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/terreno-nova-suissa-belo-horizonte-mg-3-quartos-3186": {
-      "titulo": "Cód: 3186",
+      "titulo": "3186",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/loja-nova-suissa-belo-horizonte-mg-91m2-3128": {
-      "titulo": "Cód: 3128",
+      "titulo": "3128",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-parque-sao-jose-belo-horizonte-mg-3-quartos-98m2-3754": {
@@ -2422,35 +2426,35 @@
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-palmeiras-belo-horizonte-mg-3-quartos-525m2-2535": {
-      "titulo": "Cód: 2535",
+      "titulo": "2535",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/ponto-comercial-parque-sao-jose-belo-horizonte-mg-3766": {
-      "titulo": "Cód: 3766",
+      "titulo": "3766",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-parque-sao-jose-belo-horizonte-mg-3-quartos-3434": {
-      "titulo": "Cód: 3434",
+      "titulo": "3434",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/cobertura-salgado-filho-belo-horizonte-mg-3-quartos-3735": {
-      "titulo": "Cód: 3735",
+      "titulo": "3735",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-salgado-filho-belo-horizonte-mg-3-quartos-3734": {
-      "titulo": "Cód: 3734",
+      "titulo": "3734",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/area-privativa-salgado-filho-belo-horizonte-mg-3-quartos-3733": {
-      "titulo": "Cód: 3733",
+      "titulo": "3733",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/empreendimento-salgado-filho-belo-horizonte-mg-3719": {
-      "titulo": "Cód: 3719",
+      "titulo": "3719",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-salgado-filho-belo-horizonte-mg-2-quartos-312m2-3554": {
-      "titulo": "Cód: 3554",
+      "titulo": "3554",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-salgado-filho-belo-horizonte-mg-3-quartos-360m2-3638": {
@@ -2458,27 +2462,27 @@
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-salgado-filho-belo-horizonte-mg-3-quartos-3390": {
-      "titulo": "Cód: 3390",
+      "titulo": "3390",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-salgado-filho-belo-horizonte-mg-5-quartos-250m2-3585": {
-      "titulo": "Cód: 3585",
+      "titulo": "3585",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-salgado-filho-belo-horizonte-mg-4-quartos-379m2-2721": {
-      "titulo": "Cód: 2721",
+      "titulo": "2721",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-salgado-filho-belo-horizonte-mg-3479": {
-      "titulo": "Cód: 3479",
+      "titulo": "3479",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/cobertura-salgado-filho-belo-horizonte-mg-3-quartos-3395": {
-      "titulo": "Cód: 3395",
+      "titulo": "3395",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-salgado-filho-belo-horizonte-mg-2-quartos-3458": {
-      "titulo": "Cód: 3458",
+      "titulo": "3458",
       "primeira_vez": "17/08/2026 16:21"
     },
     "https://gadeimoveis.com.br/imovel/casa-palmeiras-belo-horizonte-mg-3-quartos-3804": {
@@ -2486,51 +2490,51 @@
       "primeira_vez": "18/08/2026 08:22"
     },
     "https://gadeimoveis.com.br/imovel/cobertura-cinquentenario-belo-horizonte-mg-2-quartos-120m2-3805": {
-      "titulo": "Cód: 3805",
+      "titulo": "3805",
       "primeira_vez": "19/08/2026 08:29"
     },
     "https://gadeimoveis.com.br/imovel/casa-palmeiras-belo-horizonte-mg-3-quartos-540m2-3804": {
-      "titulo": "Cód: 3804",
+      "titulo": "3804",
       "primeira_vez": "19/08/2026 08:29"
     },
     "https://gadeimoveis.com.br/imovel/casa-estrela-do-oriente-belo-horizonte-mg-3-quartos-360m2-3806": {
-      "titulo": "Cód: 3806",
+      "titulo": "3806",
       "primeira_vez": "23/08/2026 08:17"
     },
     "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3807": {
-      "titulo": "Cód: 3807",
+      "titulo": "3807",
       "primeira_vez": "25/08/2026 08:22"
     },
     "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-50m2-3767": {
-      "titulo": "Cód: 3767",
+      "titulo": "3767",
       "primeira_vez": "25/08/2026 08:22"
     },
     "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3710": {
-      "titulo": "Cód: 3710",
+      "titulo": "3710",
       "primeira_vez": "25/08/2026 08:22"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-2-quartos-52m2-3691": {
-      "titulo": "Cód: 3691",
+      "titulo": "3691",
       "primeira_vez": "26/08/2026 02:24"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-nova-suissa-belo-horizonte-mg-1-quartos-3808": {
-      "titulo": "Cód: 3808",
+      "titulo": "3808",
       "primeira_vez": "27/08/2026 12:59"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-nova-suissa-belo-horizonte-mg-2-quartos-51m2-3809": {
-      "titulo": "Cód: 3809",
+      "titulo": "3809",
       "primeira_vez": "27/08/2026 12:59"
     },
     "https://gadeimoveis.com.br/imovel/casa-palmeiras-belo-horizonte-mg-3-quartos-3811": {
-      "titulo": "Cód: 3811",
+      "titulo": "3811",
       "primeira_vez": "27/08/2026 12:59"
     },
     "https://gadeimoveis.com.br/imovel/terreno-havai-belo-horizonte-mg-3813": {
-      "titulo": "Cód: 3813",
+      "titulo": "3813",
       "primeira_vez": "03/09/2026 06:18"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-3745": {
-      "titulo": "Cód: 3745",
+      "titulo": "3745",
       "primeira_vez": "10/09/2026 06:17"
     },
     "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-2-quartos-3815": {
@@ -2538,7 +2542,7 @@
       "primeira_vez": "17/09/2026 06:44"
     },
     "https://gadeimoveis.com.br/imovel/area-privativa-cinquentenario-belo-horizonte-mg-3-quartos-3827": {
-      "titulo": "Cód: 3827",
+      "titulo": "3827",
       "primeira_vez": "23/09/2026 06:38"
     },
     "https://gadeimoveis.com.br/imovel/cobertura-cinquentenario-belo-horizonte-mg-3-quartos-130m2-3830": {
@@ -2546,7 +2550,7 @@
       "primeira_vez": "26/09/2026 06:37"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-3832": {
-      "titulo": "Cód: 3832",
+      "titulo": "3832",
       "primeira_vez": "26/09/2026 06:37"
     },
     "https://gadeimoveis.com.br/imovel/casa-salgado-filho-belo-horizonte-mg-2-quartos-3834": {
@@ -2554,31 +2558,31 @@
       "primeira_vez": "26/09/2026 06:37"
     },
     "https://gadeimoveis.com.br/imovel/casa-palmeiras-belo-horizonte-mg-3-quartos-100m2-3839": {
-      "titulo": "Cód: 3839",
+      "titulo": "3839",
       "primeira_vez": "01/10/2026 08:15"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-2-quartos-68m2-3552": {
-      "titulo": "Cód: 3552",
+      "titulo": "3552",
       "primeira_vez": "08/10/2026 05:09"
     },
     "https://gadeimoveis.com.br/imovel/cobertura-cinquentenario-belo-horizonte-mg-3-quartos-130m2-2965": {
-      "titulo": "Cód: 2965",
+      "titulo": "2965",
       "primeira_vez": "08/10/2026 05:09"
     },
     "https://gadeimoveis.com.br/imovel/casa-palmeiras-belo-horizonte-mg-2-quartos-3828": {
-      "titulo": "Cód: 3828",
+      "titulo": "3828",
       "primeira_vez": "08/10/2026 05:09"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-palmeiras-belo-horizonte-mg-2-quartos-3817": {
-      "titulo": "Cód: 3817",
+      "titulo": "3817",
       "primeira_vez": "08/10/2026 05:09"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-palmeiras-belo-horizonte-mg-3-quartos-3816": {
-      "titulo": "Cód: 3816",
+      "titulo": "3816",
       "primeira_vez": "08/10/2026 05:09"
     },
     "https://gadeimoveis.com.br/imovel/casa-estrela-do-oriente-belo-horizonte-mg-5-quartos-840m2-3800": {
-      "titulo": "Cód: 3800",
+      "titulo": "3800",
       "primeira_vez": "08/10/2026 05:09"
     },
     "https://gadeimoveis.com.br/imovel/cobertura-palmeiras-belo-horizonte-mg-2-quartos-110m2-3748": {
@@ -2626,7 +2630,7 @@
       "primeira_vez": "08/10/2026 05:09"
     },
     "https://gadeimoveis.com.br/imovel/galpao-palmeiras-belo-horizonte-mg-512m2-3541": {
-      "titulo": "Cód: 3541",
+      "titulo": "3541",
       "primeira_vez": "08/10/2026 05:09"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-2-quartos-61m2-3523": {
@@ -2650,27 +2654,27 @@
       "primeira_vez": "08/10/2026 05:09"
     },
     "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-3-quartos-360m2-3796": {
-      "titulo": "Cód: 3796",
+      "titulo": "3796",
       "primeira_vez": "16/10/2026 03:33"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-salgado-filho-belo-horizonte-mg-3-quartos-3017": {
-      "titulo": "Cód: 3017",
+      "titulo": "3017",
       "primeira_vez": "22/10/2026 03:49"
     },
     "https://gadeimoveis.com.br/imovel/area-privativa-havai-belo-horizonte-mg-3-quartos-70m2-3461": {
-      "titulo": "Cód: 3461",
+      "titulo": "3461",
       "primeira_vez": "23/10/2026 03:50"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-betania-belo-horizonte-mg-3-quartos-70m2-3105": {
-      "titulo": "Cód: 3105",
+      "titulo": "3105",
       "primeira_vez": "24/10/2026 03:39"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-3-quartos-65m2-3844": {
-      "titulo": "Cód: 3844",
+      "titulo": "3844",
       "primeira_vez": "27/10/2026 04:00"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-2-quartos-3846": {
-      "titulo": "Cód: 3846",
+      "titulo": "3846",
       "primeira_vez": "29/10/2026 04:46"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-3845": {
@@ -2734,11 +2738,11 @@
       "primeira_vez": "30/10/2026 04:52"
     },
     "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3770": {
-      "titulo": "Cód: 3770",
+      "titulo": "3770",
       "primeira_vez": "04/11/2026 05:17"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-3850": {
-      "titulo": "Cód: 3850",
+      "titulo": "3850",
       "primeira_vez": "11/11/2026 05:37"
     }
   },
@@ -4437,27 +4441,31 @@
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10140": {
       "titulo": "NOVO",
-      "primeira_vez": "17/11/2026 06:53"
-    },
-    "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "17/11/2026 06:53"
+      "primeira_vez": "18/11/2026 06:30"
     },
     "https://www.imovelnet.imb.br/imovel/more-bem-apartamento-de-2-quartos-com-armarios-planejados/10007": {
       "titulo": "NOVO",
-      "primeira_vez": "17/11/2026 06:53"
+      "primeira_vez": "18/11/2026 06:30"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo/9024": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "18/11/2026 06:30"
+    },
+    "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "18/11/2026 06:30"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-150m2-3-quartos-espaco-gourmet/9673": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "17/11/2026 06:53"
+      "primeira_vez": "18/11/2026 06:30"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-com-excelente-custo-beneficio-no-bairro-buritis/4798": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "17/11/2026 06:53"
+      "primeira_vez": "18/11/2026 06:30"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-no-central-park-3-quartos-lazer-completo/9929": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "17/11/2026 06:53"
+      "primeira_vez": "18/11/2026 06:30"
     }
   },
   "a_mineira": {

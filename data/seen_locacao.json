@@ -113,6 +113,14 @@
     "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-reformado-residencial-de-3-quartos-1-suite-para-aluguel-no-nova-cintra-belo-horizonte-mg/1413": {
       "titulo": "NOVO",
       "primeira_vez": "07/11/2026 06:57"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/sala-comercial-para-aluguel-no-buritis-em-belo-horizonte/1415": {
+      "titulo": "NOVO",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.inteligenciaimobiliariabh.com.br/imovel/apartamento-com-3-quartos-e-suite-para-locacao-no-buritis-bh/1414": {
+      "titulo": "NOVO",
+      "primeira_vez": "18/11/2026 08:40"
     }
   },
   "bihain": {
@@ -175,6 +183,10 @@
     "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-48-m/AP9683-BIHA?from=rent": {
       "titulo": "AP9683-BIHA",
       "primeira_vez": "05/11/2026 07:39"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-80-m/AP8675-BIHA?from=rent": {
+      "titulo": "AP8675-BIHA",
+      "primeira_vez": "18/11/2026 08:40"
     }
   },
   "palmeiras": {},
@@ -282,6 +294,10 @@
     "https://www.grimoveis.com.br/imovel/apartamento-para-alugar-palmeiras-belo-horizonte-mg/70690": {
       "titulo": "NOVO",
       "primeira_vez": "14/11/2026 07:24"
+    },
+    "https://www.grimoveis.com.br/imovel/cobertura-para-alugar-havai-belo-horizonte-mg/70715": {
+      "titulo": "NOVO",
+      "primeira_vez": "18/11/2026 08:40"
     }
   },
   "sensale": {
@@ -522,27 +538,27 @@
   },
   "gade": {
     "https://gadeimoveis.com.br/imovel/apartamento-betania-belo-horizonte-mg-3-quartos-75m2-3594": {
-      "titulo": "Cód: 3594",
+      "titulo": "3594",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-betania-belo-horizonte-mg-2-quartos-55m2-2326": {
-      "titulo": "Cód: 2326",
+      "titulo": "2326",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/galpao-betania-belo-horizonte-mg-1200m2-3675": {
-      "titulo": "Cód: 3675",
+      "titulo": "3675",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/galpao-betania-belo-horizonte-mg-3486": {
-      "titulo": "Cód: 3486",
+      "titulo": "3486",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/galpao-betania-belo-horizonte-mg-3487": {
-      "titulo": "Cód: 3487",
+      "titulo": "3487",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/loja-cinquentenario-belo-horizonte-mg-3741": {
-      "titulo": "Cód: 3741",
+      "titulo": "3741",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-palmeiras-belo-horizonte-mg-3-quartos-3837": {
@@ -550,7 +566,7 @@
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/fazenda-estrela-do-oriente-belo-horizonte-mg-3681": {
-      "titulo": "Cód: 3681",
+      "titulo": "3681",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/galpao-havai-belo-horizonte-mg-3831": {
@@ -558,15 +574,15 @@
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/kitnet-havai-belo-horizonte-mg-1-quartos-3821": {
-      "titulo": "Cód: 3821",
+      "titulo": "3821",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3499": {
-      "titulo": "Cód: 3499",
+      "titulo": "3499",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3589": {
-      "titulo": "Cód: 3589",
+      "titulo": "3589",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-3298": {
@@ -574,119 +590,119 @@
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3498": {
-      "titulo": "Cód: 3498",
+      "titulo": "3498",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/predio-comercial-havai-belo-horizonte-mg-3718": {
-      "titulo": "Cód: 3718",
+      "titulo": "3718",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/sala-comercial-havai-belo-horizonte-mg-3572": {
-      "titulo": "Cód: 3572",
+      "titulo": "3572",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3561": {
-      "titulo": "Cód: 3561",
+      "titulo": "3561",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3566": {
-      "titulo": "Cód: 3566",
+      "titulo": "3566",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3560": {
-      "titulo": "Cód: 3560",
+      "titulo": "3560",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3565": {
-      "titulo": "Cód: 3565",
+      "titulo": "3565",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/sala-comercial-havai-belo-horizonte-mg-3571": {
-      "titulo": "Cód: 3571",
+      "titulo": "3571",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/sala-comercial-havai-belo-horizonte-mg-3573": {
-      "titulo": "Cód: 3573",
+      "titulo": "3573",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/sala-comercial-havai-belo-horizonte-mg-3574": {
-      "titulo": "Cód: 3574",
+      "titulo": "3574",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/sala-comercial-havai-belo-horizonte-mg-3575": {
-      "titulo": "Cód: 3575",
+      "titulo": "3575",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/sala-comercial-havai-belo-horizonte-mg-3576": {
-      "titulo": "Cód: 3576",
+      "titulo": "3576",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/sala-comercial-havai-belo-horizonte-mg-3577": {
-      "titulo": "Cód: 3577",
+      "titulo": "3577",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/sala-comercial-havai-belo-horizonte-mg-3578": {
-      "titulo": "Cód: 3578",
+      "titulo": "3578",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3569": {
-      "titulo": "Cód: 3569",
+      "titulo": "3569",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3559": {
-      "titulo": "Cód: 3559",
+      "titulo": "3559",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3562": {
-      "titulo": "Cód: 3562",
+      "titulo": "3562",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3563": {
-      "titulo": "Cód: 3563",
+      "titulo": "3563",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3564": {
-      "titulo": "Cód: 3564",
+      "titulo": "3564",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/terreno-havai-belo-horizonte-mg-3139": {
-      "titulo": "Cód: 3139",
+      "titulo": "3139",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-palmeiras-belo-horizonte-mg-2-quartos-3762": {
-      "titulo": "Cód: 3762",
+      "titulo": "3762",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-palmeiras-belo-horizonte-mg-2-quartos-3763": {
-      "titulo": "Cód: 3763",
+      "titulo": "3763",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/galpao-cinquentenario-belo-horizonte-mg-3426": {
-      "titulo": "Cód: 3426",
+      "titulo": "3426",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/loja-palmeiras-belo-horizonte-mg-2666": {
-      "titulo": "Cód: 2666",
+      "titulo": "2666",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-2-quartos-3518": {
-      "titulo": "Cód: 3518",
+      "titulo": "3518",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-2-quartos-3519": {
-      "titulo": "Cód: 3519",
+      "titulo": "3519",
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3567": {
-      "titulo": "Cód: 3567",
+      "titulo": "3567",
       "primeira_vez": "24/10/2026 05:25"
     },
     "https://gadeimoveis.com.br/imovel/loja-havai-belo-horizonte-mg-3831": {
-      "titulo": "Cód: 3831",
+      "titulo": "3831",
       "primeira_vez": "30/10/2026 06:43"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-cinquentenario-belo-horizonte-mg-2-quartos-70m2-3661": {
-      "titulo": "Cód: 3661",
+      "titulo": "3661",
       "primeira_vez": "10/11/2026 08:04"
     }
   },
@@ -904,6 +920,78 @@
     "https://www.remax.com.br/pt-br/imoveis/casa/alugar/belo-horizonte/45-padre-lattankamp-esquina-com-rua-ursula-paulino/870701025-15": {
       "titulo": "R$ 3.300 Mensal",
       "primeira_vez": "14/11/2026 07:24"
+    },
+    "https://www.remax.com.br/52121008-10": {
+      "titulo": "77",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/50601009-241": {
+      "titulo": "3",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/50871046-106": {
+      "titulo": "1",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/90401002-3047": {
+      "titulo": "4",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/90561032-468": {
+      "titulo": "3",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/770821001-1558": {
+      "titulo": "5",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/90561015-2298": {
+      "titulo": "4",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/90561015-1048": {
+      "titulo": "3",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/770821001-1574": {
+      "titulo": "3",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/90401002-3073": {
+      "titulo": "3",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/90401002-3038": {
+      "titulo": "3",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/991031001-16": {
+      "titulo": "2",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/90561015-2316": {
+      "titulo": "2",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/90561015-1046": {
+      "titulo": "3",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/90401002-3024": {
+      "titulo": "4",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/770821001-1514": {
+      "titulo": "5",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/770821001-1595": {
+      "titulo": "5",
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.remax.com.br/90401002-3093": {
+      "titulo": "3",
+      "primeira_vez": "18/11/2026 08:40"
     }
   },
   "dual_imoveis": {},
@@ -1396,29 +1484,33 @@
       "titulo": "NOVO",
       "primeira_vez": "17/11/2026 09:03"
     },
+    "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-cooktop-e-2-vagas-de-garagem/9939": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "18/11/2026 08:40"
+    },
     "https://www.imovelnet.imb.br/imovel/area-privativa-residencial-com-7096m-01-quarto-e-lazer-completo/10077": {
       "titulo": "NOVO",
-      "primeira_vez": "17/11/2026 09:03"
+      "primeira_vez": "18/11/2026 08:40"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-2-vagas-e-lazer-completo/9940": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "17/11/2026 09:03"
-    },
-    "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-cooktop-e-2-vagas-de-garagem/9939": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "17/11/2026 09:03"
+      "primeira_vez": "18/11/2026 08:40"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10057": {
       "titulo": "NOVO",
-      "primeira_vez": "17/11/2026 09:03"
+      "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-para-alugar-3-quartos-80m-bairro-havai-belo-horizonte/9392": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "18/11/2026 08:40"
     },
     "https://www.imovelnet.imb.br/imovel/casa-para-aluguel-com-varanda-e-vagas-de-garagem/9617": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "17/11/2026 09:03"
+      "primeira_vez": "18/11/2026 08:40"
     },
     "https://www.imovelnet.imb.br/imovel/excelente-casa-com-02-pavimentos-e-area-gourmet-r1300000/5276": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "17/11/2026 09:03"
+      "primeira_vez": "18/11/2026 08:40"
     }
   },
   "a_mineira": {
