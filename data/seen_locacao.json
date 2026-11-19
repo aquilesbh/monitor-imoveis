@@ -187,6 +187,10 @@
     "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-80-m/AP8675-BIHA?from=rent": {
       "titulo": "AP8675-BIHA",
       "primeira_vez": "18/11/2026 08:40"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-70-m/AP9707-BIHA?from=rent": {
+      "titulo": "AP9707-BIHA",
+      "primeira_vez": "19/11/2026 08:47"
     }
   },
   "palmeiras": {},
@@ -810,6 +814,10 @@
     "https://www.maltaimoveis.com.br/imovel/loja-para-alugar-no-bairro-havai/14222": {
       "titulo": "NOVO",
       "primeira_vez": "17/11/2026 09:03"
+    },
+    "https://www.maltaimoveis.com.br/imovel/apartamento-para-alugar-no-bairro-palmeiras-de-2-quartos-1-vagas/14250": {
+      "titulo": "NOVO",
+      "primeira_vez": "19/11/2026 08:47"
     }
   },
   "remax": {
@@ -1484,33 +1492,33 @@
       "titulo": "NOVO",
       "primeira_vez": "17/11/2026 09:03"
     },
-    "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-cooktop-e-2-vagas-de-garagem/9939": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "18/11/2026 08:40"
-    },
-    "https://www.imovelnet.imb.br/imovel/area-privativa-residencial-com-7096m-01-quarto-e-lazer-completo/10077": {
-      "titulo": "NOVO",
-      "primeira_vez": "18/11/2026 08:40"
-    },
-    "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-2-vagas-e-lazer-completo/9940": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "18/11/2026 08:40"
-    },
-    "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10057": {
-      "titulo": "NOVO",
-      "primeira_vez": "18/11/2026 08:40"
-    },
     "https://www.imovelnet.imb.br/imovel/apartamento-para-alugar-3-quartos-80m-bairro-havai-belo-horizonte/9392": {
       "titulo": "arrow_back_ios",
       "primeira_vez": "18/11/2026 08:40"
     },
+    "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-cooktop-e-2-vagas-de-garagem/9939": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "19/11/2026 08:47"
+    },
+    "https://www.imovelnet.imb.br/imovel/area-privativa-residencial-com-7096m-01-quarto-e-lazer-completo/10077": {
+      "titulo": "NOVO",
+      "primeira_vez": "19/11/2026 08:47"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-2-vagas-e-lazer-completo/9940": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "19/11/2026 08:47"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10057": {
+      "titulo": "NOVO",
+      "primeira_vez": "19/11/2026 08:47"
+    },
     "https://www.imovelnet.imb.br/imovel/casa-para-aluguel-com-varanda-e-vagas-de-garagem/9617": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "18/11/2026 08:40"
+      "primeira_vez": "19/11/2026 08:47"
     },
     "https://www.imovelnet.imb.br/imovel/excelente-casa-com-02-pavimentos-e-area-gourmet-r1300000/5276": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "18/11/2026 08:40"
+      "primeira_vez": "19/11/2026 08:47"
     }
   },
   "a_mineira": {
