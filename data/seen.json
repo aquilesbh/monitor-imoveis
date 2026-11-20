@@ -759,6 +759,14 @@
     "https://www.bihainimoveis.com.br/imovel/cobertura-belo-horizonte-3-quartos-160-m/CO1625-BIHA?from=sale": {
       "titulo": "CO1625-BIHA",
       "primeira_vez": "13/11/2026 05:53"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-46-m/AP9691-BIHA?from=sale": {
+      "titulo": "AP9691-BIHA",
+      "primeira_vez": "20/11/2026 06:23"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-47-m/AP9708-BIHA?from=sale": {
+      "titulo": "AP9708-BIHA",
+      "primeira_vez": "20/11/2026 06:23"
     }
   },
   "palmeiras": {},
@@ -2182,7 +2190,7 @@
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://gadeimoveis.com.br/imovel/apartamento-palmeiras-belo-horizonte-mg-2-quartos-60m2-3761": {
-      "titulo": "Cód: 3761",
+      "titulo": "3761",
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://gadeimoveis.com.br/imovel/casa-havai-belo-horizonte-mg-4-quartos-248.9m2-3788": {
@@ -4276,7 +4284,7 @@
       "primeira_vez": "20/08/2026 10:35"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-a-venda-2-quartos-1-suite-2-vagas-betania-belo-horizonte-mg/9515": {
-      "titulo": "arrow_back_ios",
+      "titulo": "TEM PROPOSTA",
       "primeira_vez": "20/08/2026 10:35"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-3-quartos-1-suite-2-vagas-estrela-do-oriente-belo-horizonte-mg/8018": {
@@ -4453,31 +4461,31 @@
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10140": {
       "titulo": "NOVO",
-      "primeira_vez": "19/11/2026 06:38"
+      "primeira_vez": "20/11/2026 06:23"
     },
     "https://www.imovelnet.imb.br/imovel/more-bem-apartamento-de-2-quartos-com-armarios-planejados/10007": {
       "titulo": "NOVO",
-      "primeira_vez": "19/11/2026 06:38"
+      "primeira_vez": "20/11/2026 06:23"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo/9024": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "19/11/2026 06:38"
+      "primeira_vez": "20/11/2026 06:23"
     },
     "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "19/11/2026 06:38"
+      "primeira_vez": "20/11/2026 06:23"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-150m2-3-quartos-espaco-gourmet/9673": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "19/11/2026 06:38"
+      "primeira_vez": "20/11/2026 06:23"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-com-excelente-custo-beneficio-no-bairro-buritis/4798": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "19/11/2026 06:38"
+      "primeira_vez": "20/11/2026 06:23"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-no-central-park-3-quartos-lazer-completo/9929": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "19/11/2026 06:38"
+      "primeira_vez": "20/11/2026 06:23"
     }
   },
   "a_mineira": {
