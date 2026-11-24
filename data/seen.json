@@ -767,6 +767,18 @@
     "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-47-m/AP9708-BIHA?from=sale": {
       "titulo": "AP9708-BIHA",
       "primeira_vez": "20/11/2026 06:23"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-garden-belo-horizonte-2-quartos-111-m/GD0962-BIHA?from=sale": {
+      "titulo": "GD0962-BIHA",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.bihainimoveis.com.br/imovel/cobertura-belo-horizonte-2-quartos-106-m/CO1628-BIHA?from=sale": {
+      "titulo": "CO1628-BIHA",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-50-m/AP9710-BIHA?from=sale": {
+      "titulo": "AP9710-BIHA",
+      "primeira_vez": "24/11/2026 08:47"
     }
   },
   "palmeiras": {},
@@ -2764,6 +2776,10 @@
     "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-3850": {
       "titulo": "3850",
       "primeira_vez": "11/11/2026 05:37"
+    },
+    "https://gadeimoveis.com.br/imovel/casa-palmeiras-belo-horizonte-mg-4-quartos-3852": {
+      "titulo": "3852",
+      "primeira_vez": "24/11/2026 08:47"
     }
   },
   "malta": {
@@ -2786,6 +2802,26 @@
     "https://www.maltaimoveis.com.br/imovel/apartamento-a-venda-no-bairro-palmeiras-de-3-quartos-1-vagas/12549": {
       "titulo": "< < < <",
       "primeira_vez": "14/08/2026 14:20"
+    },
+    "https://www.maltaimoveis.com.br/imovel/lote-a-venda-no-bairro-havai-de/9615": {
+      "titulo": "< < < <",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.maltaimoveis.com.br/imovel/apartamento-a-venda-no-bairro-palmeiras-3-quartos-1-suite-65m-e-lazer-completo/12306": {
+      "titulo": "‹",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.maltaimoveis.com.br/imovel/apartamento-novo-3-quartos-com-suite-e-2-vagas-bairro-palmeiras/12448": {
+      "titulo": "‹",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.maltaimoveis.com.br/imovel/apartamento-novo-3-quartos-com-suite-e-2-vagas-bairro-palmeiras/12460": {
+      "titulo": "‹",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.maltaimoveis.com.br/imovel/area-privativa-com-3-quartos-no-palmeiras-bh/12549": {
+      "titulo": "‹",
+      "primeira_vez": "24/11/2026 08:47"
     }
   },
   "remax": {
@@ -2806,7 +2842,7 @@
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/530-rua-lindolfo-deodoro/870691030-2": {
-      "titulo": "2",
+      "titulo": "R$ 595.000",
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701002-63": {
@@ -2850,7 +2886,7 @@
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://www.remax.com.br/pt-br/imoveis/casa/venda/belo-horizonte/69-rua-doutor-samuel-hahnemann-hospital-andre-luiz/870701013-38": {
-      "titulo": "3",
+      "titulo": "R$ 550.000",
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://www.remax.com.br/pt-br/imoveis/casa/venda/belo-horizonte/870701005-108": {
@@ -2870,7 +2906,7 @@
       "primeira_vez": "14/08/2026 14:20"
     },
     "https://www.remax.com.br/pt-br/imoveis/terreno/venda/belo-horizonte/870701005-96": {
-      "titulo": "560",
+      "titulo": "R$ 690.000",
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701002-61": {
@@ -2878,7 +2914,7 @@
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701004-76": {
-      "titulo": "3",
+      "titulo": "R$ 655.398",
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/590-rua-jamil-farah-edificio-atari-xiv/870351012-243": {
@@ -2910,7 +2946,7 @@
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://www.remax.com.br/pt-br/imoveis/casa/venda/belo-horizonte/55-rua-aguas-formosas-esquina-com-magi-salomon/870351012-235": {
-      "titulo": "3",
+      "titulo": "R$ 1.700.000",
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/380-rua-zinia/870351012-234": {
@@ -2942,7 +2978,7 @@
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://www.remax.com.br/pt-br/imoveis/cobertura/venda/belo-horizonte/870701004-31": {
-      "titulo": "3",
+      "titulo": "R$ 940.000",
       "primeira_vez": "17/08/2026 10:07"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701002-55": {
@@ -2966,7 +3002,7 @@
       "primeira_vez": "09/09/2026 06:18"
     },
     "https://www.remax.com.br/pt-br/imoveis/terreno/venda/belo-horizonte/558-rua-herculano-pena-mercearia-do-lazaro/870241175-15": {
-      "titulo": "211",
+      "titulo": "R$ 580.000",
       "primeira_vez": "12/09/2026 05:56"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/800-avenida-nossa-senhora-do-porto-avenida-aggeo-pio-sobrinho-e-av-dom-joao-vi/870701031-8": {
@@ -2986,7 +3022,7 @@
       "primeira_vez": "27/10/2026 04:00"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/290-rua-domingos-rocha-rua-lagoa-da-prata/870701013-50": {
-      "titulo": "2",
+      "titulo": "R$ 365.000",
       "primeira_vez": "08/11/2026 05:16"
     },
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/1080-senhora-do-porto-escola-municipal-mestre-ataide/870241081-128": {
@@ -2996,6 +3032,1586 @@
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/430-rua-antonio-de-andrade-mendes-pizzaria-reserva/870701013-53": {
       "titulo": "R$ 367.000",
       "primeira_vez": "14/11/2026 05:17"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/ribeirao-preto/105-rua-elysaldo-goes/780211078-10": {
+      "titulo": "R$ 248.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/canoas/114-travessa-indigena-praca-fernando-ferrari/612651049-69": {
+      "titulo": "R$ 469.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/vera-cruz/0-via-c3-lot-praia-do-sol-terreo/580551109-88": {
+      "titulo": "R$ 810.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/nova-friburgo/64-rua-joao-correa/630171016-25": {
+      "titulo": "R$ 320.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/ribeirao-preto/0-rua-coqueiros/780211075-3": {
+      "titulo": "R$ 235.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/101-rua-matipo/870251144-13": {
+      "titulo": "R$ 729.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/ribeirao-pires/0-avenida-indianopolis/631371014-61": {
+      "titulo": "R$ 160.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/ribeirao-preto/597-palmiro-bim/780211078-5": {
+      "titulo": "R$ 145.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-goncalo/603-rua-doutor-getulio-vargas/631741004-14": {
+      "titulo": "R$ 255.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/osasco/200-rua-jose-joaquim-da-ressurreicao/602251009-6": {
+      "titulo": "R$ 397.157",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-paulo/193-rua-jose-benedito-mari/601441094-18": {
+      "titulo": "R$ 650.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/ribeirao-preto/605-antenor-de-souza/780211078-12": {
+      "titulo": "R$ 192.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/cobertura/venda/niteroi/05-avenida-presidente-roosevelt/631741004-35": {
+      "titulo": "R$ 1.585.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/cobertura/venda/ribeirao-pires/265-rua-giacomo-sortino-ao-lado-do-mcdonald´s/631371003-138": {
+      "titulo": "R$ 379.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/ribeirao-preto/100-luiz-cropanese-spadaro-junior-100/780211078-6": {
+      "titulo": "R$ 139.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/marica/lt-62-rua-joao-da-cunha-abreu/631741004-41": {
+      "titulo": "R$ 399.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/ribeirao-pires/441-rua-inga-escola-estadual-prof-alvaro-trindade-de-oliveira/631371006-323": {
+      "titulo": "R$ 620.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/sao-pedro-da-aldeia/km-114-rodovia-amaral-peixoto-cond-reviver-1/630361032-190": {
+      "titulo": "R$ 700.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-comercial/venda/sao-jose-dos-campos/159-rua-major-antonio-domingues/631471064-26": {
+      "titulo": "R$ 1.300.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-vila/venda/ribeirao-pires/11-rua-primo-pelegrine-proximo-a-prefeitura-de-ribeirao-pires/631371017-49": {
+      "titulo": "R$ 510.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-goncalo/38-travessa-leopoldina-vieira-rua-do-colegio-rocha-xavier/631741004-36": {
+      "titulo": "R$ 299.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/curitiba/319-rua-simao-guebur-avenida-salgado-filho/560441001-65": {
+      "titulo": "R$ 450.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/rio-de-janeiro/78-rua-jose-vicente-r-nossa-sra-de-lourdes/570531002-59": {
+      "titulo": "R$ 250.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/contagem/870251005-97": {
+      "titulo": "R$ 950.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/betim/870251005-126": {
+      "titulo": "R$ 850.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-goncalo/555-rua-doutor-alberto-torres-antiga-gerdal/631741004-43": {
+      "titulo": "R$ 160.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/natal/1884-rua-alexandre-camara-cond-clube-oceano/720891039-414": {
+      "titulo": "R$ 610.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-jose-dos-campos/150-avenida-doutor-eduardo-cury-ed-colinas-do-parahyba/631471064-14": {
+      "titulo": "R$ 559.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/ribeirao-preto/52-rua-claudio-scodro/780211081-4": {
+      "titulo": "R$ 598.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/iguaba-grande/59-rua-ze-trindade-cidade-dos-idoso/630361032-78": {
+      "titulo": "R$ 560.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/sobrado/venda/sao-paulo/614-rua-goncalves-de-barros/601441094-16": {
+      "titulo": "R$ 645.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/aracaju/180-avenida-lauro-de-britto-porto/850581262-64": {
+      "titulo": "R$ 200.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-pedro-da-aldeia/37-rua-das-rosas/630361032-191": {
+      "titulo": "R$ 279.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/maceio/310-avenida-frei-damiao-de-bozano/850141100-18": {
+      "titulo": "R$ 200.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/cobertura/venda/arraial-do-cabo/83-rua-progetada-d-edf-docemar-3/630361032-158": {
+      "titulo": "R$ 698.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-pedro-da-aldeia/19-rua-colina-praia-do-sol/630361032-99": {
+      "titulo": "R$ 380.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/cabedelo/108-rua-isabel-amelia-de-oliveira/722001234-23": {
+      "titulo": "R$ 950.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/rondonopolis/722261001-89": {
+      "titulo": "R$ 285.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/sobrado/venda/campinas/285-avenida-doutor-roberto-rocha-brito/690681216-19": {
+      "titulo": "R$ 989.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/rondonopolis/722261019-6": {
+      "titulo": "R$ 80.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/joao-pessoa/proximo-a-avenida-epitacio-pessoa/722001234-8": {
+      "titulo": "R$ 630.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/maua/630751057-295": {
+      "titulo": "R$ 3.300.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/jundiai/200-rua-horacio-soares-de-oliveira-residencial-quinta-da-malota-ii/690591006-76": {
+      "titulo": "R$ 2.390.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/sorocaba/800-rua-izidro-roque-da-silva-telo/630601380-19": {
+      "titulo": "R$ 649.995",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-jose-dos-campos/569-avenida-presidente-juscelino-kubitschek-ao-lado-da-havan/631501026-27": {
+      "titulo": "R$ 350.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/montenegro/610091008-339": {
+      "titulo": "R$ 1.750.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/maceio/850141114-5": {
+      "titulo": "R$ 430.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apart-hotel/-flat/venda/recife/446-r-arthur-bruno-schwambach-sa-e-souza/850091111-33": {
+      "titulo": "R$ 280.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/chacara/-sitio/-fazenda/venda/sao-pedro-da-aldeia/201-r-antonio-castro-sao-jacinto-sao-pedro-da-alde-condominio-rural-fazenda-da-praia/630361032-198": {
+      "titulo": "R$ 580.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/ceilandia/12-expansao-do-setor-o/880321003-447": {
+      "titulo": "R$ 64.900",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/estancia-velha/38-rua-macapa/610261046-82": {
+      "titulo": "R$ 290.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/chacara/-sitio/-fazenda/venda/paranagua/00-pr-508-km-12-rio-das-pombas/560521005-30": {
+      "titulo": "R$ 700.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/triplex/venda/paranagua/230-rua-alipio-dos-santos/560521005-53": {
+      "titulo": "R$ 1.450.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/novo-hamburgo/6155-avenida-pedro-adams-filho-residencial-alta-vista/610261010-138": {
+      "titulo": "R$ 695.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/sao-pedro-da-aldeia/13-balneario-das-conchas-sao-pedro-da-aldeia-condominio-riviera-clube-risorte-entrada-da-via-la/630361032-102": {
+      "titulo": "R$ 400.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/1410-rua-alexandre-dumas/602321003-108": {
+      "titulo": "R$ 2.000.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/barra-do-garcas/lt-05-rua-h-quadra-22/722221065-27": {
+      "titulo": "R$ 250.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/natal/ed-praia-calma/720731004-537": {
+      "titulo": "R$ 465.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/agro/venda/itupeva/83-rodovia-engenheiro-miguel-melhado-campos-na-frente-do-trevo-do-condominio-fazenda-da-grama/690941060-25": {
+      "titulo": "R$ 5.900.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-bernardo-do-campo/184-rua-24-de-fevereiro/631451008-4": {
+      "titulo": "R$ 357.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-campo/venda/barra-do-garcas/s-n-sitio-recreio-aguas-quentes-rosas-de-saron/722221009-89": {
+      "titulo": "R$ 699.300",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/lages/s-n-rua-canoinhas-casa-da-esquina/590071061-13": {
+      "titulo": "R$ 320.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/ribeirao-preto/km-319-casa-65-rodovia-prefeito-antonio-duarte-nogueira-cond-na-rodovia-lado-oposto-das-casas-bahia/780211077-3": {
+      "titulo": "R$ 1.290.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/jundiai/1731-avenida-reynaldo-porcari-chacara-das-palmeiras-imperiais/690591006-74": {
+      "titulo": "R$ 1.245",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/studio/venda/campinas/481-rua-sacramento/690681202-34": {
+      "titulo": "R$ 185.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/santos/22-av-barao-de-penedo-parque-orquidario/601721006-20": {
+      "titulo": "R$ 1.084.420",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/sao-sebastiao/4-alameda-camboriu-4-toque-toque-pequeno/601721006-11": {
+      "titulo": "R$ 7.390.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/galpao/venda/leme/455-avenida-cicera-sueli-de-andrade/690481040-33": {
+      "titulo": "R$ 279.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/santos/77-79-rua-9-de-julho-9-de-julho/601721006-27": {
+      "titulo": "R$ 580.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/santos/22-av-barao-de-penedo-parque-orquidario/601721006-19": {
+      "titulo": "R$ 1.304.420",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/caruaru/158-rua-valdomiro-manoel-da-silva-proximo-a-feira-do-bairro/850161001-2": {
+      "titulo": "R$ 120.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apart-hotel/-flat/venda/recife/446-r-arthur-bruno-schwambach-sa-e-souza/850091111-28": {
+      "titulo": "R$ 291.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/curitiba/2454-rua-brigadeiro-franco/560471004-39": {
+      "titulo": "R$ 493.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/curitiba/71-rua-lamenha-lins/560471001-12": {
+      "titulo": "R$ 345.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/studio/venda/curitiba/183-rua-vidal-natividade-da-silva/560471029-8": {
+      "titulo": "R$ 184.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/jequitiba/sn-rua-dr-campolina-em-frente-ao-minasilicio/870241215-24": {
+      "titulo": "R$ 95.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/funilandia/km-15-rodovia-mg-238-perto-sete-lagoas/870241215-29": {
+      "titulo": "R$ 90.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/jequitiba/quadra-2-condominio-retiro-da-mata-05-km-do-centro-de-jequitiba/870241215-4": {
+      "titulo": "R$ 620.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/curitiba/70-rua-nicolau-kresko-terminal-do-hauer/560311087-7": {
+      "titulo": "R$ 490.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/curitiba/311-rua-cap-joao-zaleski-prox-a-av-pres-wenceslau-braz/560311087-10": {
+      "titulo": "R$ 385.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/funilandia/km-15-rodovia-mg-238-proximo-sete-lagoas/870241215-26": {
+      "titulo": "R$ 95.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/funilandia/km-15-rodovia-mg-238-perto-sete-lagoas/870241215-27": {
+      "titulo": "R$ 90.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/sorocaba/1640-rua-doutor-americo-figueiredo-residencial-americo-figueiredo/631651005-138": {
+      "titulo": "R$ 669.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870341010-63": {
+      "titulo": "R$ 599.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/campinas/295-rua-orlando-fagnani-nova-campinas/690681167-170": {
+      "titulo": "R$ 749.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/ribeirao-preto/270-rua-italo-magnani/780171003-250": {
+      "titulo": "R$ 205.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/ribeirao-preto/avelino-alves-palma/780171024-67": {
+      "titulo": "R$ 299.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/ribeirao-preto/86-rua-doutor-jose-guimaraes-esquina-com-a-leais-paulista/780171044-50": {
+      "titulo": "R$ 290.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/ribeirao-preto/60-rua-sebastiao-sembenelli/780171073-17": {
+      "titulo": "R$ 224.900",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/itupeva/39-rua-vereador-waldomiro-marchi-centro-de-itupeva/690801072-14": {
+      "titulo": "R$ 649.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/capao-da-canoa/404-rua-mimo-de-venus-village-capao-novo/610491015-3": {
+      "titulo": "R$ 560.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/capao-da-canoa/3728-rua-begonias-estrada-do-mar/610491015-1": {
+      "titulo": "R$ 350.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/capao-da-canoa/145-rua-dona-analia-praca-do-centro/610491015-2": {
+      "titulo": "R$ 200.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/pareci-novo/0-rua-das-magnolias-loteamento-jardins-do-pareci/610091008-337": {
+      "titulo": "R$ 87.600",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/montenegro/197-rua-florisbela-ferreira-de-lima/610091008-334": {
+      "titulo": "R$ 299.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/montenegro/955-avenida-ernesto-popp-proximo-a-unimed/610091008-333": {
+      "titulo": "R$ 748.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/pareci-novo/0-rua-joao-affonso-zimmer-entrada-do-loteamento-bosque-das-figueiras/610091008-338": {
+      "titulo": "R$ 159.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/montenegro/535-rua-menino-deus/610091008-336": {
+      "titulo": "R$ 199.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/capao-da-canoa/1213-rua-magnolia-sacolao-maquine/610491015-4": {
+      "titulo": "R$ 359.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/armacao-dos-buzios/6194-avenida-12-de-novembro-condominio-santa-maria/630391112-7": {
+      "titulo": "R$ 1.499.999",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/capao-da-canoa/800-rua-do-lirio-capao-novo-village/610491015-5": {
+      "titulo": "R$ 490.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apart-hotel/-flat/venda/recife/501-avenida-beira-rio/850091123-8": {
+      "titulo": "R$ 420.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/ribeirao-pires/31-rua-palmar/631371003-139": {
+      "titulo": "R$ 395.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/295-avenida-dona-blandina-ignez-julio-carrefour-anchieta/602101043-54": {
+      "titulo": "R$ 490.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/chacara/-sitio/-fazenda/venda/barra-do-garcas/1-fazsao-luiz-vale-doos-sonhos/722221023-93": {
+      "titulo": "R$ 3.136.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/maceio/16-rua-doutor-baptista-accioly/850271244-18": {
+      "titulo": "R$ 170.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/chacara/-sitio/-fazenda/venda/barra-do-garcas/01-faz-olho-dagua/722221023-92": {
+      "titulo": "R$ 2.430.300",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/recife/159-rua-benjamin-constant-proximo-ao-mercado-da-torre/850091123-9": {
+      "titulo": "R$ 450.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/aguas-claras/1-rua-35-sul-estacao-concessionarias/880341018-266": {
+      "titulo": "R$ 970.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/chacara/-sitio/-fazenda/venda/itamonte/sn-rua-do-sobradinho/631371018-69": {
+      "titulo": "R$ 1.595.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apart-hotel/-flat/venda/tamandare/terrazza-beach-residence-202/850251097-43": {
+      "titulo": "R$ 255.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/conde/07-village-de-jacuma/720871015-166": {
+      "titulo": "R$ 130.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/conde/quaresma/720871015-161": {
+      "titulo": "R$ 340.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/tamandare/9-lote-09-da-quadra-51-loteamento-nova-tamandare/850251097-36": {
+      "titulo": "R$ 420.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/itajai/377-rua-cecilia-meireles-residencial-soneto/590231223-27": {
+      "titulo": "R$ 750.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/studio/venda/tamandare/s-n-nomar-due-beira-mar-av-beira-mar/850251097-62": {
+      "titulo": "R$ 412.990",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/itajai/200-avenida-osvaldo-reis-jardim-flamboyant/590231223-30": {
+      "titulo": "R$ 550.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/tamandare/32-rua-das-orquideas-lot-nossa-sra-de-fatima-290-m-do-mar/850251097-56": {
+      "titulo": "R$ 1.600.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/sobrado/venda/toledo/1675-rua-saturno/960131018-201": {
+      "titulo": "R$ 580.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/conjunto-comercial/-sala/venda/recife/573-rua-ribeiro-de-brito/850091123-10": {
+      "titulo": "R$ 190.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/maragogi/s-n-loteamento-costa-do-sol-proximo-ao-caminho-de-moises/850251097-73": {
+      "titulo": "R$ 1.950.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/balneario-camboriu/315-rua-1001/590231223-15": {
+      "titulo": "R$ 2.800.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/itajai/549-avenida-getulio-vargas-proximo-ao-bisteck/590231223-23": {
+      "titulo": "R$ 900.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/recife/120-rua-manoel-de-arruda-camara/850091088-93": {
+      "titulo": "R$ 360.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/caruaru/apto-202-rua-heraclito-ramos/850161082-70": {
+      "titulo": "R$ 190.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/caruaru/avenida-contorno-br-232/850161082-68": {
+      "titulo": "R$ 45.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/caruaru/1-av-anibal-lucena-e-melo-ceaca-e-hospital-regional/850161082-66": {
+      "titulo": "R$ 73.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/caruaru/357-rua-do-convento-igreja-do-convento/850161082-69": {
+      "titulo": "R$ 350.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/paulinia/30-rua-maria-pian-prox-praca-rafael-dos-santos/690511202-155": {
+      "titulo": "R$ 500.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/itajai/233-rua-uruguai/590231223-17": {
+      "titulo": "R$ 662.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/recife/77-rua-daniel-antonio-rodrigues/850091082-107": {
+      "titulo": "R$ 670.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/recife/446-r-arthur-bruno-schwambach-sa-e-souza/850091111-26": {
+      "titulo": "R$ 290.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/caruaru/10-rua-macambira/850161001-374": {
+      "titulo": "R$ 360.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/paulinia/1192-rua-francisco-braz-prado-bom-retiro/690511202-154": {
+      "titulo": "R$ 245.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/lins/225-rua-professor-venancio-penna-barbosa/631011071-2": {
+      "titulo": "R$ 399.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/paulinia/177-rua-anizio-perissinotto-rodoshoping/690511451-13": {
+      "titulo": "R$ 750.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/aluminio/55-rua-tres/631601034-4": {
+      "titulo": "R$ 170.000.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/sao-roque/1000-rua-antonio-sartori-proximo-ao-supermercado-bom-lugar/631601035-12": {
+      "titulo": "R$ 450.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/paulinia/2117-avenida-paulista/690511365-33": {
+      "titulo": "R$ 300.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/sao-pedro-da-aldeia/630361032-171": {
+      "titulo": "R$ 750.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/paulinia/0-rua-praxiteles-ferreira-neves-prox-condominio-raizes/690511340-46": {
+      "titulo": "R$ 790.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/cabo-frio/07-rua-pita/631591078-21": {
+      "titulo": "R$ 690.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/sao-pedro-da-aldeia/8-7-6-rodovia-amaral-peixoto-km111-condominio-reviver-1/630361032-125": {
+      "titulo": "R$ 390.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/sao-pedro-da-aldeia/7-rua-marques-da-cruz-rua-2/630361032-195": {
+      "titulo": "R$ 330.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/sao-pedro-da-aldeia/8-rodovia-amaral-peixoto-km111-condominio-reviver-1/630361032-126": {
+      "titulo": "R$ 130.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/duplex/venda/santo-antonio-de-jesus/540-rua-fonte-do-ceu/580341019-81": {
+      "titulo": "R$ 625.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/paulinia/196-rua-vanderlei-fernandes-costa-jd-calegaris/690511309-63": {
+      "titulo": "R$ 452.900",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/paulinia/168-rua-sebastiao-cardoso-residencial-santorini/690511042-465": {
+      "titulo": "R$ 690.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/sao-pedro-da-aldeia/13-balneario-das-conchas-sao-pedro-da-aldeia-condominio-riviera-clube-risorte-entrada-da-via-la/630361032-181": {
+      "titulo": "R$ 116.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/cabo-frio/lt-14-rua-angelim-ao-lado-da-padaria-do-marcone/631591073-11": {
+      "titulo": "R$ 150.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/paulinia/197-avenida-ferdinando-viacava-poupe-real/690511042-462": {
+      "titulo": "R$ 254.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/paulinia/225-rua-cedro/690511309-61": {
+      "titulo": "R$ 300.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/sao-pedro-da-aldeia/13-balneario-das-conchas-sao-pedro-da-aldeia-condominio-riviera-clube-risorte-entrada-da-via-la/630361032-187": {
+      "titulo": "R$ 680.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-vila/venda/rio-de-janeiro/9-rua-euclides-faria/570481045-23": {
+      "titulo": "R$ 305.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/hortolandia/233-rua-joaquim-gomes-colegio-adventista-de-hortolandia/690671078-406": {
+      "titulo": "R$ 990.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/araruama/2985-rua-antonio-raposo-condominio-vila-rica/631591078-15": {
+      "titulo": "R$ 340.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/chacara/-sitio/-fazenda/venda/araruama/0-rodovia-rj-140-rj-140/631591078-10": {
+      "titulo": "R$ 1.300.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/sao-pedro-da-aldeia/13-balneario-das-conchas-sao-pedro-da-aldeia-condominio-riviera-clube-risorte-entrada-da-via-la/630361032-182": {
+      "titulo": "R$ 124.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/sao-pedro-da-aldeia/13-balneario-das-conchas-sao-pedro-da-aldeia-condominio-riviera-clube-risorte-entrada-da-via-la/630361032-199": {
+      "titulo": "R$ 1.200.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/maceio/13-rua-soldado-adriao-jose-da-silva/850271167-112": {
+      "titulo": "R$ 150.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/rio-de-janeiro/37-rua-rego-lopes/570421034-70": {
+      "titulo": "R$ 480.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/rio-de-janeiro/471-rua-uruguai-tijuca-country-club/570421012-95": {
+      "titulo": "R$ 730.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/sao-pedro-da-aldeia/13-balneario-das-conchas-sao-pedro-da-aldeia-condominio-riviera-clube-risorte-entrada-da-via-la/630361032-184": {
+      "titulo": "R$ 122.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/sao-pedro-da-aldeia/13-balneario-das-conchas-sao-pedro-da-aldeia-condominio-riviera-clube-risorte-entrada-da-via-la/630361032-186": {
+      "titulo": "R$ 128.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/caruaru/70-rua-dez-cj-res-miguel-alves-torres-viver-bem-indianopolis/850161001-455": {
+      "titulo": "R$ 240.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/602031026-68": {
+      "titulo": "R$ 2.249.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/caruaru/580-av-brasil-condominio-em-frente-reserva-portugal/850161001-554": {
+      "titulo": "R$ 600.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/guararema/2939-av-antonio-teixeira-muniz-ipiranga/631531035-2": {
+      "titulo": "R$ 450.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/gravatai/295-rua-por-do-sol/610051095-6": {
+      "titulo": "R$ 170.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/ribeirao-preto/105-rua-jair-adalberto-durlo-jardins-gastronomico/780211052-37": {
+      "titulo": "R$ 1.149.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/conjunto-comercial/-sala/venda/natal/1271-avenida-lima-e-silva/720891228-131": {
+      "titulo": "R$ 99.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/natal/2054-rua-historiador-tobias-monteiro-hospital-do-coracaossssssssssssssssssssssss/720891211-68": {
+      "titulo": "R$ 489.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/acu/147-rua-dr-afonso-ligorio-soares-de-macedo-dom-elizeu/720891228-72": {
+      "titulo": "R$ 284.900",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/parnamirim/2598-avenida-joaquim-patricio-condominio-corais-de-cotovelo/720891228-71": {
+      "titulo": "R$ 419.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/outros/venda/parnamirim/464-rua-centaurus/720891294-25": {
+      "titulo": "R$ 145.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/natal/506-rua-por-do-sol-rua-edson-teixeira-da-silva-n°s-n/720891228-104": {
+      "titulo": "R$ 443.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/natal/865-avenida-dos-caiapos/720891228-111": {
+      "titulo": "R$ 265.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/parnamirim/675-rua-adeodato-jose-dos-reis/720891228-114": {
+      "titulo": "R$ 312.990",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-p/-temporada/venda/ceara-mirim/posto-guarda-municipal/720891228-102": {
+      "titulo": "R$ 1.350.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/hotel/-pousada/venda/maxaranguape/720891228-85": {
+      "titulo": "R$ 599.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/sao-pedro-da-aldeia/427-rua-g-condominio-viverde-1/630361032-153": {
+      "titulo": "R$ 250.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-p/-temporada/venda/rio-do-fogo/mercadinho-da-cicera/720891228-81": {
+      "titulo": "R$ 199.900",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-paulo/426-rua-raiz-da-serra-assai-atacadista/602161027-11": {
+      "titulo": "R$ 720.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/sao-pedro-da-aldeia/15-rodovia-amaral-peixoto-km111-condominio-reviver-1/630361032-96": {
+      "titulo": "R$ 120.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/parnamirim/parque-das-nacoes/720891228-25": {
+      "titulo": "R$ 299.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/itapema/260-a3-rua/590401002-146": {
+      "titulo": "R$ 2.192.420,75",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/itapema/222-rua-290/590401002-145": {
+      "titulo": "R$ 2.280.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/itapema/498-rua-292/590401002-143": {
+      "titulo": "R$ 4.950.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/itapema/3388-rua-226/590401002-141": {
+      "titulo": "R$ 3.132.061,52",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/porto-belo/604-avenida-jose-neoli-da-cruz/590401002-142": {
+      "titulo": "R$ 470.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/itapema/330-rua-226/590401002-140": {
+      "titulo": "R$ 3.070.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/natal/1372-rua-presbitero-porfirio-gomes-da-silva-residencial-lorena-martin/720891228-10": {
+      "titulo": "R$ 380.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/macae/10-bicuda-pequena-sana-bicuda-pequena-2/630361032-47": {
+      "titulo": "R$ 405.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/natal/colegio-cei-de-ponta-negra/720891228-6": {
+      "titulo": "R$ 1.550.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/macae/8-bicuda-pequena-sana-bicuda-pequena-2/630361032-49": {
+      "titulo": "R$ 158.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/macae/6-bicuda-pequena-sana-bicuda-pequena/630361032-50": {
+      "titulo": "R$ 114.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/macae/3-bicuda-pequena-sana-bicuda-pequena/630361032-46": {
+      "titulo": "R$ 133.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/macae/4-bicuda-pequena-sana-bicuda-pequena/630361032-43": {
+      "titulo": "R$ 108.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/santana-de-parnaiba/22-al-bosque-itahye/691021032-57": {
+      "titulo": "R$ 3.770.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/santana-de-parnaiba/370-alameda-tupiniquins/691021029-273": {
+      "titulo": "R$ 4.800.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/cuiaba/havan/720911001-370": {
+      "titulo": "R$ 2.300.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/araraquara/320-rua-miguel-francisco-zamboni-residencial-vale-do-campo/690151043-123": {
+      "titulo": "R$ 680.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/gravatai/503-av-joao-marciano/610051095-7": {
+      "titulo": "R$ 380.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/curitiba/702-rua-ivo-leao/560371015-74": {
+      "titulo": "R$ 1.099.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/paulinia/1127-avenida-paulista-condominio-raizes/690511042-371": {
+      "titulo": "R$ 295.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/cabo-frio/4-rua-quatro-nova-cabo-frio/631591007-53": {
+      "titulo": "R$ 500.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/cabo-frio/nova-cabo-frio/631591007-54": {
+      "titulo": "R$ 500.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/americana/4727-avenida-roma/690231150-16": {
+      "titulo": "R$ 630.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sorocaba/555-avenida-professor-arthur-fonseca-jardim-faculdade/630591294-47": {
+      "titulo": "R$ 1.320.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sorocaba/555-avenida-professor-arthur-fonseca-jardim-faculdade/630591294-46": {
+      "titulo": "R$ 1.350.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/campinas/119-rod-gov-dr-adhemar-pereira-de-barros-loteamento-alphaville-campinas/690511042-450": {
+      "titulo": "R$ 690.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/santa-barbara-doeste/715-rua-joao-gomes-moreira/690231161-10": {
+      "titulo": "R$ 180.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/paulinia/168-rua-sebastiao-cardoso-residencial-santorini/690511042-464": {
+      "titulo": "R$ 630.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/paulinia/687-estrada-municipal-pln-381-condominio-residencial-royal-garden/690511042-452": {
+      "titulo": "R$ 380.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/joao-pessoa/1145-rua-francisco-brandao/720431114-88": {
+      "titulo": "R$ 499.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/studio/venda/sao-paulo/4382-rua-vergueiro-condominio-lumiere-proximo-do-hospital-sepaco/602541007-26": {
+      "titulo": "R$ 490.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/studio/venda/sao-paulo/4382-rua-vergueiro-condominio-lumiere-proximo-do-hospital-sepaco/602541007-27": {
+      "titulo": "R$ 490.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-paulo/131-travessa-galiano-olivato/602251003-195": {
+      "titulo": "R$ 450.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apart-hotel/-flat/venda/recife/160-rua-general-joaquim-inacio/850501223-10": {
+      "titulo": "R$ 290.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/jaboatao-dos-guararapes/850501176-64": {
+      "titulo": "R$ 350.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-joao-da-boa-vista/292-rua-nelson-dos-santos-gaspar-proximo-da-unimed/780291008-38": {
+      "titulo": "R$ 1.270.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-vila/venda/cuiaba/2-rua-vinte-e-cinco-proximo-ao-condominio-villa-jardim/720911082-2": {
+      "titulo": "R$ 286.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-joao-da-boa-vista/70-rua-manoel-de-abreu/780291008-46": {
+      "titulo": "R$ 1.270.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-joao-da-boa-vista/54-rua-miguel-valentim/780291008-39": {
+      "titulo": "R$ 350.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-joao-da-boa-vista/483-rua-terezinha-pasquini/780291008-52": {
+      "titulo": "R$ 360.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-joao-da-boa-vista/128-rua-amelia-michelazzo-penha/780291008-49": {
+      "titulo": "R$ 550.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/guara/area-especial-2-modulo-e/880231189-43": {
+      "titulo": "R$ 714.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/cobertura/venda/franca/1741-rua-jose-de-alencar-ao-lado-da-honda-estacao/780231122-4": {
+      "titulo": "R$ 1.520.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/franca/780231105-27": {
+      "titulo": "R$ 99.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/franca/1291-rua-gabriela-lima-freitas-posto-franca-araxa/780231035-47": {
+      "titulo": "R$ 310.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/recife/460-rua-da-harmonia-igreja-da-harmonia/850191023-3": {
+      "titulo": "R$ 320.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/campinas/431-rua-do-professor/690681202-36": {
+      "titulo": "R$ 795.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/petropolis/2200-estrada-philuvio-cerqueira-rodrigues/631611022-5": {
+      "titulo": "R$ 495.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/petropolis/365-rua-dos-geranios-condominio-parque-maria-comprida/631611002-23": {
+      "titulo": "R$ 5.250.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/petropolis/00-estrada-do-limoeiro-escola-adventista/631611018-21": {
+      "titulo": "R$ 270.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/petropolis/condominio-pedras-brancas/631611009-34": {
+      "titulo": "R$ 1.190.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-joao-da-boa-vista/381-rua-jucelia-helena-da-silva/780291023-8": {
+      "titulo": "R$ 470.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/niteroi/567-estrada-frei-orlando/631731012-23": {
+      "titulo": "R$ 447.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/pocos-de-caldas/366-rua-jose-mendonca-forum/870361071-43": {
+      "titulo": "R$ 750.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/pocos-de-caldas/366-rua-jose-mendonca-forum/870361071-44": {
+      "titulo": "R$ 780.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/cruzeiro/206-shces-quadra-301-bloco-e-cruzeiro-novo-brasilia-df-terraco-shopping/880221055-51": {
+      "titulo": "R$ 660.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/pocos-de-caldas/366-rua-jose-mendonca-forum/870361071-42": {
+      "titulo": "R$ 720.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/pocos-de-caldas/477-rua-vinicius-ferrari-rotatoria-do-sao-sebastiao/870361071-38": {
+      "titulo": "R$ 450.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/pocos-de-caldas/140-rua-vinicius-ferrari-rotatoria-do-sao-sebastiao/870361071-36": {
+      "titulo": "R$ 235.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/pocos-de-caldas/860-rua-lasarina-alvise-torraca/870361064-23": {
+      "titulo": "R$ 370.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/pocos-de-caldas/694-avenida-doutor-david-benedito-otoni/870361011-109": {
+      "titulo": "R$ 2.500.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/pocos-de-caldas/146-rua-humberto-de-campos-ao-lado-da-escola-alvino-hosken/870361064-15": {
+      "titulo": "R$ 235.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/curitiba/815-rua-alberto-folloni-museo-do-olho/560461011-137": {
+      "titulo": "R$ 949.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/almirante-tamandare/615-rua-izidoro-da-silva-lamenha-grande/560461011-155": {
+      "titulo": "R$ 1.750.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/barueri/47-alameda-granada-resid-alpha-conde-ii/691081043-13": {
+      "titulo": "R$ 3.900.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/cruz/ns-r-sdo-duas-quadras-do-mar/722341013-48": {
+      "titulo": "R$ 575.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/chacara/-sitio/-fazenda/venda/cruz/sn-sdo-caicara-proximo-buraco-azul/722341013-8": {
+      "titulo": "R$ 349.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/cruz/sn-av-central-de-frente-ao-parque-nacional/722341013-7": {
+      "titulo": "R$ 2.200.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/votorantim/500-rua-adelina-monari-loteamento-vivalegro/630591270-16": {
+      "titulo": "R$ 406.999",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/cruz/sn-rua-dunas-proximo-ao-asfalto/722341013-47": {
+      "titulo": "R$ 120.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/cruz/sn-rua-do-ribeiro-proximo-a-praca/722341013-25": {
+      "titulo": "R$ 1.700.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/votorantim/430-avenida-gisele-constantino-em-frente-a-academia-guimper/630591270-10": {
+      "titulo": "R$ 318.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/votorantim/800-avenida-adolpho-massaglia-em-frente-ao-condominio-giverny/630591270-22": {
+      "titulo": "R$ 220.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/fortaleza/960-rua-carolina-sucupira-prox-a-avenida-senador-virgio-tavora/721621106-52": {
+      "titulo": "R$ 450.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/extremoz/ao-lado-do-miramar-restaurante/720891228-17": {
+      "titulo": "R$ 469.900",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/brasilia/202-crnw-503-bloco-a-lote-1/880331072-92": {
+      "titulo": "R$ 1.030.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/votorantim/800-avenida-adolpho-massaglia-em-frente-ao-condominio-giverny/630591270-21": {
+      "titulo": "R$ 212.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/balneario-gaivota/00-rua-vitor-manoel-ferreira/590491021-1": {
+      "titulo": "R$ 112.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/balneario-gaivota/s-n-rua-cristovao-colombo-terreno/590491021-4": {
+      "titulo": "R$ 80.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/curitiba/2339-rua-professor-fabio-de-souza-supermercado-italo-portao/560371031-57": {
+      "titulo": "R$ 1.050.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/47-rua-doutor-brasilio-machado-shopping-higienopolis/602561003-17": {
+      "titulo": "R$ 1.300.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/vicente-pires/02-rua-5-chacara-115a/880161017-44": {
+      "titulo": "R$ 1.550.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/simoes-filho/23-conjunto-vida-nova-bairro-cia/580721048-54": {
+      "titulo": "Preço Sob Consulta",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sorocaba/77-rua-joao-clovis-cunha/630601262-80": {
+      "titulo": "R$ 549.999",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/601181047-127": {
+      "titulo": "R$ 398.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/araras/465-rua-24-de-marco/690691049-63": {
+      "titulo": "R$ 850.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/porto-alegre/39-rua-bento-figueiredo/610371025-28": {
+      "titulo": "R$ 359.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/rio-de-janeiro/proximo-ao-shopping-via-brasil/570371028-59": {
+      "titulo": "R$ 239.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/natal/770-rua-desembargador-dionisio-filgueira/720891228-54": {
+      "titulo": "R$ 595.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/tamandare/qd-60-via-local-4623-proximo-a-prefeitura/850251097-22": {
+      "titulo": "R$ 295.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/capao-da-canoa/1063-av-beira-mar-proximo-a-praca-avezon/612671100-1": {
+      "titulo": "R$ 3.190.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/conde/000-loteamento-beira-mar-ii/580691012-156": {
+      "titulo": "R$ 90.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/tamandare/lote-10-rua-edite-vasconcelos-cruz-condominio-geminy-i/850251097-47": {
+      "titulo": "R$ 650.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/tamandare/9-boulevard-praia-dos-carneiros-due/850251097-55": {
+      "titulo": "R$ 530.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/tamandare/s-n-50-m-da-praia-praia-boca-da-barra/850251097-66": {
+      "titulo": "R$ 509.700",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/tamandare/condominio-boca-da-barra/850251097-41": {
+      "titulo": "R$ 180.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/tamandare/200-metros-da-areia-na-boca-da-barra/850251097-27": {
+      "titulo": "R$ 580.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/tamandare/rua-01-qd04-50-m-do-mar-praia-boca-da-barra/850251097-63": {
+      "titulo": "R$ 169.900",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/sarzedo/s-n-rua-dorremi/870351054-66": {
+      "titulo": "R$ 250.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/sarzedo/s-n-rua-dorremi/870351054-62": {
+      "titulo": "R$ 250.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/sarzedo/s-n-rua-dorremi/870351054-61": {
+      "titulo": "R$ 250.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sarzedo/188-rua-beija-flor-esquina-da-rua-dorremi/870351054-60": {
+      "titulo": "R$ 1.200.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/canoas/610241012-267": {
+      "titulo": "R$ 420.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/conde/000-loteamento-beira-mar-i/580691012-154": {
+      "titulo": "R$ 238.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/sobrado/venda/curitiba/2421-rua-luiz-franca-esquina-com-rua-teofilo-otoni/560441058-3": {
+      "titulo": "R$ 580.000.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/cachoeirinha/116-rua-grapia-proximo-a-supermercado-maby/610141028-9": {
+      "titulo": "R$ 250.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/cachoeirinha/123-rua-jose-antonio-lutzenberger/610141033-179": {
+      "titulo": "R$ 380.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/camacari/i107-avenida-leste-boulevard-shopping/580541023-111": {
+      "titulo": "R$ 243.407",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/pomerode/590301058-13": {
+      "titulo": "R$ 790.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/hortolandia/proximo-avenida-thereza-cecon/690531057-143": {
+      "titulo": "R$ 520.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/parnamirim/1806-avenida-bela-parnamirim/720891228-117": {
+      "titulo": "R$ 224.990",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/natal/815-avenida-governador-antonio-de-melo-e-souza/720891228-124": {
+      "titulo": "R$ 269.990",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/natal/565-avenida-governador-antonio-de-melo-e-souza/720891228-122": {
+      "titulo": "R$ 250.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-bernardo-do-campo/602541001-35": {
+      "titulo": "R$ 599.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/500-rua-dr-amando-franco-soares-caiuby/602541001-33": {
+      "titulo": "R$ 890.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/rio-de-janeiro/3300-avenida-genaro-de-carvalho-condominio-le-jour/631681002-1": {
+      "titulo": "R$ 850.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/porto-alegre/474-rua-antonio-joaquim-mesquita-hospital-conceicao/610101004-88": {
+      "titulo": "R$ 365.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/balneario-arroio-do-silva/sn-rua-b/590491019-16": {
+      "titulo": "R$ 105.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-joao-da-boa-vista/63-rua-emilio-cereja/780291023-5": {
+      "titulo": "R$ 320.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/cruz/1086-av-franciso-xavier-chaves-proximo-ao-supermercado-atacadao/722341013-29": {
+      "titulo": "R$ 610.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/cruz/sn-r-dunas-proximo-ao-conduru/722341013-30": {
+      "titulo": "R$ 670.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/cruz/sn-r-antonio-chagas/722341013-26": {
+      "titulo": "R$ 1.400.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/cruz/sn-rua-jose-lopes-pontes-de-frente-para-a-praca-nova/722341013-18": {
+      "titulo": "R$ 490.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/campinas/183-rua-professor-duilio-ramos/690131111-152": {
+      "titulo": "R$ 3.849.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/indaiatuba/205-rua-rio-eufrates/690131111-155": {
+      "titulo": "R$ 2.400.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/conjunto-comercial/-sala/venda/nova-iguacu/3510-rua-coronel-bernardino-de-melo/631751006-84": {
+      "titulo": "R$ 90.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/conjunto-comercial/-sala/venda/nova-iguacu/275-av-gov-amaral-peixoto/631751006-85": {
+      "titulo": "R$ 85.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/cosmopolis/60-rua-veneza-residencial-chacaras-italia/690511042-397": {
+      "titulo": "R$ 965.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sete-lagoas/1349-avenida-prefeito-alberto-moura/870801013-6": {
+      "titulo": "R$ 135.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sete-lagoas/46-rua-maria-de-fatima-bispo-de-almeida-rua-f/870801013-17": {
+      "titulo": "R$ 280.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sete-lagoas/61-avenida-pio-xii/870801013-9": {
+      "titulo": "R$ 340.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/sete-lagoas/650-rua-doutor-felipe-de-castro-bahia-duarte-condominio-quintas-do-lago-i/870801013-10": {
+      "titulo": "R$ 889.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sete-lagoas/870801013-4": {
+      "titulo": "R$ 350.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/544-avenida-das-alamandas-apto-alamandas-60m²-2-qtos-2-banh-2-salas/601471041-54": {
+      "titulo": "R$ 250.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-paulo/03-rua-terra-roxa-casa-venda-356m²-duas-casas-tatuape/601471041-52": {
+      "titulo": "R$ 1.799.900",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/1035-rua-brigadeiro-galvao-apto-112m²-2-quartos-na-barra-funda/601471041-45": {
+      "titulo": "R$ 559.900",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-comercial/venda/recife/408-rua-do-principe-perto-da-universidade-catolica-de-pernambuco/850091040-280": {
+      "titulo": "R$ 1.100.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/recife/393-r-ten-domingos-de-brito-fundo-vertfruit/850091130-7": {
+      "titulo": "R$ 649.900",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-jose-do-rio-preto/1105-avenida-arthur-nonato-prox-plaza-shopping/631481003-292": {
+      "titulo": "R$ 349.990",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/studio/venda/sao-paulo/318-rua-vieira-de-morais-avenida-santo-amaro/601471040-15": {
+      "titulo": "R$ 449.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/cruz/121-r-jose-lopes-pontes-proximo-a-quadra-de-futsal-prea/722341013-37": {
+      "titulo": "R$ 2.500.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-paulo/146-rua-jose-cardoso-pimentel-paroquia-sao-joao-batista/601471057-19": {
+      "titulo": "R$ 445.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/2047-avenida-irere-avenida-jabaquara/601971014-247": {
+      "titulo": "R$ 487.600",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-jose-do-rio-preto/6300-avenida-jose-munia-ao-lado-concessionaria-liban-chevrolet/631481003-312": {
+      "titulo": "R$ 610.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/cruz/sn-rua-sdo-32-a-uma-quadra-do-mar/722341013-13": {
+      "titulo": "R$ 1.499.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/sobrado/venda/sao-paulo/601991006-410": {
+      "titulo": "R$ 1.200.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/cruz/sn-beco-sdo-04-proximo-do-supermercado-pinheiro/722341013-12": {
+      "titulo": "R$ 140.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/cruz/sn-215-cavalo-bravo-proximo-ao-lado-posto-de-gasolina-rayanne/722341013-15": {
+      "titulo": "R$ 220.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/cruz/212-rua-e-proximo-a-praca-nova/722341013-35": {
+      "titulo": "R$ 7.500.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/cruz/sn-sdo-cavalo-bravo-proximo-ao-posto-de-gasoina-raynne/722341013-33": {
+      "titulo": "R$ 480.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/cruz/300-avenida-carlos-martins-chaves-antiga-radia-marazul/722341013-24": {
+      "titulo": "R$ 570.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/cruz/proximo-a-praca-e-academia/722341013-19": {
+      "titulo": "R$ 157.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/studio/venda/sao-paulo/1280-rua-girassol-studio-na-vila-madalena/601471040-6": {
+      "titulo": "R$ 380.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/367-rua-conselheiro-pedro-luis/601471040-18": {
+      "titulo": "R$ 2.400.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/100-rua-ocrisia/602261065-4": {
+      "titulo": "R$ 1.150.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/898-rua-padre-machado/602031036-17": {
+      "titulo": "R$ 2.190.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/brasilia/880321021-111": {
+      "titulo": "R$ 869.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/870-rua-baronesa-de-itu-proximo-hospital-samaritano/602341003-39": {
+      "titulo": "R$ 2.100.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/sobrado/venda/sao-paulo/274-r-sales-junior-cerro-cora/601441008-72": {
+      "titulo": "R$ 960.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/juiz-de-fora/2380-avenida-presidente-itamar-franco/860211097-104": {
+      "titulo": "R$ 200.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/peruibe/80-rua-vinte-balneario-sao-joao-batista-iii/601251044-84": {
+      "titulo": "R$ 640.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/gravatai/122-rua-pedro-schineider/610161080-109": {
+      "titulo": "R$ 285.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/gravatai/2517-rua-guilherme-schmitz/610161083-34": {
+      "titulo": "R$ 239.900",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/gravatai/141-travessa-otavio-chiavaro/610161083-27": {
+      "titulo": "R$ 497.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/gravatai/259-rua-castilho-inacio-barcelos-madeireira-orico/610161080-112": {
+      "titulo": "R$ 287.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/gravatai/560-rua-santa-cruz-residencial-do-lago/610161099-3": {
+      "titulo": "R$ 299.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/sao-paulo/602-rua-pais-da-silva/601361101-14": {
+      "titulo": "R$ 610.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/garanhuns/4-rua-primavera-ao-lado-do-bairro-viana-e-moura/850741004-336": {
+      "titulo": "R$ 250.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/aracaju/900-avenida-general-euclides-figueiredo/850581003-1505": {
+      "titulo": "R$ 162.500",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/loja/venda/rio-de-janeiro/shopping-barra-square-expansao/680321010-175": {
+      "titulo": "R$ 120.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/rio-de-janeiro/1100-avenida-prefeito-dulcidio-cardoso-abm/680321010-182": {
+      "titulo": "R$ 895.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/aracaju/78-rua-alziro-zarur/850581003-1540": {
+      "titulo": "R$ 517.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/barra-dos-coqueiros/s-n-rodovia-engenheiro-edilson-tavora/850581003-1542": {
+      "titulo": "R$ 158.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/studio/venda/sao-paulo/601251021-313": {
+      "titulo": "R$ 385.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/601251021-315": {
+      "titulo": "R$ 400.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/conjunto-comercial/-sala/venda/aracaju/300-avenida-doutor-jose-machado-de-souza/850581003-1541": {
+      "titulo": "R$ 445.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/conjunto-comercial/-sala/venda/sao-paulo/601251021-314": {
+      "titulo": "R$ 2.200.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/florianopolis/1952-rua-desembargador-pedro-silva/590471004-104": {
+      "titulo": "R$ 1.349.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/rio-de-janeiro/718-rua-nabor-do-rego/570501004-163": {
+      "titulo": "R$ 195.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/827-rua-guaicurus/630331103-59": {
+      "titulo": "R$ 380.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/200-avenida-deputado-cristovam-chiaradia/870821008-6": {
+      "titulo": "R$ 850.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/barueri/1012-alameda-republica-dominicana/691021066-9": {
+      "titulo": "R$ 5.920.800",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/louveira/100-rua-arlindo-acerbi/690051080-20": {
+      "titulo": "R$ 900.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/joao-pessoa/228-av-carlos-de-barros-rua-paralela-a-padaria-el-dorado-miramar/720861003-144": {
+      "titulo": "R$ 580.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/terreno/venda/caucaia/s-n-rua-b-enfrente-ao-hotel-vila-gale/720971044-4": {
+      "titulo": "R$ 298.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/rio-de-janeiro/78-estrada-do-dende/570381120-18": {
+      "titulo": "R$ 210.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/1147-rua-guiratinga-metro-praca-da-arvore/601361052-154": {
+      "titulo": "R$ 889.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/sobrado/venda/fazenda-rio-grande/463-rua-mangueira/560461026-23": {
+      "titulo": "R$ 1.099.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/rio-de-janeiro/432-rua-xavier-curado/570511025-8": {
+      "titulo": "R$ 360.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/rio-de-janeiro/259-avenida-vicente-de-carvalho-proximo-ao-brt-e-supermercado-mundial/570511025-6": {
+      "titulo": "R$ 350.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/rio-de-janeiro/334-rua-bariri-em-frente-ao-olaria-atletico-clube/570511025-7": {
+      "titulo": "R$ 435.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/louveira/99-rua-dos-jequitibas/690051080-22": {
+      "titulo": "R$ 2.679.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/chacara/-sitio/-fazenda/venda/louveira/357-rua-flecha-dourada-parque-monterrey/690051080-21": {
+      "titulo": "R$ 749.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/studio/venda/sorocaba/av-barao-de-tutui/630601260-18": {
+      "titulo": "R$ 370.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/190-rua-mario-capuano-apto-alamandas-3-60m²-3-qtos-2-banh-1-salas/601471041-67": {
+      "titulo": "R$ 235.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/sao-paulo/61-praca-doutor-levem-vampre-assai-sezefredo-fagundes/601051002-145": {
+      "titulo": "R$ 465.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/rio-de-janeiro/630-estrada-do-guanumbi-630/680391011-138": {
+      "titulo": "R$ 440.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/aguas-claras/22-res-machado-de-assis-rua-22-sul-lote-08-prox-ao-aguas-claras-shopping/880411056-48": {
+      "titulo": "R$ 649.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/curitiba/2012-rua-desembargador-motta-edificio-citta-di-firenze/560311047-634": {
+      "titulo": "R$ 860.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/curitiba/4400-rua-monsenhor-ivo-zanlorenzi-parque-ecoville/560311047-632": {
+      "titulo": "R$ 920.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/curitiba/151-travessa-rafael-francisco-greca-condominio-felice-club/560311047-613": {
+      "titulo": "R$ 699.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/duplex/venda/curitiba/151-travessa-rafael-francisco-greca-supermercado-angeloni/560311047-610": {
+      "titulo": "R$ 1.139.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/chacara/-sitio/-fazenda/venda/sobradinho/05-chacara-35-rua-18-entrada/880241001-59": {
+      "titulo": "R$ 2.100.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa-de-condominio/venda/vicente-pires/23-shvp-rua-05-chacara-233/880411056-34": {
+      "titulo": "R$ 860.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/curitiba/4400-rua-monsenhor-ivo-zanlorenzi-parque-ecoville/560311047-606": {
+      "titulo": "R$ 850.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/curitiba/2580-rua-joao-alencar-guimaraes-alameda-clube/560311047-570": {
+      "titulo": "R$ 485.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/casa/venda/guara/conjunto-f-qi-07-mcdonalds-e-veneza/880351037-68": {
+      "titulo": "R$ 780.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/predio/venda/recanto-das-emas/880411056-31": {
+      "titulo": "R$ 445.900",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/870701005-132": {
+      "titulo": "R$ 295.000",
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/1080-senhora-do-porto-escola-municipal-mestre-ataide/870241081-129": {
+      "titulo": "R$ 499.000",
+      "primeira_vez": "24/11/2026 08:47"
     }
   },
   "dual_imoveis": {},
@@ -4428,7 +6044,7 @@
       "primeira_vez": "21/10/2026 03:45"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-2-quartos-1-vaga-betania-belo-horizonte-mg/10020": {
-      "titulo": "NOVO",
+      "titulo": "arrow_back_ios",
       "primeira_vez": "25/10/2026 04:05"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-duplex-no-havai/10041": {
@@ -4465,31 +6081,27 @@
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10140": {
       "titulo": "NOVO",
-      "primeira_vez": "23/11/2026 06:58"
-    },
-    "https://www.imovelnet.imb.br/imovel/more-bem-apartamento-de-2-quartos-com-armarios-planejados/10007": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "23/11/2026 06:58"
-    },
-    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo/9024": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "23/11/2026 06:58"
+      "primeira_vez": "24/11/2026 08:47"
     },
     "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "23/11/2026 06:58"
+      "primeira_vez": "24/11/2026 08:47"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-com-excelente-custo-beneficio-no-bairro-buritis/4798": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "23/11/2026 06:58"
+      "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.imovelnet.imb.br/imovel/more-bem-apartamento-de-2-quartos-com-armarios-planejados/10007": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "24/11/2026 08:47"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-150m2-3-quartos-espaco-gourmet/9673": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "23/11/2026 06:58"
+      "primeira_vez": "24/11/2026 08:47"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-no-central-park-3-quartos-lazer-completo/9929": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "23/11/2026 06:58"
+      "primeira_vez": "24/11/2026 08:47"
     }
   },
   "a_mineira": {
