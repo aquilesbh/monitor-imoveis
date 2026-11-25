@@ -199,6 +199,14 @@
     "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-3-quartos-70-m/AP9707-BIHA?from=rent": {
       "titulo": "AP9707-BIHA",
       "primeira_vez": "19/11/2026 08:47"
+    },
+    "https://www.bihainimoveis.com.br/imovel/casa-belo-horizonte-4-quartos-180-m/CA0744-BIHA?from=rent": {
+      "titulo": "CA0744-BIHA",
+      "primeira_vez": "25/11/2026 09:45"
+    },
+    "https://www.bihainimoveis.com.br/imovel/apartamento-belo-horizonte-2-quartos-46-m/AP9712-BIHA?from=rent": {
+      "titulo": "AP9712-BIHA",
+      "primeira_vez": "25/11/2026 09:45"
     }
   },
   "palmeiras": {},
@@ -2024,29 +2032,33 @@
       "titulo": "arrow_back_ios",
       "primeira_vez": "18/11/2026 08:40"
     },
+    "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-com-suite-mobiliado-e-equipado-no-palmeiras-proximo-ao-buritis/10332": {
+      "titulo": "NOVO",
+      "primeira_vez": "25/11/2026 09:45"
+    },
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-2-vagas-e-lazer-completo/9940": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "24/11/2026 10:57"
+      "primeira_vez": "25/11/2026 09:45"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-cooktop-e-2-vagas-de-garagem/9939": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "24/11/2026 10:57"
+      "primeira_vez": "25/11/2026 09:45"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-residencial-com-7096m-01-quarto-e-lazer-completo/10077": {
       "titulo": "NOVO",
-      "primeira_vez": "24/11/2026 10:57"
+      "primeira_vez": "25/11/2026 09:45"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10057": {
       "titulo": "NOVO",
-      "primeira_vez": "24/11/2026 10:57"
+      "primeira_vez": "25/11/2026 09:45"
     },
     "https://www.imovelnet.imb.br/imovel/casa-para-aluguel-com-varanda-e-vagas-de-garagem/9617": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "24/11/2026 10:57"
+      "primeira_vez": "25/11/2026 09:45"
     },
     "https://www.imovelnet.imb.br/imovel/excelente-casa-com-02-pavimentos-e-area-gourmet-r1300000/5276": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "24/11/2026 10:57"
+      "primeira_vez": "25/11/2026 09:45"
     }
   },
   "a_mineira": {
