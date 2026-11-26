@@ -384,6 +384,14 @@
     "https://sensaleimoveis.com.br/imovel/3497/apartamento-3-quartos-palmeiras-belo-horizonte/aluguel": {
       "titulo": "Excelente 3 quartos para locação no Palmeiras !!!",
       "primeira_vez": "29/10/2026 06:39"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851635/apartamento-3-quartos-havai-belo-horizonte/aluguel": {
+      "titulo": "Apartamento para alugar com 82m², 3 quartos e 1 vaga",
+      "primeira_vez": "26/11/2026 09:19"
+    },
+    "https://sensaleimoveis.com.br/imovel/SE851627/apartamento-2-quartos-havai-belo-horizonte/aluguel": {
+      "titulo": "Lindo apto para locação no Havaí !!!",
+      "primeira_vez": "26/11/2026 09:19"
     }
   },
   "leo_batista": {
@@ -792,7 +800,7 @@
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://www.maltaimoveis.com.br/imovel/loja-para-alugar-no-bairro-havai/11981": {
-      "titulo": "< < < <",
+      "titulo": "‹",
       "primeira_vez": "09/10/2026 06:49"
     },
     "https://www.maltaimoveis.com.br/imovel/apartamento-para-alugar-no-bairro-palmeiras-de-2-quartos-2-vagas/14123": {
@@ -880,7 +888,7 @@
       "primeira_vez": "24/11/2026 10:57"
     },
     "https://www.maltaimoveis.com.br/imovel/apartamento-com-lazer-completo-no-bairro-palmeiras/12295": {
-      "titulo": "< < < <",
+      "titulo": "‹",
       "primeira_vez": "24/11/2026 10:57"
     },
     "https://www.maltaimoveis.com.br/imovel/andar-corrido-para-aluguel-no-palmeiras/12892": {
@@ -920,11 +928,11 @@
       "primeira_vez": "24/11/2026 10:57"
     },
     "https://www.maltaimoveis.com.br/imovel/apartamento-com-03-quartos-e-lazer-completo-no-bairro-palmeiras/14185": {
-      "titulo": "NOVO",
+      "titulo": "‹",
       "primeira_vez": "24/11/2026 10:57"
     },
     "https://www.maltaimoveis.com.br/imovel/apartamento-com-03-quartos-e-lazer-completo-no-bairro-palmeiras/14186": {
-      "titulo": "NOVO",
+      "titulo": "‹",
       "primeira_vez": "24/11/2026 10:57"
     },
     "https://www.maltaimoveis.com.br/imovel/apartamento-com-lazer-completo-para-alugar-no-palmeiras/14250": {
@@ -2025,7 +2033,7 @@
       "primeira_vez": "14/11/2026 07:24"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-para-locacao-no-bairro-palmeiras-belo-horizonte/10047": {
-      "titulo": "NOVO",
+      "titulo": "TEM PROPOSTA",
       "primeira_vez": "17/11/2026 09:03"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-para-alugar-3-quartos-80m-bairro-havai-belo-horizonte/9392": {
@@ -2038,27 +2046,27 @@
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-2-vagas-e-lazer-completo/9940": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "25/11/2026 09:45"
+      "primeira_vez": "26/11/2026 09:19"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-cooktop-e-2-vagas-de-garagem/9939": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "25/11/2026 09:45"
+      "primeira_vez": "26/11/2026 09:19"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-residencial-com-7096m-01-quarto-e-lazer-completo/10077": {
       "titulo": "NOVO",
-      "primeira_vez": "25/11/2026 09:45"
+      "primeira_vez": "26/11/2026 09:19"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10057": {
       "titulo": "NOVO",
-      "primeira_vez": "25/11/2026 09:45"
+      "primeira_vez": "26/11/2026 09:19"
     },
     "https://www.imovelnet.imb.br/imovel/casa-para-aluguel-com-varanda-e-vagas-de-garagem/9617": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "25/11/2026 09:45"
+      "primeira_vez": "26/11/2026 09:19"
     },
     "https://www.imovelnet.imb.br/imovel/excelente-casa-com-02-pavimentos-e-area-gourmet-r1300000/5276": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "25/11/2026 09:45"
+      "primeira_vez": "26/11/2026 09:19"
     }
   },
   "a_mineira": {
