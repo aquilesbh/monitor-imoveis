@@ -2016,6 +2016,10 @@
     "https://www.genesisimoveis.com.br/imovel/vende-se-apto-03-quartos-bairro-betania-bh-mg-r31000000/7156": {
       "titulo": "Apto 3 quartos | Cinquentenário - Belo Horizonte",
       "primeira_vez": "27/11/2026 07:17"
+    },
+    "https://www.genesisimoveis.com.br/imovel/compre-apartamento-de-03-quartos-no-bairro-betania-belo-horizonte-mg-r42000000/5019": {
+      "titulo": "Apto 3 quartos | Betânia - Belo Horizonte",
+      "primeira_vez": "28/11/2026 06:35"
     }
   },
   "vpr": {
@@ -2812,6 +2816,10 @@
     "https://gadeimoveis.com.br/imovel/apartamento-havai-belo-horizonte-mg-3-quartos-3854": {
       "titulo": "3854",
       "primeira_vez": "26/11/2026 07:11"
+    },
+    "https://gadeimoveis.com.br/imovel/apartamento-palmeiras-belo-horizonte-mg-2-quartos-50m2-3855": {
+      "titulo": "3855",
+      "primeira_vez": "28/11/2026 06:35"
     }
   },
   "malta": {
@@ -4644,6 +4652,10 @@
     "https://www.remax.com.br/pt-br/imoveis/apartamento/venda/belo-horizonte/1080-senhora-do-porto-escola-municipal-mestre-ataide/870241081-129": {
       "titulo": "R$ 499.000",
       "primeira_vez": "24/11/2026 08:47"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/cobertura/venda/belo-horizonte/309-rua-maria-beatriz/870701004-110": {
+      "titulo": "R$ 590.000",
+      "primeira_vez": "28/11/2026 06:35"
     }
   },
   "dual_imoveis": {},
@@ -6088,7 +6100,7 @@
       "primeira_vez": "25/10/2026 04:05"
     },
     "https://www.imovelnet.imb.br/imovel/cobertura-duplex-no-havai/10041": {
-      "titulo": "NOVO",
+      "titulo": "arrow_back_ios",
       "primeira_vez": "29/10/2026 04:46"
     },
     "https://www.imovelnet.imb.br/imovel/casa-a-venda-3-quartos-1-suite-palmeiras-belo-horizonte-mg/10091": {
@@ -6119,33 +6131,33 @@
       "titulo": "NOVO",
       "primeira_vez": "21/11/2026 05:57"
     },
-    "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10140": {
-      "titulo": "NOVO",
-      "primeira_vez": "27/11/2026 07:17"
-    },
-    "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "27/11/2026 07:17"
-    },
     "https://www.imovelnet.imb.br/imovel/apartamento-a-venda-2-quartos-1-vaga-havai-belo-horizonte-mg/10347": {
       "titulo": "NOVO",
       "primeira_vez": "27/11/2026 07:17"
     },
+    "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10140": {
+      "titulo": "NOVO",
+      "primeira_vez": "28/11/2026 06:35"
+    },
+    "https://www.imovelnet.imb.br/imovel/lindo-3-quartos-com-lazer-completo/8049": {
+      "titulo": "arrow_back_ios",
+      "primeira_vez": "28/11/2026 06:35"
+    },
     "https://www.imovelnet.imb.br/imovel/cobertura-com-excelente-custo-beneficio-no-bairro-buritis/4798": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "27/11/2026 07:17"
+      "primeira_vez": "28/11/2026 06:35"
     },
     "https://www.imovelnet.imb.br/imovel/area-privativa-150m2-3-quartos-espaco-gourmet/9673": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "27/11/2026 07:17"
+      "primeira_vez": "28/11/2026 06:35"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-2-quartos-lazer-completo/9024": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "27/11/2026 07:17"
+      "primeira_vez": "28/11/2026 06:35"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-no-central-park-3-quartos-lazer-completo/9929": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "27/11/2026 07:17"
+      "primeira_vez": "28/11/2026 06:35"
     }
   },
   "a_mineira": {

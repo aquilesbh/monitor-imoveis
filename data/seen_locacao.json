@@ -326,6 +326,10 @@
     "https://www.grimoveis.com.br/imovel/apartamento-para-alugar-palmeiras-belo-horizonte-mg/70765": {
       "titulo": "NOVO",
       "primeira_vez": "27/11/2026 09:24"
+    },
+    "https://www.grimoveis.com.br/imovel/apartamento-para-alugar-havai-belo-horizonte-mg/70770": {
+      "titulo": "NOVO",
+      "primeira_vez": "28/11/2026 08:42"
     }
   },
   "sensale": {
@@ -808,7 +812,7 @@
       "primeira_vez": "05/10/2026 15:23"
     },
     "https://www.maltaimoveis.com.br/imovel/loja-para-alugar-no-bairro-havai/11981": {
-      "titulo": "‹",
+      "titulo": "< < < <",
       "primeira_vez": "09/10/2026 06:49"
     },
     "https://www.maltaimoveis.com.br/imovel/apartamento-para-alugar-no-bairro-palmeiras-de-2-quartos-2-vagas/14123": {
@@ -1548,6 +1552,10 @@
     "https://www.remax.com.br/pt-br/imoveis/conjunto-comercial/-sala/alugar/sorocaba/105-rua-bernardo-guimaraes/630601207-67": {
       "titulo": "R$ 3.069,46 Mensal",
       "primeira_vez": "24/11/2026 10:57"
+    },
+    "https://www.remax.com.br/pt-br/imoveis/apartamento/alugar/belo-horizonte/1600-rua-senhora-do-porto/870251062-217": {
+      "titulo": "R$ 2.900 Mensal",
+      "primeira_vez": "28/11/2026 08:42"
     }
   },
   "dual_imoveis": {},
@@ -1977,6 +1985,14 @@
     "https://www.pointimoveisbh.com.br/imovel/area-privativa-03-quartos-e-01-vaga-demarcada-coberta-bairro-cinquentenario/2162": {
       "titulo": "Área privativa | Cinquentenário - Belo Horizonte",
       "primeira_vez": "22/11/2026 08:06"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/apartamento-03-quartos-01-banho/2167": {
+      "titulo": "Apartamento | Betânia - Belo Horizonte",
+      "primeira_vez": "28/11/2026 08:42"
+    },
+    "https://www.pointimoveisbh.com.br/imovel/casa-01-quarto-bairro-palmeiras/2168": {
+      "titulo": "Casa | Palmeiras - Belo Horizonte",
+      "primeira_vez": "28/11/2026 08:42"
     }
   },
   "imovel_net": {
@@ -2054,27 +2070,27 @@
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-2-vagas-e-lazer-completo/9940": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "27/11/2026 09:24"
-    },
-    "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-cooktop-e-2-vagas-de-garagem/9939": {
-      "titulo": "arrow_back_ios",
-      "primeira_vez": "27/11/2026 09:24"
-    },
-    "https://www.imovelnet.imb.br/imovel/area-privativa-residencial-com-7096m-01-quarto-e-lazer-completo/10077": {
-      "titulo": "NOVO",
-      "primeira_vez": "27/11/2026 09:24"
+      "primeira_vez": "28/11/2026 08:42"
     },
     "https://www.imovelnet.imb.br/imovel/apartamento-de-3-quartos-com-suite-piscina-e-academia-em-belo-horizonte/10057": {
       "titulo": "NOVO",
-      "primeira_vez": "27/11/2026 09:24"
+      "primeira_vez": "28/11/2026 08:42"
+    },
+    "https://www.imovelnet.imb.br/imovel/apartamento-3-quartos-com-suite-cooktop-e-2-vagas-de-garagem/9939": {
+      "titulo": "TEM PROPOSTA",
+      "primeira_vez": "28/11/2026 08:42"
+    },
+    "https://www.imovelnet.imb.br/imovel/area-privativa-residencial-com-7096m-01-quarto-e-lazer-completo/10077": {
+      "titulo": "NOVO",
+      "primeira_vez": "28/11/2026 08:42"
     },
     "https://www.imovelnet.imb.br/imovel/casa-para-aluguel-com-varanda-e-vagas-de-garagem/9617": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "27/11/2026 09:24"
+      "primeira_vez": "28/11/2026 08:42"
     },
     "https://www.imovelnet.imb.br/imovel/excelente-casa-com-02-pavimentos-e-area-gourmet-r1300000/5276": {
       "titulo": "arrow_back_ios",
-      "primeira_vez": "27/11/2026 09:24"
+      "primeira_vez": "28/11/2026 08:42"
     }
   },
   "a_mineira": {
